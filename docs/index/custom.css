@@ -1,0 +1,83 @@
+/* รูปแบบเฉพาะหน้า index (หน้าหลัก) — คล้ายหน้าปกหนังสือ หน้าที่ 5 */
+
+.index-page .index-title-page {
+  text-align: center;
+  padding: 0rem 1rem 4rem;
+  max-width: 36em;
+  margin: 0 auto;
+}
+
+.index-page .index-title-page img {
+  display: block;
+  margin: 0 auto 0.5rem;
+  height: 5rem;
+  width: auto;
+  object-fit: contain;
+}
+
+.index-page .index-title-page p {
+  margin: 0;
+  color: var(--vp-c-text-1, #213547);
+}
+
+.index-page .index-title-page .book-title {
+  font-size: 1.8rem;
+  font-weight: 700;
+  line-height: 1.35;
+  letter-spacing: 0.01em;
+}
+
+.index-page .index-title-page .book-subtitle {
+  font-size: 1.05rem;
+  line-height: 1.6;
+  margin-bottom: 0.2rem;
+  color: var(--vp-c-text-2, #476582);
+}
+
+.index-page .index-title-page .book-author {
+  font-size: 1.2rem;
+  font-weight: 600;
+  line-height: 1.45;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+
+.index-page .index-title-page .book-desc {
+  font-size: 0.8rem;
+  line-height: 1.6;
+  margin-bottom: 0.15rem;
+}
+
+.index-page .index-title-page .book-edition {
+  font-size: 0.8rem;
+  line-height: 1.6;
+}
+
+.index-page .index-title-page .book-buddhist-year {
+  font-size: 0.8rem;
+  line-height: 1.6;
+}
+
+.index-page .index-title-page .book-donation {
+  font-size: 0.8rem;
+  line-height: 1.6;
+  font-weight: 500;
+}
+
+@media (min-width: 640px) {
+  .index-page .index-title-page img {
+    height: 6rem;
+  }
+
+  .index-page .index-title-page .book-title {
+    font-size: 2.05rem;
+  }
+
+  .index-page .index-title-page .book-subtitle {
+    font-size: 1.1rem;
+  }
+
+  .index-page .index-title-page .book-author {
+    font-size: 1.28rem;
+  }
+}

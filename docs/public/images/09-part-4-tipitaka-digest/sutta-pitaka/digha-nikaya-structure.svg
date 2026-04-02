@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="95 0 970 735" preserveAspectRatio="xMidYMid meet" role="img" aria-labelledby="title desc">
+  <title id="title">แผนภูมิทีฆนิกาย</title>
+  <desc id="desc">ทีฆนิกาย สามวรรค รวมสามสิบสี่พระสูตร ตามลำดับฉบับพระไตรปิฎกฉบับประชาชน</desc>
+  <style>
+    text {
+      fill: #1f2937;
+      font-family: "Sarabun", "TH Sarabun New", "Tahoma", sans-serif;
+      text-anchor: middle;
+    }
+    .root { font-size: 24px; font-weight: 700; }
+    .head { font-size: 19px; font-weight: 700; }
+    .detail { font-size: 20px; font-weight: 400; fill: #6b7280; text-anchor: start; }
+    .head,
+    .detail { transform: translateY(10px); }
+    .line { stroke: #6b7280; stroke-width: 1.35; stroke-linecap: round; fill: none; }
+    a { text-decoration: none; }
+    a:hover text { fill: #1d4ed8; text-decoration: underline; }
+  </style>
+
+  <a href="/tipitaka-structure/#suttanta" target="_top">
+    <text x="580" y="34" class="root">ทีฆนิกาย</text>
+  </a>
+
+  <line x1="580" y1="42" x2="580" y2="88" class="line" />
+  <line x1="320" y1="88" x2="840" y2="88" class="line" />
+
+  <line x1="320" y1="88" x2="320" y2="118" class="line" />
+  <circle cx="320" cy="118" r="1.7" fill="#6b7280" />
+  <line x1="580" y1="88" x2="580" y2="118" class="line" />
+  <circle cx="580" cy="118" r="1.7" fill="#6b7280" />
+  <line x1="840" y1="88" x2="840" y2="118" class="line" />
+  <circle cx="840" cy="118" r="1.7" fill="#6b7280" />
+
+  <a href="/part-4-tipitaka-digest/sutta-pitaka/digha-nikaya/vol-09/" target="_top">
+    <text x="320" y="150" class="head">สีลขันธวรรค</text>
+  </a>
+  <text x="248" y="192" class="detail">&#8226; พรหมชาลสูตร</text>
+  <text x="248" y="232" class="detail">&#8226; สามัญญผลสูตร</text>
+  <text x="248" y="272" class="detail">&#8226; อัมพัฏฐสูตร</text>
+  <text x="248" y="312" class="detail">&#8226; โสณทัณฑสูตร</text>
+  <text x="248" y="352" class="detail">&#8226; กูฏทันตสูตร</text>
+  <text x="248" y="392" class="detail">&#8226; มหาลิสูตร</text>
+  <text x="248" y="432" class="detail">&#8226; ชาลิยสูตร</text>
+  <text x="248" y="472" class="detail">&#8226; มหาสีหนาทสูตร</text>
+  <text x="248" y="512" class="detail">&#8226; โปฏฐปาทสูตร</text>
+  <text x="248" y="552" class="detail">&#8226; สุภสูตร</text>
+  <text x="248" y="592" class="detail">&#8226; เกวัฏฏสูตร</text>
+  <text x="248" y="632" class="detail">&#8226; โลหิจจสูตร</text>
+  <text x="248" y="672" class="detail">&#8226; เตวิชชสูตร</text>
+
+  <a href="/part-4-tipitaka-digest/sutta-pitaka/digha-nikaya/vol-10/" target="_top">
+    <text x="580" y="150" class="head">มหาวรรค</text>
+  </a>
+  <text x="508" y="192" class="detail">&#8226; มหาปทานสูตร</text>
+  <text x="508" y="232" class="detail">&#8226; มหานิทานสูตร</text>
+  <text x="508" y="272" class="detail">&#8226; มหาปรินิพพานสูตร</text>
+  <text x="508" y="312" class="detail">&#8226; มหาสุทัสสนสูตร</text>
+  <text x="508" y="352" class="detail">&#8226; ชนวสภสูตร</text>
+  <text x="508" y="392" class="detail">&#8226; มหาโควินทสูตร</text>
+  <text x="508" y="432" class="detail">&#8226; มหาสมยสูตร</text>
+  <text x="508" y="472" class="detail">&#8226; สักกปัญหสูตร</text>
+  <text x="508" y="512" class="detail">&#8226; มหาสติปัฏฐานสูตร</text>
+  <text x="508" y="552" class="detail">&#8226; ปายาสิราชัญญสูตร</text>
+
+  <a href="/part-4-tipitaka-digest/sutta-pitaka/digha-nikaya/vol-11/" target="_top">
+    <text x="840" y="150" class="head">ปาฏิกวรรค</text>
+  </a>
+  <text x="768" y="192" class="detail">&#8226; ปาฏิกสูตร</text>
+  <text x="768" y="232" class="detail">&#8226; อุทุมพริกสูตร</text>
+  <text x="768" y="272" class="detail">&#8226; จักกวัตติสูตร</text>
+  <text x="768" y="312" class="detail">&#8226; อัคคัญญสูตร</text>
+  <text x="768" y="352" class="detail">&#8226; สัมปสาทนียสูตร</text>
+  <text x="768" y="392" class="detail">&#8226; ปาสาทิกสูตร</text>
+  <text x="768" y="432" class="detail">&#8226; ลักขณสูตร</text>
+  <text x="768" y="472" class="detail">&#8226; สิงคาลกสูตร</text>
+  <text x="768" y="512" class="detail">&#8226; อาฏานาฏิยสูตร</text>
+  <text x="768" y="552" class="detail">&#8226; สังคีติสูตร</text>
+  <text x="768" y="592" class="detail">&#8226; ทสุตตรสูตร</text>
+</svg>

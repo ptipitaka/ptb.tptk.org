@@ -1,0 +1,110 @@
+/**
+ * สไตล์เฉพาะหน้าแผนภูมิวินัยปิฎก (ภาค ๔)
+ * โครงสร้างหลักสอดคล้องกับ docs/public/images/04-tipitaka-structure/vinayapitaka-structure.svg (viewBox 920×600)
+ */
+
+.ptb-part4-vinaya-structure-svg-wrap {
+  margin: 0.75rem auto 1rem;
+  max-width: 1060px;
+  overflow-x: auto;
+  font-size: 14px;
+}
+
+.ptb-part4-vinaya-structure-svg {
+  width: 100%;
+  height: auto;
+  border: 0;
+  display: block;
+}
+
+@media (max-width: 560px) {
+  .ptb-part4-vinaya-structure-svg-wrap {
+    max-width: 100%;
+  }
+}
+
+/* ตารางเล่มคัมภีร์วินัย — ไม่มีเส้น ไม่มีพื้นหลังทึบ */
+.vp-doc .ptb-part4-vinaya-vols-table {
+  width: fit-content;
+  max-width: min(42rem, 100%);
+  margin: 0.75rem 4rem 1rem;
+  border: none;
+  border-collapse: collapse;
+  background: transparent;
+  box-shadow: none;
+}
+
+.vp-doc .ptb-part4-vinaya-vols-table td,
+.vp-doc .ptb-part4-vinaya-vols-table th {
+  border: none;
+  border-top: none;
+  border-bottom: none;
+  background: transparent;
+  padding: 0.35rem 0.75rem 0.35rem 0;
+  vertical-align: top;
+  box-shadow: none;
+}
+
+.vp-doc .ptb-part4-vinaya-vols-table tr {
+  background: transparent;
+  border: none;
+  border-top: none;
+  border-bottom: none;
+  box-shadow: none;
+}
+
+.vp-doc .ptb-part4-vinaya-vols-table tbody {
+  border: none;
+}
+
+.vp-doc .ptb-part4-vinaya-vols-table tbody tr:nth-child(2n) {
+  background: transparent;
+}
+
+/* สรุปศีลของนางภิกษุณี — ตารางตามฉบับพิมพ์ (เส้นตาราง + แถวรวมเส้นคู่) */
+/* ทับ .vp-doc table { display: block } ของ VitePress — ถ้าเป็น block ตารางจะไม่กางคอลัมน์เต็มความกว้าง เหลือช่องว่างด้านขวา */
+.vp-doc .ptb-part4-bhikkhuni-sila-summary-table {
+  display: table;
+  table-layout: fixed;
+  width: 100%;
+  max-width: min(100%, 40rem);
+  margin: 0.75rem auto 1.25rem;
+  border-collapse: collapse;
+  border: 1px solid var(--vp-c-divider, rgba(60, 60, 60, 0.29));
+  font-size: inherit;
+  line-height: 1.45;
+  overflow-x: visible;
+}
+
+.vp-doc .ptb-part4-bhikkhuni-sila-summary-table th,
+.vp-doc .ptb-part4-bhikkhuni-sila-summary-table td {
+  border: 1px solid var(--vp-c-divider, rgba(60, 60, 60, 0.29));
+  padding: 0.4rem 0.65rem;
+  vertical-align: middle;
+  background: transparent;
+  box-shadow: none;
+  overflow-wrap: break-word;
+}
+
+.vp-doc .ptb-part4-bhikkhuni-sila-summary-table thead th {
+  width: 25%;
+  text-align: center;
+  font-weight: 600;
+}
+
+.vp-doc .ptb-part4-bhikkhuni-sila-summary-table tbody td:first-child {
+  text-align: left;
+}
+
+.vp-doc .ptb-part4-bhikkhuni-sila-summary-table tbody td:not(:first-child) {
+  text-align: center;
+}
+
+.vp-doc .ptb-part4-bhikkhuni-sila-summary-table__total td {
+  border-top: 3px double var(--vp-c-divider, rgba(60, 60, 60, 0.29));
+  font-weight: 600;
+}
+
+.vp-doc .ptb-part4-bhikkhuni-sila-summary-table__total td:first-child {
+  font-weight: 600;
+}

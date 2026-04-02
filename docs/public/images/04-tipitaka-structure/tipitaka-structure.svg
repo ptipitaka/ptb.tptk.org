@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 504 319" role="img" aria-labelledby="title desc">
+  <title id="title">แผนภูมิพระไตรปิฎก</title>
+  <desc id="desc">ผังพระไตรปิฎกแบบคลิกได้ แบ่งเป็นวินัยปิฎก สุตตันตปิฎก และอภิธัมมปิฎก</desc>
+  <style>
+    text { fill: #1f2937; font-family: "Sarabun", "TH Sarabun New", "Tahoma", sans-serif; font-size: 14px; }
+    .root { font-size: 14px; font-weight: 600; text-anchor: middle; }
+    .sup { font-size: 6px; }
+    .head { font-size: 13px; font-weight: 600; text-anchor: middle; }
+    .item { font-size: 12px; }
+    .line { stroke: #6b7280; stroke-width: 1.3; stroke-linecap: round; fill: none; }
+    a { text-decoration: none; }
+    a:hover text { fill: #1d4ed8; text-decoration: underline; }
+  </style>
+
+  <a href="/tipitaka-structure/#overall" target="_top">
+    <text x="252" y="38" class="root">พระไตรปิฎก</text>
+  </a>
+
+  <line x1="252" y1="46" x2="252" y2="70" class="line" />
+  <line x1="76" y1="70" x2="428" y2="70" class="line" />
+  <line x1="76" y1="70" x2="76" y2="85" class="line" />
+  <line x1="252" y1="70" x2="252" y2="85" class="line" />
+  <line x1="428" y1="70" x2="428" y2="85" class="line" />
+  <circle cx="76" cy="85" r="1.3" fill="#6b7280" />
+  <circle cx="252" cy="85" r="1.3" fill="#6b7280" />
+  <circle cx="428" cy="85" r="1.3" fill="#6b7280" />
+
+  <a href="/tipitaka-structure/#vinaya" target="_top"><text x="76" y="118" class="head">วินัยปิฎก</text></a>
+  <text x="48" y="143" class="item">&#8226;</text><a href="/tipitaka-structure/#vinaya-mahavibhanga" target="_top"><text x="55" y="143" class="item">มหาวิภังค์</text></a>
+  <text x="48" y="169" class="item">&#8226;</text><a href="/tipitaka-structure/#vinaya-bhikkhuni" target="_top"><text x="55" y="169" class="item">ภิกขุนีวิภังค์</text></a>
+  <text x="48" y="194" class="item">&#8226;</text><a href="/tipitaka-structure/#vinaya-mahavagga" target="_top"><text x="55" y="194" class="item">มหาวัคค์</text></a>
+  <text x="48" y="219" class="item">&#8226;</text><a href="/tipitaka-structure/#vinaya-cullavagga" target="_top"><text x="55" y="219" class="item">จุลลวัคค์</text></a>
+  <text x="48" y="244" class="item">&#8226;</text><a href="/tipitaka-structure/#vinaya-parivara" target="_top"><text x="55" y="244" class="item">ปริวาร</text></a>
+
+  <a href="/tipitaka-structure/#suttanta" target="_top"><text x="252" y="118" class="head">สุตตันตปิฎก</text></a>
+  <text x="215" y="143" class="item">&#8226;</text><a href="/tipitaka-structure/#suttanta-digha" target="_top"><text x="222" y="143" class="item">ทีฆนิกาย</text></a>
+  <text x="215" y="169" class="item">&#8226;</text><a href="/tipitaka-structure/#suttanta-majjhima" target="_top"><text x="222" y="169" class="item">มัชฌิมนิกาย</text></a>
+  <text x="215" y="194" class="item">&#8226;</text><a href="/tipitaka-structure/#suttanta-samyutta" target="_top"><text x="222" y="194" class="item">สังยุตตนิกาย</text></a>
+  <text x="215" y="219" class="item">&#8226;</text><a href="/tipitaka-structure/#suttanta-anguttara" target="_top"><text x="222" y="219" class="item">อังคุตตรนิกาย</text></a>
+  <text x="215" y="244" class="item">&#8226;</text><a href="/tipitaka-structure/#suttanta-khuddaka" target="_top"><text x="222" y="244" class="item">ขุททกนิกาย</text></a>
+
+  <a href="/tipitaka-structure/#abhidhamma" target="_top"><text x="428" y="118" class="head">อภิธัมมปิฎก</text></a>
+  <text x="389" y="143" class="item">&#8226;</text><a href="/tipitaka-structure/#abhidhamma-dhammasangani" target="_top"><text x="395" y="143" class="item">ธัมมสังคณี</text></a>
+  <text x="389" y="169" class="item">&#8226;</text><a href="/tipitaka-structure/#abhidhamma-vibhanga" target="_top"><text x="395" y="169" class="item">วิภังค์</text></a>
+  <text x="389" y="194" class="item">&#8226;</text><a href="/tipitaka-structure/#abhidhamma-dhatukatha" target="_top"><text x="395" y="194" class="item">ธาตุกถา</text></a>
+  <text x="389" y="219" class="item">&#8226;</text><a href="/tipitaka-structure/#abhidhamma-puggalapannatti" target="_top"><text x="395" y="219" class="item">ปุคคลบัญญัตติ</text></a>
+  <text x="389" y="244" class="item">&#8226;</text><a href="/tipitaka-structure/#abhidhamma-kathavatthu" target="_top"><text x="395" y="244" class="item">กถาวัตถุ</text></a>
+  <text x="389" y="269" class="item">&#8226;</text><a href="/tipitaka-structure/#abhidhamma-yamaka" target="_top"><text x="395" y="269" class="item">ยมก</text></a>
+  <text x="389" y="295" class="item">&#8226;</text><a href="/tipitaka-structure/#abhidhamma-patthana" target="_top"><text x="395" y="295" class="item">ปัฏฐาน</text></a>
+</svg>

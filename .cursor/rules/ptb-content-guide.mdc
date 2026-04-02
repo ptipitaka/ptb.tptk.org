@@ -1,0 +1,264 @@
+---
+description: แนวทางการนำเนื้อหาจาก Initial_source/html5 ลง docs/**/*.md สำหรับโปรเจกต์ ptb.tptk.org
+globs: docs/**/*.md
+alwaysApply: false
+---
+
+# PTB Content Guide — แนวทางแปลง HTML → Markdown
+
+## Frontmatter ที่ต้องมีทุกไฟล์
+
+```yaml
+---
+title: <ชื่อหน้า>
+lang: th
+description: <คำอธิบายสั้น>
+outline: [2, 6]       # ช่วงหัวข้อใน navigator ขวา (h2–h6); ภาค ๔ เล่มความย่อใช้ [2, 6] ให้ลำดับชั้นเต็ม, false ถ้าไม่มี TOC
+searchKeywords:
+  - คำสำคัญ
+# searchContent: |    # ใส่เมื่อหน้าเป็นภาพ ไม่มีเนื้อหา text
+#   ...เนื้อหาเต็ม...
+---
+```
+
+## การแปลง HTML class → Markdown + Components
+
+### Headings
+
+| HTML | Markdown |
+|------|----------|
+| `Paragraph-Style-2` + `Character-Style-2` | `## หัวข้อ` |
+| `Paragraph-Style-1` + `CharOverride-1` (bold ไม่ใช่ list) | `### หัวข้อ` |
+| ย่อยอีกชั้น | `#### หัวข้อ` |
+
+- **ต้องมีบรรทัดว่าง 1 บรรทัดก่อนหัวข้อเสมอ** โดยเฉพาะหลัง `</PtbList>`
+- Anchor + คลาสธีม (markdown-it-attrs): `{#id .ptb-h-block}` อยู่ **ท้ายสุดของบรรทัดหัวข้อ** (หลัง `</PtbFootnote>` ถ้ามี)
+- **ระดับตัวอักษร** กำหนดโดย `#`–`######` (ธีมจะจับคู่ `h1`–`h6` กับสไตล์เดิมของ `.ptb-dh1`–`.ptb-dh6` อัตโนมัติ) — **ไม่ต้องใส่** `.ptb-dh1`–`.ptb-dh6` ใน Markdown
+- **บล็อกกลางแบบหนังสือ** (จำกัดความกว้าง + กึ่งกลาง + ระยะบน–ล่างเดียวกัน): ต่อท้ายด้วย `.ptb-h-block`
+- **ซ่อนจากการมองเห็น แต่คงสำหรับสารบัญ / โปรแกรมอ่านหน้าจอ** (ไม่ใช้ `display:none`): `.ptb-visually-hidden` — ใช้กับ `<p>`, `<span>`, `<div>` ฯลฯ ได้
+- **หัวข้อเพื่อสารบัญเท่านั้น** (ไม่แสดงบนหน้า): `{.ptb-h-sr}` หรือ `{.ptb-visually-hidden}` ต่อท้ายบรรทัด `##`–`######` (ชื่อเก่า `.ptb-h-sr` ยังใช้ได้ เทียบเท่า)
+- **เลขลำดับล้วน ไม่ใช้ `#`–`######`** (ไม่ขึ้น TOC): `<p class="ptb-section-marker">๑.</p>` — กึ่งกลาง ขนาดเทียบ `h3.ptb-h-block`
+
+```markdown
+<!-- หัวข้อไม่มีเชิงอรรถ -->
+### ชื่อหัวข้อ {#anchor-id .ptb-h-block}
+
+<!-- หัวข้อมี PtbFootnote → {#id …} อยู่หลัง </PtbFootnote> ในบรรทัดเดียวกัน -->
+### ชื่อหัวข้อ<PtbFootnote>ข้อความเชิงอรรถ</PtbFootnote> {#anchor-id .ptb-h-block}
+
+<!-- ไม่มี anchor (เช่น หน้าปกบท) -->
+# ชื่อเรื่อง {.ptb-h-block}
+
+<!-- หัวข้อระดับ ๔ — ใช้ #### จะได้ขนาดตัวอักษรต่างจาก ### โดยอัตโนมัติ -->
+#### หัวข้อย่อย {#anchor-id .ptb-h-block}
+```
+
+> **ห้าม** วาง `{#id …}` ก่อน `<PtbFootnote>` หรือแยก `<PtbFootnote>` ออกไปบรรทัดใหม่เมื่อต้องการ anchor
+
+### `{#id}` รหัสสุ่มถาวร (อักษร/ตัวเลข ๑๐ ตัว)
+
+สคริปต์: `scripts/ensure_ptb_heading_ids.py` — สร้าง id เป็นอักษร/ตัวเลข ๑๐ ตัว (`secrets`) **ไม่มี prefix** — ใช้กับทั้ง `.ptb-h-block` และ `.ptb-h-sr`
+
+| โหมด | คำสั่ง (ตัวอย่าง) | พฤติกรรม |
+|--------|-------------------|----------|
+| **เติมเฉพาะที่ยังไม่มี id** (ใช้ประจำหลัง migrate แล้ว) | `python scripts/ensure_ptb_heading_ids.py docs/…/ไฟล์.md --write` หรือโฟลเดอร์ + `-r` | เฉพาะหัวข้อที่มี `.ptb-h-block` หรือ `.ptb-h-sr` แต่ยังไม่มี `{#…}` |
+| **Initial / แทนที่ id เดิมทั้งหมด** | `python scripts/ensure_ptb_heading_ids.py docs --migrate --write` | ทุกหัวข้อ `.ptb-h-block` ได้ `{#…}` ใหม่ + แก้ `#fragment` ในทุก `.md` ใต้ `docs/` (ยกเว้น `.vitepress`) — **ห้ามรันซ้ำ** ถ้าไม่ตั้งใจสร้าง id ชุดใหม่ |
+
+- ค่าเริ่มต้น **dry-run**; ต้องมี `--write` จึงเขียนไฟล์
+- `--min-level N` — ค่าเริ่ม `1` (= รวม h1 ใน Markdown); ใส่ `2` เพื่อข้ามบรรทัดที่ขึ้นต้นด้วย `# ` อย่างเดียว (ให้เหลือ `##`–`######` เท่านั้น)
+- หลัง **migrate** ควรรัน `python scripts/gen_part3_pitaka_passages_ts.py` และ (ถ้าต้องการ刷รายการลำดับข้อภาค ๓) `python scripts/build_part3_sequence_index.py`
+- npm: `npm run docs:ensure:heading-ids -- <path> [--write] [-r] [--migrate]` — **migrate** ใช้ได้เฉพาะเมื่อ `path` เป็นโฟลเดอร์ `docs` ของโปรเจกต์
+
+### แอตทริบิวต์ `id` สำหรับลิงก์ `#…`
+
+- **กำหนดเฉพาะหัวข้อ Markdown** (`#`–`######`) ด้วย `{#รหัส …}` — สร้าง/เติมด้วย `ensure_ptb_heading_ids.py` (ดูส่วน Headings ด้านบน)
+- **ไม่กำหนด `id` บน `<PtbParagraph>` `<PtbList>` `<PtbListItem>`** ในเนื้อหา (คอมโพเนนต์รองรับ prop แบบไม่บังคับ แต่ไม่ใช้ใน Markdown)
+- ลบ `id` ที่ค้างอยู่บน `<PtbParagraph>` / `<PtbList>` ให้สอดคล้องนโยบาย: `python scripts/strip_ptb_paragraph_list_ids.py --write` (ค่าเริ่มต้น dry-run)
+- npm: `npm run docs:strip:block-ids -- --write`
+
+> **อย่ารัน** `reanchor_vinaya_vol01.py` / `reanchor_vinaya_vols_02_07.py` ทับเล่มที่ย้ายมาใช้ id สุ่มจาก `ensure_ptb_heading_ids.py` แล้ว เว้นแต่ตั้งใจกลับไปใช้ slug แบบ `vN-…` และยอมรับการเปลี่ยนลิงก์อีกครั้ง
+
+### ภาค ๔ ความย่อแห่งพระไตรปิฎก — อ้างอิงประวัติ slug `vN-…` (เลิกใช้หลังย้ายเป็น id สุ่ม)
+
+**ภาค ๓:** เลขข้อต่อเนื่องในโค้ด/สคริปต์ยังใช้ตัวเลข (`id` ใน `part3PitakaPassages.ts`); **anchor บนหน้า** ตรงกับ `{#…}` ในแต่ละ `index.md` — ลิงก์ในรายการลำดับข้อสร้างจากค่านั้น
+
+กฎที่ยืนยันแล้ว (เล่มวินัย `v1`–`v8`; เล่มอื่นค่อยต่อท้ายเมื่อกำหนดร่วมกัน):
+
+| หลักการ | รายละเอียด |
+|----------|-------------|
+| เลขเล่ม | `v1` … `v8` (ไม่ใช้ `v01`) |
+| เสถียรภาพ | แบบโครงสร้าง `vN-…` **ยอมให้ลิงก์เปลี่ยน** เมื่อแทรก/จัดโครงหัวข้อใหม่; ถ้าต้องการ id ที่ไม่ผูก slug ให้ใช้ `ensure_ptb_heading_ids.py` (เติมเฉพาะที่ยังไม่มี `{#…}`) |
+| คำย่อมาตรฐาน | กัณฑ์ (`### ๑. …`) ใช้ **slug โรมันจากชื่อกัณฑ์** (ตัดเลขนำ `๑.` และคำในวงเล็บขยายออก) เช่น `v1-veranjakanda` — ไม่ใช้ `kan1`, `kan2`; ต่อท้ายด้วย `anu`, `vini`, `sik{n}` ตามเดิม |
+| การถอดชื่อกัณฑ์ (ทุกเล่มภาค ๔) | ใช้ **หลักเดียวกัน**: อักษรโรมัน ASCII ที่สะท้อนการอ่าน **บาลี** จากการเขียนไทย (ไม่ใช้ RTGS ของคำไทยแท้); ประกอบ slug ด้วย **longest-prefix** จาก `PALI_THAI_STEMS` ใน `scripts/ptb_pali_thai_slug.py` แล้วคั่นชิ้นด้วย `-` — มีชื่อใหม่ให้ **เพิ่ม stem** ในไฟล์นั้น (ใช้ร่วมทุกเล่ม) |
+| เสถียรภาพลิงก์ | ถ้าไม่ต้องการให้ slug เปลี่ยนตามการปรับอัลกอริทึม — ใส่คู่ใน `EXACT_KANDA_BASE_SLUGS` (ชื่อกัณฑ์หลักเต็ม → slug คงที่) |
+| ชื่อยาว / ไม่ตรงชิ้น stem | ตั้ง **slug สั้นที่จำแนกได้** ใน `EXACT_KANDA_BASE_SLUGS` หรือเพิ่ม stem สมาสเต็ม — จำกัดความยาวรวมในโมดูล (ปัจจุบัน ~56 ตัวอักษร) |
+| `##` ใหญ่สองก้อนแรกของเล่ม (ถ้ามี) | `## ภาพรวม` → id `vN-overview`; `## ขยายความ` → id `vN-elaboration` (`N` = เลขเล่มวินัย ๑–๘) |
+| การสร้าง id (ปัจจุบัน) | `ensure_ptb_heading_ids.py` — โหมดปกติเติมเฉพาะที่ยังไม่มี id; **อย่า** รัน `reanchor_vinaya_*` ทับเนื้อหาที่ใช้ id สุ่มจากสคริปต์นี้แล้ว |
+
+**โมดูลถอด slug กัณฑ์ (ทุกเล่ม):** `scripts/ptb_pali_thai_slug.py` — **สคริปต์เล่ม ๑:** `scripts/reanchor_vinaya_vol01.py`
+
+- `## ภาพรวม` → `v1-overview` (สคริปต์ยังรองรับชื่อเดิม `เกริ่นนำ` ชั่วคราว)
+- `## ขยายความ` → `v1-elaboration`
+- `### ๑. เวรัญชกัณฑ์` → `v1-veranjakanda`; `### ๒. ปฐมปาราชิกกัณฑ์ (ว่าด้วย…)` → `v1-pathama-parajikakanda` (ผ่าน `PALI_THAI_STEMS`)
+- ใต้กัณฑ์ปาราชิก: `#### อนุบัญญัติ` → `v1-{กัณฑ์}-anu`, `#### วินีตวัตถุ` → `v1-{กัณฑ์}-vini`
+- ใต้เตรสกัณฑ์: `#### สิกขาบทที่ ๓ …` → `v1-terasakanda-sik3`; `##### อนุบัญญัติ` → `v1-terasakanda-sik3-anu` ฯลฯ
+- กรณีพิเศษ `#### มหาโจร ๕ ประเภท` → `v1-catuttha-parajikakanda-mahachor`
+
+### VitePress / Vue (บังคับ — กัน build พัง)
+
+เนื้อหาใน `docs/**/*.md` ถูกส่งเข้า Vue template หลัง `markdown-it` แปลงแล้ว **แท็ก HTML/คอมโพเนนต์ที่ขาดหรือข้ามบรรทัดผิดรูปแบบ** จะทำให้ build ล้มด้วย `[plugin:vite:vue] Element is missing end tag` — **เลขบรรทัดใน error มักไม่ตรงกับจุดผิดในไฟล์ .md**
+
+| ทำ | ห้าม |
+|----|------|
+| หัวข้อ `##`–`###` ที่มี `<PtbFootnote>…</PtbFootnote>` และ `{#id …}` **ทั้งก้อนในบรรทัดเดียว** | ขึ้นบรรทัดใหม่ **ภายใน** `<PtbFootnote>…</PtbFootnote>` ในบรรทัดหัวข้อ (เชิงอรรถยาวให้ต่อด้วยช่องว่างในบรรทัดเดียว) |
+| `<PtbParagraph>…<PtbFootnote>…</PtbFootnote>…</PtbParagraph>` ครบในบรรทัดเดียวถ้า build แจ้ง error แบบเดียวกัน | แบ่งบรรทัดกลาง `<PtbFootnote>` ในย่อหน้ายาว |
+
+```markdown
+<!-- ❌ พัง build: แบ่งบรรทัดใน footnote ของหัวข้อ -->
+### ชื่อ<PtbFootnote>บรรทัด ๑
+บรรทัด ๒</PtbFootnote> {#id .ptb-h-block}
+
+<!-- ✅ ใช้บรรทัดเดียว -->
+### ชื่อ<PtbFootnote>บรรทัด ๑ บรรทัด ๒</PtbFootnote> {#id .ptb-h-block}
+```
+
+### ย่อหน้า
+
+```markdown
+<!-- ปกติ (มี indent) -->
+<PtbParagraph>ข้อความ **bold** _italic_ ได้เลย</PtbParagraph>
+
+<!-- ไม่ indent แรก — ใช้เมื่อเป็นแบบแผน/ย่อหน้าต่อเนื่องที่มีเลขนำเอง ไม่ใช่รายการอนุกรมหลังประโยคนำ (เช่น …คือ / …ได้แก่) — กรณีหลังให้ใช้ `<PtbList auto>` + `<PtbListItem>` -->
+<p class="ptb-paragraph-no-indent">๑. ข้อความ</p>
+
+<!-- ลายมือชื่อ ขวา -->
+<p class="ptb-paragraph-right-align"><strong>ชื่อ</strong></p>
+
+<!-- วันที่/ที่อยู่ ซ้าย เล็ก -->
+<p class="ptb-paragraph-left-align ptb-text-sm">กรุงเทพ ฯ<br>๑ สิงหาคม ๒๕๐๑</p>
+
+<!-- เว้นระยะเหนือย่อหน้า (ใช้กับ <PtbParagraph> เท่านั้น) — sm / md / lg / xl / 2xl -->
+<!-- margin-top -->
+<PtbParagraph class="ptb-paragraph--space-before-md">...</PtbParagraph>
+<!-- padding-top (เมื่อต้องการขยายพื้นที่ภายในกล่องย่อหน้า) -->
+<PtbParagraph class="ptb-paragraph--pad-before-md">...</PtbParagraph>
+```
+
+### รายการ (Lists)
+
+```markdown
+<!-- เลขไทยเรียงจาก ๑ -->
+<PtbList auto>
+<PtbListItem>รายการข้อ ๑</PtbListItem>
+
+<PtbListItem>รายการข้อ ๒</PtbListItem>
+</PtbList>
+
+<!-- เริ่มจากตัวเลขอื่น (เช่น ๕) -->
+<PtbList auto :start="5">
+
+<!-- marker เป็นข้อความ เช่น (๑) หรือ "สมัยที่ ๑ ..." -->
+<PtbListItem marker="(๑)">ข้อความ</PtbListItem>
+<PtbListItem marker="สมัยที่ ๑ พระเจ้าติโลกราช">ข้อความ</PtbListItem>
+```
+
+กฎ: ถ้าใช้ `auto` ต้องลบตัวเลขไทยนำออกจาก text ใน `<PtbListItem>`
+
+**แอตทริบิวต์ `<PtbListItem>`** (นิยามใน `docs/.vitepress/theme/components/PtbListItem.vue`)
+
+| Property | ค่าเริ่มต้น | คำอธิบาย |
+|----------|------------|----------|
+| `marker` | `''` | ข้อความ marker แสดงซ้าย (เช่น `(๑)` `"๑."` `"สมัยที่ ๑ …"`). ถ้าไม่ใส่และ `<PtbList>` มี `auto` จะได้เลขไทย `๑.` `๒.` … จากตัวนับของพ่อ — **ไม่** เรียก `next()` จึงไม่กินลำดับเลข auto |
+| `markerWidth` | `''` | ความกว้างคอลัมน์ marker (CSS); ถ้าว่างใช้จาก context ของ `<PtbList>` (`markerWidth` ของพ่อ หรือ `4ch`) |
+| `auto` | `false` | บังคับโหมดเลข auto จากพ่อ (ปกติสืบทอดจาก `<PtbList auto>` อยู่แล้ว) |
+| `indentLevel` | `0` | ระดับเยื้องซ้าย (ตัวเลขหรือสตริง เช่น `1` `1.5` `2`). ถ้าเป็น `0` หรือไม่ใส่ ใช้ `indentLevel` ของ `<PtbList>` |
+| `indent` | `''` | กำหนด `--ptb-item-indent` เป็น CSS เอง แทน `calc(indentLevel * …)` |
+| `markerSpacer` | `false` | จองความกว้างคอลัมน์ marker เท่าแถวที่มี marker จริง แต่ **ไม่** แสดงข้อความใน marker — ให้เนื้อหาเริ่มตรงแนวกับรายการที่มีเลข (เช่น บรรทัด «ตอบ» ให้ตรง «ถาม») |
+
+**แปลงนำเข้า — เมื่อไหร่ถือว่าเป็น list item (ไม่ใช่ `<PtbParagraph>` ทีละบรรทัด)**
+
+- หลายบล็อกติดกัน แต่ละบล็อกเป็น **บรรทัดเดียว** และขึ้นต้นด้วยรูปแบบ **`เลขไทยเดี่ยวหรือหลายหลัก + จุด + ช่องว่าง`** (เช่น `๑. ` … `๑๐. `) และเลข **เรียงลำดับต่อเนื่อง** — ให้รวมเป็น `<PtbList auto>` + `<PtbListItem>` (ตัดเลขนำออกจากเนื้อในแต่ละ item)
+- รูปแบบเดียวกันแต่ใช้ **`(๑) ` `(๒) ` …** — ใช้ `<PtbList>` + `<PtbListItem marker="(๑)">` … (ข้อความใน item **ไม่** ใส่ `(๑)` ซ้ำถ้า marker รับไว้แล้ว — ตามแบบในตัวอย่างรายการด้านบน)
+- มี **ประโยคนำทันทีก่อนหน้า** ที่ลงท้ายด้วยคำเชื่อมรายการ เช่น **คือ** / **ได้แก่** / **ดังนี้** / **คือดังต่อไปนี้** — ถ้าตามด้วยบล็อกเลขไทยดังข้อบน ให้ถือเป็นรายการเดียวกัน
+- **ไม่ใช่รายการ (คง `<PtbParagraph>`):** เลขนำเป็น **หัวข้อย่อย** แล้วมีเนื้อหาอธิบาย **หลายย่อหน้า** ก่อนถึงข้อถัดไป (เช่น โครงสร้างหัวข้อลำดับในวินัยที่ `(๑)` คั่นด้วยเรื่องยาว) — ไม่ใช่รายการสั้น ๆ ใน `PtbList`
+- **ไม่ใช่รายการ:** หลายข้ออยู่ใน **ย่อหน้าเดียว** หรือ **จำนวนย่อหน้าน้อยกว่าจำนวนข้อที่นับได้** เพราะรวมหลาย `(๑)(๒)…` ในบรรทัดเดียว — คงย่อหน้าตามต้นฉบับ ไม่แตกเป็น `<PtbListItem>`
+- **หลักสำคัญ — เมื่อไม่แน่ใจ:** คง `<PtbParagraph>` (หรือโครงเดิม) ไว้ **อย่า** แปลงเป็น `<PtbList>` / `<PtbListItem>` จนกว่าจะมั่นใจว่าเป็นรายการอนุกรมสั้น ๆ ต่อเนื่องจริง
+
+### เชิงอรรถ
+
+```markdown
+<!-- inline ใน paragraph หรือ list item -->
+<PtbParagraph>ข้อความ<PtbFootnote>เชิงอรรถ ม.พ.ป.</PtbFootnote></PtbParagraph>
+
+<!-- footnote ที่มีหลายย่อหน้า/รายการ ใส่ HTML ภายในได้ -->
+<PtbFootnote>
+  <p>ย่อหน้า ๑</p>
+  <ul><li><strong>หัวข้อ</strong> คำอธิบาย</li></ul>
+</PtbFootnote>
+```
+
+### รูปภาพ
+
+```markdown
+<!-- ภาพคลิกขยาย -->
+<ImageLightbox src="/images/<folder>/filename.webp" alt="คำอธิบาย" />
+
+<!-- SVG แผนภูมิ -->
+<object type="image/svg+xml" data="/images/<folder>/file.svg" aria-label="..." />
+```
+
+### Block Quote (พุทธภาษิต/คำอ้าง)
+
+```html
+<div class="ptb-quote-block">
+  <p class="ptb-quote-text">"ข้อความ..."</p>
+  <p class="ptb-quote-citation ptb-text-xs">ที.มหา. ๑๐/๑๔๑/๑๖๓</p>
+</div>
+```
+
+### เครื่องหมายคำพูด
+
+- `„..."` หรือ `"..."` → `"..."` (ใช้ " เปิด และ " ปิดเสมอ) — ทั้งบทพูดและการล้อมชื่อเรื่อง/คำอธิบายในเนื้อความ (เช่น ชื่อหนังสือพระไตรปิฎกฉบับสำหรับประชาชน)
+- **ห้าม** เปลี่ยนเครื่องหมาย `"` ภายใน **ค่าแอตทริบิวต์ HTML** (`alt=""`, `marker=""`, `aria-label=""`, `src=""` ฯลฯ) — ต้องคงเป็น ASCII `"` ตามไวยากรณ์ HTML
+- สแกน/แปลงทั้ง `docs/` ได้ด้วย `npm run docs:quotes:scan` (สคริปต์ `scripts/typographic_quotes_docs.py` — เว้น frontmatter, code fence, ค่าแอตทริบิวต์, `{style="..."}` ฯลฯ)
+
+## Components สรุป
+
+| Component | ใช้เมื่อไหร่ |
+|-----------|-------------|
+| `<PtbParagraph>` | ย่อหน้า indent แรก (ใช้บ่อยที่สุด) |
+| `<PtbList auto>` | list เลขไทย auto |
+| `<PtbList auto :start="N">` | list เริ่มจากเลข N |
+| `<PtbListItem>` | รายการใน PtbList |
+| `<PtbListItem marker="...">` | รายการ marker กำหนดเอง |
+| `<PtbListItem indentLevel="…">` | เยื้องรายการย่อย (เช่น `1.5` ใช้คู่ `marker="(๑)"`) |
+| `<PtbListItem markerSpacer>` | จองคอลัมน์ marker ไม่แสดงเลข — จัดแนวกับรายการที่มี marker |
+| `<PtbFootnote>` | เชิงอรรถ inline popup |
+| `<PtbTipitakaRef>` | อ้างอิงพระไตรปิฎกใต้คำพูด (ตัวเล็กสีรอง) — ค่าเริ่มต้นชิดขวา; ใช้ `align="left"` / `"center"` / `"right"` ถ้าต้องการ |
+| `<ImageLightbox>` | ภาพคลิกขยาย |
+| `<PtbSubtitle>` | คำบรรยายใต้ `###` + `.ptb-h-block` — กึ่งกลาง ระยะห่างจากหัวข้อแบบบรรทัดใน `ptb-title-stack` (ต่อท้ายหัวข้อ; render เป็น `p.ptb-subtitle`) |
+| `ptb-paragraph-no-indent` | ย่อหน้าไม่ indent |
+| `ptb-paragraph--space-before-sm` … `-2xl` | `<PtbParagraph>` — margin-top เหนือย่อหน้า (0.75 / 1 / 1.25 / 1.5 / 2 em) |
+| `ptb-paragraph--pad-before-sm` … `-2xl` | `<PtbParagraph>` — padding-top เหนือย่อหน้า (0.75 / 1 / 1.25 / 1.5 / 2 em) |
+| `ptb-paragraph-right-align` | ข้อความชิดขวา |
+| `ptb-paragraph-left-align ptb-text-sm` | ที่อยู่/วันที่ ซ้ายเล็ก |
+| `ptb-quote-block` | กล่อง block quote |
+| `ptb-title-stack` | หัวเรื่องหลายบรรทัดกึ่งกลาง (ลูกเป็น `<p>` โดยตรง ไม่ขึ้น TOC) |
+| `ptb-part-open` + `__head` / `__subhead` / `__list` / `__closing` (+ `__line2` ในรายการถ้าต้องการบรรทัดย่อยเยื้อง) | บทนำเปิดภาค — คอลัมน์แคบคล้ายปกหนังสือ |
+| `ptb-document-block` | ห่อเนื้อหาเอกสารจดหมาย/รายงาน (จำกัดความกว้าง) |
+| `pre.ptb-ledger-pre` | บรรทัดบัญชีค่าใช้จ่าย / ตารางข้อความแบบ monospace |
+| `ptb-visually-hidden` | ซ่อนมองไม่เห็น แต่ยังอยู่ใน DOM/AT (ต่างจาก `display:none` ที่ตัดออกจากการช่วยเหลือพิเศษด้วย) |
+| `ptb-h-sr` | เทียบเท่า `ptb-visually-hidden` — ใช้กับหัวข้อ Markdown เพื่อสารบัญเท่านั้น |
+
+## การ map HTML source (Initial_source/html5)
+
+| HTML class | แปลงเป็น |
+|------------|---------|
+| `Paragraph-Style-2` + `Character-Style-2` | `##` h2 |
+| `Paragraph-Style-1` + `CharOverride-1` | `###` h3 หรือ `####` h4 |
+| `Paragraph-Style-1` + `CharOverride-2` | item ใน PtbList (มี bold นำ) |
+| `Paragraph-Style-1` ธรรมดา | `<PtbParagraph>` |
+| `&#9;` + เลขไทย ๑. ๒. (ย่อหน้าแยกบรรทัดใน InDesign) | `<PtbList auto>` + `<PtbListItem>` |
+| ย่อหน้า/บรรทัดต่อเนื่องหลายก้อน ขึ้นต้น `๑.` `๒.` … เรียงลำดับ (มักหลังประโยคลงท้าย **คือ** / **ได้แก่** ฯลฯ) | เช่นเดียวกัน — `<PtbList auto>` + `<PtbListItem>` (ลบเลขนำใน item) |
+| `CharOverride-3` (superscript) | `<PtbFootnote>` |
+| `<br/>` ใน InDesign export | ตัดออก ให้เป็นข้อความต่อเนื่อง |

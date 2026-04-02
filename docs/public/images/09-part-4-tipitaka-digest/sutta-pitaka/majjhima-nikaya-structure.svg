@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="95 0 970 400" preserveAspectRatio="xMidYMid meet" role="img" aria-labelledby="title desc">
+  <title id="title">แผนภูมิมัชฌิมนิกาย</title>
+  <desc id="desc">มัชฌิมนิกาย สามปัณณาสก์ รวมหนึ่งร้อยห้าสิบสองพระสูตร ตามลำดับฉบับพระไตรปิฎกฉบับประชาชน</desc>
+  <style>
+    text {
+      fill: #1f2937;
+      font-family: "Sarabun", "TH Sarabun New", "Tahoma", sans-serif;
+      text-anchor: middle;
+    }
+    .root { font-size: 24px; font-weight: 700; }
+    .head { font-size: 19px; font-weight: 700; }
+    .detail { font-size: 20px; font-weight: 400; fill: #6b7280; text-anchor: start; }
+    .head,
+    .detail { transform: translateY(10px); }
+    .line { stroke: #6b7280; stroke-width: 1.35; stroke-linecap: round; fill: none; }
+    a { text-decoration: none; }
+    a:hover text { fill: #1d4ed8; text-decoration: underline; }
+  </style>
+
+  <a href="/tipitaka-structure/#suttanta" target="_top">
+    <text x="580" y="34" class="root">มัชฌิมนิกาย</text>
+  </a>
+
+  <line x1="580" y1="42" x2="580" y2="88" class="line" />
+  <line x1="320" y1="88" x2="840" y2="88" class="line" />
+
+  <line x1="320" y1="88" x2="320" y2="118" class="line" />
+  <circle cx="320" cy="118" r="1.7" fill="#6b7280" />
+  <line x1="580" y1="88" x2="580" y2="118" class="line" />
+  <circle cx="580" cy="118" r="1.7" fill="#6b7280" />
+  <line x1="840" y1="88" x2="840" y2="118" class="line" />
+  <circle cx="840" cy="118" r="1.7" fill="#6b7280" />
+
+  <a href="/part-4-tipitaka-digest/sutta-pitaka/majjhima-nikaya/vol-12/" target="_top">
+    <text x="320" y="150" class="head">มูลปัณณาสก์</text>
+  </a>
+  <text x="248" y="192" class="detail">&#8226; มูลปริยายวรรค ๑๐ สูตร</text>
+  <text x="248" y="232" class="detail">&#8226; สีหนาทวรรค ๑๐ สูตร</text>
+  <text x="248" y="272" class="detail">&#8226; โอปัมมวรรค ๑๐ สูตร</text>
+  <text x="248" y="312" class="detail">&#8226; มหาวรรค ๑๐ สูตร</text>
+  <text x="248" y="352" class="detail">&#8226; จูฬวรรค ๑๐ สูตร</text>
+
+  <a href="/part-4-tipitaka-digest/sutta-pitaka/majjhima-nikaya/vol-13/" target="_top">
+    <text x="580" y="150" class="head">มัชฌิมปัณณาสก์</text>
+  </a>
+  <text x="508" y="192" class="detail">&#8226; คหปติวรรค ๑๐ สูตร</text>
+  <text x="508" y="232" class="detail">&#8226; ภิกขุวรรค ๑๐ สูตร</text>
+  <text x="508" y="272" class="detail">&#8226; ปริพพาชกวรรค ๑๐ สูตร</text>
+  <text x="508" y="312" class="detail">&#8226; ราชวรรค ๑๐ สูตร</text>
+  <text x="508" y="352" class="detail">&#8226; พราหมณวรรค ๑๐ สูตร</text>
+
+  <a href="/part-4-tipitaka-digest/sutta-pitaka/majjhima-nikaya/vol-14/" target="_top">
+    <text x="840" y="150" class="head">อุปริปัณณาสก์</text>
+  </a>
+  <text x="768" y="192" class="detail">&#8226; เทวทหวรรค ๑๐ สูตร</text>
+  <text x="768" y="232" class="detail">&#8226; อนุปทวรรค ๑๐ สูตร</text>
+  <text x="768" y="272" class="detail">&#8226; สุญญตวรรค ๑๐ สูตร</text>
+  <text x="768" y="312" class="detail">&#8226; วิภังควรรค ๑๒ สูตร</text>
+  <text x="768" y="352" class="detail">&#8226; สฬายตนวรรค ๑๐ สูตร</text>
+</svg>

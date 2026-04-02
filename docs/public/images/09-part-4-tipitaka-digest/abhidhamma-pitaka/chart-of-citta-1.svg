@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 360" role="img" aria-labelledby="title desc">
+  <title id="title">แผนผังแสดงชนิดของจิต</title>
+  <desc id="desc">จิต ๘๙ ชนิด แบ่งเป็นกุศลจิต ๒๑ อกุศลจิต ๑๒ อัพยากตจิต ๕๖</desc>
+  <style>
+    text {
+      fill: #1f2937;
+      font-family: "Sarabun", "TH Sarabun New", "Tahoma", sans-serif;
+      text-anchor: middle;
+    }
+    .chart-title { font-size: 26px; font-weight: 700; }
+    .chart-num { font-size: 17px; font-weight: 400; fill: #4b5563; }
+    .root { font-size: 26px; font-weight: 700; }
+    .root-sub { font-size: 21px; font-weight: 400; }
+    .branch { font-size: 20px; font-weight: 600; }
+    .branch-sub { font-size: 18px; font-weight: 400; fill: #374151; }
+    .branch-num { font-size: 22px; font-weight: 700; }
+    .line { stroke: #6b7280; stroke-width: 1.35; stroke-linecap: round; fill: none; }
+    .node { fill: #6b7280; }
+  </style>
+
+  <rect width="800" height="360" fill="#ffffff" />
+
+  <text x="400" y="98" class="root">จิต</text>
+  <text x="400" y="126" class="root-sub">(๘๙ ชนิด)</text>
+
+  <circle cx="400" cy="134" r="2" class="node" />
+  <line x1="400" y1="134" x2="400" y2="172" class="line" />
+
+  <line x1="120" y1="172" x2="680" y2="172" class="line" />
+  <circle cx="120" cy="172" r="2" class="node" />
+  <circle cx="400" cy="172" r="2" class="node" />
+  <circle cx="680" cy="172" r="2" class="node" />
+
+  <line x1="120" y1="172" x2="120" y2="214" class="line" />
+  <line x1="400" y1="172" x2="400" y2="214" class="line" />
+  <line x1="680" y1="172" x2="680" y2="214" class="line" />
+  <circle cx="120" cy="214" r="2" class="node" />
+  <circle cx="400" cy="214" r="2" class="node" />
+  <circle cx="680" cy="214" r="2" class="node" />
+
+  <text x="120" y="244" class="branch">เป็นฝ่ายดี</text>
+  <text x="120" y="272" class="branch-sub">(กุศลจิต)</text>
+  <text x="120" y="302" class="branch-num">๒๑</text>
+
+  <text x="400" y="244" class="branch">เป็นฝ่ายชั่ว</text>
+  <text x="400" y="272" class="branch-sub">(อกุศลจิต)</text>
+  <text x="400" y="302" class="branch-num">๑๒</text>
+
+  <text x="680" y="244" class="branch">เป็นกลาง ๆ</text>
+  <text x="680" y="272" class="branch-sub">(อัพยากตจิต)</text>
+  <text x="680" y="302" class="branch-num">๕๖</text>
+</svg>

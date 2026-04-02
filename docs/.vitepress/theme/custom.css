@@ -1,0 +1,1077 @@
+/* ฟอนต์ไทย — Sarabun, TH Sarabun New fallback */
+:root {
+  --vp-font-family-base: 'Sarabun', 'TH Sarabun New', 'Tahoma', 'Leelawadee UI', sans-serif;
+  --vp-font-family-mono: 'Sarabun', 'TH Sarabun New', ui-monospace, monospace;
+}
+
+body {
+  font-family: var(--vp-font-family-base);
+}
+
+.vp-doc {
+  font-family: var(--vp-font-family-base);
+}
+
+.vp-doc p,
+.vp-doc li {
+  line-height: 1.75;
+}
+
+/* Reusable paragraph utilities (project-wide) */
+:root {
+  --ptb-paragraph-indent: 2em;
+  --ptb-paragraph-first-indent: calc(2 * var(--ptb-paragraph-indent));
+  --ptb-list-item-indent-per-level: calc(1.5 * var(--ptb-paragraph-first-indent));
+  /* ระยะระหว่างคอลัมน์ marker กับเนื้อหาใน PtbListItem แบบ grid — เดิม 0.35em ชิดเกินไปกับ marker ยาว (เช่น สิกขาบทที่ ๑๐) */
+  --ptb-list-marker-gap: 0.65em;
+  /* ระยะบน–ล่างของ PtbParagraph: VitePress ใช้ 16px ต่อย่อหน้า — ค่านี้ลดลง ~90% (เหลือ 10%) */
+  --ptb-paragraph-v-margin: calc(16px * 0.1);
+  --ptb-font-xs: 0.8125rem;
+  --ptb-font-sm: 0.9375rem;
+  --ptb-font-base: 1rem;
+  --ptb-font-lg: 1.125rem;
+  --ptb-font-xl: 1.25rem;
+  /* 22px — หัวข้อ H2/H3 (.ptb-h-block); ไม่สับสนกับ --ptb-font-xl (20px) */
+  --ptb-font-heading-l2: 1.375rem;
+  --ptb-font-2xl: 1.5rem;
+}
+
+/* Atomic utilities */
+.ptb-justify {
+  text-align: justify;
+  text-justify: inter-character;
+}
+
+.ptb-left {
+  text-align: left;
+}
+
+.ptb-right {
+  text-align: right;
+}
+
+.ptb-indent {
+  text-indent: var(--ptb-paragraph-indent);
+}
+
+.ptb-no-indent {
+  text-indent: 0;
+}
+
+/* Font size utilities (project-wide) */
+.ptb-text-xs {
+  font-size: var(--ptb-font-xs);
+}
+
+.ptb-text-sm {
+  font-size: var(--ptb-font-sm);
+}
+
+.ptb-text-base {
+  font-size: var(--ptb-font-base);
+}
+
+.ptb-text-lg {
+  font-size: var(--ptb-font-lg);
+}
+
+.ptb-text-xl {
+  font-size: var(--ptb-font-xl);
+}
+
+.ptb-text-2xl {
+  font-size: var(--ptb-font-2xl);
+}
+
+/*
+ * หัวข้อ Markdown (#–######) — ใส่ .ptb-h-block ผ่าน markdown-it-attrs เช่น
+ * ### หัวข้อ {#anchor .ptb-h-block}
+ * รูปแบบตัวอักษรตามระดับหัวข้อ (h1–h6) โดยอัตโนมัติ — ไม่ต้องใส่ ptb-dh1–6
+ * คง .ptb-dh1–.ptb-dh6 ไว้สำหรับกรณีที่ต้องใช้คลาสแยก (เช่น ไม่ใช่แท็ก h1–h6)
+ */
+.vp-doc h1.ptb-h-block,
+.vp-doc .ptb-dh1 {
+  font-size: var(--ptb-font-2xl);
+  font-weight: 700;
+  font-style: normal;
+  line-height: 1.35;
+  letter-spacing: normal;
+}
+
+.vp-doc h2.ptb-h-block,
+.vp-doc .ptb-dh2 {
+  font-size: var(--ptb-font-heading-l2); /* 22px */
+  font-weight: 700;
+  font-style: normal;
+  line-height: 1.45;
+  letter-spacing: normal;
+}
+
+.vp-doc h3.ptb-h-block,
+.vp-doc .ptb-dh3 {
+  font-size: var(--ptb-font-heading-l2); /* 22px */
+  font-weight: 500;
+  font-style: normal;
+  line-height: 1.45;
+  letter-spacing: normal;
+}
+
+.vp-doc h4.ptb-h-block,
+.vp-doc .ptb-dh4 {
+  font-size: var(--ptb-font-xl); /* 20px */
+  font-weight: 500;
+  font-style: normal;
+  line-height: 1.5;
+}
+
+.vp-doc h5.ptb-h-block,
+.vp-doc .ptb-dh5 {
+  font-size: var(--ptb-font-xl); /* 20px */
+  font-weight: 400;
+  font-style: normal;
+  line-height: 1.55;
+}
+
+.vp-doc h6.ptb-h-block,
+.vp-doc .ptb-dh6 {
+  font-size: var(--ptb-font-lg); /* 18px */
+  font-weight: 400;
+  font-style: normal;
+  line-height: 1.55;
+}
+
+/*
+ * บล็อกหัวข้อกลาง — margin-top ลดหลั่นตามระดับ (h1 > h2 > h3 > h4 > h5 > h6)
+ * เดิม h3–h6 ใช้ 0.6in เท่ากันทุกระดับ ทำให้ดูห่างเท่ากันและไม่สะท้อนลำดับชั้น
+ */
+.vp-doc h1.ptb-h-block,
+.vp-doc h2.ptb-h-block,
+.vp-doc h3.ptb-h-block,
+.vp-doc h4.ptb-h-block,
+.vp-doc h5.ptb-h-block,
+.vp-doc h6.ptb-h-block {
+  max-width: 40rem;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  text-indent: 0;
+  border-top: none !important;
+  padding-top: 0 !important;
+  letter-spacing: normal !important;
+}
+
+.vp-doc h1.ptb-h-block {
+  margin-top: 1in;
+  margin-bottom: 0.5in;
+}
+
+.vp-doc h2.ptb-h-block {
+  margin-top: 0.8in;
+  margin-bottom: 1rem;
+}
+
+/* margin-top / margin-bottom ลดหลั่น — ระดับลึกชิดกว่าแต่ไม่เท่ากันทุกขั้น */
+.vp-doc h3.ptb-h-block {
+  margin-top: 2.85rem;
+  margin-bottom: 1.05rem;
+}
+
+.vp-doc h4.ptb-h-block {
+  margin-top: 2.05rem;
+  margin-bottom: 0.95rem;
+}
+
+.vp-doc h5.ptb-h-block {
+  margin-top: 1.55rem;
+  margin-bottom: 0.85rem;
+}
+
+.vp-doc h6.ptb-h-block {
+  margin-top: 1.2rem;
+  margin-bottom: 0.75rem;
+}
+
+/* หัวข้อย่อยต่อเนื่อง — ระยะบนน้อยกว่า “เริ่มหมวดใหม่” แต่ยังแยกชั้น h3>h4>h5>h6 */
+.vp-doc h3.ptb-h-block + h4.ptb-h-block {
+  margin-top: 1.35rem;
+}
+
+.vp-doc h4.ptb-h-block + h5.ptb-h-block {
+  margin-top: 1.1rem;
+}
+
+.vp-doc h5.ptb-h-block + h6.ptb-h-block {
+  margin-top: 0.95rem;
+}
+
+/* คำบรรยายใต้หัวข้อ แล้วตามด้วยหัวข้อย่อยถัดไป — เว้นให้พออ่าน */
+.vp-doc h1.ptb-h-block + p.ptb-subtitle:has(+ h2.ptb-h-block) {
+  margin-bottom: 0.9rem;
+}
+
+.vp-doc h1.ptb-h-block + p.ptb-subtitle + h2.ptb-h-block {
+  margin-top: 1.1rem;
+}
+
+.vp-doc h2.ptb-h-block + p.ptb-subtitle:has(+ h3.ptb-h-block) {
+  margin-bottom: 0.9rem;
+}
+
+.vp-doc h2.ptb-h-block + p.ptb-subtitle + h3.ptb-h-block {
+  margin-top: 1.1rem;
+}
+
+.vp-doc h3.ptb-h-block + p.ptb-subtitle:has(+ h4.ptb-h-block) {
+  margin-bottom: 0.9rem;
+}
+
+.vp-doc h3.ptb-h-block + p.ptb-subtitle + h4.ptb-h-block {
+  margin-top: 1.1rem;
+}
+
+.vp-doc h4.ptb-h-block + p.ptb-subtitle:has(+ h5.ptb-h-block) {
+  margin-bottom: 0.9rem;
+}
+
+.vp-doc h4.ptb-h-block + p.ptb-subtitle + h5.ptb-h-block {
+  margin-top: 1.1rem;
+}
+
+.vp-doc h5.ptb-h-block + p.ptb-subtitle:has(+ h6.ptb-h-block) {
+  margin-bottom: 0.9rem;
+}
+
+.vp-doc h5.ptb-h-block + p.ptb-subtitle + h6.ptb-h-block {
+  margin-top: 1.1rem;
+}
+
+.vp-doc .ptb-h-block .header-anchor {
+  top: 0;
+}
+
+/* เลขลำดับหัวข้อแบบข้อความ (ไม่ใช้ #–######) — กึ่งกลาง ขนาดใกล้ h4.ptb-h-block */
+.vp-doc p.ptb-section-marker {
+  max-width: 40rem;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2rem;
+  margin-bottom: 0.5rem;
+  text-align: center;
+  text-indent: 0;
+  font-size: var(--ptb-font-lg);
+  font-weight: 600;
+  line-height: 1.55;
+  letter-spacing: normal;
+}
+
+/*
+ * หัวเรื่องหลายบรรทัดกึ่งกลาง (ไม่ใช่ #–###### — ไม่ขึ้น TOC)
+ * ลูกโดยตรงเป็น <p> ไม่ต้องใส่คลาสทีละบรรทัด
+ */
+.vp-doc .ptb-title-stack {
+  text-align: center;
+  margin: 1rem 0 1.75rem;
+  /* สืบทอดลง <p> — utility .ptb-text-* บน <p> จึงทับขนาดได้ */
+  font-size: var(--ptb-font-lg);
+  font-weight: 600;
+  line-height: 1.8;
+}
+
+.vp-doc .ptb-title-stack > p {
+  margin: 0.15em 0;
+  text-indent: 0;
+  line-height: 1.8; /* ชนะ .vp-doc p { line-height: 1.75 } */
+}
+
+/*
+ * คำบรรยายใต้หัวข้อ .ptb-h-block (h1–h6) — ขนาดลดหนึ่งขั้นจากหัวข้อนั้น กึ่งกลาง น้ำหนักปกติ
+ * ระยะห่างจากหัวข้อคล้ายบรรทัดใน .ptb-title-stack
+ */
+.vp-doc h1.ptb-h-block:has(+ p.ptb-subtitle),
+.vp-doc h2.ptb-h-block:has(+ p.ptb-subtitle),
+.vp-doc h3.ptb-h-block:has(+ p.ptb-subtitle),
+.vp-doc h4.ptb-h-block:has(+ p.ptb-subtitle),
+.vp-doc h5.ptb-h-block:has(+ p.ptb-subtitle),
+.vp-doc h6.ptb-h-block:has(+ p.ptb-subtitle) {
+  margin-bottom: 0.35em;
+}
+
+.vp-doc h1.ptb-h-block + p.ptb-subtitle,
+.vp-doc h2.ptb-h-block + p.ptb-subtitle,
+.vp-doc h3.ptb-h-block + p.ptb-subtitle,
+.vp-doc h4.ptb-h-block + p.ptb-subtitle,
+.vp-doc h5.ptb-h-block + p.ptb-subtitle,
+.vp-doc h6.ptb-h-block + p.ptb-subtitle {
+  max-width: 40rem;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0.15em;
+  margin-bottom: 1rem;
+  padding: 0;
+  text-align: center;
+  text-indent: 0;
+  text-justify: auto;
+  font-weight: 400;
+  letter-spacing: normal;
+}
+
+/* h1 หัวข้อ → subtitle หนึ่งขั้นเล็กลง (2xl → xl) */
+.vp-doc h1.ptb-h-block + p.ptb-subtitle {
+  font-size: var(--ptb-font-xl);
+  line-height: 1.4;
+}
+
+/* h2 / h3 → xl → lg */
+.vp-doc h2.ptb-h-block + p.ptb-subtitle,
+.vp-doc h3.ptb-h-block + p.ptb-subtitle {
+  font-size: var(--ptb-font-lg);
+  line-height: 1.5;
+}
+
+/* h4 → lg → base */
+.vp-doc h4.ptb-h-block + p.ptb-subtitle {
+  font-size: var(--ptb-font-base);
+  line-height: 1.5;
+}
+
+/* h5 (20px) → base */
+.vp-doc h5.ptb-h-block + p.ptb-subtitle {
+  font-size: var(--ptb-font-base);
+  line-height: 1.55;
+}
+
+/* h6 (18px) → sm */
+.vp-doc h6.ptb-h-block + p.ptb-subtitle {
+  font-size: var(--ptb-font-sm);
+  line-height: 1.55;
+}
+
+/*
+ * บทนำเปิดภาค — คอลัมน์แคบคล้ายปกหนังสือ (หัวกลาง, รายการ, ปิดท้ายกลาง)
+ */
+.vp-doc .ptb-part-open {
+  max-width: 38rem;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 2rem;
+  font-size: 1.0625rem;
+  line-height: 1.8;
+}
+
+.vp-doc .ptb-part-open .ptb-part-open__head {
+  text-align: center;
+  text-indent: 0 !important;
+  font-weight: 700;
+  font-size: var(--ptb-font-xl);
+  line-height: 1.75;
+  margin-top: 0.35em;
+  margin-bottom: 0.4em;
+}
+
+.vp-doc .ptb-part-open .ptb-part-open__subhead {
+  text-align: center;
+  text-indent: 0 !important;
+  font-weight: 400;
+  font-size: var(--ptb-font-base);
+  line-height: 1.8;
+  margin-top: 0;
+  margin-bottom: 1.35em;
+}
+
+.vp-doc .ptb-part-open .ptb-part-open__list {
+  --ptb-list-top-gap: 0;
+  --ptb-list-bottom-gap: 0;
+}
+
+.vp-doc .ptb-part-open .ptb-part-open__list .ptb-list-item {
+  margin-bottom: 0.85em !important;
+}
+
+.vp-doc .ptb-part-open .ptb-part-open__list .ptb-list-item:last-child {
+  margin-bottom: 1.35em !important;
+}
+
+.vp-doc .ptb-part-open .ptb-part-open__list .ptb-part-open__line2 {
+  display: block;
+  text-align: justify;
+  text-justify: inter-character;
+  padding-left: 2em;
+  margin-top: 0.15em;
+  line-height: 1.8;
+}
+
+.vp-doc .ptb-part-open .ptb-part-open__closing {
+  text-align: center;
+  text-indent: 0 !important;
+  line-height: 1.8;
+  margin-top: 0 !important;
+  margin-bottom: 0.2em !important;
+}
+
+.vp-doc .ptb-part-open .ptb-part-open__closing:last-of-type {
+  margin-bottom: 0.5em !important;
+}
+
+/* บล็อกเอกสารจดหมาย / รายงาน — จำกัดความกว้างอ่าน */
+.vp-doc .ptb-document-block {
+  max-width: 44rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* บรรทัดบัญชีค่าใช้จ่าย (ต้นฉบับเป็น monospace จัดคอลัมน์) */
+.vp-doc pre.ptb-ledger-pre {
+  font-family: 'Sarabun', 'TH Sarabun New', ui-monospace, monospace;
+  font-size: var(--ptb-font-sm);
+  line-height: 1.55;
+  white-space: pre-wrap;
+  margin: 0.2em 0 0.65em;
+  padding: 0.5rem 0.75rem;
+  background: var(--vp-c-bg-soft, rgba(0, 0, 0, 0.04));
+  border: 1px solid var(--vp-c-divider);
+  border-radius: 6px;
+  overflow-x: auto;
+  text-align: left;
+}
+
+/*
+ * ซ่อนจากการมองเห็น แต่คงใน DOM / โปรแกรมอ่านหน้าจอ — ไม่ใช่ display:none
+ * .ptb-h-sr = ชื่อเดิมสำหรับหัวข้อ Markdown ที่ต้องการ anchor/TOC แต่ไม่แสดงบนหน้า (ค่าสไตล์เดียวกัน)
+ */
+.ptb-visually-hidden,
+.vp-doc .ptb-h-sr {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0 !important;
+  margin: -1px !important;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: none !important;
+  font-size: 1px !important;
+  line-height: 0 !important;
+  letter-spacing: 0;
+}
+
+/* Common presets */
+.ptb-paragraph {
+  text-align: justify;
+  text-justify: inter-character;
+  text-indent: var(--ptb-paragraph-first-indent);
+}
+
+.vp-doc p.ptb-paragraph {
+  margin-top: var(--ptb-paragraph-v-margin);
+  margin-bottom: var(--ptb-paragraph-v-margin);
+}
+
+/* ย่อหน้าแรกลึกกว่าปกติ — ใช้ <PtbParagraph class="ptb-paragraph--first-indent-extra"> */
+.ptb-paragraph.ptb-paragraph--first-indent-extra {
+  text-indent: calc(var(--ptb-paragraph-first-indent) + var(--ptb-paragraph-indent));
+}
+
+/*
+ * เว้นระยะเหนือ <PtbParagraph> — ใช้ซ้ำได้ทั้งไซต์ (ไม่ต้องเขียน CSS เฉพาะหน้า)
+ * sm / md / lg / xl / 2xl สเกลตาม em เทียบขนาดตัวอักษรของย่อหน้า
+ */
+.ptb-paragraph.ptb-paragraph--space-before-sm {
+  margin-top: 0.75em;
+}
+
+.ptb-paragraph.ptb-paragraph--space-before-md {
+  margin-top: 1em;
+}
+
+.ptb-paragraph.ptb-paragraph--space-before-lg {
+  margin-top: 1.25em;
+}
+
+.ptb-paragraph.ptb-paragraph--space-before-xl {
+  margin-top: 1.5em;
+}
+
+.ptb-paragraph.ptb-paragraph--space-before-2xl {
+  margin-top: 2em;
+}
+
+.ptb-paragraph.ptb-paragraph--pad-before-sm {
+  padding-top: 0.75em;
+}
+
+.ptb-paragraph.ptb-paragraph--pad-before-md {
+  padding-top: 1em;
+}
+
+.ptb-paragraph.ptb-paragraph--pad-before-lg {
+  padding-top: 1.25em;
+}
+
+.ptb-paragraph.ptb-paragraph--pad-before-xl {
+  padding-top: 1.5em;
+}
+
+.ptb-paragraph.ptb-paragraph--pad-before-2xl {
+  padding-top: 2em;
+}
+
+/*
+ * เว้นระยะใต้ <PtbParagraph> — สเกลเดียวกับ pad-before-* (padding-bottom)
+ */
+.ptb-paragraph.ptb-paragraph--pad-after-sm {
+  padding-bottom: 0.75em;
+}
+
+.ptb-paragraph.ptb-paragraph--pad-after-md {
+  padding-bottom: 1em;
+}
+
+.ptb-paragraph.ptb-paragraph--pad-after-lg {
+  padding-bottom: 1.25em;
+}
+
+.ptb-paragraph.ptb-paragraph--pad-after-xl {
+  padding-bottom: 1.5em;
+}
+
+.ptb-paragraph.ptb-paragraph--pad-after-2xl {
+  padding-bottom: 2em;
+}
+
+.ptb-paragraph-no-indent {
+  text-align: justify;
+  text-justify: inter-character;
+  text-indent: 0;
+}
+
+/* รายการแบบเลขไทย (ไม่ใช้ ul/li) — คล้าย ptb-paragraph แต่ระยะห่างด้านล่างน้อยกว่า */
+.ptb-list-item {
+  text-align: justify;
+  text-justify: inter-character;
+  text-indent: 0;
+  margin-top: 0 !important;
+  margin-bottom: 0.35em !important;
+}
+
+/* Componentized list system: supports hanging indent and marker grid */
+.ptb-list {
+  display: block;
+  margin-top: var(--ptb-list-top-gap, 0.5em);
+  margin-bottom: var(--ptb-list-bottom-gap, 0.2em);
+}
+
+/*
+ * PtbList หลายคอลัมน์ — ลำดับเลขใน DOM ยังเป็น ๑ ๒ ๓ … ตามการจัดวาง:
+ * -- order-row: แถวละซ้าย→ขวา (๑|๒ / ๓|๔)
+ * -- order-column: คอลัมน์ซ้ายบน→ล่าง แล้วคอลัมน์ขวา (๑–๕ | ๖–๑๐)
+ */
+.ptb-list.ptb-list--multi-col {
+  display: grid;
+  gap: 0.35em 1.25em;
+  align-items: start;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.ptb-list.ptb-list--multi-col .ptb-list-item {
+  min-width: 0;
+  /* ใช้ row-gap ของกริดเป็นตัวกำหนดระยะแนวตั้งอย่างเดียว — ไม่ซ้อนกับ margin-bottom 0.35em ของรายการแบบคอลัมน์เดียว */
+  margin-bottom: 0 !important;
+}
+
+/* ให้แต่ละรายการเต็มความกว้าง track — ลดกรณีเนื้อหา max-content ทำให้ track ดูไม่เท่ากัน */
+.ptb-list.ptb-list--multi-col > .ptb-list-item.ptb-list-item--grid {
+  width: 100%;
+  max-width: 100%;
+  box-sizing: border-box;
+}
+
+.ptb-list.ptb-list--multi-col.ptb-list--order-row {
+  grid-template-columns: repeat(var(--ptb-list-cols, 2), minmax(0, 1fr));
+  grid-auto-flow: row;
+}
+
+/* เยื้องย่อยของรายการหลายคอลัมน์ — ย้ายไปที่ .ptb-list (inline paddingLeft จาก PtbList.vue) แทน padding ต่อรายการ */
+
+.ptb-list.ptb-list--multi-col.ptb-list--order-column {
+  grid-template-columns: repeat(var(--ptb-list-cols, 2), minmax(0, 1fr));
+  grid-auto-flow: column;
+  grid-auto-rows: auto;
+}
+
+/*
+ * columnMinWidth แบบความยาว CSS — แต่ละคอลัมน์กว้างอย่างน้อย var(--ptb-list-col-min)
+ */
+.ptb-list.ptb-list--multi-col.ptb-list--col-min.ptb-list--order-row,
+.ptb-list.ptb-list--multi-col.ptb-list--col-min.ptb-list--order-column {
+  grid-template-columns: repeat(var(--ptb-list-cols, 2), minmax(var(--ptb-list-col-min), 1fr));
+}
+
+/*
+ * columnMinWidth แบบตัวเลขคั่นด้วย comma เป็นสัดส่วน fr ต่อคอลัมน์ (เช่น 0.5,1 → คอลัมน์ขวากว้างกว่า)
+ */
+.ptb-list.ptb-list--multi-col.ptb-list--col-fr.ptb-list--order-row,
+.ptb-list.ptb-list--multi-col.ptb-list--col-fr.ptb-list--order-column {
+  grid-template-columns: var(--ptb-list-cols-template);
+}
+
+/* จอแคบ — ยุบเป็น 1 คอลัมน์ (สัดส่วน fr หรือ min-width) */
+@media (max-width: 42rem) {
+  .vp-doc .ptb-list.ptb-list--multi-col.ptb-list--col-min,
+  .vp-doc .ptb-list.ptb-list--multi-col.ptb-list--col-fr {
+    grid-template-columns: minmax(0, 1fr) !important;
+    grid-auto-flow: row !important;
+  }
+}
+
+@media (max-width: 520px) {
+  .vp-doc .ptb-list.ptb-list--multi-col {
+    grid-template-columns: minmax(0, 1fr) !important;
+    grid-auto-flow: row !important;
+  }
+}
+
+/*
+ * กึ่งกลางบล็อก PtbList ในแนวนอน (ภายในพื้นที่เนื้อหา):
+ * ความกว้าง = ตามเนื้อหา (fit-content) แล้ว margin ซ้าย/ขวา auto — เทียบเคียงจุดกลางซ้าย-ขวาของคอลัมน์
+ * ใช้กับ <PtbList centered> หรือ class ptb-list--center
+ */
+.ptb-list.ptb-list--center {
+  margin-left: auto;
+  margin-right: auto;
+  width: fit-content;
+  max-width: 100%;
+  box-sizing: border-box;
+}
+
+.ptb-list-item--hanging {
+  --ptb-marker-width: 4ch;
+  --ptb-item-indent: var(--ptb-list-item-indent-per-level);
+  text-indent: 0;
+  padding-left: calc(var(--ptb-item-indent) + var(--ptb-marker-width));
+  text-indent: calc(-1 * var(--ptb-marker-width));
+}
+
+/*
+ * wrap-hanging บนรายการแบบไม่มี marker: ต้องรวมที่ <p> — บรรทัดต่อเยื้องเพิ่มจากบรรทัดแรกตาม --ptb-wrap-hanging
+ * (ไม่ใช้ span ห่อ เพื่อให้ text-indent ของบรรทัดแรกกับ padding-left ของบรรทัดต่อไปคำนวณถูก)
+ */
+.ptb-list-item--hanging.ptb-list-item--has-text-wrap-hanging {
+  padding-left: calc(var(--ptb-item-indent) + var(--ptb-marker-width) + var(--ptb-wrap-hanging, 0ch));
+  text-indent: calc(-1 * var(--ptb-marker-width) - var(--ptb-wrap-hanging, 0ch));
+}
+
+.ptb-list-item--grid {
+  --ptb-marker-width: 4ch;
+  --ptb-item-indent: var(--ptb-list-item-indent-per-level);
+  text-indent: 0;
+  display: grid;
+  /* อย่าคงความกว้าง marker ที่ 4ch เท่านั้น — คำไทย/หัวข้อยาวจะล้นไปทับเนื้อหา; ให้คอลัมน์ขยายตาม max-content */
+  grid-template-columns: minmax(var(--ptb-marker-width), max-content) minmax(0, 1fr);
+  column-gap: var(--ptb-list-marker-gap, 0.65em);
+  align-items: start;
+  padding-left: var(--ptb-item-indent);
+}
+
+.ptb-list-item__marker {
+  display: inline-block;
+  text-align: right;
+  white-space: nowrap;
+}
+
+/* คำนำหน้าข้อความ (เช่น ควรเจริญ / เพื่อละ) — ชิดซ้ายในคอลัมน์ marker ให้เนื้อหาคอลัมน์ขวาเรียงแนวตั้งเดียวกัน */
+.ptb-list.ptb-list--marker-left .ptb-list-item__marker {
+  text-align: left;
+}
+
+/* ชิดขวาในคอลัมน์ marker (ค่าเริ่มต้นของ .ptb-list-item__marker) — ใช้คลาสนี้ให้ชัดเจนเมื่อคู่กับ ควรเจริญ/เพื่อละ และ markerWidth แคบ */
+.ptb-list.ptb-list--marker-right .ptb-list-item__marker {
+  text-align: right;
+}
+
+.ptb-list-item__content {
+  min-width: 0;
+}
+
+/*
+ * บรรทัดต่อ (หลังตัดบรรทัด) เยื้องเข้าเทียบบรรทัดแรก — ค่า --ptb-wrap-hanging เช่น 15ch (จาก PtbListItem wrapHanging="15ch")
+ */
+.ptb-list-item__wrap-hanging {
+  display: block;
+  min-width: 0;
+  padding-left: var(--ptb-wrap-hanging, 0ch);
+  box-sizing: border-box;
+  /* justify ใน .ptb-list-item ทำให้ ::first-line + text-indent บางทีไม่เห็นผล */
+  text-align: start;
+}
+
+.ptb-list-item__wrap-hanging::first-line {
+  text-indent: calc(-1 * var(--ptb-wrap-hanging, 0ch));
+}
+
+/*
+ * PtbList splitGloss — กริดเดียวที่ .ptb-list + display:contents ที่แต่ละรายการ
+ * คอลัมน์ซ้าย = max-content (กว้างเท่าข้อความยาวสุดในรายการ ไม่เติมช่องว่างถึงความกว้างคงที่ทุกแถว)
+ */
+.ptb-list.ptb-list--split-gloss {
+  --ptb-list-marker-gap: 0.35em;
+  display: grid;
+  grid-template-columns: max-content var(--ptb-list-right-col, 15ch);
+  column-gap: var(--ptb-list-marker-gap);
+  row-gap: 0.35em;
+  align-items: start;
+  padding-left: var(--ptb-list-body-indent, calc(1 * var(--ptb-list-item-indent-per-level)));
+  box-sizing: border-box;
+}
+
+.ptb-list.ptb-list--split-gloss .ptb-list-item.ptb-list-item--split-gloss-row {
+  display: contents;
+}
+
+.ptb-list.ptb-list--split-gloss .ptb-list-item--split-gloss-row {
+  margin-top: 0 !important;
+  margin-bottom: 0 !important;
+}
+
+.ptb-list.ptb-list--split-gloss .ptb-list-item__marker {
+  text-align: start;
+  min-width: 0;
+  max-width: min(var(--ptb-list-left-col, 40ch), 100%);
+}
+
+.ptb-list.ptb-list--split-gloss .ptb-list-item__content {
+  text-align: start;
+}
+
+.ptb-paragraph-left-align {
+  text-align: left;
+  text-indent: 0;
+}
+
+/* ลงท้ายแบบในหนังสือ — ชิดขวา (ชื่อหน่วยงาน / วันที่) */
+.ptb-paragraph-right-align {
+  text-align: right;
+  text-indent: 0;
+}
+
+/* หัวข้อย่อยกลางคอลัมน์ (เช่น สรุปความ) */
+.ptb-paragraph-center-align {
+  text-align: center;
+  text-indent: 0;
+}
+
+/* คำกำกับใต้หัวข้อ (เช่นวงเล็บอธิบาย) — จัดกึ่งกลางแม้ใช้คู่กับ .ptb-paragraph-no-indent */
+.ptb-paragraph-no-indent.ptb-paragraph-center-align {
+  text-align: center;
+  text-justify: auto;
+}
+
+/* บล็อกคำพูดจากหนังสือ — กึ่งกลาง, แหล่งอ้างอิงตัวเล็กสีเทา (ใช้ซ้ำได้) */
+.ptb-quote-block {
+  text-align: center;
+  margin: 1.25em 0;
+}
+
+.ptb-quote-block .ptb-quote-text {
+  text-align: center;
+  margin: 0;
+  line-height: 1.75;
+}
+
+/* คอลัมน์กลางแคบตามแบบหน้าหนังสือ */
+.ptb-quote-block.ptb-quote-block--measure {
+  max-width: 40rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* หัวบล็อกเอกสาร / คัดจากต้นฉบับ — ตัวใหญ่หนา */
+.ptb-quote-block .ptb-quote-text.ptb-quote-text--emphasis {
+  margin: 0.12em 0;
+  font-size: var(--ptb-font-lg);
+  font-weight: 700;
+  line-height: 1.75;
+}
+
+.ptb-quote-block .ptb-quote-text.ptb-quote-text--emphasis strong {
+  font-weight: 700;
+}
+
+/* เส้นคั่นสั้นกึ่งกลาง — ใช้ใน/นอก .ptb-quote-block; ชนะ margin ของ .vp-doc hr */
+.vp-doc hr.ptb-hr-quote {
+  display: block;
+  border: none;
+  margin: 0.5in auto 0.95rem;
+  width: 72%;
+  max-width: 14rem;
+}
+
+/* เส้นคั่นเต็มความกว้างคอลัมน์เนื้อหา (ต่างจาก ptb-hr-quote ที่สั้นกลาง) */
+.vp-doc hr.ptb-hr-full {
+  display: block;
+  box-sizing: border-box;
+  border: none;
+  margin: 0.5in 0 0.95rem;
+  width: 100%;
+  max-width: none;
+}
+
+/* สีเส้น hr — เข้มขึ้น ~20% (ผสม divider ธีม 80% + ดำ 20%) ต้องอยู่หลัง border: none */
+.vp-doc hr:is(.ptb-hr-quote, .ptb-hr-full) {
+  border-top: 1px solid
+    color-mix(in srgb, var(--vp-c-divider, rgba(60, 60, 60, 0.22)) 80%, black);
+}
+
+.ptb-quote-citation {
+  text-align: center;
+  font-size: var(--ptb-font-xs);
+  color: var(--vp-c-text-2, #476582);
+  margin-top: 0.75em;
+  margin-bottom: 0;
+}
+
+/* ตำแหน่งอ้างอิงใต้คำพูด — เลือกซ้าย / กลาง / ขวา (ค่าเริ่มต้นของ .ptb-quote-citation คือกลาง) */
+.ptb-quote-citation.ptb-quote-citation--left {
+  text-align: left;
+}
+
+.ptb-quote-citation.ptb-quote-citation--center {
+  text-align: center;
+}
+
+.ptb-quote-citation.ptb-quote-citation--right {
+  text-align: right;
+}
+
+/* Generic footnote block: reduced-size text across nested content */
+.vp-doc :is(.ptb-footnote, .ptf-footnote) {
+  --ptb-footnote-size: calc(var(--ptb-font-base) * 0.6);
+  margin: 0.45rem 0 0.3rem;
+  padding-top: 0.5rem;
+  border-top: 1px solid var(--vp-c-divider);
+  color: var(--vp-c-text-2);
+  font-size: var(--ptb-footnote-size);
+  line-height: 1.2;
+}
+
+.vp-doc :is(.ptb-footnote, .ptf-footnote),
+.vp-doc :is(.ptb-footnote, .ptf-footnote) p,
+.vp-doc :is(.ptb-footnote, .ptf-footnote) li,
+.vp-doc :is(.ptb-footnote, .ptf-footnote) div,
+.vp-doc :is(.ptb-footnote, .ptf-footnote) a,
+.vp-doc :is(.ptb-footnote, .ptf-footnote) strong,
+.vp-doc :is(.ptb-footnote, .ptf-footnote) em,
+.vp-doc :is(.ptb-footnote, .ptf-footnote) span {
+  font-size: var(--ptb-footnote-size);
+  line-height: 1.2;
+}
+
+/* Keep spacing between sibling div blocks readable */
+.vp-doc :is(.ptb-footnote, .ptf-footnote) > div + div {
+  margin-top: 0.7em;
+}
+
+.vp-doc :is(.ptb-footnote, .ptf-footnote) p {
+  margin: 0.12em 0;
+}
+
+.vp-doc :is(.ptb-footnote, .ptf-footnote) ul,
+.vp-doc :is(.ptb-footnote, .ptf-footnote) ol {
+  margin: 0.22em 0;
+  padding-left: 1.1em;
+}
+
+/* Tight spacing between items within the same list */
+.vp-doc :is(.ptb-footnote, .ptf-footnote) li {
+  margin: 0.04em 0;
+  line-height: 1.15;
+}
+
+.vp-doc :is(.ptb-footnote, .ptf-footnote) sup {
+  font-size: 0.72em;
+  line-height: 1;
+}
+
+.vp-doc :is(.ptb-footnote, .ptf-footnote) a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.vp-doc :is(.ptb-footnote, .ptf-footnote) a:hover {
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 2px;
+}
+
+/* แผนภูมิพระไตรปิฎก (text-first, clickable) */
+.ptb-diagram-root {
+  text-align: center;
+  margin: 1rem 0 1.25rem;
+}
+
+.ptb-diagram-root-card {
+  display: inline-block;
+  padding: 0.8rem 1rem;
+  border: 1px solid var(--vp-c-divider);
+  border-radius: 10px;
+  background: var(--vp-c-bg-soft);
+}
+
+.ptb-diagram-root-card strong {
+  display: block;
+  font-size: 1.05rem;
+}
+
+.ptb-diagram-root-note {
+  margin-top: 0.4rem;
+  font-size: var(--ptb-font-sm);
+  color: var(--vp-c-text-2);
+}
+
+.ptb-diagram-branches {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(220px, 1fr));
+  gap: 0.9rem;
+  margin: 1rem 0 1.25rem;
+}
+
+.ptb-diagram-card {
+  border: 1px solid var(--vp-c-divider);
+  border-radius: 12px;
+  background: var(--vp-c-bg-soft);
+  padding: 0.85rem 1rem;
+}
+
+.ptb-diagram-card h3 {
+  margin: 0 0 0.35rem;
+  font-size: 1rem;
+}
+
+.ptb-diagram-card ul {
+  margin: 0;
+  padding-left: 1.1rem;
+}
+
+.ptb-diagram-card li {
+  margin: 0.2rem 0;
+  font-size: var(--ptb-font-sm);
+}
+
+@media (max-width: 960px) {
+  .ptb-diagram-branches {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* Inline footnote trigger + bottom sheet */
+.ptb-inline-footnote {
+  display: inline;
+}
+
+.ptb-inline-footnote__trigger {
+  appearance: none;
+  border: 0;
+  background: transparent;
+  margin: 0 0 0 0.15em;
+  padding: 0;
+  color: var(--vp-c-brand-1);
+  font: inherit;
+  font-size: 0.85em;
+  line-height: 1;
+  vertical-align: super;
+  text-decoration: underline;
+  text-underline-offset: 2px;
+  cursor: pointer;
+}
+
+.ptb-inline-footnote__trigger::before {
+  content: var(--ptb-fn-marker, "(*)");
+}
+
+.ptb-inline-footnote__trigger:hover {
+  color: var(--vp-c-brand-2);
+}
+
+.ptb-inline-footnote__sheet-layer {
+  position: fixed;
+  inset: 0;
+  z-index: 1200;
+}
+
+.ptb-inline-footnote__overlay {
+  position: absolute;
+  inset: 0;
+  background: rgb(0 0 0 / 0.35);
+}
+
+.ptb-inline-footnote__sheet {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: 0 auto;
+  max-width: 960px;
+  max-height: 70vh;
+  overflow: auto;
+  background: var(--vp-c-bg);
+  border-top-left-radius: 14px;
+  border-top-right-radius: 14px;
+  border: 1px solid var(--vp-c-divider);
+  border-bottom: 0;
+  box-shadow: 0 -10px 30px rgb(0 0 0 / 0.2);
+  padding: 1rem 1rem 1.15rem;
+}
+
+.ptb-inline-footnote__close {
+  appearance: none;
+  border: 1px solid var(--vp-c-divider);
+  background: var(--vp-c-bg-soft);
+  color: var(--vp-c-text-1);
+  border-radius: 8px;
+  width: 2rem;
+  height: 2rem;
+  font-size: 0.95rem;
+  line-height: 1;
+  cursor: pointer;
+  float: right;
+}
+
+.ptb-inline-footnote__content {
+  clear: both;
+  margin-top: 0.6rem;
+  font-size: 0.95rem;
+  line-height: 1.7;
+  color: var(--vp-c-text-2);
+}
+
+.ptb-inline-footnote__content .ptb-footnote-body {
+  display: block;
+}
+
+.ptb-inline-footnote__content > :first-child {
+  margin-top: 0;
+}
+
+.ptb-inline-footnote__content > :last-child {
+  margin-bottom: 0;
+}
+
+@media (max-width: 640px) {
+  .ptb-inline-footnote__sheet {
+    max-height: 78vh;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    padding: 0.9rem;
+  }
+
+  .ptb-inline-footnote__content {
+    font-size: 0.92rem;
+  }
+}
+
+@media print {
+  .ptb-inline-footnote__trigger,
+  .ptb-inline-footnote__sheet-layer {
+    display: none !important;
+  }
+}

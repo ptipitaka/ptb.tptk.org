@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="182 0 1288 915" role="img" aria-labelledby="title desc">
+  <title id="title">แผนภูมิอภิธัมมปิฎก</title>
+  <desc id="desc">ผังอภิธัมมปิฎก ๗ คัมภีร์ พร้อมหัวข้อย่อยตามฉบับพิมพ์</desc>
+  <style>
+    text {
+      fill: #1f2937;
+      font-family: "Sarabun", "TH Sarabun New", "Tahoma", sans-serif;
+      text-anchor: middle;
+    }
+    .root { font-size: 32px; font-weight: 700; text-anchor: middle; }
+    .head { font-size: 26px; font-weight: 700; text-anchor: middle; }
+    .detail { font-size: 24px; font-weight: 400; fill: #6b7280; text-anchor: start; }
+    .head,
+    .detail { transform: translateY(10px); }
+    .line { stroke: #6b7280; stroke-width: 1.35; stroke-linecap: round; fill: none; }
+    a { text-decoration: none; }
+    a:hover text { fill: #1d4ed8; text-decoration: underline; }
+  </style>
+
+  <a href="/tipitaka-structure/#abhidhamma" target="_top">
+    <text x="800" y="34" class="root">อภิธัมมปิฎก</text>
+  </a>
+
+  <line x1="800" y1="42" x2="800" y2="92" class="line" />
+  <line x1="255" y1="92" x2="1300" y2="92" class="line" />
+
+  <line x1="255" y1="92" x2="255" y2="124" class="line" />
+  <circle cx="255" cy="124" r="1.7" fill="#6b7280" />
+  <line x1="420" y1="92" x2="420" y2="124" class="line" />
+  <circle cx="420" cy="124" r="1.7" fill="#6b7280" />
+  <line x1="595" y1="92" x2="595" y2="124" class="line" />
+  <circle cx="595" cy="124" r="1.7" fill="#6b7280" />
+  <line x1="800" y1="92" x2="800" y2="124" class="line" />
+  <circle cx="800" cy="124" r="1.7" fill="#6b7280" />
+  <line x1="965" y1="92" x2="965" y2="124" class="line" />
+  <circle cx="965" cy="124" r="1.7" fill="#6b7280" />
+  <line x1="1120" y1="92" x2="1120" y2="124" class="line" />
+  <circle cx="1120" cy="124" r="1.7" fill="#6b7280" />
+  <line x1="1300" y1="92" x2="1300" y2="124" class="line" />
+  <circle cx="1300" cy="124" r="1.7" fill="#6b7280" />
+
+  <a href="/part-4-tipitaka-digest/abhidhamma-pitaka/vol-34/" target="_top">
+    <text x="255" y="158" class="head">ธัมมสังคณี</text>
+  </a>
+  <text x="190" y="200" class="detail">&#8226; มาติกา</text>
+  <text x="190" y="240" class="detail">&#8226; จิตตุปปาทกัณฑ์</text>
+  <text x="190" y="280" class="detail">&#8226; รูปกัณฑ์</text>
+  <text x="190" y="320" class="detail">&#8226; นิกเขปกัณฑ์</text>
+  <text x="190" y="360" class="detail">&#8226; อัตถุทธารกัณฑ์</text>
+
+  <a href="/part-4-tipitaka-digest/abhidhamma-pitaka/vol-35/" target="_top">
+    <text x="420" y="158" class="head">วิภังค์</text>
+  </a>
+  <text x="370" y="200" class="detail">&#8226; ขันธวิภังค์</text>
+  <text x="370" y="240" class="detail">&#8226; อายตนวิภังค์</text>
+  <text x="370" y="280" class="detail">&#8226; ธาตุวิภังค์</text>
+  <text x="370" y="320" class="detail">&#8226; สัจจวิภังค์</text>
+  <text x="370" y="360" class="detail">&#8226; อินทริยวิภังค์</text>
+  <text x="370" y="400" class="detail">&#8226; ปัจจยาการวิภังค์</text>
+  <text x="370" y="440" class="detail">&#8226; สติปัฏฐานวิภังค์</text>
+  <text x="370" y="480" class="detail">&#8226; สัมมัปปธานวิภังค์</text>
+  <text x="370" y="520" class="detail">&#8226; อิทธิบาทวิภังค์</text>
+  <text x="370" y="560" class="detail">&#8226; โพชฌังควิภังค์</text>
+  <text x="370" y="600" class="detail">&#8226; มัคควิภังค์</text>
+  <text x="370" y="640" class="detail">&#8226; ฌานวิภังค์</text>
+  <text x="370" y="680" class="detail">&#8226; อัปปมัญญาวิภังค์</text>
+  <text x="370" y="720" class="detail">&#8226; สิกขาบทวิภังค์</text>
+  <text x="370" y="760" class="detail">&#8226; ปฏิสัมภิทาวิภังค์</text>
+  <text x="370" y="800" class="detail">&#8226; ญาณวิภังค์</text>
+  <text x="370" y="840" class="detail">&#8226; ขุททกวัตถุวิภังค์</text>
+  <text x="370" y="880" class="detail">&#8226; ธัมมหทยวิภังค์</text>
+
+  <a href="/part-4-tipitaka-digest/abhidhamma-pitaka/vol-36/" target="_top">
+    <text x="595" y="158" class="head">ธาตุกถา</text>
+  </a>
+  <text x="540" y="200" class="detail">&#8226; หัวข้อธรรม</text>
+  <text x="555" y="240" class="detail">จัดประเภท</text>
+  <text x="555" y="280" class="detail">โดยธาตุ</text>
+
+  <a href="/part-4-tipitaka-digest/abhidhamma-pitaka/vol-36/" target="_top">
+    <text x="800" y="158" class="head">ปุคคลปัญญัตติ</text>
+  </a>
+  <text x="720" y="200" class="detail">&#8226; บุคคลที่มีจำนวน</text>
+  <text x="735" y="240" class="detail">๑ ถึง ๑๐</text>
+
+  <a href="/part-4-tipitaka-digest/abhidhamma-pitaka/vol-37/" target="_top">
+    <text x="965" y="158" class="head">กถาวัตถุ</text>
+  </a>
+  <text x="915" y="200" class="detail">&#8226; หัวข้อธรรม</text>
+  <text x="930" y="240" class="detail">๒๑๙ กถา</text>
+
+  <a href="/part-4-tipitaka-digest/abhidhamma-pitaka/vol-38/" target="_top">
+    <text x="1120" y="158" class="head">ยมก</text>
+  </a>
+  <text x="1080" y="200" class="detail">&#8226; มูลยมก</text>
+  <text x="1080" y="240" class="detail">&#8226; ขันธยมก</text>
+  <text x="1080" y="280" class="detail">&#8226; อายตนยมก</text>
+  <text x="1080" y="320" class="detail">&#8226; ธาตุยมก</text>
+  <text x="1080" y="360" class="detail">&#8226; สัจจยมก</text>
+  <text x="1080" y="400" class="detail">&#8226; สังขารยมก</text>
+  <text x="1080" y="440" class="detail">&#8226; อนุสยมก</text>
+  <text x="1080" y="480" class="detail">&#8226; จิตตยมก</text>
+  <text x="1080" y="520" class="detail">&#8226; ธัมมยมก</text>
+  <text x="1080" y="560" class="detail">&#8226; อินทริยยมก</text>
+
+  <a href="/part-4-tipitaka-digest/abhidhamma-pitaka/vol-40/" target="_top">
+    <text x="1300" y="158" class="head">ปัฏฐาน</text>
+  </a>
+  <text x="1230" y="200" class="detail">&#8226; อนุโลมติกปัฏฐาน</text>
+  <text x="1230" y="240" class="detail">&#8226; อนุโลมทุกปัฏฐาน</text>
+  <text x="1230" y="280" class="detail">&#8226; ธรรม ๔ หมวดผสมกัน</text>
+  <text x="1230" y="320" class="detail">&#8226; ปัจจนียปัฏฐาน</text>
+  <text x="1230" y="360" class="detail">&#8226; อนุโลมปัจจนียปัฏฐาน</text>
+  <text x="1230" y="400" class="detail">&#8226; ปัจจนียานุโลมปัฏฐาน</text>
+</svg>

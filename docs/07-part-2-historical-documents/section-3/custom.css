@@ -1,0 +1,49 @@
+/**
+ * สไตล์เฉพาะหน้า ส่วนที่ ๓ (ภาค ๒ — เอกสารรัชกาลที่ ๗)
+ * ใช้ร่วมกับ frontmatter `pageClass: ptb-page-historical-section-3`
+ * โหลดแบบ dynamic จาก `.vitepress/theme/index.ts` (prefix path)
+ *
+ * ตารางงบ — จัดเยื้องเสมอบรรทัดแรกของย่อหน้า (๒)(๓) คอลัมน์ข้อกลาง จำนวนเงินชิดขวา ความกว้างคอลัมน์เงินคงที่
+ */
+
+.Layout.ptb-page-historical-section-3 .vp-doc .ptb-document-block table {
+  --ptb-ledger-table-indent: calc(
+    var(--ptb-paragraph-first-indent) + var(--ptb-paragraph-indent)
+  );
+  --ptb-ledger-col-amount-width: 10rem; /* 12.5rem − 20% */
+  display: table !important;
+  table-layout: fixed;
+  margin-left: var(--ptb-ledger-table-indent);
+  width: calc(100% - var(--ptb-ledger-table-indent));
+  max-width: calc(100% - var(--ptb-ledger-table-indent));
+}
+
+.Layout.ptb-page-historical-section-3 .vp-doc .ptb-document-block table th,
+.Layout.ptb-page-historical-section-3 .vp-doc .ptb-document-block table td {
+  text-align: left;
+  vertical-align: top;
+}
+
+/* คอลัมน์ข้อ — กึ่งกลาง (override inline text-align:left จาก |:---|) */
+.Layout.ptb-page-historical-section-3 .vp-doc .ptb-document-block table th:nth-child(1),
+.Layout.ptb-page-historical-section-3 .vp-doc .ptb-document-block table td:nth-child(1) {
+  width: 3.25rem;
+  text-align: center !important;
+}
+
+/*
+ * คอลัมน์จำนวนเงิน — ชิดขวา + ความกว้างคงที่ให้ทั้งสองตารางเท่ากัน (table-layout: fixed)
+ */
+.Layout.ptb-page-historical-section-3 .vp-doc .ptb-document-block table th:nth-child(3),
+.Layout.ptb-page-historical-section-3 .vp-doc .ptb-document-block table td:nth-child(3) {
+  width: var(--ptb-ledger-col-amount-width);
+  text-align: right;
+}
+
+/*
+ * แถวรวม — ช่องคำว่า «รวม» อยู่คอลัมน์รายการ
+ * ต้องใช้ !important เพราะ markdown ใส่ inline text-align:left จาก |:---| ในคอลัมน์นั้น
+ */
+.Layout.ptb-page-historical-section-3 .vp-doc .ptb-document-block table tbody tr:last-child td:nth-child(2) {
+  text-align: right !important;
+}

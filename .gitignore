@@ -1,0 +1,25 @@
+# Dependencies
+node_modules/
+
+# VitePress build & cache
+docs/.vitepress/dist/
+docs/.vitepress/cache/
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Env & secrets
+.env
+.env.*
+
+# OS & editors
+.DS_Store
+Thumbs.db
+*.swp
+*~
+
+# Logs
+*.log
+npm-debug.log*

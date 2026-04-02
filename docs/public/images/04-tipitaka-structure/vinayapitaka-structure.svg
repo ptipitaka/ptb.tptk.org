@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 430" role="img" aria-labelledby="title desc">
+  <title id="title">แผนภูมิวินัยปิฎก</title>
+  <desc id="desc">ผังวินัยปิฎก แยกเป็น มหาวิภังค์ ภิกขุนีวิภังค์ มหาวัคค์ จุลลวัคค์ และปริวาร</desc>
+  <style>
+    text {
+      fill: #1f2937;
+      font-family: "Sarabun", "TH Sarabun New", "Tahoma", sans-serif;
+      text-anchor: middle;
+    }
+    .root { font-size: 24px; font-weight: 700; }
+    .head { font-size: 20px; font-weight: 700; }
+    .desc { font-size: 15px; fill: #4b5563; }
+    .line { stroke: #6b7280; stroke-width: 1.35; stroke-linecap: round; fill: none; }
+    a { text-decoration: none; }
+    a:hover text { fill: #1d4ed8; text-decoration: underline; }
+  </style>
+
+  <a href="/tipitaka-structure/#vinaya" target="_top">
+    <text x="460" y="34" class="root">วินัยปิฎก</text>
+  </a>
+
+  <line x1="460" y1="38" x2="460" y2="88" class="line" />
+  <line x1="80" y1="88" x2="840" y2="88" class="line" />
+
+  <line x1="80" y1="88" x2="80" y2="120" class="line" />
+  <line x1="270" y1="88" x2="270" y2="120" class="line" />
+  <line x1="460" y1="88" x2="460" y2="120" class="line" />
+  <line x1="650" y1="88" x2="650" y2="120" class="line" />
+  <line x1="840" y1="88" x2="840" y2="120" class="line" />
+
+  <circle cx="80" cy="120" r="1.7" fill="#6b7280" />
+  <circle cx="270" cy="120" r="1.7" fill="#6b7280" />
+  <circle cx="460" cy="120" r="1.7" fill="#6b7280" />
+  <circle cx="650" cy="120" r="1.7" fill="#6b7280" />
+  <circle cx="840" cy="120" r="1.7" fill="#6b7280" />
+
+  <a href="/tipitaka-structure/#vinaya-mahavibhanga" target="_top"><text x="80" y="162" class="head">มหาวิภังค์</text></a>
+  <text x="80" y="201" class="desc">
+    <tspan x="80" dy="0">ข้อห้ามหรือวินัย</tspan>
+    <tspan x="80" dy="24">ที่เป็นหลักใหญ่ ๆ ของ</tspan>
+    <tspan x="80" dy="24">ภิกษุ ๒๒๗ ข้อ</tspan>
+  </text>
+
+  <a href="/tipitaka-structure/#vinaya-bhikkhuni" target="_top"><text x="270" y="162" class="head">ภิกขุนีวิภังค์</text></a>
+  <text x="270" y="201" class="desc">
+    <tspan x="270" dy="0">ข้อห้ามหรือวินัย</tspan>
+    <tspan x="270" dy="24">ที่เป็นหลักใหญ่ ๆ ของ</tspan>
+    <tspan x="270" dy="24">ภิกษุณี ๓๑๑ ข้อ</tspan>
+  </text>
+
+  <a href="/tipitaka-structure/#vinaya-mahavagga" target="_top"><text x="460" y="162" class="head">มหาวัคค์</text></a>
+  <text x="460" y="201" class="desc">
+    <tspan x="460" dy="0">พุทธประวัติช่วงต้น</tspan>
+    <tspan x="460" dy="24">การกำเนิด</tspan>
+    <tspan x="460" dy="24">และ</tspan>
+    <tspan x="460" dy="24">พัฒนาการของภิกษุสงฆ์</tspan>
+    <tspan x="460" dy="24">มี ๑๐ ขันธกะ</tspan>
+  </text>
+
+  <a href="/tipitaka-structure/#vinaya-cullavagga" target="_top"><text x="650" y="162" class="head">จุลลวัคค์</text></a>
+  <text x="650" y="201" class="desc">
+    <tspan x="650" dy="0">ข้อบัญญัติเล็กย่อย</tspan>
+    <tspan x="650" dy="24">การกำเนิดและพัฒนาการ</tspan>
+    <tspan x="650" dy="24">ของภิกษุณีสงฆ์</tspan>
+    <tspan x="650" dy="24">ประวัติสังคายนา</tspan>
+    <tspan x="650" dy="24">ครั้งที่ ๑ และ ครั้งที่ ๒</tspan>
+    <tspan x="650" dy="24">มี ๑๒ ขันธกะ</tspan>
+  </text>
+
+  <a href="/tipitaka-structure/#vinaya-parivara" target="_top"><text x="840" y="162" class="head">ปริวาร</text></a>
+  <text x="840" y="201" class="desc">
+    <tspan x="840" dy="0">เรื่องเบ็ดเตล็ด</tspan>
+    <tspan x="840" dy="24">และ</tspan>
+    <tspan x="840" dy="24">คู่มือถามตอบ</tspan>
+    <tspan x="840" dy="24">ความรู้พระวินัย</tspan>
+  </text>
+</svg>

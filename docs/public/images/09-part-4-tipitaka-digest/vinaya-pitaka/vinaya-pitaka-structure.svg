@@ -1,0 +1,132 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 920" role="img" aria-labelledby="title desc">
+  <title id="title">แผนภูมิวินัยปิฎก</title>
+  <desc id="desc">ผังวินัยปิฎก แยกเป็น มหาวิภังค์ ภิกขุนีวิภังค์ มหาวัคค์ จุลลวัคค์ และปริวาร พร้อมคำอธิบายและหมวดย่อยตามฉบับพิมพ์</desc>
+  <style>
+    text {
+      fill: #1f2937;
+      font-family: "Sarabun", "TH Sarabun New", "Tahoma", sans-serif;
+      text-anchor: middle;
+    }
+    .root { font-size: 24px; font-weight: 700; }
+    .head { font-size: 20px; font-weight: 700; }
+    .desc { font-size: 15px; fill: #4b5563; }
+    /* รายละเอียด: ขนาดและระยะบรรทัดคล้ายแผนภูมิ ๐๔ (เนื้อหา ~14px) — กะทัดรัดให้อยู่ในกรอบ */
+    .detail { font-size: 18px; font-weight: 400; fill: #6b7280; text-anchor: start; }
+    .head,
+    .detail { transform: translateY(10px); }
+    .line { stroke: #6b7280; stroke-width: 1.35; stroke-linecap: round; fill: none; }
+    a { text-decoration: none; }
+    a:hover text { fill: #1d4ed8; text-decoration: underline; }
+  </style>
+
+  <a href="/tipitaka-structure/#vinaya" target="_top">
+    <text x="460" y="34" class="root">วินัยปิฎก</text>
+  </a>
+
+  <line x1="460" y1="38" x2="460" y2="88" class="line" />
+  <line x1="80" y1="88" x2="840" y2="88" class="line" />
+
+  <line x1="80" y1="88" x2="80" y2="120" class="line" />
+  <line x1="270" y1="88" x2="270" y2="120" class="line" />
+  <line x1="460" y1="88" x2="460" y2="120" class="line" />
+  <line x1="650" y1="88" x2="650" y2="120" class="line" />
+  <line x1="840" y1="88" x2="840" y2="120" class="line" />
+
+  <circle cx="80" cy="120" r="1.7" fill="#6b7280" />
+  <circle cx="270" cy="120" r="1.7" fill="#6b7280" />
+  <circle cx="460" cy="120" r="1.7" fill="#6b7280" />
+  <circle cx="650" cy="120" r="1.7" fill="#6b7280" />
+  <circle cx="840" cy="120" r="1.7" fill="#6b7280" />
+
+  <!-- มหาวิภังค์ — โครงสร้างเดียวกับ 04-tipitaka-structure/vinayapitaka-structure.svg -->
+  <a href="/part-4-tipitaka-digest/vinaya-pitaka/vol-01/" target="_top">
+    <text x="80" y="162" class="head">มหาวิภังค์</text>
+  </a>
+
+  <text x="25" y="200" class="detail">&#8226; ปาราชิกกัณฑ์ ๔</text>
+  <text x="25" y="230" class="detail">&#8226; เตรสกัณฑ์ ๑๓</text>
+  <text x="25" y="260" class="detail">&#8226; อนิยตกัณฑ์ ๒</text>
+  <text x="25" y="290" class="detail">&#8226; นิสสัคคิยกัณฑ์ ๓๐</text>
+  <text x="25" y="320" class="detail">&#8226; ปาจิตติยกัณฑ์ ๙๒</text>
+  <text x="25" y="350" class="detail">&#8226; ปาฏิเทสนียกัณฑ์ ๔</text>
+  <text x="25" y="380" class="detail">&#8226; เสขิยกัณฑ์ ๗๕</text>
+  <text x="25" y="410" class="detail">&#8226; อธิกรณสมถะ ๗</text>
+
+  <!-- ภิกขุนีวิภังค์ -->
+  <a href="/part-4-tipitaka-digest/vinaya-pitaka/vol-03/" target="_top">
+    <text x="270" y="162" class="head">ภิกขุนีวิภังค์</text>
+  </a>
+
+   <text x="200" y="200" class="detail">&#8226; ปาราชิกกัณฑ์ ๘</text>
+  <text x="200" y="230" class="detail">&#8226; สัตตรสกัณฑ์ ๑๗</text>
+  <text x="200" y="260" class="detail">&#8226; นิสสัคคิยกัณฑ์ ๓๐</text>
+  <text x="200" y="290" class="detail">&#8226; ปาจิตติยกัณฑ์ ๑๖๖</text>
+  <text x="200" y="320" class="detail">&#8226; ปาฏิเทสนียกัณฑ์ ๘</text>
+  <text x="200" y="350" class="detail">&#8226; เสขิยกัณฑ์ ๗๕</text>
+  <text x="200" y="380" class="detail">&#8226; อธิกรณสมถะ ๗</text>
+
+  <!-- มหาวัคค์ -->
+  <a href="/part-4-tipitaka-digest/vinaya-pitaka/vol-04/" target="_top">
+    <text x="460" y="162" class="head">มหาวัคค์</text>
+  </a>
+
+  <text x="400" y="200" class="detail">&#8226; มหาขันธกะ</text>
+  <text x="400" y="230" class="detail">&#8226; อุโบสถขันธกะ</text>
+  <text x="400" y="260" class="detail">&#8226; วัสสูปนายิกาขันธกะ</text>
+  <text x="400" y="290" class="detail">&#8226; ปวารณาขันธกะ</text>
+  <text x="400" y="320" class="detail">&#8226; จัมมขันธกะ</text>
+  <text x="400" y="350" class="detail">&#8226; เภสัชชขันธกะ</text>
+  <text x="400" y="380" class="detail">&#8226; กฐินขันธกะ</text>
+  <text x="400" y="410" class="detail">&#8226; จีวรขันธกะ</text>
+  <text x="400" y="440" class="detail">&#8226; จัมเปยยขันธกะ</text>
+  <text x="400" y="470" class="detail">&#8226; โกสัมพิขันธกะ</text>
+
+  <!-- จุลลวัคค์ -->
+  <a href="/part-4-tipitaka-digest/vinaya-pitaka/vol-06/" target="_top">
+    <text x="650" y="162" class="head">จุลลวัคค์</text>
+  </a>
+
+  <text x="590" y="200" class="detail">&#8226; กัมมขันธกะ</text>
+  <text x="590" y="230" class="detail">&#8226; ปริวาสิกขันธกะ</text>
+  <text x="590" y="260" class="detail">&#8226; สมุจจยขันธกะ</text>
+  <text x="590" y="290" class="detail">&#8226; สมถขันธกะ</text>
+  <text x="590" y="320" class="detail">&#8226; ขุททกวัตถุขันธกะ</text>
+  <text x="590" y="350" class="detail">&#8226; เสนาสนขันธกะ</text>
+  <text x="590" y="380" class="detail">&#8226; สังฆเภทขันธกะ</text>
+  <text x="590" y="410" class="detail">&#8226; วัตตขันธกะ</text>
+  <text x="590" y="440" class="detail">&#8226; ปาฏิโมกขฐปน -</text>
+  <text x="595" y="470" class="detail">&#8226; ปาฏิโมกขฐปน</text>
+  <text x="590" y="500" class="detail">&#8226; ภิกขุนีขันธกะ</text>
+  <text x="590" y="530" class="detail">&#8226; ปัญจสติกขันธกะ</text>
+  <text x="590" y="560" class="detail">&#8226; สัตตสติกขันธกะ</text>
+
+  <!-- ปริวาร — คอลัมน์สูงสุด: ระยะบรรทัด ๑๔ px ให้อยู่ใน viewBox -->
+  <a href="/part-4-tipitaka-digest/vinaya-pitaka/vol-08/" target="_top">
+    <text x="840" y="162" class="head">ปริวาร</text>
+  </a>
+
+  <text x="760" y="200" class="detail">&#8226; มหาวิภังค์-</text>
+  <text x="769" y="230" class="detail">โสฬสมหาวาร</text>
+  <text x="760" y="260" class="detail">&#8226; ภิกขุนีวิภังค์ -</text>
+  <text x="769" y="290" class="detail">โสฬสมหาวาร</text>
+  <text x="760" y="320" class="detail">&#8226; สมุฏฐานสีสสังเขป</text>
+  <text x="760" y="350" class="detail">&#8226; กติปุจฉาวาร</text>
+  <text x="760" y="380" class="detail">&#8226; วีสติวาร</text>
+  <text x="760" y="410" class="detail">&#8226; ขันธกปุจฉา</text>
+  <text x="760" y="440" class="detail">&#8226; เอกุตตริกะ</text>
+  <text x="760" y="470" class="detail">&#8226; อุโปสถาทิ -</text>
+  <text x="768" y="500" class="detail">ปุจฉาวิสัชชนา</text>
+  <text x="760" y="530" class="detail">&#8226; อัตถวเสปกรณ์</text>
+  <text x="760" y="560" class="detail">&#8226; คาถาสังคณิกะ</text>
+  <text x="760" y="590" class="detail">&#8226; อธิกรณเภท</text>
+  <text x="760" y="620" class="detail">&#8226; อปรคาถาสังคณิกะ</text>
+  <text x="760" y="650" class="detail">&#8226; โจทนากัณฑ์</text>
+  <text x="760" y="680" class="detail">&#8226; จูฬสงคราม</text>
+  <text x="760" y="710" class="detail">&#8226; มหาสงคราม</text>
+  <text x="760" y="740" class="detail">&#8226; กฐินเภท</text>
+  <text x="760" y="770" class="detail">&#8226; อุปาลิปัญจกะ</text>
+  <text x="760" y="800" class="detail">&#8226; สมุฏฐาน</text>
+  <text x="760" y="830" class="detail">&#8226; ทุติยคาถาสังคณิกะ</text>
+  <text x="760" y="860" class="detail">&#8226; เสทโมจนคาถา</text>
+  <text x="760" y="890" class="detail">&#8226; ปัญจวัคค์</text>
+</svg>

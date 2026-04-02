@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 940 430" role="img" aria-labelledby="title desc">
+  <title id="title">แผนภูมิสุตตันตปิฎก</title>
+  <desc id="desc">ผังสุตตันตปิฎก แยกเป็น ทีฆนิกาย มัชฌิมนิกาย สังยุตตนิกาย อังคุตตรนิกาย และขุททกนิกาย</desc>
+  <style>
+    text {
+      fill: #1f2937;
+      font-family: "Sarabun", "TH Sarabun New", "Tahoma", sans-serif;
+      text-anchor: middle;
+    }
+    .root { font-size: 24px; font-weight: 700; }
+    .head { font-size: 20px; font-weight: 700; }
+    .desc { font-size: 15px; fill: #4b5563; }
+    .line { stroke: #6b7280; stroke-width: 1.35; stroke-linecap: round; fill: none; }
+    a { text-decoration: none; }
+    a:hover text { fill: #1d4ed8; text-decoration: underline; }
+  </style>
+
+  <a href="/tipitaka-structure/#suttanta" target="_top">
+    <text x="470" y="34" class="root">สุตตันตปิฎก</text>
+  </a>
+
+  <line x1="470" y1="42" x2="470" y2="92" class="line" />
+  <line x1="80" y1="92" x2="860" y2="92" class="line" />
+
+  <line x1="80" y1="92" x2="80" y2="124" class="line" />
+  <line x1="275" y1="92" x2="275" y2="124" class="line" />
+  <line x1="470" y1="92" x2="470" y2="124" class="line" />
+  <line x1="665" y1="92" x2="665" y2="124" class="line" />
+  <line x1="860" y1="92" x2="860" y2="124" class="line" />
+
+  <circle cx="80" cy="124" r="1.7" fill="#6b7280" />
+  <circle cx="275" cy="124" r="1.7" fill="#6b7280" />
+  <circle cx="470" cy="124" r="1.7" fill="#6b7280" />
+  <circle cx="665" cy="124" r="1.7" fill="#6b7280" />
+  <circle cx="860" cy="124" r="1.7" fill="#6b7280" />
+
+  <a href="/tipitaka-structure/#suttanta-digha" target="_top"><text x="80" y="166" class="head">ทีฆนิกาย</text></a>
+  <text x="80" y="201" class="desc">
+    <tspan x="80" dy="0">รวมพระธรรมเทศนา</tspan>
+    <tspan x="80" dy="24">ขนาดยาว</tspan>
+    <tspan x="80" dy="24">มี ๓๔ พระสูตร</tspan>
+  </text>
+
+  <a href="/tipitaka-structure/#suttanta-majjhima" target="_top"><text x="275" y="166" class="head">มัชฌิมนิกาย</text></a>
+  <text x="275" y="201" class="desc">
+    <tspan x="275" dy="0">รวมพระธรรมเทศนา</tspan>
+    <tspan x="275" dy="24">ขนาดกลาง</tspan>
+    <tspan x="275" dy="24">มี ๑๕๒ พระสูตร</tspan>
+  </text>
+
+  <a href="/tipitaka-structure/#suttanta-samyutta" target="_top"><text x="470" y="166" class="head">สังยุตตนิกาย</text></a>
+  <text x="470" y="201" class="desc">
+    <tspan x="470" dy="0">รวมพระธรรมเทศนา</tspan>
+    <tspan x="470" dy="24">ที่มีเนื้อหาเดียวกัน</tspan>
+    <tspan x="470" dy="24">เข้าด้วยกัน</tspan>
+    <tspan x="470" dy="24">มี ๕๕ สังยุตต์</tspan>
+    <tspan x="470" dy="24">หรือ ๗,๗๖๒ พระสูตร</tspan>
+  </text>
+
+  <a href="/tipitaka-structure/#suttanta-anguttara" target="_top"><text x="665" y="166" class="head">อังคุตตรนิกาย</text></a>
+  <text x="665" y="201" class="desc">
+    <tspan x="665" dy="0">รวมพระธรรมเทศนา</tspan>
+    <tspan x="665" dy="24">จัดตามจำนวนข้อ</tspan>
+    <tspan x="665" dy="24">มี ๑๑ นิบาต</tspan>
+    <tspan x="665" dy="24">หรือ ๙,๕๕๗ พระสูตร</tspan>
+  </text>
+
+  <a href="/tipitaka-structure/#suttanta-khuddaka" target="_top"><text x="860" y="166" class="head">ขุททกนิกาย</text></a>
+  <text x="860" y="201" class="desc">
+    <tspan x="860" dy="0">รวมพระธรรมเทศนา</tspan>
+    <tspan x="860" dy="24">และเรื่องราวเบ็ดเตล็ด</tspan>
+    <tspan x="860" dy="24">มี ๑๕ คัมภีร์</tspan>
+  </text>
+</svg>

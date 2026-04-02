@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="36 4 1024 1082" preserveAspectRatio="xMinYMid meet" role="img" aria-labelledby="title desc">
+  <title id="title">แผนภูมิขุททกนิกาย</title>
+  <desc id="desc">ขุททกนิกาย ๑๕ คัมภีร์ ตามลำดับฉบับพระไตรปิฎกฉบับประชาชน — เส้นแขนงยาวขึ้นทีละขั้น (อัตราเพิ่มความยาวต่อคอลัมน์ ๖๖ หน่วย)</desc>
+  <style>
+    text {
+      fill: #1f2937;
+      font-family: "Sarabun", "TH Sarabun New", "Tahoma", sans-serif;
+      text-anchor: middle;
+    }
+    .root { font-size: 28px; font-weight: 700; line-height: 1.2; }
+    .head {
+      font-size: 19px;
+      font-weight: 700;
+      line-height: 1.3;
+      transform: translateY(10px);
+    }
+    .line { stroke: #6b7280; stroke-width: 1.35; stroke-linecap: round; fill: none; }
+    a { text-decoration: none; }
+    a:hover text { fill: #1d4ed8; text-decoration: underline; }
+  </style>
+
+  <a href="/tipitaka-structure/#suttanta" target="_top">
+    <text x="540" y="32" class="root">ขุททกนิกาย</text>
+  </a>
+  <line x1="540" y1="48" x2="540" y2="76" class="line" />
+  <line x1="120" y1="76" x2="960" y2="76" class="line" />
+
+  <!-- ระยะห่างคอลัมน์ ๖๐ (= ๗๕% ของ ๘๐ เดิม) · cy = 98 + i×66 -->
+  <line x1="120" y1="76" x2="120" y2="98" class="line" />
+  <circle cx="120" cy="98" r="1.8" fill="#6b7280" />
+  <a href="/part-4-tipitaka-digest/sutta-pitaka/khuddaka-nikaya/vol-25/" target="_top">
+    <text x="120" y="124" class="head">ขุททกปาฐะ</text>
+  </a>
+
+  <line x1="180" y1="76" x2="180" y2="164" class="line" />
+  <circle cx="180" cy="164" r="1.8" fill="#6b7280" />
+  <a href="/part-4-tipitaka-digest/sutta-pitaka/khuddaka-nikaya/vol-25/" target="_top">
+    <text x="180" y="190" class="head">ธรรมบทคาถา</text>
+  </a>
+
+  <line x1="240" y1="76" x2="240" y2="230" class="line" />
+  <circle cx="240" cy="230" r="1.8" fill="#6b7280" />
+  <a href="/part-4-tipitaka-digest/sutta-pitaka/khuddaka-nikaya/vol-25/" target="_top">
+    <text x="240" y="256" class="head">อุทาน</text>
+  </a>
+
+  <line x1="300" y1="76" x2="300" y2="296" class="line" />
+  <circle cx="300" cy="296" r="1.8" fill="#6b7280" />
+  <a href="/part-4-tipitaka-digest/sutta-pitaka/khuddaka-nikaya/vol-25/" target="_top">
+    <text x="300" y="322" class="head">อิติวุตตกะ</text>
+  </a>
+
+  <line x1="360" y1="76" x2="360" y2="362" class="line" />
+  <circle cx="360" cy="362" r="1.8" fill="#6b7280" />
+  <a href="/part-4-tipitaka-digest/sutta-pitaka/khuddaka-nikaya/vol-25/" target="_top">
+    <text x="360" y="388" class="head">สุตตนิบาต</text>
+  </a>
+
+  <line x1="420" y1="76" x2="420" y2="428" class="line" />
+  <circle cx="420" cy="428" r="1.8" fill="#6b7280" />
+  <a href="/part-4-tipitaka-digest/sutta-pitaka/khuddaka-nikaya/vol-26/" target="_top">
+    <text x="420" y="454" class="head">วิมานวัตถุ</text>
+  </a>
+
+  <line x1="480" y1="76" x2="480" y2="494" class="line" />
+  <circle cx="480" cy="494" r="1.8" fill="#6b7280" />
+  <a href="/part-4-tipitaka-digest/sutta-pitaka/khuddaka-nikaya/vol-26/" target="_top">
+    <text x="480" y="520" class="head">เปตวัตถุ</text>
+  </a>
+
+  <line x1="540" y1="76" x2="540" y2="560" class="line" />
+  <circle cx="540" cy="560" r="1.8" fill="#6b7280" />
+  <a href="/part-4-tipitaka-digest/sutta-pitaka/khuddaka-nikaya/vol-26/" target="_top">
+    <text x="540" y="586" class="head">เถรคาถา</text>
+  </a>
+
+  <line x1="600" y1="76" x2="600" y2="626" class="line" />
+  <circle cx="600" cy="626" r="1.8" fill="#6b7280" />
+  <a href="/part-4-tipitaka-digest/sutta-pitaka/khuddaka-nikaya/vol-26/" target="_top">
+    <text x="600" y="652" class="head">เถรีคาถา</text>
+  </a>
+
+  <line x1="660" y1="76" x2="660" y2="692" class="line" />
+  <circle cx="660" cy="692" r="1.8" fill="#6b7280" />
+  <a href="/part-4-tipitaka-digest/sutta-pitaka/khuddaka-nikaya/vol-27/" target="_top">
+    <text x="660" y="718" class="head">ชาดก</text>
+  </a>
+
+  <line x1="720" y1="76" x2="720" y2="758" class="line" />
+  <circle cx="720" cy="758" r="1.8" fill="#6b7280" />
+  <a href="/part-4-tipitaka-digest/sutta-pitaka/khuddaka-nikaya/vol-29/" target="_top">
+    <text x="672" y="784" class="head">มหานิทเทส จูฬนิทเทส</text>
+  </a>
+
+  <line x1="780" y1="76" x2="780" y2="824" class="line" />
+  <circle cx="780" cy="824" r="1.8" fill="#6b7280" />
+  <a href="/part-4-tipitaka-digest/sutta-pitaka/khuddaka-nikaya/vol-31/" target="_top">
+    <text x="760" y="850" class="head">ปฏิสัมภิทามรรค</text>
+  </a>
+
+  <line x1="840" y1="76" x2="840" y2="890" class="line" />
+  <circle cx="840" cy="890" r="1.8" fill="#6b7280" />
+  <a href="/part-4-tipitaka-digest/sutta-pitaka/khuddaka-nikaya/vol-32/" target="_top">
+    <text x="840" y="916" class="head">อปทาน</text>
+  </a>
+
+  <line x1="900" y1="76" x2="900" y2="956" class="line" />
+  <circle cx="900" cy="956" r="1.8" fill="#6b7280" />
+  <a href="/part-4-tipitaka-digest/sutta-pitaka/khuddaka-nikaya/vol-33/" target="_top">
+    <text x="900" y="982" class="head">พุทธวังสะ</text>
+  </a>
+
+  <line x1="960" y1="76" x2="960" y2="1022" class="line" />
+  <circle cx="960" cy="1022" r="1.8" fill="#6b7280" />
+  <a href="/part-4-tipitaka-digest/sutta-pitaka/khuddaka-nikaya/vol-33/" target="_top">
+    <text x="960" y="1048" class="head">จริยาปิฎก</text>
+  </a>
+</svg>

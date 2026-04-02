@@ -1,0 +1,12 @@
+/**
+ * สไตล์เฉพาะหน้าอักษรย่อชื่อคัมภีร์ (05-abbreviations)
+ * ใช้เฉพาะใน /abbreviations/
+ * ตารางทั้ง 3 ความกว้างเท่ากัน และจัดกึ่งกลาง
+ */
+
+.Layout.ptb-page-abbreviations .vp-doc table {
+  width: min(70%, 44rem) !important;
+  margin: 1rem auto !important;
+  display: table !important;
+  table-layout: fixed;
+}

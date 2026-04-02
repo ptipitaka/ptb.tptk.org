@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 940 760" role="img" aria-labelledby="title desc">
+  <title id="title">แผนภูมิสุตตันตปิฎก</title>
+  <desc id="desc">ผังสุตตันตปิฎก แยกเป็น ทีฆนิกาย มัชฌิมนิกาย สังยุตตนิกาย อังคุตตรนิกาย และขุททกนิกาย พร้อมวรรคและคัมภีร์ย่อย</desc>
+  <style>
+    text {
+      fill: #1f2937;
+      font-family: "Sarabun", "TH Sarabun New", "Tahoma", sans-serif;
+      text-anchor: middle;
+    }
+    .root { font-size: 24px; font-weight: 700; }
+    .head { font-size: 19px; font-weight: 700; }
+    .detail { font-size: 20px; font-weight: 400; fill: #6b7280; text-anchor: start; }
+    .head,
+    .detail { transform: translateY(10px); }
+    .line { stroke: #6b7280; stroke-width: 1.35; stroke-linecap: round; fill: none; }
+    a { text-decoration: none; }
+    a:hover text { fill: #1d4ed8; text-decoration: underline; }
+  </style>
+
+  <a href="/tipitaka-structure/#suttanta" target="_top">
+    <text x="470" y="34" class="root">สุตตันตปิฎก</text>
+  </a>
+
+  <line x1="470" y1="42" x2="470" y2="92" class="line" />
+  <line x1="80" y1="92" x2="860" y2="92" class="line" />
+
+  <line x1="80" y1="92" x2="80" y2="124" class="line" />
+  <line x1="275" y1="92" x2="275" y2="124" class="line" />
+  <line x1="470" y1="92" x2="470" y2="124" class="line" />
+  <line x1="665" y1="92" x2="665" y2="124" class="line" />
+  <line x1="860" y1="92" x2="860" y2="124" class="line" />
+
+  <circle cx="80" cy="124" r="1.7" fill="#6b7280" />
+  <circle cx="275" cy="124" r="1.7" fill="#6b7280" />
+  <circle cx="470" cy="124" r="1.7" fill="#6b7280" />
+  <circle cx="665" cy="124" r="1.7" fill="#6b7280" />
+  <circle cx="860" cy="124" r="1.7" fill="#6b7280" />
+
+  <a href="/part-4-tipitaka-digest/sutta-pitaka/digha-nikaya/vol-09/" target="_top">
+    <text x="80" y="158" class="head">ทีฆนิกาย</text>
+  </a>
+  <text x="40" y="200" class="detail">&#8226; สีลขันธวรรค</text>
+  <text x="40" y="230" class="detail">&#8226; มหาวรรค</text>
+  <text x="40" y="260" class="detail">&#8226; ปาฏิกวรรค</text>
+
+  <a href="/part-4-tipitaka-digest/sutta-pitaka/majjhima-nikaya/vol-12/" target="_top">
+    <text x="275" y="158" class="head">มัชฌิมนิกาย</text>
+  </a>
+  <text x="220" y="200" class="detail">&#8226; มูลปัณณาสก์</text>
+  <text x="220" y="230" class="detail">&#8226; มัชฌิมปัณณาสก์</text>
+  <text x="220" y="260" class="detail">&#8226; อุปริปัณณาสก์</text>
+
+  <a href="/part-4-tipitaka-digest/sutta-pitaka/samyutta-nikaya/vol-15/" target="_top">
+    <text x="470" y="158" class="head">สังยุตตนิกาย</text>
+  </a>
+  <text x="410" y="200" class="detail">&#8226; สคาถวรรค</text>
+  <text x="410" y="230" class="detail">&#8226; นิทานวรรค</text>
+  <text x="410" y="260" class="detail">&#8226; ขันธวารวรรค</text>
+  <text x="410" y="290" class="detail">&#8226; สฬายตนวรรค</text>
+  <text x="410" y="320" class="detail">&#8226; มหาวารวรรค</text>
+
+  <a href="/part-4-tipitaka-digest/sutta-pitaka/anguttara-nikaya/vol-20/" target="_top">
+    <text x="665" y="158" class="head">อังคุตตรนิกาย</text>
+  </a>
+  <text x="605" y="200" class="detail">&#8226; เอกกนิบาต</text>
+  <text x="605" y="230" class="detail">&#8226; ทุกนิบาต</text>
+  <text x="605" y="260" class="detail">&#8226; ติกนิบาต</text>
+  <text x="605" y="290" class="detail">&#8226; จตุกกนิบาต</text>
+  <text x="605" y="320" class="detail">&#8226; ปัญจกนิบาต</text>
+  <text x="605" y="350" class="detail">&#8226; ฉักกนิบาต</text>
+  <text x="605" y="380" class="detail">&#8226; สัตตกนิบาต</text>
+  <text x="605" y="410" class="detail">&#8226; อัฏฐกนิบาต</text>
+  <text x="605" y="440" class="detail">&#8226; นวกนิบาต</text>
+  <text x="605" y="470" class="detail">&#8226; ทสกนิบาต</text>
+  <text x="605" y="500" class="detail">&#8226; เอกาทสกนิบาต</text>
+
+  <a href="/part-4-tipitaka-digest/sutta-pitaka/khuddaka-nikaya/vol-25/" target="_top">
+    <text x="860" y="158" class="head">ขุททกนิกาย</text>
+  </a>
+  <text x="810" y="200" class="detail">&#8226; ขุททกปาฐะ</text>
+  <text x="810" y="230" class="detail">&#8226; ธรรมบทคาถา</text>
+  <text x="810" y="260" class="detail">&#8226; อุทาน</text>
+  <text x="810" y="290" class="detail">&#8226; อิติวุตตกะ</text>
+  <text x="810" y="320" class="detail">&#8226; สุตตนิบาต</text>
+  <text x="810" y="350" class="detail">&#8226; วิมานวัตถุ</text>
+  <text x="810" y="380" class="detail">&#8226; เปตวัตถุ</text>
+  <text x="810" y="410" class="detail">&#8226; เถรคาถา</text>
+  <text x="810" y="440" class="detail">&#8226; เถรีคาถา</text>
+  <text x="810" y="470" class="detail">&#8226; ชาดก</text>
+  <text x="810" y="500" class="detail">&#8226; มหานิทเทส</text>
+  <text x="810" y="530" class="detail">&#8226; จูฬนิทเทส</text>
+  <text x="810" y="560" class="detail">&#8226; ปฏิสัมภิทามรรค</text>
+  <text x="810" y="590" class="detail">&#8226; อปทาน</text>
+  <text x="810" y="620" class="detail">&#8226; พุทธวังสะ</text>
+  <text x="810" y="650" class="detail">&#8226; จริยาปิฎก</text>
+</svg>
