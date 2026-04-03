@@ -14,7 +14,7 @@ import { chunkMarkdown, type Chunk } from '../src/chunker'
 const GEMINI_API_KEY = env('GEMINI_API_KEY')
 const EMBEDDING_MODEL = 'gemini-embedding-001'
 const EMBEDDING_DIMS = 768
-const BATCH_SIZE = 50
+const BATCH_SIZE = 20
 const DOCS_DIR = join(__dirname, '..', '..', 'docs')
 const OUTPUT_DIR = join(DOCS_DIR, 'public')
 const OUTPUT_FILE = join(OUTPUT_DIR, 'chat-index.json')
@@ -143,17 +143,32 @@ async function batchEmbed(texts: string[]): Promise<number[][]> {
     content: { parts: [{ text }] },
     outputDimensionality: EMBEDDING_DIMS,
   }))
-  const res = await fetch(url, {
-    method: 'POST',
-    headers: { 'Content-Type': 'application/json' },
-    body: JSON.stringify({ requests }),
-  })
-  if (!res.ok) {
-    const body = await res.text()
-    throw new Error(`Gemini batchEmbedContents ${res.status}: ${body}`)
+
+  const MAX_RETRIES = 5
+  for (let attempt = 0; attempt < MAX_RETRIES; attempt++) {
+    const res = await fetch(url, {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ requests }),
+    })
+
+    if (res.status === 429) {
+      const wait = Math.pow(2, attempt + 1) * 1000
+      console.log(`  Rate limited (429), retrying in ${wait / 1000}s...`)
+      await new Promise((r) => setTimeout(r, wait))
+      continue
+    }
+
+    if (!res.ok) {
+      const body = await res.text()
+      throw new Error(`Gemini batchEmbedContents ${res.status}: ${body}`)
+    }
+
+    const data = (await res.json()) as BatchEmbedResponse
+    return data.embeddings.map((e) => e.values)
   }
-  const data = (await res.json()) as BatchEmbedResponse
-  return data.embeddings.map((e) => e.values)
+
+  throw new Error('Gemini batchEmbedContents: max retries exceeded (429)')
 }
 
 interface IndexEntry {
@@ -209,7 +224,7 @@ async function main() {
     console.log(`  ${Math.min(i + BATCH_SIZE, allChunks.length)}/${allChunks.length}`)
 
     if (i + BATCH_SIZE < allChunks.length) {
-      await new Promise((r) => setTimeout(r, 200))
+      await new Promise((r) => setTimeout(r, 1000))
     }
   }
 
