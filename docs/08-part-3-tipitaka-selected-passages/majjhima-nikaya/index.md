@@ -121,19 +121,19 @@ searchKeywords:
 <PtbParagraph>“ดูก่อนภิกษุทั้งหลาย</PtbParagraph>
 
 <PtbList>
-<PtbListItem>เนื่องจากอาสวะที่พึงละได้ด้วยการเห็น อันเธอละได้แล้ว</PtbListItem>
+<PtbListItem indentLevel="2">เนื่องจากอาสวะที่พึงละได้ด้วยการเห็น อันเธอละได้แล้ว</PtbListItem>
 
-<PtbListItem>อาสวะที่พึงละได้ด้วยความสำรวม อันเธอละได้แล้ว</PtbListItem>
+<PtbListItem indentLevel="2">อาสวะที่พึงละได้ด้วยความสำรวม อันเธอละได้แล้ว</PtbListItem>
 
-<PtbListItem>อาสวะที่พึงละได้ด้วยการส้องเสพ อันเธอละได้แล้ว</PtbListItem>
+<PtbListItem indentLevel="2">อาสวะที่พึงละได้ด้วยการส้องเสพ อันเธอละได้แล้ว</PtbListItem>
 
-<PtbListItem>อาสวะที่พึงละได้ด้วยการอดทน อันเธอละได้แล้ว</PtbListItem>
+<PtbListItem indentLevel="2">อาสวะที่พึงละได้ด้วยการอดทน อันเธอละได้แล้ว</PtbListItem>
 
-<PtbListItem>อาสวะที่พึงละได้ด้วยการงดเว้น อันเธอละได้แล้ว</PtbListItem>
+<PtbListItem indentLevel="2">อาสวะที่พึงละได้ด้วยการงดเว้น อันเธอละได้แล้ว</PtbListItem>
 
-<PtbListItem>อาสวะที่พึงละได้ด้วยการบรรเทา อันเธอละได้แล้ว</PtbListItem>
+<PtbListItem indentLevel="2">อาสวะที่พึงละได้ด้วยการบรรเทา อันเธอละได้แล้ว</PtbListItem>
 
-<PtbListItem>อาสวะที่พึงละได้ด้วยการอบรม อันเธอละได้แล้ว</PtbListItem>
+<PtbListItem indentLevel="2">อาสวะที่พึงละได้ด้วยการอบรม อันเธอละได้แล้ว</PtbListItem>
 </PtbList>
 
 <PtbParagraph>เธอจึงชื่อว่า ปิดกั้นแล้วด้วยการปิดกั้นอาสวะทั้งปวงได้ ตัดขาดซึ่งตัณหา คลายได้ ซึ่งเครื่องผูกมัด ทำที่สุดทุกข์ได้โดยชอบ เพราะตรัสรู้เรื่องของจิตใจ”</PtbParagraph>
