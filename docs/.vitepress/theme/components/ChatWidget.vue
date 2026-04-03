@@ -17,7 +17,7 @@ interface IndexEntry {
 interface HistoryItem {
   role: 'user' | 'assistant'
   text: string
-  sources?: { title: string; url: string }[]
+  sources?: { title: string; url: string; breadcrumb?: string }[]
 }
 
 let indexData: IndexEntry[] | null = null
@@ -98,7 +98,7 @@ const isOpen = ref(false)
 const question = ref('')
 const isLoading = ref(false)
 const answer = ref('')
-const sources = ref<{ title: string; url: string }[]>([])
+const sources = ref<{ title: string; url: string; breadcrumb?: string }[]>([])
 const messagesEl = ref<HTMLElement | null>(null)
 const inputEl = ref<HTMLInputElement | null>(null)
 const history = ref<HistoryItem[]>([])
@@ -226,6 +226,61 @@ function closeOnEscape(e: KeyboardEvent) {
   }
 }
 
+function looksLikePathTitle(title: string): boolean {
+  const t = title.trim()
+  if (!t) return true
+  return (
+    t.startsWith('docs/') ||
+    t.includes('/index.md') ||
+    t.endsWith('.md') ||
+    t.includes(':_intro')
+  )
+}
+
+function fallbackTitleFromUrl(rawUrl: string): string {
+  const path = rawUrl.split('#')[0].split('?')[0]
+  const parts = path.split('/').filter(Boolean)
+  if (parts.length === 0) return 'หน้าหลัก'
+
+  const aliases: Record<string, string> = {
+    'speech-of-appreciation': 'พระคติธรรม',
+    preface: 'คำปรารภ',
+    introduction: 'คำนำ',
+    'buddhist-council-illustration': 'ภาพการสังคายนา',
+    'tipitaka-structure': 'แผนภูมิพระไตรปิฎก',
+    abbreviations: 'อักษรย่อชื่อคัมภีร์',
+    'part-3-tipitaka-selected-passages': 'ภาค ๓ ข้อความน่ารู้จากพระไตรปิฎก',
+    'vinaya-pitaka': 'วินัยปิฎก (วิ.)',
+    'digha-nikaya': 'ทีฆนิกาย (ที.)',
+    'majjhima-nikaya': 'มัชฌิมนิกาย (ม.)',
+    'samyutta-nikaya': 'สังยุตตนิกาย (สํ.)',
+    'anguttara-nikaya': 'อังคุตตรนิกาย (องฺ.)',
+    'khuddaka-nikaya': 'ขุททกนิกาย (ขุ.)',
+    'abhidhamma-pitaka': 'อภิธรรมปิฎก (อภิ.)',
+  }
+
+  const last = parts[parts.length - 1]
+  const prev = parts.length > 1 ? parts[parts.length - 2] : ''
+  if (aliases[last]) return aliases[last]
+  if (aliases[prev]) return aliases[prev]
+
+  const selected = last === 'index' ? prev : last
+  if (!selected) return 'แหล่งอ้างอิง'
+
+  return decodeURIComponent(selected)
+    .replace(/\.md$/i, '')
+    .replace(/[-_]/g, ' ')
+    .trim()
+}
+
+function sourceLabel(src: { title: string; url: string; breadcrumb?: string }): string {
+  const title = (src.title ?? '').trim()
+  if (title && !looksLikePathTitle(title)) return title
+  const breadcrumb = (src.breadcrumb ?? '').trim()
+  if (breadcrumb) return breadcrumb
+  return fallbackTitleFromUrl(src.url)
+}
+
 onMounted(() => document.addEventListener('keydown', closeOnEscape))
 onUnmounted(() => document.removeEventListener('keydown', closeOnEscape))
 </script>
@@ -267,7 +322,7 @@ onUnmounted(() => document.removeEventListener('keydown', closeOnEscape))
                   :href="src.url"
                   class="ptb-chat-source-link"
                   @click="isOpen = false"
-                >{{ src.title }}</a>
+                >{{ sourceLabel(src) }}</a>
               </div>
             </div>
           </template>

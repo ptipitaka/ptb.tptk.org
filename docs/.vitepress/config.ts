@@ -88,6 +88,12 @@ export default defineConfig({
   lang: 'th',
   base: '/',
   srcDir: '.',
+  vite: {
+    resolve: {
+      // Avoid Windows realpath drive-letter case mismatch during VitePress page import resolution.
+      preserveSymlinks: true,
+    },
+  },
   rewrites: {
     '00-speech-of-appreciation/index.md': 'speech-of-appreciation/index.md',
     '01-preface/index.md': 'preface/index.md',

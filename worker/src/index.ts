@@ -255,7 +255,11 @@ ${contextParts.join('\n\n')}
     return jsonResponse({ error: `Gemini error: ${errText}` }, 502, cors)
   }
 
-  const sources = chunks.map((c) => ({ title: c.title, url: c.url }))
+  const sources = chunks.map((c) => ({
+    title: c.title,
+    url: c.url,
+    breadcrumb: c.breadcrumb,
+  }))
   const { readable, writable } = new TransformStream()
   const writer = writable.getWriter()
   const encoder = new TextEncoder()

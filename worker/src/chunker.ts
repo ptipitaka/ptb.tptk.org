@@ -12,7 +12,7 @@ const VUE_COMPONENT_RE =
   /<\/?(?:PtbParagraph|PtbList|PtbListItem|PtbFootnote|PtbSubtitle|PtbTipitakaRef|ImageLightbox)[^>]*>/g
 const HTML_TAG_RE = /<\/?[a-z][^>]*>/gi
 const ATTRS_RE = /\{[^}]*\}/g
-const FRONTMATTER_RE = /^---\n[\s\S]*?\n---\n?/
+const FRONTMATTER_RE = /^---\r?\n[\s\S]*?\r?\n---(?:\r?\n|$)/
 const HEADING_RE = /^(#{1,6})\s+(.+)$/
 
 function stripVueAndHtml(text: string): string {
@@ -34,6 +34,21 @@ function extractHeadingText(raw: string): string {
     .trim()
 }
 
+function extractFrontmatterTitle(frontmatter: string): string {
+  const titleMatch = frontmatter.match(/(?:^|\r?\n)title:\s*(.+)\r?(?=\n|$)/)
+  if (!titleMatch) return ''
+
+  let title = titleMatch[1].trim()
+  if (!title || title.startsWith('|') || title.startsWith('>')) return ''
+  if (
+    (title.startsWith('"') && title.endsWith('"')) ||
+    (title.startsWith("'") && title.endsWith("'"))
+  ) {
+    title = title.slice(1, -1)
+  }
+  return title.trim()
+}
+
 function buildUrl(filePath: string, rewrites: Record<string, string>): string {
   let rel = filePath.replace(/\\/g, '/')
   if (rel.startsWith('docs/')) rel = rel.slice(5)
@@ -50,12 +65,14 @@ export function chunkMarkdown(
   content: string,
   rewrites: Record<string, string>,
 ): Chunk[] {
-  const withoutFm = content.replace(FRONTMATTER_RE, '')
-  const lines = withoutFm.split('\n')
+  const fmMatch = content.match(FRONTMATTER_RE)
+  const frontmatter = fmMatch?.[0] ?? ''
+  const frontmatterTitle = extractFrontmatterTitle(frontmatter)
+  const withoutFm = frontmatter ? content.slice(frontmatter.length) : content
+  const lines = withoutFm.split(/\r?\n/)
   const baseUrl = buildUrl(filePath, rewrites)
 
   const chunks: Chunk[] = []
-  let currentLevel = 0
   let currentHeading = ''
   let currentAnchor = ''
   const breadcrumb: string[] = []
@@ -74,7 +91,7 @@ export function chunkMarkdown(
       filePath,
       url,
       anchor: currentAnchor,
-      title: currentHeading || filePath,
+      title: currentHeading || frontmatterTitle || filePath,
       breadcrumb: [...breadcrumb],
       text: text.slice(0, 2000),
     })
@@ -87,7 +104,6 @@ export function chunkMarkdown(
       flush()
       const level = m[1].length
       const rawHeading = m[2]
-      currentLevel = level
       currentHeading = extractHeadingText(rawHeading)
 
       const anchorMatch = rawHeading.match(/\{#([^\s}]+)/)
