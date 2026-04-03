@@ -490,13 +490,13 @@ body,
   text-indent: 0;
 }
 
-/* รายการแบบเลขไทย (ไม่ใช้ ul/li) — คล้าย ptb-paragraph แต่ระยะห่างด้านล่างน้อยกว่า */
+/* รายการแบบเลขไทย (ไม่ใช้ ul/li) — ระยะห่างเท่ากับ PtbParagraph */
 .ptb-list-item {
   text-align: justify;
   text-justify: inter-character;
   text-indent: 0;
-  margin-top: 0 !important;
-  margin-bottom: 0.35em !important;
+  margin-top: var(--ptb-paragraph-v-margin) !important;
+  margin-bottom: var(--ptb-paragraph-v-margin) !important;
 }
 
 /* Componentized list system: supports hanging indent and marker grid */
@@ -513,7 +513,7 @@ body,
  */
 .ptb-list.ptb-list--multi-col {
   display: grid;
-  gap: 0.35em 1.25em;
+  gap: var(--ptb-paragraph-v-margin) 1.25em;
   align-items: start;
   width: 100%;
   box-sizing: border-box;
@@ -664,7 +664,7 @@ body,
   display: grid;
   grid-template-columns: max-content var(--ptb-list-right-col, 15ch);
   column-gap: var(--ptb-list-marker-gap);
-  row-gap: 0.35em;
+  row-gap: var(--ptb-paragraph-v-margin);
   align-items: start;
   padding-left: var(--ptb-list-body-indent, calc(1 * var(--ptb-list-item-indent-per-level)));
   box-sizing: border-box;

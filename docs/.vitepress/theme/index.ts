@@ -22,6 +22,13 @@ const PAGE_CUSTOM_CSS: Record<string, () => Promise<unknown>> = {
 /** โหลด CSS เฉพาะ path ย่อย (เพิ่ม entry เมื่อมี custom.css ในโฟลเดอร์ย่อย) */
 const PAGE_CUSTOM_CSS_BY_PATH_PREFIX: [string, () => Promise<unknown>][] = [
   [
+    '/part-5-academic-notes-and-index/word-index',
+    () =>
+      import(
+        '../../10-part-5-academic-notes-and-index/word-index/custom.css'
+      ),
+  ],
+  [
     '/part-2-historical-documents/section-3',
     () => import('../../07-part-2-historical-documents/section-3/custom.css'),
   ],

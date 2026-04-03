@@ -1,0 +1,127 @@
+/* ─── สารบัญค้นคำ — word-index pages ─── */
+
+/* ─── หน้าสารบัญหลัก: card grid ─── */
+.wi-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(min(100%, 20rem), 1fr));
+  gap: 1.25rem;
+  margin-block: 1.5rem;
+}
+
+.wi-card {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid var(--vp-c-divider);
+  border-radius: 0.625rem;
+  padding: 1.25rem 1.5rem;
+  transition: border-color 0.2s, box-shadow 0.2s;
+}
+
+.wi-card:hover {
+  border-color: var(--vp-c-brand-1);
+  box-shadow: 0 2px 12px rgb(0 0 0 / 0.06);
+}
+
+.wi-card__number {
+  display: inline-block;
+  font-family: var(--ptb-font-thai);
+  font-size: 0.8125rem;
+  font-weight: 600;
+  color: var(--vp-c-brand-1);
+  background: var(--vp-c-brand-soft);
+  border-radius: 9999px;
+  padding: 0.125rem 0.625rem;
+  margin-bottom: 0.5rem;
+  width: fit-content;
+}
+
+.wi-card__title {
+  font-family: var(--ptb-font-thai);
+  font-size: 1.125rem;
+  font-weight: 700;
+  line-height: 1.5;
+  margin: 0 0 0.375rem;
+}
+
+.wi-card__title a {
+  color: var(--vp-c-text-1);
+  text-decoration: none;
+}
+
+.wi-card:hover .wi-card__title a {
+  color: var(--vp-c-brand-1);
+}
+
+.wi-card__desc {
+  font-family: var(--ptb-font-thai);
+  font-size: 0.9375rem;
+  line-height: 1.75;
+  color: var(--vp-c-text-2);
+  margin: 0;
+  flex: 1;
+}
+
+/* ─── หน้าหมวดย่อย: definition list ─── */
+.wi-section {
+  margin-block: 1.5rem;
+}
+
+.wi-entry {
+  padding: 0.875rem 1rem;
+  border-bottom: 1px solid var(--vp-c-divider);
+}
+
+.wi-entry:last-child {
+  border-bottom: none;
+}
+
+.wi-entry__term {
+  font-family: var(--ptb-font-thai);
+  font-size: 1.0625rem;
+  font-weight: 700;
+  line-height: 1.5;
+  color: var(--vp-c-text-1);
+  margin: 0;
+}
+
+.wi-entry__term a {
+  color: var(--vp-c-brand-1);
+  text-decoration: none;
+}
+
+.wi-entry__term a:hover {
+  text-decoration: underline;
+}
+
+.wi-entry__desc {
+  font-family: var(--ptb-font-thai);
+  font-size: 0.9375rem;
+  line-height: 1.75;
+  color: var(--vp-c-text-2);
+  margin: 0.1875rem 0 0;
+}
+
+.wi-entry__refs {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.375rem;
+  margin-top: 0.375rem;
+}
+
+.wi-entry__refs a {
+  display: inline-block;
+  font-family: var(--ptb-font-thai);
+  font-size: 0.8125rem;
+  line-height: 1.5;
+  color: var(--vp-c-text-3);
+  background: var(--vp-c-bg-soft);
+  border-radius: 0.25rem;
+  padding: 0.0625rem 0.5rem;
+  text-decoration: none;
+  transition: color 0.15s, background 0.15s;
+}
+
+.wi-entry__refs a:hover {
+  color: var(--vp-c-brand-1);
+  background: var(--vp-c-brand-soft);
+}
