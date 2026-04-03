@@ -53,6 +53,32 @@
 
 .index-page .index-title-page .book-donation {
   font-weight: 500;
+  margin-bottom: 2.5rem;
+}
+
+.index-page .index-title-page .book-download {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4em;
+  font-size: 0.78rem;
+  font-weight: 500;
+  color: var(--vp-c-text-2, #476582);
+  text-decoration: none;
+  padding: 0.5em 1.2em;
+  border: 1px solid var(--vp-c-divider, #e2e2e3);
+  border-radius: 2em;
+  transition: color 0.2s, border-color 0.2s, background-color 0.2s;
+  letter-spacing: 0.01em;
+}
+
+.index-page .index-title-page .book-download:hover {
+  color: var(--vp-c-brand-1, #3451b2);
+  border-color: var(--vp-c-brand-1, #3451b2);
+  background-color: var(--vp-c-brand-soft, rgba(52, 81, 178, 0.08));
+}
+
+.index-page .index-title-page .book-download svg {
+  flex-shrink: 0;
 }
 
 @media (min-width: 640px) {
