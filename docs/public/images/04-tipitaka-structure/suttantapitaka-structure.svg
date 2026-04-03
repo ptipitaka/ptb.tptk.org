@@ -15,7 +15,7 @@
     a:hover text { fill: #1d4ed8; text-decoration: underline; }
   </style>
 
-  <a href="/tipitaka-structure/#suttanta" target="_top">
+  <a href="/part-4-tipitaka-digest/sutta-pitaka/suttanta-structure" target="_top">
     <text x="470" y="34" class="root">สุตตันตปิฎก</text>
   </a>
 
@@ -34,21 +34,21 @@
   <circle cx="665" cy="124" r="1.7" fill="#6b7280" />
   <circle cx="860" cy="124" r="1.7" fill="#6b7280" />
 
-  <a href="/tipitaka-structure/#suttanta-digha" target="_top"><text x="80" y="166" class="head">ทีฆนิกาย</text></a>
+  <a href="/part-4-tipitaka-digest/sutta-pitaka/digha-nikaya/digha-structure" target="_top"><text x="80" y="166" class="head">ทีฆนิกาย</text></a>
   <text x="80" y="201" class="desc">
     <tspan x="80" dy="0">รวมพระธรรมเทศนา</tspan>
     <tspan x="80" dy="24">ขนาดยาว</tspan>
     <tspan x="80" dy="24">มี ๓๔ พระสูตร</tspan>
   </text>
 
-  <a href="/tipitaka-structure/#suttanta-majjhima" target="_top"><text x="275" y="166" class="head">มัชฌิมนิกาย</text></a>
+  <a href="/part-4-tipitaka-digest/sutta-pitaka/majjhima-nikaya/majjhima-structure" target="_top"><text x="275" y="166" class="head">มัชฌิมนิกาย</text></a>
   <text x="275" y="201" class="desc">
     <tspan x="275" dy="0">รวมพระธรรมเทศนา</tspan>
     <tspan x="275" dy="24">ขนาดกลาง</tspan>
     <tspan x="275" dy="24">มี ๑๕๒ พระสูตร</tspan>
   </text>
 
-  <a href="/tipitaka-structure/#suttanta-samyutta" target="_top"><text x="470" y="166" class="head">สังยุตตนิกาย</text></a>
+  <a href="/part-4-tipitaka-digest/sutta-pitaka/samyutta-nikaya/samyutta-structure" target="_top"><text x="470" y="166" class="head">สังยุตตนิกาย</text></a>
   <text x="470" y="201" class="desc">
     <tspan x="470" dy="0">รวมพระธรรมเทศนา</tspan>
     <tspan x="470" dy="24">ที่มีเนื้อหาเดียวกัน</tspan>
@@ -57,7 +57,7 @@
     <tspan x="470" dy="24">หรือ ๗,๗๖๒ พระสูตร</tspan>
   </text>
 
-  <a href="/tipitaka-structure/#suttanta-anguttara" target="_top"><text x="665" y="166" class="head">อังคุตตรนิกาย</text></a>
+  <a href="/part-4-tipitaka-digest/sutta-pitaka/anguttara-nikaya/anguttara-structure" target="_top"><text x="665" y="166" class="head">อังคุตตรนิกาย</text></a>
   <text x="665" y="201" class="desc">
     <tspan x="665" dy="0">รวมพระธรรมเทศนา</tspan>
     <tspan x="665" dy="24">จัดตามจำนวนข้อ</tspan>
@@ -65,7 +65,7 @@
     <tspan x="665" dy="24">หรือ ๙,๕๕๗ พระสูตร</tspan>
   </text>
 
-  <a href="/tipitaka-structure/#suttanta-khuddaka" target="_top"><text x="860" y="166" class="head">ขุททกนิกาย</text></a>
+  <a href="/part-4-tipitaka-digest/sutta-pitaka/khuddaka-nikaya/khuddaka-structure" target="_top"><text x="860" y="166" class="head">ขุททกนิกาย</text></a>
   <text x="860" y="201" class="desc">
     <tspan x="860" dy="0">รวมพระธรรมเทศนา</tspan>
     <tspan x="860" dy="24">และเรื่องราวเบ็ดเตล็ด</tspan>

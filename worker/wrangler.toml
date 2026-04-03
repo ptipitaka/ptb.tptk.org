@@ -1,0 +1,9 @@
+name = "ptb-chat"
+main = "src/index.ts"
+compatibility_date = "2024-12-01"
+
+[vars]
+GEMINI_MODEL = "gemini-2.0-flash"
+EMBEDDING_MODEL = "gemini-embedding-001"
+EMBEDDING_DIMENSIONS = "768"
+SITE_ORIGIN = "https://ptb.tptk.org"

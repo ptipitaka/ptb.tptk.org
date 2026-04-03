@@ -17,9 +17,8 @@ searchKeywords:
 
 ### แผนภูมิขุททกนิกาย {style="display:none"}
 
-<div class="ptb-part4-khuddaka-structure-svg-wrap">
+<div class="ptb-svg-wrap ptb-svg-wrap--full ptb-svg-wrap--flush">
   <object
-    class="ptb-part4-khuddaka-structure-svg"
     type="image/svg+xml"
     data="/images/09-part-4-tipitaka-digest/sutta-pitaka/khuddaka-nikaya-structure.svg"
     aria-label="แผนภูมิขุททกนิกาย"
@@ -28,7 +27,7 @@ searchKeywords:
 
 <PtbParagraph>ขุททกนิกาย เป็นนิกายที่ ๕ ในสุตตันตปิฎก เรียกว่าหมวดเบ็ดเตล็ด รวม ๑๕ คัมภีร์ จัดพิมพ์เป็น ๙ เล่ม คือ พระไตรปิฎก เล่ม ๒๕ ถึง เล่ม ๓๓ เรียงลำดับเล่มคัมภีร์ดังนี้คือ</PtbParagraph>
 
-<PtbList class="ptb-part4-khuddaka-vols">
+<PtbList class="ptb-vol-list ptb-part4-khuddaka-vols">
 <PtbListItem marker="เล่ม ๒๕">ขุททกปาฐะ · ธรรมบทคาถา · อุทาน · อิติวุตตกะ · สุตตนิบาต</PtbListItem>
 <PtbListItem marker="เล่ม ๒๖">วิมานวัตถุ · เปตวัตถุ · เถรคาถา · เถรีคาถา</PtbListItem>
 <PtbListItem marker="เล่ม ๒๗ - ๒๘">ชาดก</PtbListItem>

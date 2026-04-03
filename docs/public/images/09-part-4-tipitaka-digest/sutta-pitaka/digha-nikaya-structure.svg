@@ -18,7 +18,7 @@
     a:hover text { fill: #1d4ed8; text-decoration: underline; }
   </style>
 
-  <a href="/tipitaka-structure/#suttanta" target="_top">
+  <a href="/part-4-tipitaka-digest/sutta-pitaka/suttanta-structure" target="_top">
     <text x="580" y="34" class="root">ทีฆนิกาย</text>
   </a>
 
@@ -35,46 +35,46 @@
   <a href="/part-4-tipitaka-digest/sutta-pitaka/digha-nikaya/vol-09/" target="_top">
     <text x="320" y="150" class="head">สีลขันธวรรค</text>
   </a>
-  <text x="248" y="192" class="detail">&#8226; พรหมชาลสูตร</text>
-  <text x="248" y="232" class="detail">&#8226; สามัญญผลสูตร</text>
-  <text x="248" y="272" class="detail">&#8226; อัมพัฏฐสูตร</text>
-  <text x="248" y="312" class="detail">&#8226; โสณทัณฑสูตร</text>
-  <text x="248" y="352" class="detail">&#8226; กูฏทันตสูตร</text>
-  <text x="248" y="392" class="detail">&#8226; มหาลิสูตร</text>
-  <text x="248" y="432" class="detail">&#8226; ชาลิยสูตร</text>
-  <text x="248" y="472" class="detail">&#8226; มหาสีหนาทสูตร</text>
-  <text x="248" y="512" class="detail">&#8226; โปฏฐปาทสูตร</text>
-  <text x="248" y="552" class="detail">&#8226; สุภสูตร</text>
-  <text x="248" y="592" class="detail">&#8226; เกวัฏฏสูตร</text>
-  <text x="248" y="632" class="detail">&#8226; โลหิจจสูตร</text>
-  <text x="248" y="672" class="detail">&#8226; เตวิชชสูตร</text>
+  <a href="/part-4-tipitaka-digest/sutta-pitaka/digha-nikaya/vol-09#11V602LMuL" target="_top"><text x="248" y="192" class="detail">&#8226; พรหมชาลสูตร</text></a>
+  <a href="/part-4-tipitaka-digest/sutta-pitaka/digha-nikaya/vol-09#XpMohDfmGC" target="_top"><text x="248" y="232" class="detail">&#8226; สามัญญผลสูตร</text></a>
+  <a href="/part-4-tipitaka-digest/sutta-pitaka/digha-nikaya/vol-09#Um4i9EUyEg" target="_top"><text x="248" y="272" class="detail">&#8226; อัมพัฏฐสูตร</text></a>
+  <a href="/part-4-tipitaka-digest/sutta-pitaka/digha-nikaya/vol-09#4wIneVxGHj" target="_top"><text x="248" y="312" class="detail">&#8226; โสณทัณฑสูตร</text></a>
+  <a href="/part-4-tipitaka-digest/sutta-pitaka/digha-nikaya/vol-09#sEhXwQ5Hdv" target="_top"><text x="248" y="352" class="detail">&#8226; กูฏทันตสูตร</text></a>
+  <a href="/part-4-tipitaka-digest/sutta-pitaka/digha-nikaya/vol-09#MQZZdqo9JQ" target="_top"><text x="248" y="392" class="detail">&#8226; มหาลิสูตร</text></a>
+  <a href="/part-4-tipitaka-digest/sutta-pitaka/digha-nikaya/vol-09#KcdxHgilNs" target="_top"><text x="248" y="432" class="detail">&#8226; ชาลิยสูตร</text></a>
+  <a href="/part-4-tipitaka-digest/sutta-pitaka/digha-nikaya/vol-09#i5XrlMXIlY" target="_top"><text x="248" y="472" class="detail">&#8226; มหาสีหนาทสูตร</text></a>
+  <a href="/part-4-tipitaka-digest/sutta-pitaka/digha-nikaya/vol-09#oBwKpVaqau" target="_top"><text x="248" y="512" class="detail">&#8226; โปฏฐปาทสูตร</text></a>
+  <a href="/part-4-tipitaka-digest/sutta-pitaka/digha-nikaya/vol-09#wyH5M3M7Nk" target="_top"><text x="248" y="552" class="detail">&#8226; สุภสูตร</text></a>
+  <a href="/part-4-tipitaka-digest/sutta-pitaka/digha-nikaya/vol-09#oEtKzzsqWK" target="_top"><text x="248" y="592" class="detail">&#8226; เกวัฏฏสูตร</text></a>
+  <a href="/part-4-tipitaka-digest/sutta-pitaka/digha-nikaya/vol-09#VbTz2e9RVf" target="_top"><text x="248" y="632" class="detail">&#8226; โลหิจจสูตร</text></a>
+  <a href="/part-4-tipitaka-digest/sutta-pitaka/digha-nikaya/vol-09#gRfIW10FmM" target="_top"><text x="248" y="672" class="detail">&#8226; เตวิชชสูตร</text></a>
 
   <a href="/part-4-tipitaka-digest/sutta-pitaka/digha-nikaya/vol-10/" target="_top">
     <text x="580" y="150" class="head">มหาวรรค</text>
   </a>
-  <text x="508" y="192" class="detail">&#8226; มหาปทานสูตร</text>
-  <text x="508" y="232" class="detail">&#8226; มหานิทานสูตร</text>
-  <text x="508" y="272" class="detail">&#8226; มหาปรินิพพานสูตร</text>
-  <text x="508" y="312" class="detail">&#8226; มหาสุทัสสนสูตร</text>
-  <text x="508" y="352" class="detail">&#8226; ชนวสภสูตร</text>
-  <text x="508" y="392" class="detail">&#8226; มหาโควินทสูตร</text>
-  <text x="508" y="432" class="detail">&#8226; มหาสมยสูตร</text>
-  <text x="508" y="472" class="detail">&#8226; สักกปัญหสูตร</text>
-  <text x="508" y="512" class="detail">&#8226; มหาสติปัฏฐานสูตร</text>
-  <text x="508" y="552" class="detail">&#8226; ปายาสิราชัญญสูตร</text>
+  <a href="/part-4-tipitaka-digest/sutta-pitaka/digha-nikaya/vol-10#Qeb8ltMiLl" target="_top"><text x="508" y="192" class="detail">&#8226; มหาปทานสูตร</text></a>
+  <a href="/part-4-tipitaka-digest/sutta-pitaka/digha-nikaya/vol-10#rF9bPe7VkD" target="_top"><text x="508" y="232" class="detail">&#8226; มหานิทานสูตร</text></a>
+  <a href="/part-4-tipitaka-digest/sutta-pitaka/digha-nikaya/vol-10#KjYTbb11TK" target="_top"><text x="508" y="272" class="detail">&#8226; มหาปรินิพพานสูตร</text></a>
+  <a href="/part-4-tipitaka-digest/sutta-pitaka/digha-nikaya/vol-10#hqInonaq2n" target="_top"><text x="508" y="312" class="detail">&#8226; มหาสุทัสสนสูตร</text></a>
+  <a href="/part-4-tipitaka-digest/sutta-pitaka/digha-nikaya/vol-10#VYZvuftIKV" target="_top"><text x="508" y="352" class="detail">&#8226; ชนวสภสูตร</text></a>
+  <a href="/part-4-tipitaka-digest/sutta-pitaka/digha-nikaya/vol-10#E1raYl3evX" target="_top"><text x="508" y="392" class="detail">&#8226; มหาโควินทสูตร</text></a>
+  <a href="/part-4-tipitaka-digest/sutta-pitaka/digha-nikaya/vol-10#y3UE8tl3s6" target="_top"><text x="508" y="432" class="detail">&#8226; มหาสมยสูตร</text></a>
+  <a href="/part-4-tipitaka-digest/sutta-pitaka/digha-nikaya/vol-10#Hhexa1ldxJ" target="_top"><text x="508" y="472" class="detail">&#8226; สักกปัญหสูตร</text></a>
+  <a href="/part-4-tipitaka-digest/sutta-pitaka/digha-nikaya/vol-10#WMUGBfJX9T" target="_top"><text x="508" y="512" class="detail">&#8226; มหาสติปัฏฐานสูตร</text></a>
+  <a href="/part-4-tipitaka-digest/sutta-pitaka/digha-nikaya/vol-10#KSiZbb4fJg" target="_top"><text x="508" y="552" class="detail">&#8226; ปายาสิราชัญญสูตร</text></a>
 
   <a href="/part-4-tipitaka-digest/sutta-pitaka/digha-nikaya/vol-11/" target="_top">
     <text x="840" y="150" class="head">ปาฏิกวรรค</text>
   </a>
-  <text x="768" y="192" class="detail">&#8226; ปาฏิกสูตร</text>
-  <text x="768" y="232" class="detail">&#8226; อุทุมพริกสูตร</text>
-  <text x="768" y="272" class="detail">&#8226; จักกวัตติสูตร</text>
-  <text x="768" y="312" class="detail">&#8226; อัคคัญญสูตร</text>
-  <text x="768" y="352" class="detail">&#8226; สัมปสาทนียสูตร</text>
-  <text x="768" y="392" class="detail">&#8226; ปาสาทิกสูตร</text>
-  <text x="768" y="432" class="detail">&#8226; ลักขณสูตร</text>
-  <text x="768" y="472" class="detail">&#8226; สิงคาลกสูตร</text>
-  <text x="768" y="512" class="detail">&#8226; อาฏานาฏิยสูตร</text>
-  <text x="768" y="552" class="detail">&#8226; สังคีติสูตร</text>
-  <text x="768" y="592" class="detail">&#8226; ทสุตตรสูตร</text>
+  <a href="/part-4-tipitaka-digest/sutta-pitaka/digha-nikaya/vol-11#yrksbJxglp" target="_top"><text x="768" y="192" class="detail">&#8226; ปาฏิกสูตร</text></a>
+  <a href="/part-4-tipitaka-digest/sutta-pitaka/digha-nikaya/vol-11#YUoe91mJes" target="_top"><text x="768" y="232" class="detail">&#8226; อุทุมพริกสูตร</text></a>
+  <a href="/part-4-tipitaka-digest/sutta-pitaka/digha-nikaya/vol-11#SlEged7S9t" target="_top"><text x="768" y="272" class="detail">&#8226; จักกวัตติสูตร</text></a>
+  <a href="/part-4-tipitaka-digest/sutta-pitaka/digha-nikaya/vol-11#Dc63S9TpbN" target="_top"><text x="768" y="312" class="detail">&#8226; อัคคัญญสูตร</text></a>
+  <a href="/part-4-tipitaka-digest/sutta-pitaka/digha-nikaya/vol-11#m5Iiy8u1os" target="_top"><text x="768" y="352" class="detail">&#8226; สัมปสาทนียสูตร</text></a>
+  <a href="/part-4-tipitaka-digest/sutta-pitaka/digha-nikaya/vol-11#jD6129sbIw" target="_top"><text x="768" y="392" class="detail">&#8226; ปาสาทิกสูตร</text></a>
+  <a href="/part-4-tipitaka-digest/sutta-pitaka/digha-nikaya/vol-11#sauM2Q1dg7" target="_top"><text x="768" y="432" class="detail">&#8226; ลักขณสูตร</text></a>
+  <a href="/part-4-tipitaka-digest/sutta-pitaka/digha-nikaya/vol-11#U19Ali7PW0" target="_top"><text x="768" y="472" class="detail">&#8226; สิงคาลกสูตร</text></a>
+  <a href="/part-4-tipitaka-digest/sutta-pitaka/digha-nikaya/vol-11#VKN0vZs9Q5" target="_top"><text x="768" y="512" class="detail">&#8226; อาฏานาฏิยสูตร</text></a>
+  <a href="/part-4-tipitaka-digest/sutta-pitaka/digha-nikaya/vol-11#IrhVoB4eAh" target="_top"><text x="768" y="552" class="detail">&#8226; สังคีติสูตร</text></a>
+  <a href="/part-4-tipitaka-digest/sutta-pitaka/digha-nikaya/vol-11#Xtuu9S1qXE" target="_top"><text x="768" y="592" class="detail">&#8226; ทสุตตรสูตร</text></a>
 </svg>

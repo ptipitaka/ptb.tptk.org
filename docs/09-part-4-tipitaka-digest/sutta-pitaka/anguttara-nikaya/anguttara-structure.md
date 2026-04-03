@@ -18,9 +18,8 @@ searchKeywords:
 
 ### แผนภูมิอังคุตตรนิกาย {style="display:none"}
 
-<div class="ptb-part4-anguttara-structure-svg-wrap">
+<div class="ptb-svg-wrap ptb-svg-wrap--full ptb-svg-wrap--flush">
   <object
-    class="ptb-part4-anguttara-structure-svg"
     type="image/svg+xml"
     data="/images/09-part-4-tipitaka-digest/sutta-pitaka/anguttara-nikaya-structure.svg"
     aria-label="แผนภูมิอังคุตตรนิกาย"
@@ -29,7 +28,7 @@ searchKeywords:
 
 <PtbParagraph>อังคุตตรนิกาย เป็นนิกายที่ ๔ ในสุตตันตปิฎก เป็นพระสูตรหรือพระธรรมเทศนาเป็นข้อ ๆ ตามลำดับจำนวนตั้งแต่หลักธรรมที่มี ๑ ข้อ ถึงหลักธรรมที่มี ๑๑ ข้อ รวมเป็นพระสูตร ๙,๕๕๗ สูตร จัดพิมพ์เป็นคัมภีร์ ๕ เล่ม คือ พระไตรปิฎก เล่ม ๒๐ ถึง เล่ม ๒๔ เรียงลำดับเล่มคัมภีร์ดังนี้คือ</PtbParagraph>
 
-<PtbList class="ptb-part4-anguttara-vols">
+<PtbList class="ptb-vol-list ptb-part4-anguttara-vols">
 <PtbListItem marker="อังคุตตรนิกาย เอก - ทุก - ติกนิบาต">เล่มที่ ๒๐</PtbListItem>
 <PtbListItem marker="อังคุตตรนิกาย จตุกกนิบาต">เล่มที่ ๒๑</PtbListItem>
 <PtbListItem marker="อังคุตตรนิกาย ปัญจก - ฉักกนิบาต">เล่มที่ ๒๒</PtbListItem>

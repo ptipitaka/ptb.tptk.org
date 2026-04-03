@@ -18,9 +18,8 @@ searchKeywords:
 
 ### แผนภูมิสุตตันตปิฎก {style="display:none"}
 
-<div class="ptb-part4-sutta-structure-svg-wrap">
+<div class="ptb-svg-wrap">
   <object
-    class="ptb-part4-sutta-structure-svg"
     type="image/svg+xml"
     data="/images/09-part-4-tipitaka-digest/sutta-pitaka/suttanta-pitaka-structure.svg"
     aria-label="แผนภูมิสุตตันตปิฎก"
@@ -29,7 +28,7 @@ searchKeywords:
 
 <PtbParagraph>สุตตันตปิฎก มี ๕ คัมภีร์ จัดพิมพ์เป็นคัมภีร์ ๒๕ เล่ม เรียกย่อ ๆ ว่า ที ม สัง อัง ขุ เรียงลำดับเล่มคัมภีร์ดังนี้คือ</PtbParagraph>
 
-<PtbList class="ptb-part4-sutta-nikaya-vols">
+<PtbList class="ptb-vol-list ptb-part4-sutta-nikaya-vols">
 <PtbListItem marker="ทีฆนิกาย">เล่มที่ ๙, ๑๐, ๑๑</PtbListItem>
 <PtbListItem marker="มัชฌิมนิกาย">เล่มที่ ๑๒, ๑๓, ๑๔</PtbListItem>
 <PtbListItem marker="สังยุตตนิกาย">เล่มที่ ๑๕, ๑๖, ๑๗, ๑๘, ๑๙</PtbListItem>

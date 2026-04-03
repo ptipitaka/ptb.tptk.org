@@ -20,7 +20,7 @@
     a:hover text { fill: #1d4ed8; text-decoration: underline; }
   </style>
 
-  <a href="/tipitaka-structure/#suttanta" target="_top">
+  <a href="/part-4-tipitaka-digest/sutta-pitaka/suttanta-structure" target="_top">
     <text x="540" y="32" class="root">ขุททกนิกาย</text>
   </a>
   <line x1="540" y1="48" x2="540" y2="76" class="line" />

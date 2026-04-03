@@ -42,25 +42,16 @@
   margin-bottom: 3rem;
 }
 
-.index-page .index-title-page .book-desc {
+.index-page .index-title-page :is(.book-desc, .book-edition, .book-buddhist-year, .book-donation) {
   font-size: 0.8rem;
   line-height: 1.6;
+}
+
+.index-page .index-title-page .book-desc {
   margin-bottom: 0.15rem;
 }
 
-.index-page .index-title-page .book-edition {
-  font-size: 0.8rem;
-  line-height: 1.6;
-}
-
-.index-page .index-title-page .book-buddhist-year {
-  font-size: 0.8rem;
-  line-height: 1.6;
-}
-
 .index-page .index-title-page .book-donation {
-  font-size: 0.8rem;
-  line-height: 1.6;
   font-weight: 500;
 }
 

@@ -18,9 +18,8 @@ searchKeywords:
 
 ### แผนภูมิวินัยปิฎก {style="display:none"}
 
-<div class="ptb-part4-vinaya-structure-svg-wrap">
+<div class="ptb-svg-wrap">
   <object
-    class="ptb-part4-vinaya-structure-svg"
     type="image/svg+xml"
     data="/images/09-part-4-tipitaka-digest/vinaya-pitaka/vinaya-pitaka-structure.svg"
     aria-label="แผนภูมิวินัยปิฎก"

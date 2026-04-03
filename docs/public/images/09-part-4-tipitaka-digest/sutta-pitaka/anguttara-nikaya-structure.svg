@@ -25,7 +25,7 @@
     a:hover text.detail { fill: #1d4ed8; }
   </style>
 
-  <a href="/tipitaka-structure/#suttanta" target="_top">
+  <a href="/part-4-tipitaka-digest/sutta-pitaka/suttanta-structure" target="_top">
     <text x="558" y="32" class="root">อังคุตตรนิกาย</text>
   </a>
   <line x1="558" y1="48" x2="558" y2="76" class="line" />

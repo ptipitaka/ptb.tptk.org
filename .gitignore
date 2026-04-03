@@ -20,6 +20,9 @@ Thumbs.db
 *.swp
 *~
 
+# Generated chat index (built by ingest script)
+docs/public/chat-index.json
+
 # Logs
 *.log
 npm-debug.log*

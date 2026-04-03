@@ -10,7 +10,6 @@
     .root { font-size: 24px; font-weight: 700; }
     .head { font-size: 20px; font-weight: 700; }
     .desc { font-size: 15px; fill: #4b5563; }
-    /* รายละเอียด: ขนาดและระยะบรรทัดคล้ายแผนภูมิ ๐๔ (เนื้อหา ~14px) — กะทัดรัดให้อยู่ในกรอบ */
     .detail { font-size: 18px; font-weight: 400; fill: #6b7280; text-anchor: start; }
     .head,
     .detail { transform: translateY(10px); }
@@ -19,7 +18,7 @@
     a:hover text { fill: #1d4ed8; text-decoration: underline; }
   </style>
 
-  <a href="/tipitaka-structure/#vinaya" target="_top">
+  <a href="/tipitaka-structure/" target="_top">
     <text x="460" y="34" class="root">วินัยปิฎก</text>
   </a>
 
@@ -38,95 +37,103 @@
   <circle cx="650" cy="120" r="1.7" fill="#6b7280" />
   <circle cx="840" cy="120" r="1.7" fill="#6b7280" />
 
-  <!-- มหาวิภังค์ — โครงสร้างเดียวกับ 04-tipitaka-structure/vinayapitaka-structure.svg -->
+  <!-- มหาวิภังค์ -->
   <a href="/part-4-tipitaka-digest/vinaya-pitaka/vol-01/" target="_top">
     <text x="80" y="162" class="head">มหาวิภังค์</text>
   </a>
 
-  <text x="25" y="200" class="detail">&#8226; ปาราชิกกัณฑ์ ๔</text>
-  <text x="25" y="230" class="detail">&#8226; เตรสกัณฑ์ ๑๓</text>
-  <text x="25" y="260" class="detail">&#8226; อนิยตกัณฑ์ ๒</text>
-  <text x="25" y="290" class="detail">&#8226; นิสสัคคิยกัณฑ์ ๓๐</text>
-  <text x="25" y="320" class="detail">&#8226; ปาจิตติยกัณฑ์ ๙๒</text>
-  <text x="25" y="350" class="detail">&#8226; ปาฏิเทสนียกัณฑ์ ๔</text>
-  <text x="25" y="380" class="detail">&#8226; เสขิยกัณฑ์ ๗๕</text>
-  <text x="25" y="410" class="detail">&#8226; อธิกรณสมถะ ๗</text>
+  <a href="/part-4-tipitaka-digest/vinaya-pitaka/vol-01#JZJOCw5iNd" target="_top"><text x="25" y="200" class="detail">&#8226; ปาราชิกกัณฑ์ ๔</text></a>
+  <a href="/part-4-tipitaka-digest/vinaya-pitaka/vol-01#4YSqr7uqtG" target="_top"><text x="25" y="230" class="detail">&#8226; เตรสกัณฑ์ ๑๓</text></a>
+  <a href="/part-4-tipitaka-digest/vinaya-pitaka/vol-01#Ub1L3U7rF6" target="_top"><text x="25" y="260" class="detail">&#8226; อนิยตกัณฑ์ ๒</text></a>
+  <a href="/part-4-tipitaka-digest/vinaya-pitaka/vol-02#YUhf2USY9P" target="_top"><text x="25" y="290" class="detail">&#8226; นิสสัคคิยกัณฑ์ ๓๐</text></a>
+  <a href="/part-4-tipitaka-digest/vinaya-pitaka/vol-02#UzuYMJVqYC" target="_top"><text x="25" y="320" class="detail">&#8226; ปาจิตติยกัณฑ์ ๙๒</text></a>
+  <a href="/part-4-tipitaka-digest/vinaya-pitaka/vol-02#5WdH9djmRJ" target="_top"><text x="25" y="350" class="detail">&#8226; ปาฏิเทสนียกัณฑ์ ๔</text></a>
+  <a href="/part-4-tipitaka-digest/vinaya-pitaka/vol-02#wa3WLPJAeG" target="_top"><text x="25" y="380" class="detail">&#8226; เสขิยกัณฑ์ ๗๕</text></a>
+  <a href="/part-4-tipitaka-digest/vinaya-pitaka/vol-02#WwZh5QUv7e" target="_top"><text x="25" y="410" class="detail">&#8226; อธิกรณสมถะ ๗</text></a>
 
   <!-- ภิกขุนีวิภังค์ -->
   <a href="/part-4-tipitaka-digest/vinaya-pitaka/vol-03/" target="_top">
     <text x="270" y="162" class="head">ภิกขุนีวิภังค์</text>
   </a>
 
-   <text x="200" y="200" class="detail">&#8226; ปาราชิกกัณฑ์ ๘</text>
-  <text x="200" y="230" class="detail">&#8226; สัตตรสกัณฑ์ ๑๗</text>
-  <text x="200" y="260" class="detail">&#8226; นิสสัคคิยกัณฑ์ ๓๐</text>
-  <text x="200" y="290" class="detail">&#8226; ปาจิตติยกัณฑ์ ๑๖๖</text>
-  <text x="200" y="320" class="detail">&#8226; ปาฏิเทสนียกัณฑ์ ๘</text>
-  <text x="200" y="350" class="detail">&#8226; เสขิยกัณฑ์ ๗๕</text>
-  <text x="200" y="380" class="detail">&#8226; อธิกรณสมถะ ๗</text>
+  <a href="/part-4-tipitaka-digest/vinaya-pitaka/vol-03#zLwmkzwdXS" target="_top"><text x="200" y="200" class="detail">&#8226; ปาราชิกกัณฑ์ ๘</text></a>
+  <a href="/part-4-tipitaka-digest/vinaya-pitaka/vol-03#ezzMNkpVi5" target="_top"><text x="200" y="230" class="detail">&#8226; สัตตรสกัณฑ์ ๑๗</text></a>
+  <a href="/part-4-tipitaka-digest/vinaya-pitaka/vol-03#YtQBmMs3v8" target="_top"><text x="200" y="260" class="detail">&#8226; นิสสัคคิยกัณฑ์ ๓๐</text></a>
+  <a href="/part-4-tipitaka-digest/vinaya-pitaka/vol-03#ww54zRrFg9" target="_top"><text x="200" y="290" class="detail">&#8226; ปาจิตติยกัณฑ์ ๑๖๖</text></a>
+  <a href="/part-4-tipitaka-digest/vinaya-pitaka/vol-03#hdbMtqeLaZ" target="_top"><text x="200" y="320" class="detail">&#8226; ปาฏิเทสนียกัณฑ์ ๘</text></a>
+  <a href="/part-4-tipitaka-digest/vinaya-pitaka/vol-03#xPNh79wxCg" target="_top"><text x="200" y="350" class="detail">&#8226; เสขิยกัณฑ์ ๗๕</text></a>
+  <a href="/part-4-tipitaka-digest/vinaya-pitaka/vol-03#K1StBf3qwN" target="_top"><text x="200" y="380" class="detail">&#8226; อธิกรณสมถะ ๗</text></a>
 
   <!-- มหาวัคค์ -->
   <a href="/part-4-tipitaka-digest/vinaya-pitaka/vol-04/" target="_top">
     <text x="460" y="162" class="head">มหาวัคค์</text>
   </a>
 
-  <text x="400" y="200" class="detail">&#8226; มหาขันธกะ</text>
-  <text x="400" y="230" class="detail">&#8226; อุโบสถขันธกะ</text>
-  <text x="400" y="260" class="detail">&#8226; วัสสูปนายิกาขันธกะ</text>
-  <text x="400" y="290" class="detail">&#8226; ปวารณาขันธกะ</text>
-  <text x="400" y="320" class="detail">&#8226; จัมมขันธกะ</text>
-  <text x="400" y="350" class="detail">&#8226; เภสัชชขันธกะ</text>
-  <text x="400" y="380" class="detail">&#8226; กฐินขันธกะ</text>
-  <text x="400" y="410" class="detail">&#8226; จีวรขันธกะ</text>
-  <text x="400" y="440" class="detail">&#8226; จัมเปยยขันธกะ</text>
-  <text x="400" y="470" class="detail">&#8226; โกสัมพิขันธกะ</text>
+  <a href="/part-4-tipitaka-digest/vinaya-pitaka/vol-04#BCqMddDNvf" target="_top"><text x="400" y="200" class="detail">&#8226; มหาขันธกะ</text></a>
+  <a href="/part-4-tipitaka-digest/vinaya-pitaka/vol-04#W27OBg2sZQ" target="_top"><text x="400" y="230" class="detail">&#8226; อุโบสถขันธกะ</text></a>
+  <a href="/part-4-tipitaka-digest/vinaya-pitaka/vol-04#Uso9ZO1Bby" target="_top"><text x="400" y="260" class="detail">&#8226; วัสสูปนายิกาขันธกะ</text></a>
+  <a href="/part-4-tipitaka-digest/vinaya-pitaka/vol-04#FXoor4r3LS" target="_top"><text x="400" y="290" class="detail">&#8226; ปวารณาขันธกะ</text></a>
+  <a href="/part-4-tipitaka-digest/vinaya-pitaka/vol-05#B3d6Udoq0Z" target="_top"><text x="400" y="320" class="detail">&#8226; จัมมขันธกะ</text></a>
+  <a href="/part-4-tipitaka-digest/vinaya-pitaka/vol-05#rlC4ohfZbi" target="_top"><text x="400" y="350" class="detail">&#8226; เภสัชชขันธกะ</text></a>
+  <a href="/part-4-tipitaka-digest/vinaya-pitaka/vol-05#HzHwjCclEB" target="_top"><text x="400" y="380" class="detail">&#8226; กฐินขันธกะ</text></a>
+  <a href="/part-4-tipitaka-digest/vinaya-pitaka/vol-05#EqF5ticqy1" target="_top"><text x="400" y="410" class="detail">&#8226; จีวรขันธกะ</text></a>
+  <a href="/part-4-tipitaka-digest/vinaya-pitaka/vol-05#wP0fVEDcR3" target="_top"><text x="400" y="440" class="detail">&#8226; จัมเปยยขันธกะ</text></a>
+  <a href="/part-4-tipitaka-digest/vinaya-pitaka/vol-05#JtCcwGu9GW" target="_top"><text x="400" y="470" class="detail">&#8226; โกสัมพิขันธกะ</text></a>
 
   <!-- จุลลวัคค์ -->
   <a href="/part-4-tipitaka-digest/vinaya-pitaka/vol-06/" target="_top">
     <text x="650" y="162" class="head">จุลลวัคค์</text>
   </a>
 
-  <text x="590" y="200" class="detail">&#8226; กัมมขันธกะ</text>
-  <text x="590" y="230" class="detail">&#8226; ปริวาสิกขันธกะ</text>
-  <text x="590" y="260" class="detail">&#8226; สมุจจยขันธกะ</text>
-  <text x="590" y="290" class="detail">&#8226; สมถขันธกะ</text>
-  <text x="590" y="320" class="detail">&#8226; ขุททกวัตถุขันธกะ</text>
-  <text x="590" y="350" class="detail">&#8226; เสนาสนขันธกะ</text>
-  <text x="590" y="380" class="detail">&#8226; สังฆเภทขันธกะ</text>
-  <text x="590" y="410" class="detail">&#8226; วัตตขันธกะ</text>
-  <text x="590" y="440" class="detail">&#8226; ปาฏิโมกขฐปน -</text>
-  <text x="595" y="470" class="detail">&#8226; ปาฏิโมกขฐปน</text>
-  <text x="590" y="500" class="detail">&#8226; ภิกขุนีขันธกะ</text>
-  <text x="590" y="530" class="detail">&#8226; ปัญจสติกขันธกะ</text>
-  <text x="590" y="560" class="detail">&#8226; สัตตสติกขันธกะ</text>
+  <a href="/part-4-tipitaka-digest/vinaya-pitaka/vol-06#ClXq8JSLPx" target="_top"><text x="590" y="200" class="detail">&#8226; กัมมขันธกะ</text></a>
+  <a href="/part-4-tipitaka-digest/vinaya-pitaka/vol-06#n4yjvyG1mq" target="_top"><text x="590" y="230" class="detail">&#8226; ปริวาสิกขันธกะ</text></a>
+  <a href="/part-4-tipitaka-digest/vinaya-pitaka/vol-06#fzZlt1DvfA" target="_top"><text x="590" y="260" class="detail">&#8226; สมุจจยขันธกะ</text></a>
+  <a href="/part-4-tipitaka-digest/vinaya-pitaka/vol-06#eFnv9psMYv" target="_top"><text x="590" y="290" class="detail">&#8226; สมถขันธกะ</text></a>
+  <a href="/part-4-tipitaka-digest/vinaya-pitaka/vol-07#hJbB1GqSMH" target="_top"><text x="590" y="320" class="detail">&#8226; ขุททกวัตถุขันธกะ</text></a>
+  <a href="/part-4-tipitaka-digest/vinaya-pitaka/vol-07#0EzzpgKeHx" target="_top"><text x="590" y="350" class="detail">&#8226; เสนาสนขันธกะ</text></a>
+  <a href="/part-4-tipitaka-digest/vinaya-pitaka/vol-07#yNL4MnZTBL" target="_top"><text x="590" y="380" class="detail">&#8226; สังฆเภทขันธกะ</text></a>
+  <a href="/part-4-tipitaka-digest/vinaya-pitaka/vol-07#lidj5JJdfR" target="_top"><text x="590" y="410" class="detail">&#8226; วัตตขันธกะ</text></a>
+  <a href="/part-4-tipitaka-digest/vinaya-pitaka/vol-07#KB35I0cIF1" target="_top">
+    <text x="590" y="440" class="detail">&#8226; ปาฏิโมกขฐปน -</text>
+    <text x="595" y="470" class="detail">&#8226; ปาฏิโมกขฐปน</text>
+  </a>
+  <a href="/part-4-tipitaka-digest/vinaya-pitaka/vol-07#OfLK9jWZ9x" target="_top"><text x="590" y="500" class="detail">&#8226; ภิกขุนีขันธกะ</text></a>
+  <a href="/part-4-tipitaka-digest/vinaya-pitaka/vol-07#T2DK2PuT4y" target="_top"><text x="590" y="530" class="detail">&#8226; ปัญจสติกขันธกะ</text></a>
+  <a href="/part-4-tipitaka-digest/vinaya-pitaka/vol-07#KHXcBY6U4O" target="_top"><text x="590" y="560" class="detail">&#8226; สัตตสติกขันธกะ</text></a>
 
-  <!-- ปริวาร — คอลัมน์สูงสุด: ระยะบรรทัด ๑๔ px ให้อยู่ใน viewBox -->
+  <!-- ปริวาร -->
   <a href="/part-4-tipitaka-digest/vinaya-pitaka/vol-08/" target="_top">
     <text x="840" y="162" class="head">ปริวาร</text>
   </a>
 
-  <text x="760" y="200" class="detail">&#8226; มหาวิภังค์-</text>
-  <text x="769" y="230" class="detail">โสฬสมหาวาร</text>
-  <text x="760" y="260" class="detail">&#8226; ภิกขุนีวิภังค์ -</text>
-  <text x="769" y="290" class="detail">โสฬสมหาวาร</text>
-  <text x="760" y="320" class="detail">&#8226; สมุฏฐานสีสสังเขป</text>
-  <text x="760" y="350" class="detail">&#8226; กติปุจฉาวาร</text>
-  <text x="760" y="380" class="detail">&#8226; วีสติวาร</text>
-  <text x="760" y="410" class="detail">&#8226; ขันธกปุจฉา</text>
-  <text x="760" y="440" class="detail">&#8226; เอกุตตริกะ</text>
-  <text x="760" y="470" class="detail">&#8226; อุโปสถาทิ -</text>
-  <text x="768" y="500" class="detail">ปุจฉาวิสัชชนา</text>
-  <text x="760" y="530" class="detail">&#8226; อัตถวเสปกรณ์</text>
-  <text x="760" y="560" class="detail">&#8226; คาถาสังคณิกะ</text>
-  <text x="760" y="590" class="detail">&#8226; อธิกรณเภท</text>
-  <text x="760" y="620" class="detail">&#8226; อปรคาถาสังคณิกะ</text>
-  <text x="760" y="650" class="detail">&#8226; โจทนากัณฑ์</text>
-  <text x="760" y="680" class="detail">&#8226; จูฬสงคราม</text>
-  <text x="760" y="710" class="detail">&#8226; มหาสงคราม</text>
-  <text x="760" y="740" class="detail">&#8226; กฐินเภท</text>
-  <text x="760" y="770" class="detail">&#8226; อุปาลิปัญจกะ</text>
-  <text x="760" y="800" class="detail">&#8226; สมุฏฐาน</text>
-  <text x="760" y="830" class="detail">&#8226; ทุติยคาถาสังคณิกะ</text>
-  <text x="760" y="860" class="detail">&#8226; เสทโมจนคาถา</text>
-  <text x="760" y="890" class="detail">&#8226; ปัญจวัคค์</text>
+  <a href="/part-4-tipitaka-digest/vinaya-pitaka/vol-08/" target="_top">
+    <text x="760" y="200" class="detail">&#8226; มหาวิภังค์-</text>
+    <text x="769" y="230" class="detail">โสฬสมหาวาร</text>
+  </a>
+  <a href="/part-4-tipitaka-digest/vinaya-pitaka/vol-08/" target="_top">
+    <text x="760" y="260" class="detail">&#8226; ภิกขุนีวิภังค์ -</text>
+    <text x="769" y="290" class="detail">โสฬสมหาวาร</text>
+  </a>
+  <a href="/part-4-tipitaka-digest/vinaya-pitaka/vol-08/" target="_top"><text x="760" y="320" class="detail">&#8226; สมุฏฐานสีสสังเขป</text></a>
+  <a href="/part-4-tipitaka-digest/vinaya-pitaka/vol-08/" target="_top"><text x="760" y="350" class="detail">&#8226; กติปุจฉาวาร</text></a>
+  <a href="/part-4-tipitaka-digest/vinaya-pitaka/vol-08/" target="_top"><text x="760" y="380" class="detail">&#8226; วีสติวาร</text></a>
+  <a href="/part-4-tipitaka-digest/vinaya-pitaka/vol-08/" target="_top"><text x="760" y="410" class="detail">&#8226; ขันธกปุจฉา</text></a>
+  <a href="/part-4-tipitaka-digest/vinaya-pitaka/vol-08/" target="_top"><text x="760" y="440" class="detail">&#8226; เอกุตตริกะ</text></a>
+  <a href="/part-4-tipitaka-digest/vinaya-pitaka/vol-08/" target="_top">
+    <text x="760" y="470" class="detail">&#8226; อุโปสถาทิ -</text>
+    <text x="768" y="500" class="detail">ปุจฉาวิสัชชนา</text>
+  </a>
+  <a href="/part-4-tipitaka-digest/vinaya-pitaka/vol-08/" target="_top"><text x="760" y="530" class="detail">&#8226; อัตถวเสปกรณ์</text></a>
+  <a href="/part-4-tipitaka-digest/vinaya-pitaka/vol-08/" target="_top"><text x="760" y="560" class="detail">&#8226; คาถาสังคณิกะ</text></a>
+  <a href="/part-4-tipitaka-digest/vinaya-pitaka/vol-08/" target="_top"><text x="760" y="590" class="detail">&#8226; อธิกรณเภท</text></a>
+  <a href="/part-4-tipitaka-digest/vinaya-pitaka/vol-08/" target="_top"><text x="760" y="620" class="detail">&#8226; อปรคาถาสังคณิกะ</text></a>
+  <a href="/part-4-tipitaka-digest/vinaya-pitaka/vol-08/" target="_top"><text x="760" y="650" class="detail">&#8226; โจทนากัณฑ์</text></a>
+  <a href="/part-4-tipitaka-digest/vinaya-pitaka/vol-08/" target="_top"><text x="760" y="680" class="detail">&#8226; จูฬสงคราม</text></a>
+  <a href="/part-4-tipitaka-digest/vinaya-pitaka/vol-08/" target="_top"><text x="760" y="710" class="detail">&#8226; มหาสงคราม</text></a>
+  <a href="/part-4-tipitaka-digest/vinaya-pitaka/vol-08/" target="_top"><text x="760" y="740" class="detail">&#8226; กฐินเภท</text></a>
+  <a href="/part-4-tipitaka-digest/vinaya-pitaka/vol-08/" target="_top"><text x="760" y="770" class="detail">&#8226; อุปาลิปัญจกะ</text></a>
+  <a href="/part-4-tipitaka-digest/vinaya-pitaka/vol-08/" target="_top"><text x="760" y="800" class="detail">&#8226; สมุฏฐาน</text></a>
+  <a href="/part-4-tipitaka-digest/vinaya-pitaka/vol-08/" target="_top"><text x="760" y="830" class="detail">&#8226; ทุติยคาถาสังคณิกะ</text></a>
+  <a href="/part-4-tipitaka-digest/vinaya-pitaka/vol-08/" target="_top"><text x="760" y="860" class="detail">&#8226; เสทโมจนคาถา</text></a>
+  <a href="/part-4-tipitaka-digest/vinaya-pitaka/vol-08/" target="_top"><text x="760" y="890" class="detail">&#8226; ปัญจวัคค์</text></a>
 </svg>

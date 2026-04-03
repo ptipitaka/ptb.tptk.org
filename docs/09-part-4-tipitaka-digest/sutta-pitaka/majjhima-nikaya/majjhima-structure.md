@@ -17,9 +17,8 @@ searchKeywords:
 
 ### แผนภูมิมัชฌิมนิกาย {style="display:none"}
 
-<div class="ptb-part4-majjhima-structure-svg-wrap">
+<div class="ptb-svg-wrap ptb-svg-wrap--full">
   <object
-    class="ptb-part4-majjhima-structure-svg"
     type="image/svg+xml"
     data="/images/09-part-4-tipitaka-digest/sutta-pitaka/majjhima-nikaya-structure.svg"
     aria-label="แผนภูมิมัชฌิมนิกาย"
@@ -28,7 +27,7 @@ searchKeywords:
 
 <PtbParagraph>มัชฌิมนิกาย เป็นนิกายที่ ๒ ในสุตตันตปิฎก เป็นพระสูตรหรือพระเทศนาขนาดกลาง มีพระสูตรรวม ๑๕๒ สูตร จัดพิมพ์เป็นคัมภีร์ ๓ เล่ม คือ พระไตรปิฎก เล่ม ๑๒ ถึง เล่ม ๑๔ เรียงลำดับเล่มคัมภีร์ดังนี้คือ</PtbParagraph>
 
-<PtbList class="ptb-part4-majjhima-vols">
+<PtbList class="ptb-vol-list ptb-part4-majjhima-vols">
 <PtbListItem marker="มัชฌิมนิกาย มูลปัณณาสก์">เล่มที่ ๑๒</PtbListItem>
 <PtbListItem marker="มัชฌิมนิกาย มัชฌิมปัณณาสก์">เล่มที่ ๑๓</PtbListItem>
 <PtbListItem marker="มัชฌิมนิกาย อุปริปัณณาสก์">เล่มที่ ๑๔</PtbListItem>

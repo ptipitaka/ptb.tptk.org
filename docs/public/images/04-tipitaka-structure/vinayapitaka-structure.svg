@@ -15,7 +15,7 @@
     a:hover text { fill: #1d4ed8; text-decoration: underline; }
   </style>
 
-  <a href="/tipitaka-structure/#vinaya" target="_top">
+  <a href="/part-4-tipitaka-digest/vinaya-pitaka/vinaya-structure" target="_top">
     <text x="460" y="34" class="root">วินัยปิฎก</text>
   </a>
 
@@ -34,21 +34,21 @@
   <circle cx="650" cy="120" r="1.7" fill="#6b7280" />
   <circle cx="840" cy="120" r="1.7" fill="#6b7280" />
 
-  <a href="/tipitaka-structure/#vinaya-mahavibhanga" target="_top"><text x="80" y="162" class="head">มหาวิภังค์</text></a>
+  <a href="/part-4-tipitaka-digest/vinaya-pitaka/vinaya-structure" target="_top"><text x="80" y="162" class="head">มหาวิภังค์</text></a>
   <text x="80" y="201" class="desc">
     <tspan x="80" dy="0">ข้อห้ามหรือวินัย</tspan>
     <tspan x="80" dy="24">ที่เป็นหลักใหญ่ ๆ ของ</tspan>
     <tspan x="80" dy="24">ภิกษุ ๒๒๗ ข้อ</tspan>
   </text>
 
-  <a href="/tipitaka-structure/#vinaya-bhikkhuni" target="_top"><text x="270" y="162" class="head">ภิกขุนีวิภังค์</text></a>
+  <a href="/part-4-tipitaka-digest/vinaya-pitaka/vinaya-structure" target="_top"><text x="270" y="162" class="head">ภิกขุนีวิภังค์</text></a>
   <text x="270" y="201" class="desc">
     <tspan x="270" dy="0">ข้อห้ามหรือวินัย</tspan>
     <tspan x="270" dy="24">ที่เป็นหลักใหญ่ ๆ ของ</tspan>
     <tspan x="270" dy="24">ภิกษุณี ๓๑๑ ข้อ</tspan>
   </text>
 
-  <a href="/tipitaka-structure/#vinaya-mahavagga" target="_top"><text x="460" y="162" class="head">มหาวัคค์</text></a>
+  <a href="/part-4-tipitaka-digest/vinaya-pitaka/vinaya-structure" target="_top"><text x="460" y="162" class="head">มหาวัคค์</text></a>
   <text x="460" y="201" class="desc">
     <tspan x="460" dy="0">พุทธประวัติช่วงต้น</tspan>
     <tspan x="460" dy="24">การกำเนิด</tspan>
@@ -57,7 +57,7 @@
     <tspan x="460" dy="24">มี ๑๐ ขันธกะ</tspan>
   </text>
 
-  <a href="/tipitaka-structure/#vinaya-cullavagga" target="_top"><text x="650" y="162" class="head">จุลลวัคค์</text></a>
+  <a href="/part-4-tipitaka-digest/vinaya-pitaka/vinaya-structure" target="_top"><text x="650" y="162" class="head">จุลลวัคค์</text></a>
   <text x="650" y="201" class="desc">
     <tspan x="650" dy="0">ข้อบัญญัติเล็กย่อย</tspan>
     <tspan x="650" dy="24">การกำเนิดและพัฒนาการ</tspan>
@@ -67,7 +67,7 @@
     <tspan x="650" dy="24">มี ๑๒ ขันธกะ</tspan>
   </text>
 
-  <a href="/tipitaka-structure/#vinaya-parivara" target="_top"><text x="840" y="162" class="head">ปริวาร</text></a>
+  <a href="/part-4-tipitaka-digest/vinaya-pitaka/vinaya-structure" target="_top"><text x="840" y="162" class="head">ปริวาร</text></a>
   <text x="840" y="201" class="desc">
     <tspan x="840" dy="0">เรื่องเบ็ดเตล็ด</tspan>
     <tspan x="840" dy="24">และ</tspan>

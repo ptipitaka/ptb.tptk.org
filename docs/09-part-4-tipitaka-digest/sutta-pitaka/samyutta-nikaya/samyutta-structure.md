@@ -19,9 +19,8 @@ searchKeywords:
 
 ### แผนภูมิสังยุตตนิกาย {style="display:none"}
 
-<div class="ptb-part4-samyutta-structure-svg-wrap">
+<div class="ptb-svg-wrap ptb-svg-wrap--full ptb-svg-wrap--flush">
   <object
-    class="ptb-part4-samyutta-structure-svg"
     type="image/svg+xml"
     data="/images/09-part-4-tipitaka-digest/sutta-pitaka/samyutta-nikaya-structure.svg"
     aria-label="แผนภูมิสังยุตตนิกาย"
@@ -30,7 +29,7 @@ searchKeywords:
 
 <PtbParagraph>สังยุตตนิกาย เป็นนิกายที่ ๓ ในสุตตันตปิฎก เป็นพระสูตรที่รวมพระเทศนาที่มีเนื้อหาเดียวกันเข้าด้วยกัน รวม ๕๖ สังยุตต์ เป็นพระสูตร ๗,๗๖๒ สูตร จัดพิมพ์เป็นคัมภีร์ ๕ เล่ม คือ พระไตรปิฎก เล่ม ๑๕ ถึง เล่ม ๑๙ เรียงลำดับเล่มคัมภีร์ดังนี้คือ</PtbParagraph>
 
-<PtbList class="ptb-part4-samyutta-vols">
+<PtbList class="ptb-vol-list ptb-part4-samyutta-vols">
 <PtbListItem marker="สังยุตตนิกาย สคาถวรรค">เล่มที่ ๑๕</PtbListItem>
 <PtbListItem marker="สังยุตตนิกาย นิทานวรรค">เล่มที่ ๑๖</PtbListItem>
 <PtbListItem marker="สังยุตตนิกาย ขันธวารวรรค">เล่มที่ ๑๗</PtbListItem>

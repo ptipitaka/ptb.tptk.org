@@ -1,64 +1,7 @@
 /**
- * สไตล์เฉพาะหน้าแผนภูมิอภิธัมมปิฎก (ภาค ๔)
+ * สไตล์เฉพาะอภิธัมมปิฎก (ภาค ๔)
+ * SVG wraps ใช้ .ptb-svg-wrap base จาก global custom.css
+ * Volume lists ใช้ .ptb-vol-list base จาก global custom.css
  */
 
-.ptb-part4-abhidhamma-structure-svg-wrap {
-  margin: 0.75rem auto 1rem;
-  max-width: none;
-  width: 100%;
-  overflow-x: auto;
-  font-size: 14px;
-}
-
-.ptb-part4-abhidhamma-structure-svg {
-  width: 100%;
-  height: auto;
-  border: 0;
-  display: block;
-}
-
-@media (max-width: 560px) {
-  .ptb-part4-abhidhamma-structure-svg-wrap {
-    max-width: 100%;
-  }
-}
-
-/* รายการเล่มตามคัมภีร์ — คอลัมน์ 1 คงที่เพื่อให้ “เล่มที่ …” ตรงแนว; 18.5em + gap เล็กชิดจาก 20em */
-.vp-doc .ptb-part4-abhidhamma-vols.ptb-list {
-  max-width: none;
-  margin-left: 0;
-  margin-right: 0;
-  padding: 0.35em 0 0.5em;
-  background: transparent;
-  border-radius: 0;
-  box-sizing: border-box;
-}
-
-.vp-doc .ptb-part4-abhidhamma-vols .ptb-list-item--grid {
-  grid-template-columns: 18.5em max-content;
-  column-gap: 0.35em;
-  align-items: baseline;
-  padding-left: var(--ptb-paragraph-first-indent);
-}
-
-.vp-doc .ptb-part4-abhidhamma-vols .ptb-list-item__marker {
-  font-weight: 700;
-  text-align: left;
-  white-space: normal;
-}
-
-.vp-doc .ptb-part4-abhidhamma-vols .ptb-list-item__content {
-  text-align: left;
-  text-justify: auto;
-}
-
-@media (max-width: 520px) {
-  .vp-doc .ptb-part4-abhidhamma-vols .ptb-list-item--grid {
-    grid-template-columns: 1fr;
-    row-gap: 0.15em;
-  }
-
-  .vp-doc .ptb-part4-abhidhamma-vols .ptb-list-item__marker {
-    margin-bottom: 0.05em;
-  }
-}
+.ptb-part4-abhidhamma-vols { --ptb-vol-col1: 18.5em; }

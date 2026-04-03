@@ -16,10 +16,8 @@
   },
   "devDependencies": {
     "markdown-it-attrs": "^4.3.1",
-    "pagefind": "^1.0.0",
     "sharp": "^0.34.5",
-    "vitepress": "1.6.4",
-    "vitepress-plugin-pagefind": "^0.4.19"
+    "vitepress": "1.6.4"
   },
   "dependencies": {
     "markdown-it": "^14.1.1"

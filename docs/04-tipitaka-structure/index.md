@@ -16,9 +16,8 @@ searchKeywords:
 ---
 
 ### แผนภูมิพระไตรปิฎก {style="display:none"}
-<div class="ptb-04-tipitaka-structure-svg-wrap">
+<div class="ptb-svg-wrap">
   <object
-    class="ptb-04-tipitaka-structure-svg"
     type="image/svg+xml"
     data="/images/04-tipitaka-structure/tipitaka-structure.svg"
     aria-label="แผนภูมิพระไตรปิฎก"
@@ -26,9 +25,8 @@ searchKeywords:
 </div>
 
 #### แผนภูมิวินัยปิฎก {style="display:none"}
-<div class="ptb-04-tipitaka-structure-svg-wrap ptb-04-vinaya-svg-wrap">
+<div class="ptb-svg-wrap">
   <object
-    class="ptb-04-tipitaka-structure-svg ptb-04-vinaya-svg"
     type="image/svg+xml"
     data="/images/04-tipitaka-structure/vinayapitaka-structure.svg"
     aria-label="แผนภูมิวินัยปิฎก"
@@ -36,9 +34,8 @@ searchKeywords:
 </div>
 
 #### แผนภูมิสุตตันตปิฎก {style="display:none"}
-<div class="ptb-04-tipitaka-structure-svg-wrap ptb-04-suttanta-svg-wrap">
+<div class="ptb-svg-wrap">
   <object
-    class="ptb-04-tipitaka-structure-svg ptb-04-suttanta-svg"
     type="image/svg+xml"
     data="/images/04-tipitaka-structure/suttantapitaka-structure.svg"
     aria-label="แผนภูมิสุตตันตปิฎก"
@@ -46,9 +43,8 @@ searchKeywords:
 </div>
 
 #### แผนภูมิอภิธัมมปิฎก {style="display:none"}
-<div class="ptb-04-tipitaka-structure-svg-wrap ptb-04-abhidhamma-svg-wrap">
+<div class="ptb-svg-wrap">
   <object
-    class="ptb-04-tipitaka-structure-svg ptb-04-abhidhamma-svg"
     type="image/svg+xml"
     data="/images/04-tipitaka-structure/abhidhammapitaka-structure.svg"
     aria-label="แผนภูมิอภิธัมมปิฎก"

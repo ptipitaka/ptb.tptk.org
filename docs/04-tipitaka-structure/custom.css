@@ -1,6 +1,6 @@
 /**
  * สไตล์เฉพาะหน้าแผนภูมิพระไตรปิฎก (04-tipitaka-structure)
- * ใช้เฉพาะใน /tipitaka-structure/
+ * SVG wraps ใช้ .ptb-svg-wrap base จาก global custom.css
  */
 
 /* หน้า 45: แผนภูมิพระไตรปิฎกแบบหนังสือ */
@@ -93,34 +93,6 @@
   text-underline-offset: 2px;
 }
 
-/* หน้า 45 แบบ SVG (viewBox 504×319 — ขนาดตัวอักษรใน SVG ปรับให้เท่าเนื้อหา ~14px) */
-.ptb-04-tipitaka-structure-svg-wrap {
-  margin: 0.75rem auto 1rem;
-  max-width: 1060px;
-  overflow-x: auto;
-  font-size: 14px; /* ฐานสำหรับความสอดคล้องกับเนื้อหา (SVG ใช้ px ในไฟล์) */
-}
-
-.ptb-04-tipitaka-structure-svg {
-  width: 100%;
-  height: auto;
-  border: 0;
-  display: block;
-}
-
-/* แยกคลาสแผนภูมิวินัยปิฎกเพื่อปรับขนาดอิสระจากแผนภูมิรวม */
-.ptb-04-vinaya-svg-wrap {
-  max-width: 1060px;
-}
-
-.ptb-04-suttanta-svg-wrap {
-  max-width: 1060px;
-}
-
-.ptb-04-abhidhamma-svg-wrap {
-  max-width: 1060px;
-}
-
 @media (max-width: 960px) {
   .ptb-04-tipitaka-structure-root {
     font-size: 1.18rem;
@@ -144,20 +116,5 @@
 
   .ptb-04-tipitaka-structure-branch li {
     font-size: 1rem;
-  }
-}
-
-@media (max-width: 560px) {
-  .ptb-04-tipitaka-structure-svg-wrap {
-    max-width: 100%;
-  }
-
-  .ptb-04-vinaya-svg-wrap {
-    max-width: 100%;
-  }
-
-  .ptb-04-suttanta-svg-wrap,
-  .ptb-04-abhidhamma-svg-wrap {
-    max-width: 100%;
   }
 }

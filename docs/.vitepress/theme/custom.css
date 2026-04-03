@@ -1,13 +1,24 @@
-/* ฟอนต์ไทย — Sarabun, TH Sarabun New fallback */
+/* ฟอนต์ไทย — Sarabun, TH Sarabun New fallback + ตัวแปรโครงการ */
 :root {
   --vp-font-family-base: 'Sarabun', 'TH Sarabun New', 'Tahoma', 'Leelawadee UI', sans-serif;
   --vp-font-family-mono: 'Sarabun', 'TH Sarabun New', ui-monospace, monospace;
+
+  --ptb-paragraph-indent: 2em;
+  --ptb-paragraph-first-indent: calc(2 * var(--ptb-paragraph-indent));
+  --ptb-list-item-indent-per-level: calc(1.5 * var(--ptb-paragraph-first-indent));
+  --ptb-list-marker-gap: 0.65em;
+  --ptb-paragraph-v-margin: calc(16px * 0.1);
+
+  --ptb-font-xs: 0.8125rem;
+  --ptb-font-sm: 0.9375rem;
+  --ptb-font-base: 1rem;
+  --ptb-font-lg: 1.125rem;
+  --ptb-font-xl: 1.25rem;
+  --ptb-font-heading-l2: 1.375rem;
+  --ptb-font-2xl: 1.5rem;
 }
 
-body {
-  font-family: var(--vp-font-family-base);
-}
-
+body,
 .vp-doc {
   font-family: var(--vp-font-family-base);
 }
@@ -15,25 +26,6 @@ body {
 .vp-doc p,
 .vp-doc li {
   line-height: 1.75;
-}
-
-/* Reusable paragraph utilities (project-wide) */
-:root {
-  --ptb-paragraph-indent: 2em;
-  --ptb-paragraph-first-indent: calc(2 * var(--ptb-paragraph-indent));
-  --ptb-list-item-indent-per-level: calc(1.5 * var(--ptb-paragraph-first-indent));
-  /* ระยะระหว่างคอลัมน์ marker กับเนื้อหาใน PtbListItem แบบ grid — เดิม 0.35em ชิดเกินไปกับ marker ยาว (เช่น สิกขาบทที่ ๑๐) */
-  --ptb-list-marker-gap: 0.65em;
-  /* ระยะบน–ล่างของ PtbParagraph: VitePress ใช้ 16px ต่อย่อหน้า — ค่านี้ลดลง ~90% (เหลือ 10%) */
-  --ptb-paragraph-v-margin: calc(16px * 0.1);
-  --ptb-font-xs: 0.8125rem;
-  --ptb-font-sm: 0.9375rem;
-  --ptb-font-base: 1rem;
-  --ptb-font-lg: 1.125rem;
-  --ptb-font-xl: 1.25rem;
-  /* 22px — หัวข้อ H2/H3 (.ptb-h-block); ไม่สับสนกับ --ptb-font-xl (20px) */
-  --ptb-font-heading-l2: 1.375rem;
-  --ptb-font-2xl: 1.5rem;
 }
 
 /* Atomic utilities */
@@ -144,17 +136,13 @@ body {
  * บล็อกหัวข้อกลาง — margin-top ลดหลั่นตามระดับ (h1 > h2 > h3 > h4 > h5 > h6)
  * เดิม h3–h6 ใช้ 0.6in เท่ากันทุกระดับ ทำให้ดูห่างเท่ากันและไม่สะท้อนลำดับชั้น
  */
-.vp-doc h1.ptb-h-block,
-.vp-doc h2.ptb-h-block,
-.vp-doc h3.ptb-h-block,
-.vp-doc h4.ptb-h-block,
-.vp-doc h5.ptb-h-block,
-.vp-doc h6.ptb-h-block {
+.vp-doc :is(h1, h2, h3, h4, h5, h6).ptb-h-block {
   max-width: 40rem;
   margin-left: auto;
   margin-right: auto;
   text-align: center;
   text-indent: 0;
+  font-style: normal;
   border-top: none !important;
   padding-top: 0 !important;
   letter-spacing: normal !important;
@@ -205,43 +193,11 @@ body {
 }
 
 /* คำบรรยายใต้หัวข้อ แล้วตามด้วยหัวข้อย่อยถัดไป — เว้นให้พออ่าน */
-.vp-doc h1.ptb-h-block + p.ptb-subtitle:has(+ h2.ptb-h-block) {
+.vp-doc :is(h1, h2, h3, h4, h5, h6).ptb-h-block + p.ptb-subtitle:has(+ :is(h1, h2, h3, h4, h5, h6).ptb-h-block) {
   margin-bottom: 0.9rem;
 }
 
-.vp-doc h1.ptb-h-block + p.ptb-subtitle + h2.ptb-h-block {
-  margin-top: 1.1rem;
-}
-
-.vp-doc h2.ptb-h-block + p.ptb-subtitle:has(+ h3.ptb-h-block) {
-  margin-bottom: 0.9rem;
-}
-
-.vp-doc h2.ptb-h-block + p.ptb-subtitle + h3.ptb-h-block {
-  margin-top: 1.1rem;
-}
-
-.vp-doc h3.ptb-h-block + p.ptb-subtitle:has(+ h4.ptb-h-block) {
-  margin-bottom: 0.9rem;
-}
-
-.vp-doc h3.ptb-h-block + p.ptb-subtitle + h4.ptb-h-block {
-  margin-top: 1.1rem;
-}
-
-.vp-doc h4.ptb-h-block + p.ptb-subtitle:has(+ h5.ptb-h-block) {
-  margin-bottom: 0.9rem;
-}
-
-.vp-doc h4.ptb-h-block + p.ptb-subtitle + h5.ptb-h-block {
-  margin-top: 1.1rem;
-}
-
-.vp-doc h5.ptb-h-block + p.ptb-subtitle:has(+ h6.ptb-h-block) {
-  margin-bottom: 0.9rem;
-}
-
-.vp-doc h5.ptb-h-block + p.ptb-subtitle + h6.ptb-h-block {
+.vp-doc :is(h1, h2, h3, h4, h5, h6).ptb-h-block + p.ptb-subtitle + :is(h1, h2, h3, h4, h5, h6).ptb-h-block {
   margin-top: 1.1rem;
 }
 
@@ -287,21 +243,11 @@ body {
  * คำบรรยายใต้หัวข้อ .ptb-h-block (h1–h6) — ขนาดลดหนึ่งขั้นจากหัวข้อนั้น กึ่งกลาง น้ำหนักปกติ
  * ระยะห่างจากหัวข้อคล้ายบรรทัดใน .ptb-title-stack
  */
-.vp-doc h1.ptb-h-block:has(+ p.ptb-subtitle),
-.vp-doc h2.ptb-h-block:has(+ p.ptb-subtitle),
-.vp-doc h3.ptb-h-block:has(+ p.ptb-subtitle),
-.vp-doc h4.ptb-h-block:has(+ p.ptb-subtitle),
-.vp-doc h5.ptb-h-block:has(+ p.ptb-subtitle),
-.vp-doc h6.ptb-h-block:has(+ p.ptb-subtitle) {
+.vp-doc :is(h1, h2, h3, h4, h5, h6).ptb-h-block:has(+ p.ptb-subtitle) {
   margin-bottom: 0.35em;
 }
 
-.vp-doc h1.ptb-h-block + p.ptb-subtitle,
-.vp-doc h2.ptb-h-block + p.ptb-subtitle,
-.vp-doc h3.ptb-h-block + p.ptb-subtitle,
-.vp-doc h4.ptb-h-block + p.ptb-subtitle,
-.vp-doc h5.ptb-h-block + p.ptb-subtitle,
-.vp-doc h6.ptb-h-block + p.ptb-subtitle {
+.vp-doc :is(h1, h2, h3, h4, h5, h6).ptb-h-block + p.ptb-subtitle {
   max-width: 40rem;
   margin-left: auto;
   margin-right: auto;
@@ -322,8 +268,7 @@ body {
 }
 
 /* h2 / h3 → xl → lg */
-.vp-doc h2.ptb-h-block + p.ptb-subtitle,
-.vp-doc h3.ptb-h-block + p.ptb-subtitle {
+.vp-doc :is(h2, h3).ptb-h-block + p.ptb-subtitle {
   font-size: var(--ptb-font-lg);
   line-height: 1.5;
 }
@@ -844,7 +789,7 @@ body {
 }
 
 /* Generic footnote block: reduced-size text across nested content */
-.vp-doc :is(.ptb-footnote, .ptf-footnote) {
+.vp-doc .ptb-footnote {
   --ptb-footnote-size: calc(var(--ptb-font-base) * 0.6);
   margin: 0.45rem 0 0.3rem;
   padding-top: 0.5rem;
@@ -854,50 +799,50 @@ body {
   line-height: 1.2;
 }
 
-.vp-doc :is(.ptb-footnote, .ptf-footnote),
-.vp-doc :is(.ptb-footnote, .ptf-footnote) p,
-.vp-doc :is(.ptb-footnote, .ptf-footnote) li,
-.vp-doc :is(.ptb-footnote, .ptf-footnote) div,
-.vp-doc :is(.ptb-footnote, .ptf-footnote) a,
-.vp-doc :is(.ptb-footnote, .ptf-footnote) strong,
-.vp-doc :is(.ptb-footnote, .ptf-footnote) em,
-.vp-doc :is(.ptb-footnote, .ptf-footnote) span {
+.vp-doc .ptb-footnote,
+.vp-doc .ptb-footnote p,
+.vp-doc .ptb-footnote li,
+.vp-doc .ptb-footnote div,
+.vp-doc .ptb-footnote a,
+.vp-doc .ptb-footnote strong,
+.vp-doc .ptb-footnote em,
+.vp-doc .ptb-footnote span {
   font-size: var(--ptb-footnote-size);
   line-height: 1.2;
 }
 
 /* Keep spacing between sibling div blocks readable */
-.vp-doc :is(.ptb-footnote, .ptf-footnote) > div + div {
+.vp-doc .ptb-footnote > div + div {
   margin-top: 0.7em;
 }
 
-.vp-doc :is(.ptb-footnote, .ptf-footnote) p {
+.vp-doc .ptb-footnote p {
   margin: 0.12em 0;
 }
 
-.vp-doc :is(.ptb-footnote, .ptf-footnote) ul,
-.vp-doc :is(.ptb-footnote, .ptf-footnote) ol {
+.vp-doc .ptb-footnote ul,
+.vp-doc .ptb-footnote ol {
   margin: 0.22em 0;
   padding-left: 1.1em;
 }
 
 /* Tight spacing between items within the same list */
-.vp-doc :is(.ptb-footnote, .ptf-footnote) li {
+.vp-doc .ptb-footnote li {
   margin: 0.04em 0;
   line-height: 1.15;
 }
 
-.vp-doc :is(.ptb-footnote, .ptf-footnote) sup {
+.vp-doc .ptb-footnote sup {
   font-size: 0.72em;
   line-height: 1;
 }
 
-.vp-doc :is(.ptb-footnote, .ptf-footnote) a {
+.vp-doc .ptb-footnote a {
   color: inherit;
   text-decoration: none;
 }
 
-.vp-doc :is(.ptb-footnote, .ptf-footnote) a:hover {
+.vp-doc .ptb-footnote a:hover {
   text-decoration: underline;
   text-decoration-thickness: 1px;
   text-underline-offset: 2px;
@@ -1073,5 +1018,79 @@ body {
   .ptb-inline-footnote__trigger,
   .ptb-inline-footnote__sheet-layer {
     display: none !important;
+  }
+}
+
+/* ===== Reusable SVG-wrap base ===== */
+.ptb-svg-wrap {
+  margin: 0.75rem auto 1rem;
+  max-width: 1060px;
+  overflow-x: auto;
+  font-size: 14px;
+}
+
+.ptb-svg-wrap > img,
+.ptb-svg-wrap > svg,
+.ptb-svg-wrap > object {
+  width: 100%;
+  height: auto;
+  border: 0;
+  display: block;
+}
+
+.ptb-svg-wrap--full {
+  max-width: none;
+  width: 100%;
+}
+
+.ptb-svg-wrap--flush {
+  margin-left: 0;
+  margin-right: 0;
+  text-align: left;
+}
+
+@media (max-width: 560px) {
+  .ptb-svg-wrap {
+    max-width: 100%;
+  }
+}
+
+/* ===== Reusable volume-list base ===== */
+.vp-doc .ptb-vol-list.ptb-list {
+  max-width: none;
+  margin-left: 0;
+  margin-right: 0;
+  padding: 0.35em 0 0.5em;
+  background: transparent;
+  border-radius: 0;
+  box-sizing: border-box;
+}
+
+.vp-doc .ptb-vol-list .ptb-list-item--grid {
+  grid-template-columns: var(--ptb-vol-col1, 18em) max-content;
+  column-gap: 0.35em;
+  align-items: baseline;
+  padding-left: var(--ptb-paragraph-first-indent);
+}
+
+.vp-doc .ptb-vol-list .ptb-list-item__marker {
+  font-weight: 700;
+  text-align: left;
+  white-space: normal;
+}
+
+.vp-doc .ptb-vol-list .ptb-list-item__content {
+  text-align: left;
+  text-justify: auto;
+}
+
+@media (max-width: 520px) {
+  .vp-doc .ptb-vol-list .ptb-list-item--grid {
+    grid-template-columns: 1fr;
+    row-gap: 0.15em;
+  }
+
+  .vp-doc .ptb-vol-list .ptb-list-item__marker {
+    margin-bottom: 0.05em;
   }
 }

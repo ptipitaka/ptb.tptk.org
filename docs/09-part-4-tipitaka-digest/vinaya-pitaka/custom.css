@@ -1,27 +1,7 @@
 /**
- * สไตล์เฉพาะหน้าแผนภูมิวินัยปิฎก (ภาค ๔)
- * โครงสร้างหลักสอดคล้องกับ docs/public/images/04-tipitaka-structure/vinayapitaka-structure.svg (viewBox 920×600)
+ * สไตล์เฉพาะวินัยปิฎก (ภาค ๔)
+ * SVG wraps ใช้ .ptb-svg-wrap base จาก global custom.css
  */
-
-.ptb-part4-vinaya-structure-svg-wrap {
-  margin: 0.75rem auto 1rem;
-  max-width: 1060px;
-  overflow-x: auto;
-  font-size: 14px;
-}
-
-.ptb-part4-vinaya-structure-svg {
-  width: 100%;
-  height: auto;
-  border: 0;
-  display: block;
-}
-
-@media (max-width: 560px) {
-  .ptb-part4-vinaya-structure-svg-wrap {
-    max-width: 100%;
-  }
-}
 
 /* ตารางเล่มคัมภีร์วินัย — ไม่มีเส้น ไม่มีพื้นหลังทึบ */
 .vp-doc .ptb-part4-vinaya-vols-table {
@@ -61,8 +41,7 @@
   background: transparent;
 }
 
-/* สรุปศีลของนางภิกษุณี — ตารางตามฉบับพิมพ์ (เส้นตาราง + แถวรวมเส้นคู่) */
-/* ทับ .vp-doc table { display: block } ของ VitePress — ถ้าเป็น block ตารางจะไม่กางคอลัมน์เต็มความกว้าง เหลือช่องว่างด้านขวา */
+/* สรุปศีลของนางภิกษุณี — ตารางตามฉบับพิมพ์ */
 .vp-doc .ptb-part4-bhikkhuni-sila-summary-table {
   display: table;
   table-layout: fixed;

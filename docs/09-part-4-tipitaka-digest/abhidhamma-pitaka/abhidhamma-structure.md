@@ -20,9 +20,8 @@ searchKeywords:
 
 ### แผนภูมิอภิธัมมปิฎก {style="display:none"}
 
-<div class="ptb-part4-abhidhamma-structure-svg-wrap">
+<div class="ptb-svg-wrap ptb-svg-wrap--full">
   <object
-    class="ptb-part4-abhidhamma-structure-svg"
     type="image/svg+xml"
     data="/images/09-part-4-tipitaka-digest/abhidhamma-pitaka/abhidhamma-pitaka-structure.svg"
     aria-label="แผนภูมิอภิธัมมปิฎก"
@@ -31,7 +30,7 @@ searchKeywords:
 
 <PtbParagraph>อภิธัมมปิฎก มี ๗ คัมภีร์ จัดพิมพ์รวม ๑๒ เล่ม (เล่มที่ ๓๔ ถึง ๔๕) เรียงลำดับเล่มคัมภีร์ดังนี้คือ</PtbParagraph>
 
-<PtbList class="ptb-part4-abhidhamma-vols">
+<PtbList class="ptb-vol-list ptb-part4-abhidhamma-vols">
 <PtbListItem marker="ธัมมสังคณี">เล่มที่ ๓๔</PtbListItem>
 <PtbListItem marker="วิภังค์">เล่มที่ ๓๕</PtbListItem>
 <PtbListItem marker="ธาตุกถา และ ปุคคลปัญญัตติ">เล่มที่ ๓๖</PtbListItem>

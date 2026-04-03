@@ -15,7 +15,7 @@
     a:hover text { fill: #1d4ed8; text-decoration: underline; }
   </style>
 
-  <a href="/tipitaka-structure/#abhidhamma" target="_top">
+  <a href="/part-4-tipitaka-digest/abhidhamma-pitaka/abhidhamma-structure" target="_top">
     <text x="640" y="34" class="root">อภิธัมมปิฎก</text>
   </a>
 
@@ -38,7 +38,7 @@
   <circle cx="1014" cy="124" r="1.7" fill="#6b7280" />
   <circle cx="1200" cy="124" r="1.7" fill="#6b7280" />
 
-  <a href="/tipitaka-structure/#abhidhamma-dhammasangani" target="_top"><text x="80" y="166" class="head">ธัมมสังคณี</text></a>
+  <a href="/part-4-tipitaka-digest/abhidhamma-pitaka/abhidhamma-structure" target="_top"><text x="80" y="166" class="head">ธัมมสังคณี</text></a>
   <text x="80" y="206" class="desc">
     <tspan x="80" dy="0">รวมกลุ่มธรรม</tspan>
     <tspan x="80" dy="32">กลุ่มละ ๓ และ</tspan>
@@ -46,7 +46,7 @@
     <tspan x="80" dy="32">ทั้งหมด ๑๔๕ มาติกา</tspan>
   </text>
 
-  <a href="/tipitaka-structure/#abhidhamma-vibhanga" target="_top"><text x="267" y="166" class="head">วิภังค์</text></a>
+  <a href="/part-4-tipitaka-digest/abhidhamma-pitaka/abhidhamma-structure" target="_top"><text x="267" y="166" class="head">วิภังค์</text></a>
   <text x="267" y="206" class="desc">
     <tspan x="267" dy="0">การแจกกลุ่มธรรมะ</tspan>
     <tspan x="267" dy="32">ให้เห็น</tspan>
@@ -54,7 +54,7 @@
     <tspan x="267" dy="32">รวม ๑๘ เรื่อง</tspan>
   </text>
 
-  <a href="/tipitaka-structure/#abhidhamma-dhatukatha" target="_top"><text x="454" y="166" class="head">ธาตุกถา</text></a>
+  <a href="/part-4-tipitaka-digest/abhidhamma-pitaka/abhidhamma-structure" target="_top"><text x="454" y="166" class="head">ธาตุกถา</text></a>
   <text x="454" y="206" class="desc">
     <tspan x="454" dy="0">การจัดธรรม</tspan>
     <tspan x="454" dy="32">๑๒๕ อย่าง</tspan>
@@ -62,21 +62,21 @@
     <tspan x="454" dy="32">ขันธ์ อายตนะ ธาตุ</tspan>
   </text>
 
-  <a href="/tipitaka-structure/#abhidhamma-puggalapannatti" target="_top"><text x="640" y="166" class="head">ปุคคลบัญญัตติ</text></a>
+  <a href="/part-4-tipitaka-digest/abhidhamma-pitaka/abhidhamma-structure" target="_top"><text x="640" y="166" class="head">ปุคคลบัญญัตติ</text></a>
   <text x="640" y="206" class="desc">
     <tspan x="640" dy="0">การบัญญัติ</tspan>
     <tspan x="640" dy="32">บุคคลต่าง ๆ</tspan>
     <tspan x="640" dy="32">ตามคุณธรรม</tspan>
   </text>
 
-  <a href="/tipitaka-structure/#abhidhamma-kathavatthu" target="_top"><text x="827" y="166" class="head">กถาวัตถุ</text></a>
+  <a href="/part-4-tipitaka-digest/abhidhamma-pitaka/abhidhamma-structure" target="_top"><text x="827" y="166" class="head">กถาวัตถุ</text></a>
   <text x="827" y="206" class="desc">
     <tspan x="827" dy="0">คำถาม</tspan>
     <tspan x="827" dy="32">คำตอบ</tspan>
     <tspan x="827" dy="32">รวม ๒๑๙ กถา</tspan>
   </text>
 
-  <a href="/tipitaka-structure/#abhidhamma-yamaka" target="_top"><text x="1014" y="166" class="head">ยมก</text></a>
+  <a href="/part-4-tipitaka-digest/abhidhamma-pitaka/abhidhamma-structure" target="_top"><text x="1014" y="166" class="head">ยมก</text></a>
   <text x="1014" y="206" class="desc">
     <tspan x="1014" dy="0">อธิบาย</tspan>
     <tspan x="1014" dy="32">หลักธรรมสำคัญ</tspan>
@@ -84,7 +84,7 @@
     <tspan x="1014" dy="32">รวม ๑๐ ยมก</tspan>
   </text>
 
-  <a href="/tipitaka-structure/#abhidhamma-patthana" target="_top"><text x="1200" y="166" class="head">ปัฏฐาน</text></a>
+  <a href="/part-4-tipitaka-digest/abhidhamma-pitaka/abhidhamma-structure" target="_top"><text x="1200" y="166" class="head">ปัฏฐาน</text></a>
   <text x="1200" y="206" class="desc">
     <tspan x="1200" dy="0">อธิบาย</tspan>
     <tspan x="1200" dy="32">ปัจจัย ๒๔</tspan>
