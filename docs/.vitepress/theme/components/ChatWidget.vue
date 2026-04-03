@@ -66,11 +66,28 @@ function searchIndex(queryEmbedding: number[], topK: number): IndexEntry[] {
   return scored.slice(0, topK).map((s) => s.entry)
 }
 
+async function expandQuery(text: string): Promise<string[]> {
+  try {
+    const res = await fetch(`${CHAT_API}/api/expand`, {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ text }),
+    })
+    if (!res.ok) return [text]
+    const data = await res.json()
+    return data.queries?.length ? data.queries : [text]
+  } catch {
+    return [text]
+  }
+}
+
 async function getEmbedding(text: string): Promise<number[]> {
+  const queries = await expandQuery(text)
+
   const res = await fetch(`${CHAT_API}/api/embed`, {
     method: 'POST',
     headers: { 'Content-Type': 'application/json' },
-    body: JSON.stringify({ text }),
+    body: JSON.stringify(queries.length > 1 ? { texts: queries } : { text: queries[0] }),
   })
   if (!res.ok) throw new Error(`Embed API error: ${res.status}`)
   const data = await res.json()
