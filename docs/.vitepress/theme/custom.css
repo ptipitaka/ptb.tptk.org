@@ -3,9 +3,9 @@
   --vp-font-family-base: 'Sarabun', 'TH Sarabun New', 'Tahoma', 'Leelawadee UI', sans-serif;
   --vp-font-family-mono: 'Sarabun', 'TH Sarabun New', ui-monospace, monospace;
 
-  --ptb-paragraph-indent: 2em;
+  --ptb-paragraph-indent: clamp(1.35em, 1.1em + 0.9vw, 2em);
   --ptb-paragraph-first-indent: calc(2 * var(--ptb-paragraph-indent));
-  --ptb-list-item-indent-per-level: calc(1.5 * var(--ptb-paragraph-first-indent));
+  --ptb-list-item-indent-per-level: clamp(2.2em, 1.55em + 1.2vw, calc(1.5 * var(--ptb-paragraph-first-indent)));
   --ptb-list-marker-gap: 0.65em;
   --ptb-paragraph-v-margin: calc(16px * 0.1);
 
@@ -26,6 +26,7 @@ body,
 .vp-doc p,
 .vp-doc li {
   line-height: 1.75;
+  overflow-wrap: anywhere;
 }
 
 /* Atomic utilities */
@@ -1084,7 +1085,26 @@ body,
   text-justify: auto;
 }
 
+@media (max-width: 640px) {
+  :root {
+    --ptb-paragraph-indent: 1.35em;
+    --ptb-list-item-indent-per-level: 2.2em;
+    --ptb-list-marker-gap: 0.5em;
+  }
+
+  .vp-doc p.ptb-paragraph,
+  .vp-doc .ptb-list-item {
+    text-align: left;
+    text-justify: auto;
+  }
+}
+
 @media (max-width: 520px) {
+  :root {
+    --ptb-paragraph-indent: 1.15em;
+    --ptb-list-item-indent-per-level: 1.9em;
+  }
+
   .vp-doc .ptb-vol-list .ptb-list-item--grid {
     grid-template-columns: 1fr;
     row-gap: 0.15em;
