@@ -565,8 +565,8 @@ function renderMarkdown(text: string): string {
     bottom: 0;
     width: 100vw;
     max-width: 100vw;
-    height: 100vh;
-    max-height: 100vh;
+    height: 100dvh;
+    max-height: 100dvh;
     border-radius: 0;
   }
 
@@ -575,6 +575,15 @@ function renderMarkdown(text: string): string {
     right: 1rem;
     width: 48px;
     height: 48px;
+  }
+
+  .ptb-chat-fab--open {
+    z-index: 1200;
+  }
+
+  .ptb-chat-close {
+    font-size: 1.6rem;
+    padding: 0.2rem 0.5rem;
   }
 }
 </style>
