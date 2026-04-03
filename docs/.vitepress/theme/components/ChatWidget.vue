@@ -359,12 +359,34 @@ onUnmounted(() => document.removeEventListener('keydown', closeOnEscape))
 </template>
 
 <script lang="ts">
+function sanitizeChatHref(rawHref: string): string | null {
+  const href = rawHref.trim()
+  if (!href) return null
+
+  if (href.startsWith('/') || href.startsWith('#')) return href
+
+  try {
+    const parsed = new URL(href)
+    const isHttp = parsed.protocol === 'http:' || parsed.protocol === 'https:'
+    const isPtbHost = parsed.hostname === 'ptb.tptk.org' || parsed.hostname === 'www.ptb.tptk.org'
+    if (isHttp && isPtbHost) return parsed.toString()
+  } catch {
+    // invalid URL
+  }
+  return null
+}
+
 function renderMarkdown(text: string): string {
   return text
     .replace(/&/g, '&amp;')
     .replace(/</g, '&lt;')
     .replace(/>/g, '&gt;')
-    .replace(/\[([^\]]+)\]\(([^)]+)\)/g, '<a href="$2" class="ptb-chat-link">$1</a>')
+    .replace(/\[([^\]]+)\]\(([^)]+)\)/g, (_, label: string, href: string) => {
+      const safeHref = sanitizeChatHref(href)
+      if (!safeHref) return `<span class="ptb-chat-link-disabled">${label}</span>`
+      const escapedHref = safeHref.replace(/"/g, '%22')
+      return `<a href="${escapedHref}" class="ptb-chat-link">${label}</a>`
+    })
     .replace(/\*\*([^*]+)\*\*/g, '<strong>$1</strong>')
     .replace(/\n/g, '<br>')
 }
@@ -492,6 +514,12 @@ function renderMarkdown(text: string): string {
 
 .ptb-chat-msg--user .ptb-chat-msg__text :deep(a) {
   color: #dbeafe;
+}
+
+.ptb-chat-msg__text :deep(.ptb-chat-link-disabled) {
+  color: var(--vp-c-text-2);
+  text-decoration: none;
+  cursor: default;
 }
 
 .ptb-chat-msg__sources {
