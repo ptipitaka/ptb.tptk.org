@@ -208,7 +208,6 @@ searchKeywords:
 <a href="/part-4-tipitaka-digest/sutta-pitaka/majjhima-nikaya/vol-13#80AzxeglXR">๒๓. มหาวัจฉโคตตสูตร</a>
 </div>
 </div>
-</div>
 
 <div class="wi-entry">
 <p class="wi-entry__term"><a href="/part-4-tipitaka-digest/sutta-pitaka/khuddaka-nikaya/vol-26#qVKAUBMFF1">เถรคาถา — ภาษิตของพระเถระ ๒๖๔ รูป</a></p>
