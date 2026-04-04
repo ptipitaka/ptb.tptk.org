@@ -4,7 +4,7 @@ lang: th
 description: ดัชนีหลักธรรมสำคัญในพระพุทธศาสนา — สารบัญค้นคำ พระไตรปิฎกฉบับสำหรับประชาชน
 outline: [2, 6]
 prev: { text: 'สารบัญค้นคำ', link: '/part-5-academic-notes-and-index/word-index/' }
-next: { text: 'คำศัพท์เกี่ยวกับหลักธรรม', link: '/part-5-academic-notes-and-index/word-index/doctrinal-terms/' }
+next: { text: 'ศัพท์ธรรมะ', link: '/part-5-academic-notes-and-index/word-index/doctrinal-terms/' }
 searchKeywords:
   - หลักธรรมสำคัญ
   - อริยสัจ
@@ -134,6 +134,7 @@ searchKeywords:
 <div class="wi-entry__refs">
 <a href="/part-4-tipitaka-digest/sutta-pitaka/digha-nikaya/vol-10#LMDyi4afDz">เสด็จป่ามหาวันประชุมภิกษุสงฆ์</a>
 <a href="/part-3-tipitaka-selected-passages/khuddaka-nikaya/#jDvZqSfS2L">๕. ภิกษุผู้มีกัลยาณศีล กัลยาณธรรม กัลยาณปัญญา</a>
+<a href="/part-4-tipitaka-digest/sutta-pitaka/samyutta-nikaya/vol-19#wq9LecALRq">เล่ม ๑๙ สังยุตตนิกาย มหาวารวรรค</a>
 </div>
 </div>
 </div>
@@ -146,6 +147,15 @@ searchKeywords:
 <p class="wi-entry__desc">ปฐมฌาน ทุติยฌาน ตติยฌาน จตุตถฌาน</p>
 <div class="wi-entry__refs">
 <a href="/part-4-tipitaka-digest/sutta-pitaka/digha-nikaya/vol-09#XpMohDfmGC">๒. สามัญญผลสูตร</a>
+<a href="/part-3-tipitaka-selected-passages/digha-nikaya/#wnikh2crZD">๒๒๐. การทำตนให้ชุ่มด้วยความสุข</a>
+</div>
+</div>
+
+<div class="wi-entry">
+<p class="wi-entry__term"><a href="/part-3-tipitaka-selected-passages/digha-nikaya/#d3kG5taKVS">ฐานะ ๙ ที่พระอรหันต์ไม่ก้าวล่วง</a></p>
+<p class="wi-entry__desc">ไม่ฆ่าสัตว์ ไม่ลักทรัพย์ ไม่เสพเมถุน ไม่กล่าวเท็จ ไม่สะสมกาม ไม่ลำเอียง</p>
+<div class="wi-entry__refs">
+<a href="/part-3-tipitaka-selected-passages/digha-nikaya/#d3kG5taKVS">๑๓๗. พระอรหันต์ไม่ก้าวล่วงฐานะ ๙ ประการ</a>
 </div>
 </div>
 
@@ -199,6 +209,44 @@ searchKeywords:
 <p class="wi-entry__term"><a href="/part-4-tipitaka-digest/sutta-pitaka/digha-nikaya/vol-10#8zPKmAqZca">วิโมกข์ ๘</a></p>
 <div class="wi-entry__refs">
 <a href="/part-4-tipitaka-digest/sutta-pitaka/digha-nikaya/vol-10#8zPKmAqZca">วิโมกข์ (ความหลุดพ้น) ๘</a>
+<a href="/part-4-tipitaka-digest/sutta-pitaka/anguttara-nikaya/vol-23#EMUVKXiANj">อัฏฐกนิบาต มหาวรรค</a>
+</div>
+</div>
+
+<div class="wi-entry">
+<p class="wi-entry__term"><a href="/part-4-tipitaka-digest/sutta-pitaka/anguttara-nikaya/vol-23#EMUVKXiANj">มหาปุริสวิตก ๘</a></p>
+<p class="wi-entry__desc">ความตรึกของมหาบุรุษ ๘ ประการ — ธรรมของพระอนุรุทธ์</p>
+<div class="wi-entry__refs">
+<a href="/part-4-tipitaka-digest/sutta-pitaka/anguttara-nikaya/vol-23#EMUVKXiANj">อัฏฐกนิบาต มหาวรรค</a>
+</div>
+</div>
+
+<div class="wi-entry">
+<p class="wi-entry__term"><a href="/part-4-tipitaka-digest/sutta-pitaka/anguttara-nikaya/vol-23#75tZBoQnvl">อนุบุพพนิโรธ ๙</a></p>
+<p class="wi-entry__desc">ความดับโดยลำดับ ๙ ขั้น ตั้งแต่ปฐมฌานถึงสัญญาเวทยิตนิโรธ</p>
+<div class="wi-entry__refs">
+<a href="/part-4-tipitaka-digest/sutta-pitaka/anguttara-nikaya/vol-23#75tZBoQnvl">นวกนิบาต มหาวรรค</a>
+</div>
+</div>
+
+<div class="wi-entry">
+<p class="wi-entry__term"><a href="/part-4-tipitaka-digest/sutta-pitaka/anguttara-nikaya/vol-24#w0kQAZWzi6">อานิสงส์ของเมตตา ๑๑</a></p>
+<p class="wi-entry__desc">หลับเป็นสุข ตื่นเป็นสุข ไม่ฝันร้าย เป็นที่รักของมนุษย์ เป็นที่รักของอมนุษย์ เทวดาย่อมรักษา เป็นต้น</p>
+<div class="wi-entry__refs">
+<a href="/part-4-tipitaka-digest/sutta-pitaka/anguttara-nikaya/vol-24#w0kQAZWzi6">เอกาทสกนิบาต</a>
+<a href="/part-4-tipitaka-digest/sutta-pitaka/anguttara-nikaya/vol-23#K2gnghKmR5">อัฏฐกนิบาต เมตตาวรรค</a>
+</div>
+</div>
+</div>
+
+## มงคลสูตร {.ptb-h-block}
+
+<div class="wi-section">
+<div class="wi-entry">
+<p class="wi-entry__term"><a href="/part-4-tipitaka-digest/sutta-pitaka/khuddaka-nikaya/vol-25#PpH94egapE">มงคล ๓๗ ประการ</a></p>
+<p class="wi-entry__desc">ไม่คบพาล คบบัณฑิต บูชาผู้ควรบูชา ตั้งตนชอบ สดับตรับฟังมาก ฯลฯ จนถึง จิตเกษม</p>
+<div class="wi-entry__refs">
+<a href="/part-4-tipitaka-digest/sutta-pitaka/khuddaka-nikaya/vol-25#PpH94egapE">ขุททกปาฐะ มงคลสูตร</a>
 </div>
 </div>
 </div>
@@ -244,6 +292,7 @@ searchKeywords:
 <p class="wi-entry__desc">ธรรมอันไม่เป็นที่ตั้งแห่งความเสื่อม</p>
 <div class="wi-entry__refs">
 <a href="/part-4-tipitaka-digest/sutta-pitaka/digha-nikaya/vol-10#KjYTbb11TK">๓. มหาปรินิพพานสูตร</a>
+<a href="/part-4-tipitaka-digest/sutta-pitaka/anguttara-nikaya/vol-23#1FJhUObacg">สัตตกนิบาต วัชชีวรรค</a>
 </div>
 </div>
 
@@ -252,6 +301,7 @@ searchKeywords:
 <p class="wi-entry__desc">หลักอ้างอิงใหญ่ ๔ ประการ</p>
 <div class="wi-entry__refs">
 <a href="/part-4-tipitaka-digest/sutta-pitaka/digha-nikaya/vol-10#XWsoTafCQ5">เสด็จภัณฑคามและที่อื่น ๆ</a>
+<a href="/part-4-tipitaka-digest/sutta-pitaka/anguttara-nikaya/vol-21#u70EWZxmiH">จตุกกนิบาต สัญเจตนิยวรรค</a>
 </div>
 </div>
 
@@ -260,6 +310,47 @@ searchKeywords:
 <p class="wi-entry__desc">ศรัทธา ศีล หิริ โอตตัปปะ พาหุสัจจะ จาคะ ปัญญา</p>
 <div class="wi-entry__refs">
 <a href="/part-4-tipitaka-digest/sutta-pitaka/digha-nikaya/vol-11#IrhVoB4eAh">๑๐. สังคีติสูตร</a>
+<a href="/part-4-tipitaka-digest/sutta-pitaka/anguttara-nikaya/vol-23#GeaamKsv3a">สัตตกนิบาต ธนวรรค</a>
+</div>
+</div>
+
+<div class="wi-entry">
+<p class="wi-entry__term"><a href="/part-4-tipitaka-digest/sutta-pitaka/anguttara-nikaya/vol-21#jx6HvcyVFo">สังคหวัตถุ ๔</a></p>
+<p class="wi-entry__desc">ธรรมเป็นเครื่องยึดเหนี่ยวน้ำใจ — ทาน ปิยวาจา อัตถจริยา สมานัตตตา</p>
+<div class="wi-entry__refs">
+<a href="/part-4-tipitaka-digest/sutta-pitaka/anguttara-nikaya/vol-21#jx6HvcyVFo">จตุกกนิบาต จักกวรรค</a>
+</div>
+</div>
+
+<div class="wi-entry">
+<p class="wi-entry__term"><a href="/part-4-tipitaka-digest/sutta-pitaka/anguttara-nikaya/vol-21#EWIhw3ARjq">อคติ ๔</a></p>
+<p class="wi-entry__desc">ลำเอียง ๔ — เพราะรัก เพราะชัง เพราะหลง เพราะกลัว</p>
+<div class="wi-entry__refs">
+<a href="/part-4-tipitaka-digest/sutta-pitaka/anguttara-nikaya/vol-21#EWIhw3ARjq">จตุกกนิบาต จรวรรค</a>
+</div>
+</div>
+
+<div class="wi-entry">
+<p class="wi-entry__term"><a href="/part-4-tipitaka-digest/sutta-pitaka/anguttara-nikaya/vol-21#T7PCfOWSQs">วิปลาส ๔</a></p>
+<p class="wi-entry__desc">ความผิดพลาด ๔ — สัญญาวิปลาส จิตตวิปลาส ทิฏฐิวิปลาส</p>
+<div class="wi-entry__refs">
+<a href="/part-4-tipitaka-digest/sutta-pitaka/anguttara-nikaya/vol-21#T7PCfOWSQs">จตุกกนิบาต โรหิตัสสวรรค</a>
+</div>
+</div>
+
+<div class="wi-entry">
+<p class="wi-entry__term"><a href="/part-4-tipitaka-digest/sutta-pitaka/anguttara-nikaya/vol-23#EMUVKXiANj">โลกธรรม ๘</a></p>
+<p class="wi-entry__desc">ลาภ มิใช่ลาภ ยศ มิใช่ยศ นินทา สรรเสริญ สุข ทุกข์</p>
+<div class="wi-entry__refs">
+<a href="/part-4-tipitaka-digest/sutta-pitaka/anguttara-nikaya/vol-23#EMUVKXiANj">อัฏฐกนิบาต มหาวรรค</a>
+</div>
+</div>
+
+<div class="wi-entry">
+<p class="wi-entry__term"><a href="/part-4-tipitaka-digest/sutta-pitaka/anguttara-nikaya/vol-24#eZmQUJ0aHt">นาถกรณธรรม ๑๐</a></p>
+<p class="wi-entry__desc">ธรรมอันทำที่พึ่ง — มีศีล สดับฟังมาก คบเพื่อนที่ดี ว่าง่าย เป็นต้น</p>
+<div class="wi-entry__refs">
+<a href="/part-4-tipitaka-digest/sutta-pitaka/anguttara-nikaya/vol-24#eZmQUJ0aHt">ทสกนิบาต นาถกรณวรรค</a>
 </div>
 </div>
 </div>

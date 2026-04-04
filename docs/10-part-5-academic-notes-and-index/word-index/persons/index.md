@@ -3,8 +3,8 @@ title: ชื่อบุคคล
 lang: th
 description: ดัชนีชื่อบุคคลสำคัญในพระไตรปิฎก — สารบัญค้นคำ พระไตรปิฎกฉบับสำหรับประชาชน
 outline: [2, 6]
-prev: { text: 'คำศัพท์เกี่ยวกับหลักธรรม', link: '/part-5-academic-notes-and-index/word-index/doctrinal-terms/' }
-next: { text: 'เหตุการณ์สำคัญ', link: '/part-5-academic-notes-and-index/word-index/events/' }
+prev: { text: 'ศัพท์ธรรมะ', link: '/part-5-academic-notes-and-index/word-index/doctrinal-terms/' }
+next: { text: 'ชื่อสถานที่', link: '/part-5-academic-notes-and-index/word-index/places/' }
 searchKeywords:
   - ชื่อบุคคล
   - พระสาวก
@@ -143,6 +143,80 @@ searchKeywords:
 <a href="/part-1-knowledge-of-the-tipitaka/buddhist-councils/#oXXyPz6O0G">การนับสังคายนาของไทย</a>
 </div>
 </div>
+
+<div class="wi-entry">
+<p class="wi-entry__term"><a href="/part-4-tipitaka-digest/sutta-pitaka/anguttara-nikaya/vol-23#EMUVKXiANj">พระอนุรุทธ์</a></p>
+<p class="wi-entry__desc">ผู้ตรึกมหาปุริสวิตก ๘ ประการ จนสำเร็จเป็นพระอรหันต์</p>
+<div class="wi-entry__refs">
+<a href="/part-4-tipitaka-digest/sutta-pitaka/anguttara-nikaya/vol-23#EMUVKXiANj">อัฏฐกนิบาต มหาวรรค</a>
+</div>
+</div>
+
+<div class="wi-entry">
+<p class="wi-entry__term"><a href="/part-4-tipitaka-digest/sutta-pitaka/anguttara-nikaya/vol-24#dkZlMsBLFF">พระคิริมานนท์</a></p>
+<p class="wi-entry__desc">ภิกษุผู้อาพาธ พระพุทธเจ้าตรัสสัญญา ๑๐ แก่พระอานนท์ให้นำไปแสดง</p>
+<div class="wi-entry__refs">
+<a href="/part-4-tipitaka-digest/sutta-pitaka/anguttara-nikaya/vol-24#dkZlMsBLFF">ทสกนิบาต เถรวรรค</a>
+</div>
+</div>
+
+<div class="wi-entry">
+<p class="wi-entry__term"><a href="/part-4-tipitaka-digest/sutta-pitaka/majjhima-nikaya/vol-13#gzNvwJYRJ0">องคุลิมาล</a></p>
+<p class="wi-entry__desc">โจรผู้ตัดนิ้ว ต่อมาบวชสำเร็จเป็นพระอรหันต์</p>
+<div class="wi-entry__refs">
+<a href="/part-4-tipitaka-digest/sutta-pitaka/majjhima-nikaya/vol-13#gzNvwJYRJ0">๓๖. อังคุลิมาลสูตร</a>
+</div>
+</div>
+
+<div class="wi-entry">
+<p class="wi-entry__term"><a href="/part-4-tipitaka-digest/sutta-pitaka/majjhima-nikaya/vol-13#43dyNBDpKM">รัฏฐปาล</a></p>
+<p class="wi-entry__desc">ลูกเศรษฐีผู้ออกบวชแม้บิดามารดาคัดค้าน</p>
+<div class="wi-entry__refs">
+<a href="/part-4-tipitaka-digest/sutta-pitaka/majjhima-nikaya/vol-13#43dyNBDpKM">๓๒. รัฏฐปาลสูตร</a>
+</div>
+</div>
+
+<div class="wi-entry">
+<p class="wi-entry__term"><a href="/part-4-tipitaka-digest/sutta-pitaka/majjhima-nikaya/vol-13#qFpYwaQniW">ฆฏิการะ</a></p>
+<p class="wi-entry__desc">ช่างหม้อผู้เป็นอุบาสกเลิศในสมัยพระกัสสปพุทธเจ้า</p>
+<div class="wi-entry__refs">
+<a href="/part-4-tipitaka-digest/sutta-pitaka/majjhima-nikaya/vol-13#qFpYwaQniW">๓๑. ฆฏิการสูตร</a>
+</div>
+</div>
+
+<div class="wi-entry">
+<p class="wi-entry__term"><a href="/part-4-tipitaka-digest/sutta-pitaka/majjhima-nikaya/vol-13#ErYNlkkQry">อภยราชกุมาร</a></p>
+<p class="wi-entry__desc">ราชกุมารผู้ทูลถามเรื่องวาจาอันไม่เป็นที่รัก</p>
+<div class="wi-entry__refs">
+<a href="/part-4-tipitaka-digest/sutta-pitaka/majjhima-nikaya/vol-13#ErYNlkkQry">๘. อภยราชกุมารสูตร</a>
+</div>
+</div>
+
+<div class="wi-entry">
+<p class="wi-entry__term"><a href="/part-4-tipitaka-digest/sutta-pitaka/majjhima-nikaya/vol-13#gKGBSO236c">โพธิราชกุมาร</a></p>
+<p class="wi-entry__desc">ราชกุมารผู้สร้างปราสาท ทูลนิมนต์พระพุทธเจ้าฉันภัตตาหาร</p>
+<div class="wi-entry__refs">
+<a href="/part-4-tipitaka-digest/sutta-pitaka/majjhima-nikaya/vol-13#gKGBSO236c">๓๕. โพธิราชกุมารสูตร</a>
+</div>
+</div>
+
+<div class="wi-entry">
+<p class="wi-entry__term"><a href="/part-4-tipitaka-digest/sutta-pitaka/majjhima-nikaya/vol-13#8Yek45w4Nx">วัจฉโคตตปริพพาชก</a></p>
+<p class="wi-entry__desc">นักบวชนอกศาสนาผู้ทูลถามปัญหาเรื่องทิฏฐิต่าง ๆ</p>
+<div class="wi-entry__refs">
+<a href="/part-4-tipitaka-digest/sutta-pitaka/majjhima-nikaya/vol-13#8Yek45w4Nx">๒๑. จูฬวัจฉโคตตสูตร</a>
+<a href="/part-4-tipitaka-digest/sutta-pitaka/majjhima-nikaya/vol-13#80AzxeglXR">๒๓. มหาวัจฉโคตตสูตร</a>
+</div>
+</div>
+</div>
+
+<div class="wi-entry">
+<p class="wi-entry__term"><a href="/part-4-tipitaka-digest/sutta-pitaka/khuddaka-nikaya/vol-26#qVKAUBMFF1">เถรคาถา — ภาษิตของพระเถระ ๒๖๔ รูป</a></p>
+<p class="wi-entry__desc">ภาษิตอันเป็นคติสอนใจ เช่น พระสุภูติ มหาโกฏฐิต อชิต โสปาก ปุณณ นีต อุตตร ปุณณมาส หาริต นทีกัสสป</p>
+<div class="wi-entry__refs">
+<a href="/part-4-tipitaka-digest/sutta-pitaka/khuddaka-nikaya/vol-26#qVKAUBMFF1">เล่ม ๒๖ เถรคาถา</a>
+</div>
+</div>
 </div>
 
 ## พระพุทธเจ้าในอดีตและอนาคต {.ptb-h-block}
@@ -191,6 +265,7 @@ searchKeywords:
 <div class="wi-entry__refs">
 <a href="/part-4-tipitaka-digest/sutta-pitaka/digha-nikaya/vol-09#Um4i9EUyEg">๓. อัมพัฏฐสูตร</a>
 <a href="/part-3-tipitaka-selected-passages/khuddaka-nikaya/#vuLtGVXGDo">๑๖๑. อยู่ในอำนาจของคนอื่นเป็นทุกข์</a>
+<a href="/part-3-tipitaka-selected-passages/digha-nikaya/#4Bged4vHyo">๒๒๓. ตรัสเล่าเรื่องพระเจ้าปเสนทิโกศลปฏิบัติต่อพระองค์</a>
 </div>
 </div>
 
@@ -212,6 +287,14 @@ searchKeywords:
 <div class="wi-entry__refs">
 <a href="/part-3-tipitaka-selected-passages/vinaya-pitaka/#FJ60tS7NsF">๘๓. ประวัติความเป็นมาของนางภิกษุณี</a>
 <a href="/part-4-tipitaka-digest/sutta-pitaka/majjhima-nikaya/vol-14#BucJUHGSOx">๔๒. ทักขิณาวิภังคสูตร</a>
+</div>
+</div>
+
+<div class="wi-entry">
+<p class="wi-entry__term"><a href="/part-4-tipitaka-digest/sutta-pitaka/khuddaka-nikaya/vol-26#iwYhHpGoOh">เถรีคาถา — ภาษิตของพระเถรี ๗๓ รูป</a></p>
+<p class="wi-entry__desc">ภาษิตอันเป็นคติสอนใจ เช่น พระนางปุณณา ติสสา มิตตา อุปสมา สุมนา อุตตรา ธัมมา สังฆา อภยมาตา ทันติกา</p>
+<div class="wi-entry__refs">
+<a href="/part-4-tipitaka-digest/sutta-pitaka/khuddaka-nikaya/vol-26#iwYhHpGoOh">เล่ม ๒๖ เถรีคาถา</a>
 </div>
 </div>
 </div>
@@ -251,6 +334,39 @@ searchKeywords:
 <a href="/part-4-tipitaka-digest/sutta-pitaka/samyutta-nikaya/vol-18#uS0Q4HOIb4">เล่ม ๑๘ สังยุตตนิกาย สฬายตนวรรค</a>
 </div>
 </div>
+
+<div class="wi-entry">
+<p class="wi-entry__term"><a href="/part-4-tipitaka-digest/sutta-pitaka/anguttara-nikaya/vol-23#LSryFSSaMg">อุคคคฤหบดี</a></p>
+<p class="wi-entry__desc">ชาวหัตถิคาม ผู้ประกอบด้วยความอัศจรรย์ ๘ ประการ</p>
+<div class="wi-entry__refs">
+<a href="/part-4-tipitaka-digest/sutta-pitaka/anguttara-nikaya/vol-23#LSryFSSaMg">อัฏฐกนิบาต คหปติวรรค</a>
+</div>
+</div>
+
+<div class="wi-entry">
+<p class="wi-entry__term"><a href="/part-4-tipitaka-digest/sutta-pitaka/anguttara-nikaya/vol-23#LSryFSSaMg">หัตถกะแห่งอาฬวี</a></p>
+<p class="wi-entry__desc">อุบาสกผู้สงเคราะห์บริษัทด้วยสังคหวัตถุ ๔</p>
+<div class="wi-entry__refs">
+<a href="/part-4-tipitaka-digest/sutta-pitaka/anguttara-nikaya/vol-23#LSryFSSaMg">อัฏฐกนิบาต คหปติวรรค</a>
+<a href="/part-4-tipitaka-digest/sutta-pitaka/anguttara-nikaya/vol-20#ZhZSpEXwan">เอตทัคคะฝ่ายอุบาสก</a>
+</div>
+</div>
+
+<div class="wi-entry">
+<p class="wi-entry__term"><a href="/part-4-tipitaka-digest/sutta-pitaka/anguttara-nikaya/vol-22#rEm3zqCXfR">มหานามศากยะ</a></p>
+<p class="wi-entry__desc">ศากยราชผู้ทูลถามเรื่องอุบาสก</p>
+<div class="wi-entry__refs">
+<a href="/part-4-tipitaka-digest/sutta-pitaka/anguttara-nikaya/vol-22#rEm3zqCXfR">ปัญจกนิบาต สุมนวรรค</a>
+</div>
+</div>
+
+<div class="wi-entry">
+<p class="wi-entry__term"><a href="/part-4-tipitaka-digest/sutta-pitaka/anguttara-nikaya/vol-22#K4XdpSJbLg">หมอชีวก (ชีวกโกมารภัจจ์)</a></p>
+<p class="wi-entry__desc">แพทย์ประจำพระพุทธเจ้า</p>
+<div class="wi-entry__refs">
+<a href="/part-4-tipitaka-digest/sutta-pitaka/anguttara-nikaya/vol-22#K4XdpSJbLg">ปัญจกนิบาต คิลานวรรค</a>
+</div>
+</div>
 </div>
 
 ## เทวดาและพรหม {.ptb-h-block}
@@ -278,6 +394,30 @@ searchKeywords:
 <div class="wi-entry__refs">
 <a href="/part-3-tipitaka-selected-passages/samyutta-nikaya/#pF2aI3Arbc">๑๔๙. ตา หู เป็นต้น มีที่ไหน มารมีที่นั่น</a>
 <a href="/part-3-tipitaka-selected-passages/khuddaka-nikaya/#Lcd5A83gBc">๑๐๒. มารย่อมข่มเหง และไม่ข่มเหงคนเช่นไร</a>
+</div>
+</div>
+
+<div class="wi-entry">
+<p class="wi-entry__term"><a href="/part-4-tipitaka-digest/sutta-pitaka/anguttara-nikaya/vol-21#T7PCfOWSQs">โรหิตัสสเทพบุตร</a></p>
+<p class="wi-entry__desc">เทพบุตรผู้เคยไปหาที่สุดโลก</p>
+<div class="wi-entry__refs">
+<a href="/part-4-tipitaka-digest/sutta-pitaka/anguttara-nikaya/vol-21#T7PCfOWSQs">จตุกกนิบาต โรหิตัสสวรรค</a>
+</div>
+</div>
+
+<div class="wi-entry">
+<p class="wi-entry__term"><a href="/part-4-tipitaka-digest/sutta-pitaka/anguttara-nikaya/vol-23#EMUVKXiANj">ท้าวปหาราทะ</a></p>
+<p class="wi-entry__desc">จอมอสูรผู้ทูลถามเรื่องความอัศจรรย์ของพระธรรมวินัย</p>
+<div class="wi-entry__refs">
+<a href="/part-4-tipitaka-digest/sutta-pitaka/anguttara-nikaya/vol-23#EMUVKXiANj">อัฏฐกนิบาต มหาวรรค</a>
+</div>
+</div>
+
+<div class="wi-entry">
+<p class="wi-entry__term"><a href="/part-4-tipitaka-digest/sutta-pitaka/anguttara-nikaya/vol-21#JOIWSWQSja">นายเกสีสารถี</a></p>
+<p class="wi-entry__desc">สารถีผู้ฝึกม้า ที่พระพุทธเจ้าทรงนำมาเปรียบกับการฝึกคน</p>
+<div class="wi-entry__refs">
+<a href="/part-4-tipitaka-digest/sutta-pitaka/anguttara-nikaya/vol-21#JOIWSWQSja">จตุกกนิบาต เกสีวรรค</a>
 </div>
 </div>
 </div>

@@ -3,8 +3,8 @@ title: ชื่อสถานที่
 lang: th
 description: ดัชนีชื่อสถานที่สำคัญในพระไตรปิฎก — สารบัญค้นคำ พระไตรปิฎกฉบับสำหรับประชาชน
 outline: [2, 6]
-prev: { text: 'ศัพท์เกี่ยวกับพระวินัย', link: '/part-5-academic-notes-and-index/word-index/vinaya-terms/' }
-next: { text: 'จักรวาลวิทยาและสังสารวัฏ', link: '/part-5-academic-notes-and-index/word-index/cosmology/' }
+prev: { text: 'ชื่อบุคคล', link: '/part-5-academic-notes-and-index/word-index/persons/' }
+next: { text: 'เหตุการณ์สำคัญ', link: '/part-5-academic-notes-and-index/word-index/events/' }
 searchKeywords:
   - สถานที่
   - นคร
@@ -161,6 +161,30 @@ searchKeywords:
 <p class="wi-entry__desc">สถานที่สังคายนาครั้งที่ ๑</p>
 <div class="wi-entry__refs">
 <a href="/part-1-knowledge-of-the-tipitaka/buddhist-councils/#zEiy6E0aCS">สังคายนาครั้งที่ ๑</a>
+</div>
+</div>
+
+<div class="wi-entry">
+<p class="wi-entry__term"><a href="/part-4-tipitaka-digest/sutta-pitaka/anguttara-nikaya/vol-21#PoHZ4tSTOo">ภัณฑคาม</a></p>
+<p class="wi-entry__desc">หมู่บ้านที่ทรงแสดงอปริหานิยธรรม</p>
+<div class="wi-entry__refs">
+<a href="/part-4-tipitaka-digest/sutta-pitaka/anguttara-nikaya/vol-21#PoHZ4tSTOo">จตุกกนิบาต ภัณฑคามวรรค</a>
+</div>
+</div>
+
+<div class="wi-entry">
+<p class="wi-entry__term"><a href="/part-4-tipitaka-digest/sutta-pitaka/anguttara-nikaya/vol-21#gQWZH0HUEG">อุรุเวลา</a></p>
+<p class="wi-entry__desc">ตำบลที่พระพุทธเจ้าทรงบำเพ็ญทุกรกิริยา และริมฝั่งแม่น้ำเนรัญชรา</p>
+<div class="wi-entry__refs">
+<a href="/part-4-tipitaka-digest/sutta-pitaka/anguttara-nikaya/vol-21#gQWZH0HUEG">จตุกกนิบาต อุรุเวลวรรค</a>
+</div>
+</div>
+
+<div class="wi-entry">
+<p class="wi-entry__term"><a href="/part-4-tipitaka-digest/sutta-pitaka/anguttara-nikaya/vol-23#1FJhUObacg">แคว้นวัชชี — สารันททเจดีย์</a></p>
+<p class="wi-entry__desc">สถานที่ทรงแสดงอปริหานิยธรรม ๗</p>
+<div class="wi-entry__refs">
+<a href="/part-4-tipitaka-digest/sutta-pitaka/anguttara-nikaya/vol-23#1FJhUObacg">สัตตกนิบาต วัชชีวรรค</a>
 </div>
 </div>
 </div>

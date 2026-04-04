@@ -3,8 +3,8 @@ title: จักรวาลวิทยาและสังสารวัฏ
 lang: th
 description: ดัชนีคำศัพท์เกี่ยวกับจักรวาลวิทยาในพระพุทธศาสนา — สารบัญค้นคำ พระไตรปิฎกฉบับสำหรับประชาชน
 outline: [2, 6]
-prev: { text: 'ชื่อสถานที่', link: '/part-5-academic-notes-and-index/word-index/places/' }
-next: { text: 'ประวัติสังเขป อาจารย์สุชีพ', link: '/biography-sujib-punyanubhab/' }
+prev: { text: 'ศัพท์เกี่ยวกับพระวินัย', link: '/part-5-academic-notes-and-index/word-index/vinaya-terms/' }
+next: { text: 'ชาดก อดีตชาติ และบารมี', link: '/part-5-academic-notes-and-index/word-index/jataka-and-perfections/' }
 searchKeywords:
   - จักรวาลวิทยา
   - ภูมิ
@@ -49,6 +49,7 @@ searchKeywords:
 <p class="wi-entry__term"><a href="/part-4-tipitaka-digest/sutta-pitaka/digha-nikaya/vol-10#VYZvuftIKV">จาตุมมหาราชิกา</a></p>
 <p class="wi-entry__desc">สวรรค์ชั้นที่ ๑ ท้าวมหาราชทั้ง ๔</p>
 <div class="wi-entry__refs">
+<a href="/part-4-tipitaka-digest/sutta-pitaka/khuddaka-nikaya/vol-26#HNSqda7h0T">วิมานวัตถุ — เรื่องการได้วิมาน</a>
 </div>
 </div>
 <div class="wi-entry">
@@ -92,6 +93,7 @@ searchKeywords:
 <div class="wi-entry">
 <p class="wi-entry__term"><a href="/part-4-tipitaka-digest/sutta-pitaka/digha-nikaya/vol-10#8yxWar6l1q">อบาย ทุคคติ วินิบาต นรก</a></p>
 <div class="wi-entry__refs">
+<a href="/part-4-tipitaka-digest/sutta-pitaka/khuddaka-nikaya/vol-26#ZymQo60Q0d">เปตวัตถุ — เรื่องของเปรต</a>
 </div>
 </div>
 <div class="wi-entry">
@@ -147,6 +149,22 @@ searchKeywords:
 <p class="wi-entry__desc">ที่ตั้งของวิญญาณ ๗ ประเภท</p>
 <div class="wi-entry__refs">
 <a href="/part-4-tipitaka-digest/sutta-pitaka/digha-nikaya/vol-10#5TlomsLDvr">ที่ตั้งแห่งวิญาณ ๗ อย่าง</a>
+</div>
+</div>
+
+<div class="wi-entry">
+<p class="wi-entry__term"><a href="/part-4-tipitaka-digest/sutta-pitaka/anguttara-nikaya/vol-23#xT339jMyVj">สัตตาวาส ๙</a></p>
+<p class="wi-entry__desc">ที่อยู่ของสัตว์ ๙ ประเภท</p>
+<div class="wi-entry__refs">
+<a href="/part-4-tipitaka-digest/sutta-pitaka/anguttara-nikaya/vol-23#xT339jMyVj">นวกนิบาต สัตตาวาสวรรค</a>
+</div>
+</div>
+
+<div class="wi-entry">
+<p class="wi-entry__term"><a href="/part-4-tipitaka-digest/sutta-pitaka/anguttara-nikaya/vol-23#Hk9lajOoMz">กัปป์ ๔ ประเภท</a></p>
+<p class="wi-entry__desc">สังวัฏฏกัปป์ สังวัฏฏัฏฐายีกัปป์ วิวัฏฏกัปป์ วิวัฏฏัฏฐายีกัปป์</p>
+<div class="wi-entry__refs">
+<a href="/part-4-tipitaka-digest/sutta-pitaka/anguttara-nikaya/vol-23#Hk9lajOoMz">อัฏฐกนิบาต จาลวรรค</a>
 </div>
 </div>
 </div>

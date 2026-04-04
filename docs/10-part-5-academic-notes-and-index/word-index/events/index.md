@@ -3,8 +3,8 @@ title: เหตุการณ์สำคัญ
 lang: th
 description: ดัชนีเหตุการณ์สำคัญในพระพุทธศาสนา — สารบัญค้นคำ พระไตรปิฎกฉบับสำหรับประชาชน
 outline: [2, 6]
-prev: { text: 'ชื่อบุคคล', link: '/part-5-academic-notes-and-index/word-index/persons/' }
-next: { text: 'ชื่อคัมภีร์และชื่อเรื่อง', link: '/part-5-academic-notes-and-index/word-index/scriptures/' }
+prev: { text: 'ชื่อสถานที่', link: '/part-5-academic-notes-and-index/word-index/places/' }
+next: { text: 'ชื่อคัมภีร์', link: '/part-5-academic-notes-and-index/word-index/scriptures/' }
 searchKeywords:
   - เหตุการณ์สำคัญ
   - สังคายนา
@@ -127,6 +127,23 @@ searchKeywords:
 <div class="wi-entry__refs">
 </div>
 </div>
+
+<div class="wi-entry">
+<p class="wi-entry__term"><a href="/part-4-tipitaka-digest/sutta-pitaka/anguttara-nikaya/vol-23#Hk9lajOoMz">แผ่นดินไหว ๘ เหตุ</a></p>
+<p class="wi-entry__desc">เหตุแห่งแผ่นดินไหว ๘ ประการ รวมทั้งเมื่อพระโพธิสัตว์จุติจากสวรรค์ ตรัสรู้ แสดงปฐมเทศนา ปลงอายุสังขาร และปรินิพพาน</p>
+<div class="wi-entry__refs">
+<a href="/part-4-tipitaka-digest/sutta-pitaka/anguttara-nikaya/vol-23#Hk9lajOoMz">อัฏฐกนิบาต จาลวรรค</a>
+</div>
+</div>
+
+<div class="wi-entry">
+<p class="wi-entry__term"><a href="/part-4-tipitaka-digest/vinaya-pitaka/vol-05#B3d6Udoq0Z">พระโสณโกฬิวิสะ — อุปมาสายพิณ</a></p>
+<p class="wi-entry__desc">พระพุทธเจ้าทรงเปรียบความเพียรกับสายพิณที่ไม่ตึงเกินไม่หย่อนเกิน</p>
+<div class="wi-entry__refs">
+<a href="/part-4-tipitaka-digest/vinaya-pitaka/vol-05#B3d6Udoq0Z">จัมมขันธกะ (มหาวรรค)</a>
+<a href="/part-4-tipitaka-digest/sutta-pitaka/anguttara-nikaya/vol-22#lhwhRd8xWF">ปัญจกนิบาต โยธาชีววรรค</a>
+</div>
+</div>
 </div>
 
 ## กำเนิดภิกษุณีสงฆ์ {.ptb-h-block}
@@ -149,6 +166,8 @@ searchKeywords:
 <p class="wi-entry__desc">ณ ถ้ำสัตตบรรณคูหา กรุงราชคฤห์</p>
 <div class="wi-entry__refs">
 <a href="/part-1-knowledge-of-the-tipitaka/buddhist-councils/#zEiy6E0aCS">สังคายนาครั้งที่ ๑</a>
+<a href="/part-4-tipitaka-digest/vinaya-pitaka/vol-07#gUsxLLc2i6">จุลลวัคค์ ปัญจสติกขันธกะ</a>
+<a href="/part-3-tipitaka-selected-passages/digha-nikaya/#e0EMVKnmKB">๒๑๙. ตรัสแนะนำให้สังคายนาพระธรรมวินัย</a>
 </div>
 </div>
 
@@ -157,6 +176,7 @@ searchKeywords:
 <p class="wi-entry__desc">ณ วาลิการาม เมืองเวสาลี</p>
 <div class="wi-entry__refs">
 <a href="/part-1-knowledge-of-the-tipitaka/buddhist-councils/#voSRkmQSgq">สังคายนาครั้งที่ ๒</a>
+<a href="/part-4-tipitaka-digest/vinaya-pitaka/vol-07#KHXcBY6U4O">จุลลวัคค์ สัตตสติกขันธกะ</a>
 </div>
 </div>
 

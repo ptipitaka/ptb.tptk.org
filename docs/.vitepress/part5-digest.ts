@@ -12,6 +12,8 @@ const wordIndexCategories = [
   'vinaya-terms',
   'places',
   'cosmology',
+  'jataka-and-perfections',
+  'tipitaka-history',
 ] as const
 
 /** rewrites: โฟลเดอร์ docs ใช้ prefix 10- เรียงหลังภาค ๔ — URL ไม่มีเลขนำ */
@@ -49,7 +51,7 @@ export function part5DigestSidebar(): DefaultTheme.SidebarItem {
             link: `/${WI_URL}/key-doctrines/`,
           },
           {
-            text: '๒. คำศัพท์เกี่ยวกับหลักธรรม',
+            text: '๒. ศัพท์ธรรมะ',
             link: `/${WI_URL}/doctrinal-terms/`,
           },
           {
@@ -57,24 +59,32 @@ export function part5DigestSidebar(): DefaultTheme.SidebarItem {
             link: `/${WI_URL}/persons/`,
           },
           {
-            text: '๔. เหตุการณ์สำคัญ',
+            text: '๔. ชื่อสถานที่',
+            link: `/${WI_URL}/places/`,
+          },
+          {
+            text: '๕. เหตุการณ์สำคัญ',
             link: `/${WI_URL}/events/`,
           },
           {
-            text: '๕. ชื่อคัมภีร์และชื่อเรื่อง',
+            text: '๖. ชื่อคัมภีร์',
             link: `/${WI_URL}/scriptures/`,
           },
           {
-            text: '๖. ศัพท์เกี่ยวกับพระวินัย',
+            text: '๗. ศัพท์เกี่ยวกับพระวินัย',
             link: `/${WI_URL}/vinaya-terms/`,
-          },
-          {
-            text: '๗. ชื่อสถานที่',
-            link: `/${WI_URL}/places/`,
           },
           {
             text: '๘. จักรวาลวิทยาและสังสารวัฏ',
             link: `/${WI_URL}/cosmology/`,
+          },
+          {
+            text: '๙. ชาดก อดีตชาติ และบารมี',
+            link: `/${WI_URL}/jataka-and-perfections/`,
+          },
+          {
+            text: '๑๐. บุคคลในประวัติศาสตร์',
+            link: `/${WI_URL}/tipitaka-history/`,
           },
         ],
       },

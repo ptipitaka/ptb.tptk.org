@@ -3,8 +3,8 @@ title: ศัพท์เกี่ยวกับพระวินัย
 lang: th
 description: ดัชนีศัพท์เกี่ยวกับพระวินัย — สารบัญค้นคำ พระไตรปิฎกฉบับสำหรับประชาชน
 outline: [2, 6]
-prev: { text: 'ชื่อคัมภีร์และชื่อเรื่อง', link: '/part-5-academic-notes-and-index/word-index/scriptures/' }
-next: { text: 'ชื่อสถานที่', link: '/part-5-academic-notes-and-index/word-index/places/' }
+prev: { text: 'ชื่อคัมภีร์', link: '/part-5-academic-notes-and-index/word-index/scriptures/' }
+next: { text: 'จักรวาลวิทยาและสังสารวัฏ', link: '/part-5-academic-notes-and-index/word-index/cosmology/' }
 searchKeywords:
   - พระวินัย
   - อาบัติ
@@ -180,6 +180,48 @@ searchKeywords:
 <p class="wi-entry__desc">เขตกำหนดสำหรับทำสังฆกรรม</p>
 <div class="wi-entry__refs">
 <a href="/part-4-tipitaka-digest/vinaya-pitaka/vol-04#W27OBg2sZQ">๒. อุโบสถขันธกะ (หมวดว่าด้วยอุโบสถ)</a>
+</div>
+</div>
+
+<div class="wi-entry">
+<p class="wi-entry__term"><a href="/part-4-tipitaka-digest/vinaya-pitaka/vol-03#nlWrXlSXam">ภิกขุนีวิภังค์ — ศีล ๓๑๑ ข้อของภิกษุณี</a></p>
+<p class="wi-entry__desc">วินัยฝ่ายภิกษุณี รวมถึงครุธรรม ๘ ปวัตตินี สิกขมานา สามเณรี</p>
+<div class="wi-entry__refs">
+<a href="/part-4-tipitaka-digest/vinaya-pitaka/vol-03#zLwmkzwdXS">ปาราชิกกัณฑ์</a>
+<a href="/part-4-tipitaka-digest/vinaya-pitaka/vol-03#ezzMNkpVi5">สัตตรสกัณฑ์</a>
+</div>
+</div>
+
+<div class="wi-entry">
+<p class="wi-entry__term"><a href="/part-4-tipitaka-digest/vinaya-pitaka/vol-07#lidj5JJdfR">วัตร ๑๓ ประเภท</a></p>
+<p class="wi-entry__desc">อาคันตุกวัตร อาวาสิกวัตร คมิกวัตร ภัตตัคควัตร ปิณฑจาริกวัตร เป็นต้น</p>
+<div class="wi-entry__refs">
+<a href="/part-4-tipitaka-digest/vinaya-pitaka/vol-07#Zvo021ZlnR">อาคันตุกวัตร</a>
+<a href="/part-4-tipitaka-digest/vinaya-pitaka/vol-07#QJO03jdYHB">อาวาสิกวัตร</a>
+</div>
+</div>
+
+<div class="wi-entry">
+<p class="wi-entry__term"><a href="/part-4-tipitaka-digest/vinaya-pitaka/vol-07#MsRZJG9gXy">คว่ำบาตร / หงายบาตร</a></p>
+<p class="wi-entry__desc">การลงโทษไม่คบหา — คว่ำบาตรแก่อุบาสกผู้ทำผิด ๘ ข้อ</p>
+<div class="wi-entry__refs">
+<a href="/part-4-tipitaka-digest/vinaya-pitaka/vol-07#MsRZJG9gXy">การลงโทษคว่ำบาตรแก่วัฑฒะลิจฉวี</a>
+</div>
+</div>
+
+<div class="wi-entry">
+<p class="wi-entry__term"><a href="/part-4-tipitaka-digest/vinaya-pitaka/vol-07#CSW3ljcIL2">พรหมทัณฑ์</a></p>
+<p class="wi-entry__desc">การลงโทษแบบผู้ใหญ่ — ไม่ว่ากล่าว ไม่สั่งสอน ปล่อยให้ทำตามชอบใจ</p>
+<div class="wi-entry__refs">
+<a href="/part-4-tipitaka-digest/vinaya-pitaka/vol-07#CSW3ljcIL2">ลงพรหมทัณฑ์พระฉันนะ</a>
+</div>
+</div>
+
+<div class="wi-entry">
+<p class="wi-entry__term"><a href="/part-4-tipitaka-digest/vinaya-pitaka/vol-07#vQ4accsonm">วัตถุ ๑๐ ประการ</a></p>
+<p class="wi-entry__desc">ข้อปฏิบัติที่ผิดพระธรรมวินัย อันเป็นมูลเหตุแห่งสังคายนาครั้งที่ ๒</p>
+<div class="wi-entry__refs">
+<a href="/part-4-tipitaka-digest/vinaya-pitaka/vol-07#KHXcBY6U4O">สัตตสติกขันธกะ</a>
 </div>
 </div>
 </div>
