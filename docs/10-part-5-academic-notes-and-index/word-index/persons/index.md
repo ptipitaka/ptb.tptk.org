@@ -4,7 +4,7 @@ lang: th
 description: ดัชนีชื่อบุคคลสำคัญในพระไตรปิฎก — สารบัญค้นคำ พระไตรปิฎกฉบับสำหรับประชาชน
 outline: [2, 6]
 prev: { text: 'ศัพท์ธรรมะ', link: '/part-5-academic-notes-and-index/word-index/doctrinal-terms/' }
-next: { text: 'ชื่อสถานที่', link: '/part-5-academic-notes-and-index/word-index/places/' }
+next: { text: 'พระพุทธเจ้า', link: '/part-5-academic-notes-and-index/word-index/persons/buddha/' }
 searchKeywords:
   - ชื่อบุคคล
   - พระสาวก
@@ -17,419 +17,56 @@ searchKeywords:
 
 # ชื่อบุคคล {.ptb-h-block}
 
-<PtbParagraph>รวบรวมชื่อบุคคลสำคัญที่ปรากฏในพระไตรปิฎกฉบับสำหรับประชาชน จำแนกตามประเภท</PtbParagraph>
+<PtbParagraph>รวบรวมชื่อบุคคลสำคัญที่ปรากฏในพระไตรปิฎกฉบับสำหรับประชาชน จำแนกตามประเภท โดยแต่ละหมวดมีรายละเอียดและลิงก์อ้างอิงไปยังเนื้อหาในหนังสือชุดเดียวกัน ด้านล่างนี้เป็นภาพรวมหมวดหมู่ — คลิกเพื่อเปิดดัชนีย่อยในแต่ละหมวด</PtbParagraph>
 
-## พระอัครสาวกและพระมหาสาวก {.ptb-h-block}
+<div class="wi-grid">
 
-<div class="wi-section">
-<div class="wi-entry">
-<p class="wi-entry__term"><a href="/part-4-tipitaka-digest/vinaya-pitaka/vol-04#MWx6erIsQD">พระสาริบุตร</a></p>
-<p class="wi-entry__desc">พระอัครสาวกเบื้องขวา เลิศทางปัญญา</p>
-<div class="wi-entry__refs">
-<a href="/part-3-tipitaka-selected-passages/samyutta-nikaya/#gPSYuwZKkW">๑๗๕. ตัวอย่างของผู้เข้ากันได้โดยธาตุ</a>
-</div>
-</div>
+<a class="wi-card" href="/part-5-academic-notes-and-index/word-index/persons/buddha/">
+<span class="wi-card__number">๑</span>
+<p class="wi-card__title">พระพุทธเจ้า</p>
+<p class="wi-card__desc">พระพุทธเจ้า ๗ พระองค์ · พระเมตไตรย</p>
+</a>
 
-<div class="wi-entry">
-<p class="wi-entry__term"><a href="/part-4-tipitaka-digest/vinaya-pitaka/vol-04#MWx6erIsQD">พระมหาโมคคัลลานะ</a></p>
-<p class="wi-entry__desc">พระอัครสาวกเบื้องซ้าย เลิศทางฤทธิ์</p>
-<div class="wi-entry__refs">
-<a href="/part-3-tipitaka-selected-passages/samyutta-nikaya/#gPSYuwZKkW">๑๗๕. ตัวอย่างของผู้เข้ากันได้โดยธาตุ</a>
-</div>
-</div>
+<a class="wi-card" href="/part-5-academic-notes-and-index/word-index/persons/thera/">
+<span class="wi-card__number">๒</span>
+<p class="wi-card__title">พระเถระ</p>
+<p class="wi-card__desc">พระอัครสาวก พระมหาสาวก และพระเถระสำคัญอื่น ๆ</p>
+</a>
 
-<div class="wi-entry">
-<p class="wi-entry__term"><a href="/part-1-knowledge-of-the-tipitaka/buddhist-councils/#zEiy6E0aCS">พระมหากัสสป</a></p>
-<p class="wi-entry__desc">ประธานสังคายนาครั้งที่ ๑</p>
-<div class="wi-entry__refs">
-<a href="/part-1-knowledge-of-the-tipitaka/buddhist-councils/#zEiy6E0aCS">สังคายนาครั้งที่ ๑</a>
-<a href="/part-4-tipitaka-digest/sutta-pitaka/digha-nikaya/vol-10#hE1FaJZfqq">การถวายพระเพลิง</a>
-</div>
-</div>
+<a class="wi-card" href="/part-5-academic-notes-and-index/word-index/persons/theri/">
+<span class="wi-card__number">๓</span>
+<p class="wi-card__title">พระเถรี</p>
+<p class="wi-card__desc">ภิกษุณีสำคัญ · เถรีคาถา</p>
+</a>
 
-<div class="wi-entry">
-<p class="wi-entry__term"><a href="/part-1-knowledge-of-the-tipitaka/what-is-the-tipitaka/#dCcS2y65Yh">พระอานนท์</a></p>
-<p class="wi-entry__desc">พุทธอุปฐาก เลิศทางพหูสูต</p>
-<div class="wi-entry__refs">
-<a href="/part-1-knowledge-of-the-tipitaka/what-is-the-tipitaka/#dCcS2y65Yh">พระอานนท์เกี่ยวกับพระไตรปิฎกอย่างไร</a>
-<a href="/part-4-tipitaka-digest/sutta-pitaka/digha-nikaya/vol-10#s0hWD5Zfah">(๗) พระองค์เอง (พระโคตมะ)</a>
-</div>
-</div>
+<a class="wi-card" href="/part-5-academic-notes-and-index/word-index/persons/rulers/">
+<span class="wi-card__number">๔</span>
+<p class="wi-card__title">ผู้ครองนคร</p>
+<p class="wi-card__desc">พระเจ้าแผ่นดินและผู้ครองแคว้นที่ปรากฏในพุทธประวัติ</p>
+</a>
 
-<div class="wi-entry">
-<p class="wi-entry__term"><a href="/part-1-knowledge-of-the-tipitaka/what-is-the-tipitaka/#RhnAu5CsIP">พระอุบาลี</a></p>
-<p class="wi-entry__desc">เลิศทางทรงพระวินัย</p>
-<div class="wi-entry__refs">
-<a href="/part-1-knowledge-of-the-tipitaka/what-is-the-tipitaka/#RhnAu5CsIP">พระอุบาลีเกี่ยวข้องกับพระไตรปิฎกอย่างไร</a>
-<a href="/part-4-tipitaka-digest/vinaya-pitaka/vol-08">วินัย เล่ม ๘</a>
-</div>
-</div>
+<a class="wi-card" href="/part-5-academic-notes-and-index/word-index/persons/upasaka/">
+<span class="wi-card__number">๕</span>
+<p class="wi-card__title">อุบาสก</p>
+<p class="wi-card__desc">คฤหบดีและอุบาสกสำคัญ</p>
+</a>
 
-<div class="wi-entry">
-<p class="wi-entry__term"><a href="/part-4-tipitaka-digest/sutta-pitaka/majjhima-nikaya/vol-14#9jyjfSMlsQ">พระอนุรุทธ์</a></p>
-<p class="wi-entry__desc">เลิศทางทิพยจักษุ</p>
-<div class="wi-entry__refs">
-<a href="/part-4-tipitaka-digest/sutta-pitaka/majjhima-nikaya/vol-14#9jyjfSMlsQ">๒๗. อนุรุทธสูตร</a>
-</div>
-</div>
+<a class="wi-card" href="/part-5-academic-notes-and-index/word-index/persons/upasika/">
+<span class="wi-card__number">๖</span>
+<p class="wi-card__title">อุบาสิกา</p>
+<p class="wi-card__desc">อุบาสิกาสำคัญ</p>
+</a>
 
-<div class="wi-entry">
-<p class="wi-entry__term"><a href="/part-1-knowledge-of-the-tipitaka/what-is-the-tipitaka/#bBTMRT7YES">พระมหากัจจานะ</a></p>
-<p class="wi-entry__desc">เลิศทางอธิบายความย่อให้พิสดาร</p>
-<div class="wi-entry__refs">
-<a href="/part-4-tipitaka-digest/vinaya-pitaka/vol-05#nHCcAPIdEE">พระโสณกุฏิกัณณะเรื่องของท่านผู้นี้ มีกล่าวไว้บ้างแล้วในหน้า ๗ แต่ในที่นั้นนำม...</a>
-</div>
-</div>
+<a class="wi-card" href="/part-5-academic-notes-and-index/word-index/persons/devas/">
+<span class="wi-card__number">๗</span>
+<p class="wi-card__title">เทวดา</p>
+<p class="wi-card__desc">เทพ · พรหม · อสูร และสิ่งมีวิญญาณในจักรวาลวิทยา</p>
+</a>
 
-<div class="wi-entry">
-<p class="wi-entry__term"><a href="/part-4-tipitaka-digest/vinaya-pitaka/vol-04#JhtBxfMrCW">พระราหุล</a></p>
-<p class="wi-entry__desc">พุทธโอรส สามเณรรูปแรก</p>
-<div class="wi-entry__refs">
-<a href="/part-4-tipitaka-digest/vinaya-pitaka/vol-04#JhtBxfMrCW">พระราหุลบวชเป็นสามเณร</a>
-<a href="/part-4-tipitaka-digest/sutta-pitaka/majjhima-nikaya/vol-14#4lIKYknrCX">๔๗. จูฬราหุโลวาทสูตร</a>
-</div>
-</div>
-</div>
+<a class="wi-card" href="/part-5-academic-notes-and-index/word-index/persons/sect-leaders/">
+<span class="wi-card__number">๘</span>
+<p class="wi-card__title">เจ้าลัทธิ</p>
+<p class="wi-card__desc">ครูลัทธินอกพระพุทธศาสนาในสมัยพุทธกาล</p>
+</a>
 
-## พระเถระสำคัญอื่น ๆ {.ptb-h-block}
-
-<div class="wi-section">
-<div class="wi-entry">
-<p class="wi-entry__term"><a href="/part-4-tipitaka-digest/vinaya-pitaka/vol-04#uKryC6rv9R">พระอัญญาโกณฑัญญะ</a></p>
-<p class="wi-entry__desc">ปัญจวัคคีย์ ผู้เป็นพระอรหันต์รูปแรก</p>
-<div class="wi-entry__refs">
-<a href="/part-4-tipitaka-digest/vinaya-pitaka/vol-04#uKryC6rv9R">ทรงแสดงธรรมครั้งแรก</a>
-</div>
-</div>
-
-<div class="wi-entry">
-<p class="wi-entry__term"><a href="/part-4-tipitaka-digest/vinaya-pitaka/vol-01#B2f9YK9e74">พระเทวทัต</a></p>
-<p class="wi-entry__desc">ผู้ทำสงฆ์ให้แตกกัน</p>
-<div class="wi-entry__refs">
-<a href="/part-4-tipitaka-digest/vinaya-pitaka/vol-01#B2f9YK9e74">สิกขาบทที่ ๑๐ ห้ามทำสงฆ์ให้แตกกัน</a>
-<a href="/part-3-tipitaka-selected-passages/samyutta-nikaya/#gPSYuwZKkW">๑๗๕. ตัวอย่างของผู้เข้ากันได้โดยธาตุ</a>
-</div>
-</div>
-
-<div class="wi-entry">
-<p class="wi-entry__term"><a href="/part-1-knowledge-of-the-tipitaka/buddhist-councils/#OIPfMqGS73">พระโมคคลีบุตร ติสสเถระ</a></p>
-<p class="wi-entry__desc">ประธานสังคายนาครั้งที่ ๓</p>
-<div class="wi-entry__refs">
-<a href="/part-1-knowledge-of-the-tipitaka/buddhist-councils/#OIPfMqGS73">สังคายนาครั้งที่ ๓</a>
-<a href="/part-4-tipitaka-digest/abhidhamma-pitaka/vol-37#eHVhQcEoG8">ภาพรวม</a>
-</div>
-</div>
-
-<div class="wi-entry">
-<p class="wi-entry__term"><a href="/part-4-tipitaka-digest/vinaya-pitaka/vol-05#B3d6Udoq0Z">พระโสณโกฬิวิสะ</a></p>
-<p class="wi-entry__desc">เปรียบเทียบสายพิณ</p>
-<div class="wi-entry__refs">
-<a href="/part-4-tipitaka-digest/vinaya-pitaka/vol-05#B3d6Udoq0Z">๑. จัมมขันธกะ</a>
-</div>
-</div>
-
-<div class="wi-entry">
-<p class="wi-entry__term"><a href="/part-4-tipitaka-digest/sutta-pitaka/samyutta-nikaya/vol-15#Ak171aWeAw">พระวังคีสเถระ</a></p>
-<p class="wi-entry__desc">เลิศทางมีปฏิภาณ</p>
-<div class="wi-entry__refs">
-<a href="/part-4-tipitaka-digest/sutta-pitaka/samyutta-nikaya/vol-15#Ak171aWeAw">เล่ม ๑๕ สังยุตตนิกาย สคาถวรรค</a>
-</div>
-</div>
-
-<div class="wi-entry">
-<p class="wi-entry__term"><a href="/part-1-knowledge-of-the-tipitaka/buddhist-councils/#oXXyPz6O0G">พระพุทธโฆสะ</a></p>
-<p class="wi-entry__desc">อรรถกถาจารย์สำคัญ</p>
-<div class="wi-entry__refs">
-<a href="/part-1-knowledge-of-the-tipitaka/buddhist-councils/#oXXyPz6O0G">การนับสังคายนาของไทย</a>
-</div>
-</div>
-
-<div class="wi-entry">
-<p class="wi-entry__term"><a href="/part-4-tipitaka-digest/sutta-pitaka/anguttara-nikaya/vol-23#EMUVKXiANj">พระอนุรุทธ์</a></p>
-<p class="wi-entry__desc">ผู้ตรึกมหาปุริสวิตก ๘ ประการ จนสำเร็จเป็นพระอรหันต์</p>
-<div class="wi-entry__refs">
-<a href="/part-4-tipitaka-digest/sutta-pitaka/anguttara-nikaya/vol-23#EMUVKXiANj">อัฏฐกนิบาต มหาวรรค</a>
-</div>
-</div>
-
-<div class="wi-entry">
-<p class="wi-entry__term"><a href="/part-4-tipitaka-digest/sutta-pitaka/anguttara-nikaya/vol-24#dkZlMsBLFF">พระคิริมานนท์</a></p>
-<p class="wi-entry__desc">ภิกษุผู้อาพาธ พระพุทธเจ้าตรัสสัญญา ๑๐ แก่พระอานนท์ให้นำไปแสดง</p>
-<div class="wi-entry__refs">
-<a href="/part-4-tipitaka-digest/sutta-pitaka/anguttara-nikaya/vol-24#dkZlMsBLFF">ทสกนิบาต เถรวรรค</a>
-</div>
-</div>
-
-<div class="wi-entry">
-<p class="wi-entry__term"><a href="/part-4-tipitaka-digest/sutta-pitaka/majjhima-nikaya/vol-13#gzNvwJYRJ0">องคุลิมาล</a></p>
-<p class="wi-entry__desc">โจรผู้ตัดนิ้ว ต่อมาบวชสำเร็จเป็นพระอรหันต์</p>
-<div class="wi-entry__refs">
-<a href="/part-4-tipitaka-digest/sutta-pitaka/majjhima-nikaya/vol-13#gzNvwJYRJ0">๓๖. อังคุลิมาลสูตร</a>
-</div>
-</div>
-
-<div class="wi-entry">
-<p class="wi-entry__term"><a href="/part-4-tipitaka-digest/sutta-pitaka/majjhima-nikaya/vol-13#43dyNBDpKM">รัฏฐปาล</a></p>
-<p class="wi-entry__desc">ลูกเศรษฐีผู้ออกบวชแม้บิดามารดาคัดค้าน</p>
-<div class="wi-entry__refs">
-<a href="/part-4-tipitaka-digest/sutta-pitaka/majjhima-nikaya/vol-13#43dyNBDpKM">๓๒. รัฏฐปาลสูตร</a>
-</div>
-</div>
-
-<div class="wi-entry">
-<p class="wi-entry__term"><a href="/part-4-tipitaka-digest/sutta-pitaka/majjhima-nikaya/vol-13#qFpYwaQniW">ฆฏิการะ</a></p>
-<p class="wi-entry__desc">ช่างหม้อผู้เป็นอุบาสกเลิศในสมัยพระกัสสปพุทธเจ้า</p>
-<div class="wi-entry__refs">
-<a href="/part-4-tipitaka-digest/sutta-pitaka/majjhima-nikaya/vol-13#qFpYwaQniW">๓๑. ฆฏิการสูตร</a>
-</div>
-</div>
-
-<div class="wi-entry">
-<p class="wi-entry__term"><a href="/part-4-tipitaka-digest/sutta-pitaka/majjhima-nikaya/vol-13#ErYNlkkQry">อภยราชกุมาร</a></p>
-<p class="wi-entry__desc">ราชกุมารผู้ทูลถามเรื่องวาจาอันไม่เป็นที่รัก</p>
-<div class="wi-entry__refs">
-<a href="/part-4-tipitaka-digest/sutta-pitaka/majjhima-nikaya/vol-13#ErYNlkkQry">๘. อภยราชกุมารสูตร</a>
-</div>
-</div>
-
-<div class="wi-entry">
-<p class="wi-entry__term"><a href="/part-4-tipitaka-digest/sutta-pitaka/majjhima-nikaya/vol-13#gKGBSO236c">โพธิราชกุมาร</a></p>
-<p class="wi-entry__desc">ราชกุมารผู้สร้างปราสาท ทูลนิมนต์พระพุทธเจ้าฉันภัตตาหาร</p>
-<div class="wi-entry__refs">
-<a href="/part-4-tipitaka-digest/sutta-pitaka/majjhima-nikaya/vol-13#gKGBSO236c">๓๕. โพธิราชกุมารสูตร</a>
-</div>
-</div>
-
-<div class="wi-entry">
-<p class="wi-entry__term"><a href="/part-4-tipitaka-digest/sutta-pitaka/majjhima-nikaya/vol-13#8Yek45w4Nx">วัจฉโคตตปริพพาชก</a></p>
-<p class="wi-entry__desc">นักบวชนอกศาสนาผู้ทูลถามปัญหาเรื่องทิฏฐิต่าง ๆ</p>
-<div class="wi-entry__refs">
-<a href="/part-4-tipitaka-digest/sutta-pitaka/majjhima-nikaya/vol-13#8Yek45w4Nx">๒๑. จูฬวัจฉโคตตสูตร</a>
-<a href="/part-4-tipitaka-digest/sutta-pitaka/majjhima-nikaya/vol-13#80AzxeglXR">๒๓. มหาวัจฉโคตตสูตร</a>
-</div>
-</div>
-
-<div class="wi-entry">
-<p class="wi-entry__term"><a href="/part-4-tipitaka-digest/sutta-pitaka/khuddaka-nikaya/vol-26#qVKAUBMFF1">เถรคาถา — ภาษิตของพระเถระ ๒๖๔ รูป</a></p>
-<p class="wi-entry__desc">ภาษิตอันเป็นคติสอนใจ เช่น พระสุภูติ มหาโกฏฐิต อชิต โสปาก ปุณณ นีต อุตตร ปุณณมาส หาริต นทีกัสสป</p>
-<div class="wi-entry__refs">
-<a href="/part-4-tipitaka-digest/sutta-pitaka/khuddaka-nikaya/vol-26#qVKAUBMFF1">เล่ม ๒๖ เถรคาถา</a>
-</div>
-</div>
-</div>
-
-## พระพุทธเจ้าในอดีตและอนาคต {.ptb-h-block}
-
-<div class="wi-section">
-<div class="wi-entry">
-<p class="wi-entry__term"><a href="/part-4-tipitaka-digest/sutta-pitaka/digha-nikaya/vol-10#Qeb8ltMiLl">พระพุทธเจ้า ๗ พระองค์</a></p>
-<p class="wi-entry__desc">พระวิปัสสี พระสิขี พระเวสสภู พระกกุสันธะ พระโกนาคมนะ พระกัสสปะ พระโคตมะ</p>
-<div class="wi-entry__refs">
-<a href="/part-4-tipitaka-digest/sutta-pitaka/digha-nikaya/vol-10#Qeb8ltMiLl">๑. มหาปทานสูตร</a>
-</div>
-</div>
-
-<div class="wi-entry">
-<p class="wi-entry__term"><a href="/part-4-tipitaka-digest/sutta-pitaka/digha-nikaya/vol-11#0LAQX1qmLV">พระเมตไตรย (พระศรีอารย์)</a></p>
-<p class="wi-entry__desc">พระพุทธเจ้าในอนาคต</p>
-<div class="wi-entry__refs">
-<a href="/part-4-tipitaka-digest/sutta-pitaka/digha-nikaya/vol-11#0LAQX1qmLV">พระเมตไตรยพุทธเจ้า</a>
-</div>
-</div>
-</div>
-
-## พระมหากษัตริย์และผู้ปกครอง {.ptb-h-block}
-
-<div class="wi-section">
-<div class="wi-entry">
-<p class="wi-entry__term"><a href="/part-4-tipitaka-digest/vinaya-pitaka/vol-04#wh0WLfLaID">พระเจ้าพิมพิสาร</a></p>
-<p class="wi-entry__desc">กษัตริย์แคว้นมคธ ผู้ถวายเวฬุวัน</p>
-<div class="wi-entry__refs">
-<a href="/part-4-tipitaka-digest/vinaya-pitaka/vol-04#wh0WLfLaID">โปรดพระเจ้าพิมพิสาร</a>
-</div>
-</div>
-
-<div class="wi-entry">
-<p class="wi-entry__term"><a href="/part-4-tipitaka-digest/sutta-pitaka/digha-nikaya/vol-09#XpMohDfmGC">พระเจ้าอชาตศัตรู</a></p>
-<p class="wi-entry__desc">กษัตริย์แคว้นมคธ</p>
-<div class="wi-entry__refs">
-<a href="/part-4-tipitaka-digest/sutta-pitaka/digha-nikaya/vol-09#XpMohDfmGC">๒. สามัญญผลสูตร</a>
-<a href="/part-1-knowledge-of-the-tipitaka/buddhist-councils/#zEiy6E0aCS">สังคายนาครั้งที่ ๑</a>
-</div>
-</div>
-
-<div class="wi-entry">
-<p class="wi-entry__term"><a href="/part-4-tipitaka-digest/sutta-pitaka/digha-nikaya/vol-09#Um4i9EUyEg">พระเจ้าปเสนทิโกศล</a></p>
-<p class="wi-entry__desc">กษัตริย์แคว้นโกศล</p>
-<div class="wi-entry__refs">
-<a href="/part-4-tipitaka-digest/sutta-pitaka/digha-nikaya/vol-09#Um4i9EUyEg">๓. อัมพัฏฐสูตร</a>
-<a href="/part-3-tipitaka-selected-passages/khuddaka-nikaya/#vuLtGVXGDo">๑๖๑. อยู่ในอำนาจของคนอื่นเป็นทุกข์</a>
-<a href="/part-3-tipitaka-selected-passages/digha-nikaya/#4Bged4vHyo">๒๒๓. ตรัสเล่าเรื่องพระเจ้าปเสนทิโกศลปฏิบัติต่อพระองค์</a>
-</div>
-</div>
-
-<div class="wi-entry">
-<p class="wi-entry__term"><a href="/part-1-knowledge-of-the-tipitaka/buddhist-councils/#OIPfMqGS73">พระเจ้าอโศกมหาราช</a></p>
-<p class="wi-entry__desc">ผู้อุปถัมภ์สังคายนาครั้งที่ ๓</p>
-<div class="wi-entry__refs">
-<a href="/part-1-knowledge-of-the-tipitaka/buddhist-councils/#OIPfMqGS73">สังคายนาครั้งที่ ๓</a>
-</div>
-</div>
-</div>
-
-## พระเถรี {.ptb-h-block}
-
-<div class="wi-section">
-<div class="wi-entry">
-<p class="wi-entry__term"><a href="/part-4-tipitaka-digest/vinaya-pitaka/vol-04#JhtBxfMrCW">พระนางมหาปชาบดี โคตมี</a></p>
-<p class="wi-entry__desc">พระน้านาง ภิกษุณีรูปแรก</p>
-<div class="wi-entry__refs">
-<a href="/part-3-tipitaka-selected-passages/vinaya-pitaka/#FJ60tS7NsF">๘๓. ประวัติความเป็นมาของนางภิกษุณี</a>
-<a href="/part-4-tipitaka-digest/sutta-pitaka/majjhima-nikaya/vol-14#BucJUHGSOx">๔๒. ทักขิณาวิภังคสูตร</a>
-</div>
-</div>
-
-<div class="wi-entry">
-<p class="wi-entry__term"><a href="/part-4-tipitaka-digest/sutta-pitaka/khuddaka-nikaya/vol-26#iwYhHpGoOh">เถรีคาถา — ภาษิตของพระเถรี ๗๓ รูป</a></p>
-<p class="wi-entry__desc">ภาษิตอันเป็นคติสอนใจ เช่น พระนางปุณณา ติสสา มิตตา อุปสมา สุมนา อุตตรา ธัมมา สังฆา อภยมาตา ทันติกา</p>
-<div class="wi-entry__refs">
-<a href="/part-4-tipitaka-digest/sutta-pitaka/khuddaka-nikaya/vol-26#iwYhHpGoOh">เล่ม ๒๖ เถรีคาถา</a>
-</div>
-</div>
-</div>
-
-## อุบาสก อุบาสิกา {.ptb-h-block}
-
-<div class="wi-section">
-<div class="wi-entry">
-<p class="wi-entry__term"><a href="/part-4-tipitaka-digest/sutta-pitaka/majjhima-nikaya/vol-14#iqGJgmkET8">อนาถปิณฑิกคฤหบดี</a></p>
-<p class="wi-entry__desc">เศรษฐีผู้สร้างเชตวนาราม</p>
-<div class="wi-entry__refs">
-<a href="/part-4-tipitaka-digest/sutta-pitaka/majjhima-nikaya/vol-14#iqGJgmkET8">๔๓. อนาถปิณฑิโกวาทสูตร</a>
-<a href="/part-4-tipitaka-digest/vinaya-pitaka/vol-01#TUy3nFgoz9">สิกขาบทที่ ๑ ห้ามทำน้ำอสุจิให้เคลื่อน</a>
-</div>
-</div>
-
-<div class="wi-entry">
-<p class="wi-entry__term"><a href="/part-3-tipitaka-selected-passages/samyutta-nikaya/#vCnHqmA4WX">นางวิสาขา มิคารมารดา</a></p>
-<p class="wi-entry__desc">อุบาสิกาผู้เลิศด้านทาน</p>
-<div class="wi-entry__refs">
-<a href="/part-3-tipitaka-selected-passages/samyutta-nikaya/#vCnHqmA4WX">๒๑๗. พระพุทธเจ้าทรงปวารณาพระองค์</a>
-</div>
-</div>
-
-<div class="wi-entry">
-<p class="wi-entry__term"><a href="/part-4-tipitaka-digest/sutta-pitaka/digha-nikaya/vol-10#SxmPKvEN4q">นางอัมพปาลี</a></p>
-<p class="wi-entry__desc">ถวายสวนอัมพปาลีวัน</p>
-<div class="wi-entry__refs">
-<a href="/part-4-tipitaka-digest/sutta-pitaka/digha-nikaya/vol-10#SxmPKvEN4q">เสด็จป่ามะม่วงของนางอัมพปาลี</a>
-</div>
-</div>
-
-<div class="wi-entry">
-<p class="wi-entry__term"><a href="/part-4-tipitaka-digest/sutta-pitaka/samyutta-nikaya/vol-18#uS0Q4HOIb4">จิตตคฤหบดี</a></p>
-<p class="wi-entry__desc">อุบาสกเลิศทางธรรมกถึก</p>
-<div class="wi-entry__refs">
-<a href="/part-4-tipitaka-digest/sutta-pitaka/samyutta-nikaya/vol-18#uS0Q4HOIb4">เล่ม ๑๘ สังยุตตนิกาย สฬายตนวรรค</a>
-</div>
-</div>
-
-<div class="wi-entry">
-<p class="wi-entry__term"><a href="/part-4-tipitaka-digest/sutta-pitaka/anguttara-nikaya/vol-23#LSryFSSaMg">อุคคคฤหบดี</a></p>
-<p class="wi-entry__desc">ชาวหัตถิคาม ผู้ประกอบด้วยความอัศจรรย์ ๘ ประการ</p>
-<div class="wi-entry__refs">
-<a href="/part-4-tipitaka-digest/sutta-pitaka/anguttara-nikaya/vol-23#LSryFSSaMg">อัฏฐกนิบาต คหปติวรรค</a>
-</div>
-</div>
-
-<div class="wi-entry">
-<p class="wi-entry__term"><a href="/part-4-tipitaka-digest/sutta-pitaka/anguttara-nikaya/vol-23#LSryFSSaMg">หัตถกะแห่งอาฬวี</a></p>
-<p class="wi-entry__desc">อุบาสกผู้สงเคราะห์บริษัทด้วยสังคหวัตถุ ๔</p>
-<div class="wi-entry__refs">
-<a href="/part-4-tipitaka-digest/sutta-pitaka/anguttara-nikaya/vol-23#LSryFSSaMg">อัฏฐกนิบาต คหปติวรรค</a>
-<a href="/part-4-tipitaka-digest/sutta-pitaka/anguttara-nikaya/vol-20#ZhZSpEXwan">เอตทัคคะฝ่ายอุบาสก</a>
-</div>
-</div>
-
-<div class="wi-entry">
-<p class="wi-entry__term"><a href="/part-4-tipitaka-digest/sutta-pitaka/anguttara-nikaya/vol-22#rEm3zqCXfR">มหานามศากยะ</a></p>
-<p class="wi-entry__desc">ศากยราชผู้ทูลถามเรื่องอุบาสก</p>
-<div class="wi-entry__refs">
-<a href="/part-4-tipitaka-digest/sutta-pitaka/anguttara-nikaya/vol-22#rEm3zqCXfR">ปัญจกนิบาต สุมนวรรค</a>
-</div>
-</div>
-
-<div class="wi-entry">
-<p class="wi-entry__term"><a href="/part-4-tipitaka-digest/sutta-pitaka/anguttara-nikaya/vol-22#K4XdpSJbLg">หมอชีวก (ชีวกโกมารภัจจ์)</a></p>
-<p class="wi-entry__desc">แพทย์ประจำพระพุทธเจ้า</p>
-<div class="wi-entry__refs">
-<a href="/part-4-tipitaka-digest/sutta-pitaka/anguttara-nikaya/vol-22#K4XdpSJbLg">ปัญจกนิบาต คิลานวรรค</a>
-</div>
-</div>
-</div>
-
-## เทวดาและพรหม {.ptb-h-block}
-
-<div class="wi-section">
-<div class="wi-entry">
-<p class="wi-entry__term"><a href="/part-4-tipitaka-digest/sutta-pitaka/digha-nikaya/vol-10#Hhexa1ldxJ">ท้าวสักกะ (พระอินทร์)</a></p>
-<p class="wi-entry__desc">จอมเทพชั้นดาวดึงส์</p>
-<div class="wi-entry__refs">
-<a href="/part-4-tipitaka-digest/sutta-pitaka/digha-nikaya/vol-10#Hhexa1ldxJ">๘. สักกปัญหสูตร</a>
-</div>
-</div>
-
-<div class="wi-entry">
-<p class="wi-entry__term"><a href="/part-4-tipitaka-digest/vinaya-pitaka/vol-04#aMEfdiNyuS">ท้าวสหัมบดีพรหม</a></p>
-<p class="wi-entry__desc">พรหมผู้ทูลอาราธนาพระพุทธเจ้าแสดงธรรม</p>
-<div class="wi-entry__refs">
-<a href="/part-4-tipitaka-digest/vinaya-pitaka/vol-04#aMEfdiNyuS">พระพรหมมาอาราธนา</a>
-</div>
-</div>
-
-<div class="wi-entry">
-<p class="wi-entry__term"><a href="/part-3-tipitaka-selected-passages/samyutta-nikaya/#pF2aI3Arbc">มาร</a></p>
-<p class="wi-entry__desc">พญามาร ผู้ขัดขวางการตรัสรู้</p>
-<div class="wi-entry__refs">
-<a href="/part-3-tipitaka-selected-passages/samyutta-nikaya/#pF2aI3Arbc">๑๔๙. ตา หู เป็นต้น มีที่ไหน มารมีที่นั่น</a>
-<a href="/part-3-tipitaka-selected-passages/khuddaka-nikaya/#Lcd5A83gBc">๑๐๒. มารย่อมข่มเหง และไม่ข่มเหงคนเช่นไร</a>
-</div>
-</div>
-
-<div class="wi-entry">
-<p class="wi-entry__term"><a href="/part-4-tipitaka-digest/sutta-pitaka/anguttara-nikaya/vol-21#T7PCfOWSQs">โรหิตัสสเทพบุตร</a></p>
-<p class="wi-entry__desc">เทพบุตรผู้เคยไปหาที่สุดโลก</p>
-<div class="wi-entry__refs">
-<a href="/part-4-tipitaka-digest/sutta-pitaka/anguttara-nikaya/vol-21#T7PCfOWSQs">จตุกกนิบาต โรหิตัสสวรรค</a>
-</div>
-</div>
-
-<div class="wi-entry">
-<p class="wi-entry__term"><a href="/part-4-tipitaka-digest/sutta-pitaka/anguttara-nikaya/vol-23#EMUVKXiANj">ท้าวปหาราทะ</a></p>
-<p class="wi-entry__desc">จอมอสูรผู้ทูลถามเรื่องความอัศจรรย์ของพระธรรมวินัย</p>
-<div class="wi-entry__refs">
-<a href="/part-4-tipitaka-digest/sutta-pitaka/anguttara-nikaya/vol-23#EMUVKXiANj">อัฏฐกนิบาต มหาวรรค</a>
-</div>
-</div>
-
-<div class="wi-entry">
-<p class="wi-entry__term"><a href="/part-4-tipitaka-digest/sutta-pitaka/anguttara-nikaya/vol-21#JOIWSWQSja">นายเกสีสารถี</a></p>
-<p class="wi-entry__desc">สารถีผู้ฝึกม้า ที่พระพุทธเจ้าทรงนำมาเปรียบกับการฝึกคน</p>
-<div class="wi-entry__refs">
-<a href="/part-4-tipitaka-digest/sutta-pitaka/anguttara-nikaya/vol-21#JOIWSWQSja">จตุกกนิบาต เกสีวรรค</a>
-</div>
-</div>
-</div>
-
-## เจ้าลัทธินอกศาสนา {.ptb-h-block}
-
-<div class="wi-section">
-<div class="wi-entry">
-<p class="wi-entry__term"><a href="/part-4-tipitaka-digest/sutta-pitaka/digha-nikaya/vol-09#XpMohDfmGC">ครูทั้ง ๖</a></p>
-<p class="wi-entry__desc">ปูรณะ กัสสป, มักขลิ โคสาล, อชิตะ เกสกัมพล, ปกุธะ กัจจายนะ, สัญชัย เวลัฏฐบุตร, นิครนถนาฏบุตร</p>
-<div class="wi-entry__refs">
-<a href="/part-4-tipitaka-digest/sutta-pitaka/digha-nikaya/vol-09#XpMohDfmGC">๒. สามัญญผลสูตร</a>
-<a href="/part-3-tipitaka-selected-passages/majjhima-nikaya/#hLrd1Z9qoJ">๑. อะไรเป็นแก่นสารในพระพุทธศาสนา</a>
-</div>
-</div>
 </div>

@@ -3,6 +3,18 @@ import type { DefaultTheme } from 'vitepress'
 const WI = '10-part-5-academic-notes-and-index/word-index'
 const WI_URL = 'part-5-academic-notes-and-index/word-index'
 
+/** หน้าย่อยภายใต้สารบัญค้นคำ — ชื่อบุคคล */
+const wordIndexPersonsSubpages = [
+  'buddha',
+  'thera',
+  'theri',
+  'rulers',
+  'upasaka',
+  'upasika',
+  'devas',
+  'sect-leaders',
+] as const
+
 const wordIndexCategories = [
   'key-doctrines',
   'doctrinal-terms',
@@ -27,6 +39,10 @@ export function part5DigestRewrites(): Record<string, string> {
   }
   for (const cat of wordIndexCategories) {
     rewrites[`${WI}/${cat}/index.md`] = `${WI_URL}/${cat}/index.md`
+  }
+  for (const slug of wordIndexPersonsSubpages) {
+    rewrites[`${WI}/persons/${slug}/index.md`] =
+      `${WI_URL}/persons/${slug}/index.md`
   }
   return rewrites
 }
@@ -57,6 +73,41 @@ export function part5DigestSidebar(): DefaultTheme.SidebarItem {
           {
             text: '๓. ชื่อบุคคล',
             link: `/${WI_URL}/persons/`,
+            collapsed: true,
+            items: [
+              {
+                text: 'พระพุทธเจ้า',
+                link: `/${WI_URL}/persons/buddha/`,
+              },
+              {
+                text: 'พระเถระ',
+                link: `/${WI_URL}/persons/thera/`,
+              },
+              {
+                text: 'พระเถรี',
+                link: `/${WI_URL}/persons/theri/`,
+              },
+              {
+                text: 'ผู้ครองนคร',
+                link: `/${WI_URL}/persons/rulers/`,
+              },
+              {
+                text: 'อุบาสก',
+                link: `/${WI_URL}/persons/upasaka/`,
+              },
+              {
+                text: 'อุบาสิกา',
+                link: `/${WI_URL}/persons/upasika/`,
+              },
+              {
+                text: 'เทวดา',
+                link: `/${WI_URL}/persons/devas/`,
+              },
+              {
+                text: 'เจ้าลัทธิ',
+                link: `/${WI_URL}/persons/sect-leaders/`,
+              },
+            ],
           },
           {
             text: '๔. ชื่อสถานที่',

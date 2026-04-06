@@ -1,0 +1,26 @@
+---
+title: เทวดา
+lang: th
+description: ดัชนีชื่อบุคคล — เทวดา — สารบัญค้นคำ พระไตรปิฎกฉบับสำหรับประชาชน
+outline: [2, 6]
+prev: { text: 'อุบาสิกา', link: '/part-5-academic-notes-and-index/word-index/persons/upasika/' }
+next: { text: 'เจ้าลัทธิ', link: '/part-5-academic-notes-and-index/word-index/persons/sect-leaders/' }
+searchKeywords:
+  - ชื่อบุคคล
+  - เทวดา
+  - สารบัญค้นคำ
+---
+
+# เทวดา {.ptb-h-block}
+
+<PtbWordIndexEntry term="ท้าวสักกะ (พระอินทร์)" desc="จอมเทพชั้นดาวดึงส์" />
+
+<PtbWordIndexEntry term="ท้าวสหัมบดีพรหม" desc="พรหมผู้ทูลอาราธนาพระพุทธเจ้าแสดงธรรม" />
+
+<PtbWordIndexEntry term="มาร" desc="พญามาร ผู้ขัดขวางการตรัสรู้" />
+
+<PtbWordIndexEntry term="โรหิตัสสเทพบุตร" desc="เทพบุตรผู้เคยไปหาที่สุดโลก" />
+
+<PtbWordIndexEntry term="ท้าวปหาราทะ" desc="จอมอสูรผู้ทูลถามเรื่องความอัศจรรย์ของพระธรรมวินัย" />
+
+<PtbWordIndexEntry term="นายเกสีสารถี" desc="สารถีผู้ฝึกม้า ที่พระพุทธเจ้าทรงนำมาเปรียบกับการฝึกคน" />

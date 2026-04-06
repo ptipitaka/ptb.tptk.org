@@ -101,19 +101,52 @@
   text-decoration: underline;
 }
 
+/* รายการแรกหลังหัวข้อ h2 — ไม่มีเส้นคั่นด้านบน */
+.vp-doc h2 + .wi-entry {
+  border-top: none;
+  padding-top: 0;
+}
+
+/*
+ * term เป็น <button> เมื่อมี slot แต่เป็น <p> เมื่อไม่มี — VitePress ใส่ .vp-doc p { margin: 16px 0 }
+ * ทำให้ระยะ term–desc ห่างกว่าแถวที่ใช้ปุ่ม (ไม่มี margin ของ p)
+ */
+.vp-doc .wi-entry > p.wi-entry__term {
+  margin: 0;
+}
+
 .wi-entry__desc {
   font-family: var(--ptb-font-thai);
   font-size: 0.9375rem;
   line-height: 1.75;
   color: var(--vp-c-text-2);
-  margin: 0.1875rem 0 0;
+  margin: 0;
+}
+
+/* ให้ desc ชิด term — ชนะ margin ของ .vp-doc p; ดึงขึ้นเล็กน้อยให้ชิดบรรทัดหัวข้อ */
+.vp-doc .wi-entry .wi-entry__desc {
+  margin: 0;
+  margin-top: -0.08em;
+}
+
+/*
+ * ระยะ 1 = ช่องว่างระหว่างข้อความหลักกับบรรทัดอ้างอิง (refs)
+ * ระยะ 2 = ช่องว่างระหว่างบรรทัดอ้างอิงกับหัวข้อถัดไป
+ *
+ * .vp-doc p มี margin-bottom 16px ทำให้ระยะ 1 โตเกิน ส่วนระยะ 2 ได้แค่ margin ของ refs
+ * กับ li+li (8px) ของ VitePress — เลยดูแคบกว่า — จึงตัด margin ล่างของ p ที่อยู่ก่อน refs
+ * และเพิ่ม margin-bottom ของ refs ให้ชัดเจน
+ */
+.vp-doc .wi-entry__details-inner li > p:has(+ .wi-entry__refs) {
+  margin-bottom: 0;
 }
 
 .wi-entry__refs {
   display: flex;
   flex-wrap: wrap;
   gap: 0.375rem;
-  margin-top: 0.375rem;
+  margin-top: 0.5rem;
+  margin-bottom: 1rem;
 }
 
 .wi-entry__refs a {

@@ -10,6 +10,9 @@ import PtbTipitakaRef from './components/PtbTipitakaRef.vue'
 import PtbList from './components/PtbList.vue'
 import PtbListItem from './components/PtbListItem.vue'
 import PtbRandomPitakaLink from './components/PtbRandomPitakaLink.vue'
+import PtbWordIndexEntry from './components/PtbWordIndexEntry.vue'
+import PtbWordIndexLink from './components/PtbWordIndexLink.vue'
+import PtbWordIndexRefs from './components/PtbWordIndexRefs.vue'
 
 /** โหลด custom.css ของแต่ละหน้า (โหลดหลัง central จึง override ได้) — เพิ่ม entry เมื่อมี custom.css ในโฟลเดอร์นั้น */
 const PAGE_CUSTOM_CSS: Record<string, () => Promise<unknown>> = {
@@ -58,6 +61,9 @@ export default {
     app.component('PtbList', PtbList)
     app.component('PtbListItem', PtbListItem)
     app.component('PtbRandomPitakaLink', PtbRandomPitakaLink)
+    app.component('PtbWordIndexEntry', PtbWordIndexEntry)
+    app.component('PtbWordIndexLink', PtbWordIndexLink)
+    app.component('PtbWordIndexRefs', PtbWordIndexRefs)
 
     /** VitePress router ใช้ `route` ไม่มี `currentRoute` — ต้องอ่าน path จากนั้นหรือจาก href หลังนำทาง */
     const loadPageCss = (href?: string) => {
