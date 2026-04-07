@@ -1,0 +1,90 @@
+1	thig	Verses of the Senior Nuns 
+2	thig-ekakanipata	The Book of the Ones 
+3	thig1.1	An Unnamed Nun (1st) 
+4	thig1.2	Muttā (1st) 
+5	thig1.3	Puṇṇā 
+6	thig1.4	Tissā 
+7	thig1.5	Another Tissā 
+8	thig1.6	Dhīrā 
+9	thig1.7	Vīrā 
+10	thig1.8	Mittā (1st) 
+11	thig1.9	Bhadrā 
+12	thig1.10	Upasamā 
+13	thig1.11	Muttā (2nd) 
+14	thig1.12	Dhammadinnā 
+15	thig1.13	Visākhā 
+16	thig1.14	Sumanā 
+17	thig1.15	Uttarā (1st) 
+18	thig1.16	Sumanā, Who Went Forth Late in Life 
+19	thig1.17	Dhammā 
+20	thig1.18	Saṅghā 
+21	thig-dukanipata	The Book of the Twos 
+22	thig2.1	Abhirūpanandā 
+23	thig2.2	Jentā 
+24	thig2.3	Sumaṅgala’s Mother 
+25	thig2.4	Aḍḍhakāsi 
+26	thig2.5	Cittā 
+27	thig2.6	Mettikā 
+28	thig2.7	Mittā (2nd) 
+29	thig2.8	To Abhayā’s Mother From Her Daughter 
+30	thig2.9	Abhayā 
+31	thig2.10	Sāmā 
+32	thig-tikanipata	The Book of the Threes 
+33	thig3.1	Another Sāmā 
+34	thig3.2	Uttamā 
+35	thig3.3	Another Uttamā 
+36	thig3.4	Dantikā 
+37	thig3.5	Ubbirī 
+38	thig3.6	Sukkā 
+39	thig3.7	Selā 
+40	thig3.8	Somā 
+41	thig-catukkanipata	The Book of the Fours 
+42	thig4.1	Bhaddā Daughter of Kapila 
+43	thig-pancakanipata	The Book of the Fives 
+44	thig5.1	An Unnamed Nun (2nd) 
+45	thig5.2	Vimalā, the Former Courtesan 
+46	thig5.3	Sīhā 
+47	thig5.4	Sundarīnandā 
+48	thig5.5	Nanduttarā 
+49	thig5.6	Mittākāḷī 
+50	thig5.7	Sakulā 
+51	thig5.8	Soṇā 
+52	thig5.9	Bhaddā of the Curly Hair 
+53	thig5.10	Paṭācārā 
+54	thig5.11	Thirty Nuns 
+55	thig5.12	Candā 
+56	thig-chakkanipata	The Book of the Sixes 
+57	thig6.1	Paṭācārā, Who Had a Following of Five Hundred 
+58	thig6.2	Vāseṭṭhī 
+59	thig6.3	Khemā 
+60	thig6.4	Sujātā 
+61	thig6.5	Anopamā 
+62	thig6.6	Mahāpajāpati Gotamī 
+63	thig6.7	Guttā 
+64	thig6.8	Vijayā 
+65	thig-sattakanipata	The Book of the Sevens 
+66	thig7.1	Uttarā (2nd) 
+67	thig7.2	Cālā 
+68	thig7.3	Upacālā 
+69	thig-atthakanipata	The Book of the Eights 
+70	thig8.1	Sīsūpacālā 
+71	thig-navakanipata	The Book of the Nines 
+72	thig9.1	Vaḍḍha’s Mother 
+73	thig-ekadasanipata	The Book of the Elevens 
+74	thig10.1	Kisāgotamī 
+75	thig-dvadasakanipata	The Book of the Twelves 
+76	thig11.1	Uppalavaṇṇā 
+77	thig-solasakanipata	The Book of the Sixteens 
+78	thig12.1	Puṇṇikā 
+79	thig-visatinipata	The Book of the Twenties 
+80	thig13.1	Ambapālī 
+81	thig13.2	Rohinī 
+82	thig13.3	Cāpā 
+83	thig13.4	Sundarī 
+84	thig13.5	Subhā, the Smith’s Daughter 
+85	thig-timsanipata	The Book of the Thirties 
+86	thig14.1	Subhā of Jīvaka’s Mango Grove 
+87	thig-cattalisanipata	The Book of the Forties 
+88	thig15.1	Isidāsī 
+89	thig-mahanipata	The Great Book
+90	thig16.1	Sumedhā 

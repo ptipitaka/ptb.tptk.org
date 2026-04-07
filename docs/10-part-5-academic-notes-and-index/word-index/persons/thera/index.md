@@ -11,9 +11,9 @@ searchKeywords:
   - สารบัญค้นคำ
 ---
 
-# พระเถระ {.ptb-h-block}
+## พระเถระ {.ptb-h-block}
 
-## พระอัครสาวกและพระสาวกสำคัญ {#FDD6bmVExX .ptb-h-block}
+#### พระอัครสาวกและพระเถระสำคัญ {#FDD6bmVExX .ptb-h-block}
 
 <PtbWordIndexEntry term="พระสาริบุตร" desc="พระอัครสาวกเบื้องขวา ผู้ได้รับการยกย่องว่าเลิศในทาง &quot;มีปัญญามาก&quot; เปรียบเหมือนเชษฐโอรสผู้หมุนธรรมจักรตามพระพุทธเจ้าได้">
 
@@ -987,9 +987,11 @@ searchKeywords:
 
 </PtbWordIndexEntry>
 
-## พระเถระอื่น ๆ (เรียงตามอักษร) {#G6t3tNjldm .ptb-h-block}
+### พระเถระรูปอื่น ๆ {#G6t3tNjldm .ptb-h-block}
 
-### ก⁠ {#TPWYXHEw1w .ptb-h-block}
+<PtbSubtitle>(เรียงตามอักษร)</PtbSubtitle>
+
+#### ก⁠ {#TPWYXHEw1w .ptb-h-block}
 
 <PtbWordIndexEntry term="พระกังขาเรวตะ" desc="ผู้ได้รับการยกย่องว่าเลิศในทาง &quot;เข้าฌาน&quot;">
 
@@ -1187,7 +1189,7 @@ searchKeywords:
 </PtbWordIndexEntry>
 
 
-### ค⁠ {#k1n5iDlvAD .ptb-h-block}
+#### ค⁠ {#k1n5iDlvAD .ptb-h-block}
 
 <PtbWordIndexEntry term="พระคิริมานนท์" desc="ภิกษุผู้เป็นไข้ ซึ่งพระพุทธเจ้าโปรดให้พระอานนท์ไปแสดงธรรมเรื่อง &quot;สัญญา ๑๐ ประการ&quot; เพื่อบรรเทาโรค">
 
@@ -1206,7 +1208,7 @@ searchKeywords:
 </PtbWordIndexEntry>
 
 
-### จ⁠ {#DpCArdWIu5 .ptb-h-block}
+#### จ⁠ {#DpCArdWIu5 .ptb-h-block}
 
 <PtbWordIndexEntry term="พระจุนทเถระ (มหาจุนทะ)" desc="ผู้สอนภิกษุเพื่อสมานสามัคคี มิให้ภิกษุผู้บำเพ็ญฌานกับภิกษุธรรมกถึกรุกรานกัน">
 
@@ -1293,7 +1295,7 @@ searchKeywords:
 </PtbWordIndexEntry>
 
 
-### ฉ⁠ {#UfppM5z991 .ptb-h-block}
+#### ฉ⁠ {#UfppM5z991 .ptb-h-block}
 
 <PtbWordIndexEntry term="พระฉันนะ" desc="ภิกษุผู้ประพฤติอนาจาร ว่ายากสอนยาก จนเป็นต้นบัญญัติสิกขาบทหลายข้อ และถูกสงฆ์ลงพรหมทัณฑ์">
 
@@ -1357,7 +1359,7 @@ searchKeywords:
 </PtbWordIndexEntry>
 
 
-### ท⁠ {#ZVSaDJJreY .ptb-h-block}
+#### ท⁠ {#ZVSaDJJreY .ptb-h-block}
 
 <PtbWordIndexEntry term="พระทัพพมัลลบุตร" desc="ผู้ได้รับการยกย่องว่าเลิศในทาง &quot;จัดเสนาสนะ&quot; ได้รับแต่งตั้งให้เป็นผู้จัดเสนาสนะและผู้แสดงภัตต์ของสงฆ์">
 
@@ -1421,7 +1423,7 @@ searchKeywords:
 </PtbWordIndexEntry>
 
 
-### ธ⁠ {#nFfbxrsAYC .ptb-h-block}
+#### ธ⁠ {#nFfbxrsAYC .ptb-h-block}
 
 <PtbWordIndexEntry term="พระธนิยะ" desc="ผู้เป็นต้นบัญญัติปาราชิกสิกขาบทข้อห้ามลักทรัพย์ (อ้างอิงจากประวัติการสนทนา)">
 
@@ -1448,7 +1450,7 @@ searchKeywords:
 </PtbWordIndexEntry>
 
 
-### น⁠ {#XbTAGX5rmo .ptb-h-block}
+#### น⁠ {#XbTAGX5rmo .ptb-h-block}
 
 <PtbWordIndexEntry term="พระนทีกัสสปเถระ" desc="พระอรหันต์ผู้มีภาษิตว่าด้วยการเลิกมิจฉาทิฏฐิจากการบูชายัญไฟ แล้วนมัสการพระพุทธเจ้า จนสิ้นภพ">
 
@@ -1585,7 +1587,7 @@ searchKeywords:
 </PtbWordIndexEntry>
 
 
-### ป⁠ {#MoLuWhw7wL .ptb-h-block}
+#### ป⁠ {#MoLuWhw7wL .ptb-h-block}
 
 <PtbWordIndexEntry term="พระปิณโฑละ ภารทวาชะ" desc="ผู้ได้รับการยกย่องว่าเลิศในทาง &quot;บันลือสีหนาท&quot;">
 
@@ -1662,7 +1664,7 @@ searchKeywords:
 </PtbWordIndexEntry>
 
 
-### พ⁠ {#OaJFV2uf9X .ptb-h-block}
+#### พ⁠ {#OaJFV2uf9X .ptb-h-block}
 
 <PtbWordIndexEntry term="พระพักกุละ" desc="ผู้ได้รับการยกย่องว่าเลิศในทาง &quot;มีอาพาธน้อย&quot;">
 
@@ -1706,7 +1708,7 @@ searchKeywords:
 </PtbWordIndexEntry>
 
 
-### ม⁠ {#Trho4FrlNp .ptb-h-block}
+#### ม⁠ {#Trho4FrlNp .ptb-h-block}
 
 <PtbWordIndexEntry term="พระมหากัปปินะ" desc="ผู้ได้รับการยกย่องว่าเลิศในทาง &quot;ให้โอวาทแก่ภิกษุ&quot; มีประวัติที่พระพุทธเจ้าตรัสสั่งให้ไปทำอุโบสถแม้จะเป็นพระอรหันต์แล้ว">
 
@@ -1880,7 +1882,7 @@ searchKeywords:
 </PtbWordIndexEntry>
 
 
-### ร⁠ {#Ak9kk3mjSp .ptb-h-block}
+#### ร⁠ {#Ak9kk3mjSp .ptb-h-block}
 
 <PtbWordIndexEntry term="พระรัฏฐปาละ" desc="ผู้ได้รับการยกย่องว่าเลิศในทาง &quot;บวชด้วยศรัทธา&quot;">
 
@@ -1965,7 +1967,7 @@ searchKeywords:
 </PtbWordIndexEntry>
 
 
-### ล⁠ {#SYwo4UfGTV .ptb-h-block}
+#### ล⁠ {#SYwo4UfGTV .ptb-h-block}
 
 <PtbWordIndexEntry term="พระลกุณฏกะ ภัททิยะ" desc="ภิกษุผู้มีรูปร่างค่อมเตี้ยต่ำ แต่มีฤทธิ์มากและมีอานุภาพมาก">
 
@@ -2009,7 +2011,7 @@ searchKeywords:
 </PtbWordIndexEntry>
 
 
-### ว⁠ {#gbQ4RIRhfb .ptb-h-block}
+#### ว⁠ {#gbQ4RIRhfb .ptb-h-block}
 
 <PtbWordIndexEntry term="พระวักกลิ" desc="ผู้ได้รับการยกย่องว่าเลิศในทาง &quot;น้อมใจไปตามความเชื่อ&quot;">
 
@@ -2073,7 +2075,7 @@ searchKeywords:
 </PtbWordIndexEntry>
 
 
-### ส⁠ {#b4NpZ3pZl7 .ptb-h-block}
+#### ส⁠ {#b4NpZ3pZl7 .ptb-h-block}
 
 <PtbWordIndexEntry term="พระสาคตะ" desc="ผู้ได้รับการยกย่องว่าเลิศในทาง &quot;ฉลาดในธาตุไฟ (ฉลาดในการเข้าสมาบัติ)&quot;">
 
@@ -2202,7 +2204,36 @@ searchKeywords:
 </PtbWordIndexEntry>
 
 
-<PtbWordIndexEntry term="พระโสณโกฬิวิสะ (พระโสณะ)" desc="บุตรเศรษฐีที่บำเพ็ญเพียรจนเท้าแตก และได้รับการยกย่องว่าเลิศในทาง &quot;ปรารภความเพียร&quot;">
+<PtbWordIndexEntry term="พระโสณ โกฬิวิสะ (พระโสณะ)" desc="บุตรเศรษฐีที่บำเพ็ญเพียรจนเท้าแตก และได้รับการยกย่องว่าเลิศในทาง &quot;ปรารภความเพียร&quot;">
+
+**ภาค ๔ ความย่อแห่งพระไตรปิฎก**
+
+**หมวดวินัยปิฎก (เล่ม ๑-๘)**
+
+*มหาวัคค์ (เล่ม ๔-๕)*
+
+* **จัมมขันธกะ (มหาวัคค์ ภาค ๒) 🚩:** เล่าประวัติพระโสณ โกฬิวิสะ บุตรเศรษฐีที่มีลักษณะพิเศษที่ฝ่าเท้า พระผู้มีพระภาคทรงสั่งสอนด้วยเรื่องประโยชน์ปัจจุบันแล้วให้ไปเฝ้า; เมื่อบวชแล้วท่านบำเพ็ญเพียรเดินจงกรมจนเท้าแตกโลหิตไหล พระพุทธเจ้าทรงทราบว่าท่านเคยดีดพิณ จึงทรงแสดงธรรมให้ประพฤติสายกลาง ไม่ตึงเกินไป ไม่หย่อนเกินไป เหมือนสายพิณที่ขึงพอดีจึงมีเสียงไพเราะ ท่านปฏิบัติตามก็บรรลุพระอรหัตผล และเป็นต้นเหตุให้ทรงอนุญาตรองเท้าใบไม้ชั้นเดียว โดยพระโสณะเกี่ยงว่าจะใช้เมื่อเป็นกฎส่วนรวมของสงฆ์เท่านั้น
+
+  <PtbWordIndexRefs>
+  <PtbWordIndexLink href="/part-4-tipitaka-digest/vinaya-pitaka/vol-05#B3d6Udoq0Z" label="ภาค ๔ เล่ม ๕ — จัมมขันธกะ (พระโสณโกฬิวิสะ — เท้าแตก อุปมาสายพิณ รองเท้าใบไม้)" />
+  </PtbWordIndexRefs>
+
+**หมวดสุตตันตปิฎก (เล่ม ๙-๓๓)**
+
+*อังคุตตรนิกาย (เล่ม ๒๐-๒๔)*
+
+* **เอตทัคคปาลิ (เอกนิบาต) 🚩:** พระโสณะโกลิวิสะ ได้รับการยกย่องจากพระพุทธเจ้าให้เป็นผู้เลิศ (เอตทัคคะ) ในทางปรารภความเพียร
+
+  <PtbWordIndexRefs>
+  <PtbWordIndexLink href="/part-4-tipitaka-digest/sutta-pitaka/anguttara-nikaya/vol-20#Cj6v04dWWH" label="ภาค ๔ เล่ม ๒๐ — เอตทัคคปาลิ (เอตทัคคะฝ่ายภิกษุ — ปรารภความเพียร — พระโสณะโกลิวิสะ)" />
+  </PtbWordIndexRefs>
+
+* **ฉักกนิบาต มหาวรรค (ทุติยปัณณาสก์ หมวด ๕๐ ที่ ๒) 🚩:** พระผู้มีพระภาคตรัสสอนพระโสณะผู้ทำความเพียรมากเกินไปแต่ยังไม่สำเร็จ ด้วยอุปมาสายพิณที่ตึงหรือหย่อนเกินไปเสียงไม่ดี แต่ขึงพอดีจึงมีเสียงดี พระโสณะปฏิบัติตามก็สำเร็จเป็นพระอรหันต์ และได้กราบทูลถึงธรรมหลายประการ
+
+  <PtbWordIndexRefs>
+  <PtbWordIndexLink href="/part-4-tipitaka-digest/sutta-pitaka/anguttara-nikaya/vol-22#xJMb3jPVAd" label="ภาค ๔ เล่ม ๒๒ — ฉักกนิบาต มหาวรรค (พระโสณะ — อุปมาสายพิณ)" />
+  </PtbWordIndexRefs>
+
 </PtbWordIndexEntry>
 
 
@@ -2240,7 +2271,7 @@ searchKeywords:
 </PtbWordIndexEntry>
 
 
-### ห⁠ {#rtUWDwN4Mq .ptb-h-block}
+#### ห⁠ {#rtUWDwN4Mq .ptb-h-block}
 
 <PtbWordIndexEntry term="พระหาริตเถระ" desc="พระเถระผู้มีภาษิตเตือนใจเรื่องไม่ให้ผลัดวันประกันพรุ่ง">
 
@@ -2259,7 +2290,7 @@ searchKeywords:
 </PtbWordIndexEntry>
 
 
-### อ⁠ {#P7sAJT9ajN .ptb-h-block}
+#### อ⁠ {#P7sAJT9ajN .ptb-h-block}
 
 <PtbWordIndexEntry term="พระองคุลิมาล" desc="อดีตโจรผู้กลับใจมาบวชจนบรรลุอรหันต์">
 

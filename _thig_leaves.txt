@@ -1,0 +1,73 @@
+thig1.1	An Unnamed Nun (1st) 
+thig1.2	Muttā (1st) 
+thig1.3	Puṇṇā 
+thig1.4	Tissā 
+thig1.5	Another Tissā 
+thig1.6	Dhīrā 
+thig1.7	Vīrā 
+thig1.8	Mittā (1st) 
+thig1.9	Bhadrā 
+thig1.10	Upasamā 
+thig1.11	Muttā (2nd) 
+thig1.12	Dhammadinnā 
+thig1.13	Visākhā 
+thig1.14	Sumanā 
+thig1.15	Uttarā (1st) 
+thig1.16	Sumanā, Who Went Forth Late in Life 
+thig1.17	Dhammā 
+thig1.18	Saṅghā 
+thig2.1	Abhirūpanandā 
+thig2.2	Jentā 
+thig2.3	Sumaṅgala’s Mother 
+thig2.4	Aḍḍhakāsi 
+thig2.5	Cittā 
+thig2.6	Mettikā 
+thig2.7	Mittā (2nd) 
+thig2.8	To Abhayā’s Mother From Her Daughter 
+thig2.9	Abhayā 
+thig2.10	Sāmā 
+thig3.1	Another Sāmā 
+thig3.2	Uttamā 
+thig3.3	Another Uttamā 
+thig3.4	Dantikā 
+thig3.5	Ubbirī 
+thig3.6	Sukkā 
+thig3.7	Selā 
+thig3.8	Somā 
+thig4.1	Bhaddā Daughter of Kapila 
+thig5.1	An Unnamed Nun (2nd) 
+thig5.2	Vimalā, the Former Courtesan 
+thig5.3	Sīhā 
+thig5.4	Sundarīnandā 
+thig5.5	Nanduttarā 
+thig5.6	Mittākāḷī 
+thig5.7	Sakulā 
+thig5.8	Soṇā 
+thig5.9	Bhaddā of the Curly Hair 
+thig5.10	Paṭācārā 
+thig5.11	Thirty Nuns 
+thig5.12	Candā 
+thig6.1	Paṭācārā, Who Had a Following of Five Hundred 
+thig6.2	Vāseṭṭhī 
+thig6.3	Khemā 
+thig6.4	Sujātā 
+thig6.5	Anopamā 
+thig6.6	Mahāpajāpati Gotamī 
+thig6.7	Guttā 
+thig6.8	Vijayā 
+thig7.1	Uttarā (2nd) 
+thig7.2	Cālā 
+thig7.3	Upacālā 
+thig8.1	Sīsūpacālā 
+thig9.1	Vaḍḍha’s Mother 
+thig10.1	Kisāgotamī 
+thig11.1	Uppalavaṇṇā 
+thig12.1	Puṇṇikā 
+thig13.1	Ambapālī 
+thig13.2	Rohinī 
+thig13.3	Cāpā 
+thig13.4	Sundarī 
+thig13.5	Subhā, the Smith’s Daughter 
+thig14.1	Subhā of Jīvaka’s Mango Grove 
+thig15.1	Isidāsī 
+thig16.1	Sumedhā 
