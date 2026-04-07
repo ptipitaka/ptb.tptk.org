@@ -13,6 +13,8 @@ searchKeywords:
 
 # อุบาสิกา {.ptb-h-block}
 
-<PtbWordIndexEntry term="นางวิสาขา มิคารมารดา" desc="อุบาสิกาผู้เลิศด้านทาน" />
+<PtbWordIndexEntry term="นางวิสาขา มิคารมารดา" desc="อุบาสิกาผู้เลิศด้านทาน">
+</PtbWordIndexEntry>
 
-<PtbWordIndexEntry term="นางอัมพปาลี" desc="ถวายสวนอัมพปาลีวัน" />
+<PtbWordIndexEntry term="นางอัมพปาลี" desc="ถวายสวนอัมพปาลีวัน">
+</PtbWordIndexEntry>

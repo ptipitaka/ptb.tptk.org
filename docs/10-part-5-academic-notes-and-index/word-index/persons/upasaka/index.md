@@ -13,16 +13,23 @@ searchKeywords:
 
 # อุบาสก {.ptb-h-block}
 
-<PtbWordIndexEntry term="อนาถปิณฑิกคฤหบดี" desc="เศรษฐีผู้สร้างเชตวนาราม" />
+<PtbWordIndexEntry term="อนาถปิณฑิกคฤหบดี" desc="เศรษฐีผู้สร้างเชตวนาราม">
+</PtbWordIndexEntry>
 
-<PtbWordIndexEntry term="ฆฏิการะ" desc="ช่างหม้อผู้เป็นอุบาสกเลิศในสมัยพระกัสสปพุทธเจ้า" />
+<PtbWordIndexEntry term="ฆฏิการะ" desc="ช่างหม้อผู้เป็นอุบาสกเลิศในสมัยพระกัสสปพุทธเจ้า">
+</PtbWordIndexEntry>
 
-<PtbWordIndexEntry term="จิตตคฤหบดี" desc="อุบาสกเลิศทางธรรมกถึก" />
+<PtbWordIndexEntry term="จิตตคฤหบดี" desc="อุบาสกเลิศทางธรรมกถึก">
+</PtbWordIndexEntry>
 
-<PtbWordIndexEntry term="อุคคคฤหบดี" desc="ชาวหัตถิคาม ผู้ประกอบด้วยความอัศจรรย์ ๘ ประการ" />
+<PtbWordIndexEntry term="อุคคคฤหบดี" desc="ชาวหัตถิคาม ผู้ประกอบด้วยความอัศจรรย์ ๘ ประการ">
+</PtbWordIndexEntry>
 
-<PtbWordIndexEntry term="หัตถกะแห่งอาฬวี" desc="อุบาสกผู้สงเคราะห์บริษัทด้วยสังคหวัตถุ ๔" />
+<PtbWordIndexEntry term="หัตถกะแห่งอาฬวี" desc="อุบาสกผู้สงเคราะห์บริษัทด้วยสังคหวัตถุ ๔">
+</PtbWordIndexEntry>
 
-<PtbWordIndexEntry term="พระมหานามศากยะ" desc="ศากยราชผู้ทูลถามเรื่องอุบาสก" />
+<PtbWordIndexEntry term="พระมหานามศากยะ" desc="ศากยราชผู้ทูลถามเรื่องอุบาสก">
+</PtbWordIndexEntry>
 
-<PtbWordIndexEntry term="หมอชีวก (ชีวกโกมารภัจจ์)" desc="แพทย์ประจำพระพุทธเจ้า" />
+<PtbWordIndexEntry term="หมอชีวก (ชีวกโกมารภัจจ์)" desc="แพทย์ประจำพระพุทธเจ้า">
+</PtbWordIndexEntry>

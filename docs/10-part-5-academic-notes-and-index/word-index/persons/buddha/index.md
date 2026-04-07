@@ -13,6 +13,8 @@ searchKeywords:
 
 # พระพุทธเจ้า {.ptb-h-block}
 
-<PtbWordIndexEntry term="พระพุทธเจ้า ๗ พระองค์" desc="พระวิปัสสี พระสิขี พระเวสสภู พระกกุสันธะ พระโกนาคมนะ พระกัสสปะ พระโคตมะ" />
+<PtbWordIndexEntry term="พระพุทธเจ้า ๗ พระองค์" desc="พระวิปัสสี พระสิขี พระเวสสภู พระกกุสันธะ พระโกนาคมนะ พระกัสสปะ พระโคตมะ">
+</PtbWordIndexEntry>
 
-<PtbWordIndexEntry term="พระเมตไตรย (พระศรีอารย์)" desc="พระพุทธเจ้าในอนาคต" />
+<PtbWordIndexEntry term="พระเมตไตรย (พระศรีอารย์)" desc="พระพุทธเจ้าในอนาคต">
+</PtbWordIndexEntry>

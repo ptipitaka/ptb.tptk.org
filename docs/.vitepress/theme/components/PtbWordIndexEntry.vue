@@ -1,5 +1,7 @@
 <script setup lang="ts">
-import { computed, ref, useId, useSlots } from 'vue'
+import { Comment, Fragment, Text, computed, ref, useId, useSlots } from 'vue'
+import type { VNode } from 'vue'
+import PtbFootnote from './PtbFootnote.vue'
 import PtbMarkdownInline from './PtbMarkdownInline.vue'
 
 const props = defineProps<{
@@ -7,15 +9,58 @@ const props = defineProps<{
   desc: string
 }>()
 
+/** แยก desc ที่อาจมี `<PtbFootnote>...</PtbFootnote>` ฝังในสตริง (ค่า attribute) */
+function parseDescWithFootnotes(
+  s: string,
+): Array<{ kind: 'text'; t: string } | { kind: 'fn'; t: string }> {
+  const re = /<PtbFootnote>([\s\S]*?)<\/PtbFootnote>/g
+  const out: Array<{ kind: 'text'; t: string } | { kind: 'fn'; t: string }> = []
+  let last = 0
+  let m: RegExpExecArray | null
+  while ((m = re.exec(s)) !== null) {
+    if (m.index > last) {
+      out.push({ kind: 'text', t: s.slice(last, m.index) })
+    }
+    out.push({ kind: 'fn', t: m[1] ?? '' })
+    last = m.index + m[0].length
+  }
+  if (last < s.length) {
+    out.push({ kind: 'text', t: s.slice(last) })
+  }
+  if (out.length === 0) {
+    out.push({ kind: 'text', t: s })
+  }
+  return out
+}
+
+const descSegments = computed(() => parseDescWithFootnotes(props.desc))
+
 const slots = useSlots()
 const open = ref(false)
 const detailsId = useId()
+
+function slotHasMeaningfulContent(nodes: VNode[]): boolean {
+  for (const node of nodes) {
+    if (node.type === Comment) continue
+    if (node.type === Text) {
+      if (String(node.children ?? '').trim().length > 0) return true
+      continue
+    }
+    if (node.type === Fragment) {
+      const ch = node.children
+      if (Array.isArray(ch) && slotHasMeaningfulContent(ch as VNode[])) return true
+      continue
+    }
+    return true
+  }
+  return false
+}
 
 const hasDetails = computed(() => {
   const fn = slots.default
   if (!fn) return false
   const children = fn()
-  return Array.isArray(children) && children.length > 0
+  return Array.isArray(children) && slotHasMeaningfulContent(children)
 })
 
 function toggle() {
@@ -43,7 +88,12 @@ function toggle() {
         <span class="wi-entry__toggle" aria-hidden="true">{{ open ? '−' : '+' }}</span>
       </button>
       <p class="wi-entry__desc">
-        <PtbMarkdownInline>{{ props.desc }}</PtbMarkdownInline>
+        <template v-for="(seg, i) in descSegments" :key="i">
+          <PtbMarkdownInline v-if="seg.kind === 'text'">{{ seg.t }}</PtbMarkdownInline>
+          <PtbFootnote v-else>
+            <PtbMarkdownInline>{{ seg.t }}</PtbMarkdownInline>
+          </PtbFootnote>
+        </template>
       </p>
     </div>
 
@@ -52,7 +102,12 @@ function toggle() {
         <PtbMarkdownInline>{{ props.term }}</PtbMarkdownInline>
       </p>
       <p class="wi-entry__desc">
-        <PtbMarkdownInline>{{ props.desc }}</PtbMarkdownInline>
+        <template v-for="(seg, i) in descSegments" :key="i">
+          <PtbMarkdownInline v-if="seg.kind === 'text'">{{ seg.t }}</PtbMarkdownInline>
+          <PtbFootnote v-else>
+            <PtbMarkdownInline>{{ seg.t }}</PtbMarkdownInline>
+          </PtbFootnote>
+        </template>
       </p>
     </template>
 

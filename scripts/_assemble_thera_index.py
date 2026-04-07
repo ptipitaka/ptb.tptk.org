@@ -31,7 +31,7 @@ if len(parts) != 2:
 head = parts[0] + "# พระเถระ {.ptb-h-block}"
 rest = parts[1]
 
-# Self-closing <PtbWordIndexEntry ... /> and paired <PtbWordIndexEntry>...</PtbWordIndexEntry>
+# Empty paired <PtbWordIndexEntry>...</PtbWordIndexEntry> or entries with body content
 pattern = re.compile(
     r"(<PtbWordIndexEntry\b[^>]*?\s*/>|<PtbWordIndexEntry\b[^>]*>.*?</PtbWordIndexEntry>)",
     re.DOTALL,
@@ -251,12 +251,12 @@ for term, desc in ALPHA:
         alpha_lines.append(patch_block(b, None, desc))
     else:
         alpha_lines.append(
-            f'<PtbWordIndexEntry term="{esc_attr(term)}" desc="{d_esc}" />\n'
+            f'<PtbWordIndexEntry term="{esc_attr(term)}" desc="{d_esc}">\n</PtbWordIndexEntry>\n'
         )
 
 THERA_GATHA = by_term.get(
     "เถรคาถา — ภาษิตของพระเถระ ๒๖๔ รูป",
-    '<PtbWordIndexEntry term="เถรคาถา — ภาษิตของพระเถระ ๒๖๔ รูป" desc="ภาษิตอันเป็นคติสอนใจ เช่น พระสุภูติ มหาโกฏฐิต อชิต โสปาก ปุณณ นีต อุตตร ปุณณมาส หาริต นทีกัสสป" />\n',
+    '<PtbWordIndexEntry term="เถรคาถา — ภาษิตของพระเถระ ๒๖๔ รูป" desc="ภาษิตอันเป็นคติสอนใจ เช่น พระสุภูติ มหาโกฏฐิต อชิต โสปาก ปุณณ นีต อุตตร ปุณณมาส หาริต นทีกัสสป">\n</PtbWordIndexEntry>\n',
 )
 
 out: list[str] = [head, "\n\n## พระอัครสาวกและพระสาวกสำคัญ {.ptb-h-block}\n\n"]

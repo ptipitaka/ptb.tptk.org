@@ -13,14 +13,20 @@ searchKeywords:
 
 # เทวดา {.ptb-h-block}
 
-<PtbWordIndexEntry term="ท้าวสักกะ (พระอินทร์)" desc="จอมเทพชั้นดาวดึงส์" />
+<PtbWordIndexEntry term="ท้าวสักกะ (พระอินทร์)" desc="จอมเทพชั้นดาวดึงส์">
+</PtbWordIndexEntry>
 
-<PtbWordIndexEntry term="ท้าวสหัมบดีพรหม" desc="พรหมผู้ทูลอาราธนาพระพุทธเจ้าแสดงธรรม" />
+<PtbWordIndexEntry term="ท้าวสหัมบดีพรหม" desc="พรหมผู้ทูลอาราธนาพระพุทธเจ้าแสดงธรรม">
+</PtbWordIndexEntry>
 
-<PtbWordIndexEntry term="มาร" desc="พญามาร ผู้ขัดขวางการตรัสรู้" />
+<PtbWordIndexEntry term="มาร" desc="พญามาร ผู้ขัดขวางการตรัสรู้">
+</PtbWordIndexEntry>
 
-<PtbWordIndexEntry term="โรหิตัสสเทพบุตร" desc="เทพบุตรผู้เคยไปหาที่สุดโลก" />
+<PtbWordIndexEntry term="โรหิตัสสเทพบุตร" desc="เทพบุตรผู้เคยไปหาที่สุดโลก">
+</PtbWordIndexEntry>
 
-<PtbWordIndexEntry term="ท้าวปหาราทะ" desc="จอมอสูรผู้ทูลถามเรื่องความอัศจรรย์ของพระธรรมวินัย" />
+<PtbWordIndexEntry term="ท้าวปหาราทะ" desc="จอมอสูรผู้ทูลถามเรื่องความอัศจรรย์ของพระธรรมวินัย">
+</PtbWordIndexEntry>
 
-<PtbWordIndexEntry term="นายเกสีสารถี" desc="สารถีผู้ฝึกม้า ที่พระพุทธเจ้าทรงนำมาเปรียบกับการฝึกคน" />
+<PtbWordIndexEntry term="นายเกสีสารถี" desc="สารถีผู้ฝึกม้า ที่พระพุทธเจ้าทรงนำมาเปรียบกับการฝึกคน">
+</PtbWordIndexEntry>

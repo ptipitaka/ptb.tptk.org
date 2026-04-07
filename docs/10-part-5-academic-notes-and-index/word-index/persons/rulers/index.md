@@ -13,14 +13,20 @@ searchKeywords:
 
 # ผู้ครองนคร {.ptb-h-block}
 
-<PtbWordIndexEntry term="พระเจ้าพิมพิสาร" desc="กษัตริย์แคว้นมคธ ผู้ถวายเวฬุวัน" />
+<PtbWordIndexEntry term="พระเจ้าพิมพิสาร" desc="กษัตริย์แคว้นมคธ ผู้ถวายเวฬุวัน">
+</PtbWordIndexEntry>
 
-<PtbWordIndexEntry term="พระเจ้าอชาตศัตรู" desc="กษัตริย์แคว้นมคธ" />
+<PtbWordIndexEntry term="พระเจ้าอชาตศัตรู" desc="กษัตริย์แคว้นมคธ">
+</PtbWordIndexEntry>
 
-<PtbWordIndexEntry term="พระเจ้าปเสนทิโกศล" desc="กษัตริย์แคว้นโกศล" />
+<PtbWordIndexEntry term="พระเจ้าปเสนทิโกศล" desc="กษัตริย์แคว้นโกศล">
+</PtbWordIndexEntry>
 
-<PtbWordIndexEntry term="พระเจ้าอโศกมหาราช" desc="ผู้อุปถัมภ์สังคายนาครั้งที่ ๓" />
+<PtbWordIndexEntry term="พระเจ้าอโศกมหาราช" desc="ผู้อุปถัมภ์สังคายนาครั้งที่ ๓">
+</PtbWordIndexEntry>
 
-<PtbWordIndexEntry term="พระอภยราชกุมาร" desc="ราชกุมารผู้ทูลถามเรื่องวาจาอันไม่เป็นที่รัก" />
+<PtbWordIndexEntry term="พระอภยราชกุมาร" desc="ราชกุมารผู้ทูลถามเรื่องวาจาอันไม่เป็นที่รัก">
+</PtbWordIndexEntry>
 
-<PtbWordIndexEntry term="พระโพธิราชกุมาร" desc="ราชกุมารผู้สร้างปราสาท ทูลนิมนต์พระพุทธเจ้าฉันภัตตาหาร" />
+<PtbWordIndexEntry term="พระโพธิราชกุมาร" desc="ราชกุมารผู้สร้างปราสาท ทูลนิมนต์พระพุทธเจ้าฉันภัตตาหาร">
+</PtbWordIndexEntry>
