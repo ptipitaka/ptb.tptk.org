@@ -3,7 +3,7 @@ title: อุบาสก
 lang: th
 description: ดัชนีชื่อบุคคล — อุบาสก — สารบัญค้นคำ พระไตรปิฎกฉบับสำหรับประชาชน
 outline: [2, 6]
-prev: { text: 'ผู้ครองนคร', link: '/part-5-academic-notes-and-index/word-index/persons/rulers/' }
+prev: { text: 'คฤหบดี เศรษฐี', link: '/part-5-academic-notes-and-index/word-index/persons/gahapati/' }
 next: { text: 'อุบาสิกา', link: '/part-5-academic-notes-and-index/word-index/persons/upasika/' }
 searchKeywords:
   - ชื่อบุคคล

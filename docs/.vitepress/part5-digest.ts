@@ -9,6 +9,7 @@ const wordIndexPersonsSubpages = [
   'thera',
   'theri',
   'rulers',
+  'gahapati',
   'upasaka',
   'upasika',
   'devas',
@@ -88,8 +89,12 @@ export function part5DigestSidebar(): DefaultTheme.SidebarItem {
                 link: `/${WI_URL}/persons/theri/`,
               },
               {
-                text: 'ผู้ครองนคร',
+                text: 'พระราชา-มหาอำมาตย์',
                 link: `/${WI_URL}/persons/rulers/`,
+              },
+              {
+                text: 'คฤหบดี เศรษฐี',
+                link: `/${WI_URL}/persons/gahapati/`,
               },
               {
                 text: 'อุบาสก',

@@ -114,6 +114,7 @@ searchKeywords:
 <div class="wi-entry__refs">
 <a href="/part-4-tipitaka-digest/sutta-pitaka/khuddaka-nikaya/vol-33#T0lbzXjSjb">จริยาปิฎก: เนกขัมมบารมี ๖ เรื่อง</a>
 <a href="/part-4-tipitaka-digest/sutta-pitaka/khuddaka-nikaya/vol-28#Q6Tuk6cTum">เตมิยชาดก</a>
+<a href="/part-4-tipitaka-digest/sutta-pitaka/khuddaka-nikaya/vol-33#pWYPN9yV4o">ภิงสจริยา (ดาบสกินเหง้าบัว)</a>
 </div>
 </div>
 <div class="wi-entry">
@@ -295,3 +296,13 @@ searchKeywords:
 </div>
 </div>
 </div>
+
+## ดัชนีค้นคำ — โพธิสัตว์ในจริยาปิฎก {.ptb-h-block}
+
+<PtbWordIndexEntry term="ภิงสจริยา (ดาบสกินเหง้าบัว)" desc="อปทาน ภาค ๒ — เนกขัมมบารมี (๔) พระโพธิสัตว์ประพฤติเป็นดาบสกินเหง้าบัว (เกิดในสกุลโสตถิยะ แคว้นกาสี แล้วออกบวชเข้าป่า — มิได้ทรงเป็นพระราชาในเรื่องนี้)">
+
+  <PtbWordIndexRefs>
+  <PtbWordIndexLink href="/part-4-tipitaka-digest/sutta-pitaka/khuddaka-nikaya/vol-33#pWYPN9yV4o" label="ภาค ๔ เล่ม ๓๓ — ภิงสจริยา (เนกขัมมบารมี ๔)" />
+  </PtbWordIndexRefs>
+
+</PtbWordIndexEntry>

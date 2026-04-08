@@ -34,7 +34,7 @@ searchKeywords:
 <a class="wi-card" href="/part-5-academic-notes-and-index/word-index/persons/">
 <span class="wi-card__number">๓</span>
 <p class="wi-card__title">ชื่อบุคคล</p>
-<p class="wi-card__desc">พระพุทธเจ้า · พระเถระ · พระเถรี · ผู้ครองนคร · อุบาสก · อุบาสิกา · เทวดา · เจ้าลัทธิ</p>
+<p class="wi-card__desc">พระพุทธเจ้า · พระเถระ · พระเถรี · พระราชา-มหาอำมาตย์ · คฤหบดี เศรษฐี · อุบาสก · อุบาสิกา · เทวดา · เจ้าลัทธิ</p>
 </a>
 
 <a class="wi-card" href="/part-5-academic-notes-and-index/word-index/places/">

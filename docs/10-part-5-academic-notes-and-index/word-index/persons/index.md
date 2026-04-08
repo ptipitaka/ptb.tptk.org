@@ -41,30 +41,36 @@ searchKeywords:
 
 <a class="wi-card" href="/part-5-academic-notes-and-index/word-index/persons/rulers/">
 <span class="wi-card__number">๔</span>
-<p class="wi-card__title">ผู้ครองนคร</p>
-<p class="wi-card__desc">พระเจ้าแผ่นดินและผู้ครองแคว้นที่ปรากฏในพุทธประวัติ</p>
+<p class="wi-card__title">พระราชา-มหาอำมาตย์</p>
+<p class="wi-card__desc">พระราชา เจ้านาย และผู้ครองนครที่ปรากฏในพุทธประวัติ</p>
+</a>
+
+<a class="wi-card" href="/part-5-academic-notes-and-index/word-index/persons/gahapati/">
+<span class="wi-card__number">๕</span>
+<p class="wi-card__title">คฤหบดี เศรษฐี</p>
+<p class="wi-card__desc">คฤหบดีและเศรษฐีในพระไตรปิฎก</p>
 </a>
 
 <a class="wi-card" href="/part-5-academic-notes-and-index/word-index/persons/upasaka/">
-<span class="wi-card__number">๕</span>
+<span class="wi-card__number">๖</span>
 <p class="wi-card__title">อุบาสก</p>
 <p class="wi-card__desc">คฤหบดีและอุบาสกสำคัญ</p>
 </a>
 
 <a class="wi-card" href="/part-5-academic-notes-and-index/word-index/persons/upasika/">
-<span class="wi-card__number">๖</span>
+<span class="wi-card__number">๗</span>
 <p class="wi-card__title">อุบาสิกา</p>
 <p class="wi-card__desc">อุบาสิกาสำคัญ</p>
 </a>
 
 <a class="wi-card" href="/part-5-academic-notes-and-index/word-index/persons/devas/">
-<span class="wi-card__number">๗</span>
+<span class="wi-card__number">๘</span>
 <p class="wi-card__title">เทวดา</p>
 <p class="wi-card__desc">เทพ · พรหม · อสูร และสิ่งมีวิญญาณในจักรวาลวิทยา</p>
 </a>
 
 <a class="wi-card" href="/part-5-academic-notes-and-index/word-index/persons/sect-leaders/">
-<span class="wi-card__number">๘</span>
+<span class="wi-card__number">๙</span>
 <p class="wi-card__title">เจ้าลัทธิ</p>
 <p class="wi-card__desc">ครูลัทธินอกพระพุทธศาสนาในสมัยพุทธกาล</p>
 </a>

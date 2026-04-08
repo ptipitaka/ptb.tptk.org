@@ -4,7 +4,7 @@ lang: th
 description: ดัชนีชื่อบุคคล — พระเถรี — สารบัญค้นคำ พระไตรปิฎกฉบับสำหรับประชาชน
 outline: [2, 6]
 prev: { text: 'พระเถระ', link: '/part-5-academic-notes-and-index/word-index/persons/thera/' }
-next: { text: 'ผู้ครองนคร', link: '/part-5-academic-notes-and-index/word-index/persons/rulers/' }
+next: { text: 'พระราชา-มหาอำมาตย์', link: '/part-5-academic-notes-and-index/word-index/persons/rulers/' }
 searchKeywords:
   - ชื่อบุคคล
   - พระเถรี
