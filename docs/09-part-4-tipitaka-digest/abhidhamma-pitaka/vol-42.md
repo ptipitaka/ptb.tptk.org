@@ -214,7 +214,7 @@ searchKeywords:
 
 <PtbParagraph>**๕. กลุ่มคันถะ คือกิเลสที่ร้อยรัด หรือคันถโคจฉกะมี ๖ คู่**</PtbParagraph>
 
-<PtbList>
+<PtbList indentLevel="2">
 
 <PtbListItem>มีวิธีจัดประเภทอย่างเดียวกันกับข้อ ๔ กลุ่มสัญโญชน์</PtbListItem>
 
@@ -226,7 +226,7 @@ searchKeywords:
 
 <PtbParagraph>**๖. กลุ่มโอฆะ คือกิเลสที่ทำสัตว์ให้จมลงในวัฏฏะ**</PtbParagraph>
 
-<PtbList>
+<PtbList indentLevel="2">
 
 <PtbListItem>คือความเวียนว่ายตายเกิด หรือ โอฆโคจฉกะ มี ๖ คู่</PtbListItem>
 
@@ -238,7 +238,7 @@ searchKeywords:
 
 <PtbParagraph>**๗. กลุ่มโยคะ คือกิเลสเครื่องประกอบหรือผูกสัตว์ไว้ในวัฏฏะ หรือโยคโคจฉกะ มี ๖ คู่**</PtbParagraph>
 
-<PtbList>
+<PtbList indentLevel="2">
 
 <PtbListItem>มีวิธีจัดประเภทอย่างเดียวกับกลุ่มสัญโญชน์</PtbListItem>
 
@@ -248,7 +248,7 @@ searchKeywords:
 
 <PtbParagraph>**๘. กลุ่มนีวรณ์ คือกิเลสอันกั้นจิต หรือนีวรณโคจฉกะ มี ๖ คู่**</PtbParagraph>
 
-<PtbList>
+<PtbList indentLevel="2">
 
 <PtbListItem>มีวิธีจัดประเภทอย่างเดียวกับสัญโญชน์</PtbListItem>
 

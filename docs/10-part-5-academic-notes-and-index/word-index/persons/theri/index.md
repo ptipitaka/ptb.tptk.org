@@ -22,7 +22,7 @@ searchKeywords:
 * **วินัยปิฎก — ประวัติความเป็นมาของนางภิกษุณี🚩:** พระนางทูลขอบรรพชา รับครุธรรม ๘ ประการ และความเป็นไปของคณะภิกษุณี
 
   <PtbWordIndexRefs>
-  <PtbWordIndexLink href="/part-3-tipitaka-selected-passages/vinaya-pitaka/#FJ60tS7NsF" label="ภาค ๓ — ประวัติความเป็นมาของนางภิกษุณี" />
+  <PtbWordIndexLink href="/part-3-tipitaka-selected-passages/vinaya-pitaka/#FJ60tS7NsF" label="ภาค ๓ — วินัยปิฎก (วิ.) — จุลวรรค (วิ. จุลล.) — ๘๓. ประวัติความเป็นมาของนางภิกษุณี" />
   </PtbWordIndexRefs>
 
 **ภาค ๔ ความย่อแห่งพระไตรปิฎก**
@@ -32,7 +32,7 @@ searchKeywords:
 * **ภิกขุนีขันธกะ (จุลลวัคค์ ภาค ๒ เล่ม ๗)🚩:** ทรงอนุญาตให้พระนางมหาปชาบดี โคตมี อุปสมบทด้วยการรับครุธรรม ๘ ประการ
 
   <PtbWordIndexRefs>
-  <PtbWordIndexLink href="/part-4-tipitaka-digest/vinaya-pitaka/vol-07#OfLK9jWZ9x" label="ภาค ๔ เล่ม ๗ — ภิกขุนีขันธกะ" />
+  <PtbWordIndexLink href="/part-4-tipitaka-digest/vinaya-pitaka/vol-07#OfLK9jWZ9x" label="ภาค ๔ เล่ม ๗ — วินัยปิฎก (วิ.) — จุลลวัคค์ ภาค ๒ — ๖. ภิกขุนีขันธกะ(หมวดว่าด้วยนางภิกษุณี)" />
   </PtbWordIndexRefs>
 
 **หมวดสุตตันตปิฎก (เล่ม ๙-๓๓)**
@@ -42,7 +42,7 @@ searchKeywords:
 * **เอตทัคคปาลิ (เอกนิบาต เล่ม ๒๐)🚩:** พระนางมหาปชาบดี โคตมี เป็นผู้เลิศในทางรู้ราตรี (รัตตัญญู)
 
   <PtbWordIndexRefs>
-  <PtbWordIndexLink href="/part-4-tipitaka-digest/sutta-pitaka/anguttara-nikaya/vol-20#rgof1oV3wi" label="ภาค ๔ เล่ม ๒๐ — เอตทัคคะฝ่ายภิกษุณี" />
+  <PtbWordIndexLink href="/part-4-tipitaka-digest/sutta-pitaka/anguttara-nikaya/vol-20#rgof1oV3wi" label="ภาค ๔ เล่ม ๒๐ — อังคุตตรนิกาย เอก - ทุก - ติกนิบาต — เอกนิบาต ชุมนุมธรรมะที่มี ๑ ข้อ — ๓. เอตทัคคปาลิ — เอตทัคคะฝ่ายภิกษุณี" />
   </PtbWordIndexRefs>
 
 *ขุททกนิกาย (เล่ม ๒๕-๓๓)*
@@ -50,7 +50,7 @@ searchKeywords:
 * **อปทาน ภาค ๒ (เล่ม ๓๓)🚩:** มหาปชาบดีโคตมีเถริยาปทาน — ข้ออ้างหรือประวัติของพระนางมหาปชาบดี
 
   <PtbWordIndexRefs>
-  <PtbWordIndexLink href="/part-4-tipitaka-digest/sutta-pitaka/khuddaka-nikaya/vol-33#HD4wI32URe" label="ภาค ๔ เล่ม ๓๓ — มหาปชาบดีโคตมีเถริยาปทาน" />
+  <PtbWordIndexLink href="/part-4-tipitaka-digest/sutta-pitaka/khuddaka-nikaya/vol-33#HD4wI32URe" label="ภาค ๔ เล่ม ๓๓ — ขุททกนิกาย (ขุ.) — อปทาน ภาค ๒ - พุทธวังสะ จริยาปิฎก — ประวัติพระเถรี ๕ รูป — ๑. มหาปชาบดีโคตมีเถริยาปทาน" />
   </PtbWordIndexRefs>
 
 </PtbWordIndexEntry>
@@ -67,7 +67,7 @@ searchKeywords:
 * **เอตทัคคปาลิ (เอกนิบาต เล่ม ๒๐)🚩:** พระนางเขมา เป็นผู้เลิศในทางมีปัญญามาก
 
   <PtbWordIndexRefs>
-  <PtbWordIndexLink href="/part-4-tipitaka-digest/sutta-pitaka/anguttara-nikaya/vol-20#rgof1oV3wi" label="ภาค ๔ เล่ม ๒๐ — เอตทัคคะฝ่ายภิกษุณี" />
+  <PtbWordIndexLink href="/part-4-tipitaka-digest/sutta-pitaka/anguttara-nikaya/vol-20#rgof1oV3wi" label="ภาค ๔ เล่ม ๒๐ — อังคุตตรนิกาย เอก - ทุก - ติกนิบาต — เอกนิบาต ชุมนุมธรรมะที่มี ๑ ข้อ — ๓. เอตทัคคปาลิ — เอตทัคคะฝ่ายภิกษุณี" />
   </PtbWordIndexRefs>
 
 *ขุททกนิกาย (เล่ม ๒๕-๓๓)*
@@ -75,7 +75,7 @@ searchKeywords:
 * **อปทาน ภาค ๒ (เล่ม ๓๓)🚩:** เขมาเถริยาปทาน
 
   <PtbWordIndexRefs>
-  <PtbWordIndexLink href="/part-4-tipitaka-digest/sutta-pitaka/khuddaka-nikaya/vol-33#FoUZzHovHp" label="ภาค ๔ เล่ม ๓๓ — เขมาเถริยาปทาน" />
+  <PtbWordIndexLink href="/part-4-tipitaka-digest/sutta-pitaka/khuddaka-nikaya/vol-33#FoUZzHovHp" label="ภาค ๔ เล่ม ๓๓ — ขุททกนิกาย (ขุ.) — อปทาน ภาค ๒ - พุทธวังสะ จริยาปิฎก — ประวัติพระเถรี ๕ รูป — ๒. เขมาเถริยาปทาน" />
   </PtbWordIndexRefs>
 
 </PtbWordIndexEntry>
@@ -92,7 +92,7 @@ searchKeywords:
 * **เอตทัคคปาลิ (เอกนิบาต เล่ม ๒๐)🚩:** พระนางอุปปลวัณณา เป็นผู้เลิศในทางมีฤทธิ์
 
   <PtbWordIndexRefs>
-  <PtbWordIndexLink href="/part-4-tipitaka-digest/sutta-pitaka/anguttara-nikaya/vol-20#rgof1oV3wi" label="ภาค ๔ เล่ม ๒๐ — เอตทัคคะฝ่ายภิกษุณี" />
+  <PtbWordIndexLink href="/part-4-tipitaka-digest/sutta-pitaka/anguttara-nikaya/vol-20#rgof1oV3wi" label="ภาค ๔ เล่ม ๒๐ — อังคุตตรนิกาย เอก - ทุก - ติกนิบาต — เอกนิบาต ชุมนุมธรรมะที่มี ๑ ข้อ — ๓. เอตทัคคปาลิ — เอตทัคคะฝ่ายภิกษุณี" />
   </PtbWordIndexRefs>
 
 *ขุททกนิกาย (เล่ม ๒๕-๓๓)*
@@ -100,7 +100,7 @@ searchKeywords:
 * **อปทาน ภาค ๒ (เล่ม ๓๓)🚩:** อุปปลวัณณาเถริยาปทาน
 
   <PtbWordIndexRefs>
-  <PtbWordIndexLink href="/part-4-tipitaka-digest/sutta-pitaka/khuddaka-nikaya/vol-33#dd2IQnyAf1" label="ภาค ๔ เล่ม ๓๓ — อุปปลวัณณาเถริยาปทาน" />
+  <PtbWordIndexLink href="/part-4-tipitaka-digest/sutta-pitaka/khuddaka-nikaya/vol-33#dd2IQnyAf1" label="ภาค ๔ เล่ม ๓๓ — ขุททกนิกาย (ขุ.) — อปทาน ภาค ๒ - พุทธวังสะ จริยาปิฎก — ประวัติพระเถรี ๕ รูป — ๓. อุปปลวัณณาเถริยาปทาน" />
   </PtbWordIndexRefs>
 
 </PtbWordIndexEntry>
@@ -117,7 +117,7 @@ searchKeywords:
 * **เอตทัคคปาลิ (เอกนิบาต เล่ม ๒๐)🚩:** พระนางปฏาจารา เป็นผู้เลิศในทางทรงจำพระวินัย
 
   <PtbWordIndexRefs>
-  <PtbWordIndexLink href="/part-4-tipitaka-digest/sutta-pitaka/anguttara-nikaya/vol-20#rgof1oV3wi" label="ภาค ๔ เล่ม ๒๐ — เอตทัคคะฝ่ายภิกษุณี" />
+  <PtbWordIndexLink href="/part-4-tipitaka-digest/sutta-pitaka/anguttara-nikaya/vol-20#rgof1oV3wi" label="ภาค ๔ เล่ม ๒๐ — อังคุตตรนิกาย เอก - ทุก - ติกนิบาต — เอกนิบาต ชุมนุมธรรมะที่มี ๑ ข้อ — ๓. เอตทัคคปาลิ — เอตทัคคะฝ่ายภิกษุณี" />
   </PtbWordIndexRefs>
 
 *ขุททกนิกาย (เล่ม ๒๕-๓๓)*
@@ -125,7 +125,7 @@ searchKeywords:
 * **อปทาน ภาค ๒ (เล่ม ๓๓)🚩:** ปฏาจาราเถริยาปทาน
 
   <PtbWordIndexRefs>
-  <PtbWordIndexLink href="/part-4-tipitaka-digest/sutta-pitaka/khuddaka-nikaya/vol-33#5TiJbjVwvt" label="ภาค ๔ เล่ม ๓๓ — ปฏาจาราเถริยาปทาน" />
+  <PtbWordIndexLink href="/part-4-tipitaka-digest/sutta-pitaka/khuddaka-nikaya/vol-33#5TiJbjVwvt" label="ภาค ๔ เล่ม ๓๓ — ขุททกนิกาย (ขุ.) — อปทาน ภาค ๒ - พุทธวังสะ จริยาปิฎก — ประวัติพระเถรี ๕ รูป — ๔. ปฏาจาราเถริยาปทาน" />
   </PtbWordIndexRefs>
 
 </PtbWordIndexEntry>
@@ -142,7 +142,7 @@ searchKeywords:
 * **เอตทัคคปาลิ (เอกนิบาต เล่ม ๒๐)🚩:** พระนางภัททา กัจจานา (พระนางยโสธรา) เป็นผู้เลิศในทางบรรลุอภิญญาใหญ่
 
   <PtbWordIndexRefs>
-  <PtbWordIndexLink href="/part-4-tipitaka-digest/sutta-pitaka/anguttara-nikaya/vol-20#rgof1oV3wi" label="ภาค ๔ เล่ม ๒๐ — เอตทัคคะฝ่ายภิกษุณี" />
+  <PtbWordIndexLink href="/part-4-tipitaka-digest/sutta-pitaka/anguttara-nikaya/vol-20#rgof1oV3wi" label="ภาค ๔ เล่ม ๒๐ — อังคุตตรนิกาย เอก - ทุก - ติกนิบาต — เอกนิบาต ชุมนุมธรรมะที่มี ๑ ข้อ — ๓. เอตทัคคปาลิ — เอตทัคคะฝ่ายภิกษุณี" />
   </PtbWordIndexRefs>
 
 </PtbWordIndexEntry>
@@ -165,7 +165,7 @@ searchKeywords:
 * **เอตทัคคปาลิ (อังคุตตรนิกาย เอกนิบาต เล่ม ๒๐)🚩:** ได้รับการยกย่องในหมวดเอตทัคคะฝ่ายภิกษุณี
 
   <PtbWordIndexRefs>
-  <PtbWordIndexLink href="/part-4-tipitaka-digest/sutta-pitaka/anguttara-nikaya/vol-20#rgof1oV3wi" label="ภาค ๔ เล่ม ๒๐ — เอตทัคคะฝ่ายภิกษุณี" />
+  <PtbWordIndexLink href="/part-4-tipitaka-digest/sutta-pitaka/anguttara-nikaya/vol-20#rgof1oV3wi" label="ภาค ๔ เล่ม ๒๐ — อังคุตตรนิกาย เอก - ทุก - ติกนิบาต — เอกนิบาต ชุมนุมธรรมะที่มี ๑ ข้อ — ๓. เอตทัคคปาลิ — เอตทัคคะฝ่ายภิกษุณี" />
   </PtbWordIndexRefs>
 
 
@@ -183,13 +183,13 @@ searchKeywords:
 * **เอตทัคคปาลิ (อังคุตตรนิกาย เอกนิบาต เล่ม ๒๐)🚩:** ได้รับการยกย่องในหมวดเอตทัคคะฝ่ายภิกษุณี
 
   <PtbWordIndexRefs>
-  <PtbWordIndexLink href="/part-4-tipitaka-digest/sutta-pitaka/anguttara-nikaya/vol-20#rgof1oV3wi" label="ภาค ๔ เล่ม ๒๐ — เอตทัคคะฝ่ายภิกษุณี" />
+  <PtbWordIndexLink href="/part-4-tipitaka-digest/sutta-pitaka/anguttara-nikaya/vol-20#rgof1oV3wi" label="ภาค ๔ เล่ม ๒๐ — อังคุตตรนิกาย เอก - ทุก - ติกนิบาต — เอกนิบาต ชุมนุมธรรมะที่มี ๑ ข้อ — ๓. เอตทัคคปาลิ — เอตทัคคะฝ่ายภิกษุณี" />
   </PtbWordIndexRefs>
 
 * **อปทาน ภาค ๒ (เล่ม ๓๓)🚩:** กุณฑลเกสีเถริยาปทาน
 
   <PtbWordIndexRefs>
-  <PtbWordIndexLink href="/part-4-tipitaka-digest/sutta-pitaka/khuddaka-nikaya/vol-33#0LyqxwxUOM" label="ภาค ๔ เล่ม ๓๓ — กุณฑลเกสีเถริยาปทาน" />
+  <PtbWordIndexLink href="/part-4-tipitaka-digest/sutta-pitaka/khuddaka-nikaya/vol-33#0LyqxwxUOM" label="ภาค ๔ เล่ม ๓๓ — ขุททกนิกาย (ขุ.) — อปทาน ภาค ๒ - พุทธวังสะ จริยาปิฎก — ประวัติพระเถรี ๕ รูป — ๕. กุณฑลเกสีเถริยาปทาน" />
   </PtbWordIndexRefs>
 
 
@@ -209,7 +209,7 @@ searchKeywords:
 * **หมวดวินัยปิฎก — ภิกขุนีวิภังค์ (เล่ม ๓)🚩:** ปรากฏเรื่องวาจาเมื่อโกรธเคืองและถูกลงโทษ — เป็นต้นบัญญัติสิกขาบทในภิกขุนีวิภังค์ (เอกสารใช้คำว่า **นางจัณฑกาลี**)
 
   <PtbWordIndexRefs>
-  <PtbWordIndexLink href="/part-4-tipitaka-digest/vinaya-pitaka/vol-03#RR3DJrkQ1W" label="ภาค ๔ เล่ม ๓ — สังฆาทิเสส สิกขาบทที่ ๗" />
+  <PtbWordIndexLink href="/part-4-tipitaka-digest/vinaya-pitaka/vol-03#RR3DJrkQ1W" label="ภาค ๔ เล่ม ๓ — วินัยปิฎก (วิ.) — ภิกขุนีวิภังค์ — ๒. สัตตรสกัณฑ์ — สิกขาบทที่ ๗ ห้ามพูดดูหมิ่นภิกษุณีสงฆ์เมื่อโกรธเคือง" />
   </PtbWordIndexRefs>
 
 
@@ -229,7 +229,7 @@ searchKeywords:
 * **เถรีคาถา (ขุททกนิกาย เล่ม ๒๖)🚩:** พระเถรีผู้มีภาษิตเตือนใจให้ศึกษาข้อที่ควรศึกษา และเปลื้องตนจากกิเลสเครื่องผูกมัด
 
   <PtbWordIndexRefs>
-  <PtbWordIndexLink href="/part-4-tipitaka-digest/sutta-pitaka/khuddaka-nikaya/vol-26#wGPAtVrGRO" label="ภาค ๔ เล่ม ๒๖ — (๒) ภาษิตของพระนางติสสาเถรี" />
+  <PtbWordIndexLink href="/part-4-tipitaka-digest/sutta-pitaka/khuddaka-nikaya/vol-26#wGPAtVrGRO" label="ภาค ๔ เล่ม ๒๖ — ขุททกนิกาย (ขุ.) — วิมานวัตถุ เปตวัตถุ เถรคาถา เถรีคาถา — ๔. เถรีคาถา ภาษิตของพระเถรี — (๒) ภาษิตของพระนางติสสาเถรี" />
   </PtbWordIndexRefs>
 
 
@@ -249,7 +249,7 @@ searchKeywords:
 * **หมวดวินัยปิฎก — ภิกขุนีวิภังค์ (เล่ม ๓)🚩:** ปรากฏเป็นต้นเหตุบัญญัติสิกขาบทหลายข้อในภิกขุนีวิภังค์ (เอกสารใช้คำว่า **นางถุลลนันทาภิกษุณี**)
 
   <PtbWordIndexRefs>
-  <PtbWordIndexLink href="/part-4-tipitaka-digest/vinaya-pitaka/vol-03#ezzMNkpVi5" label="ภาค ๔ เล่ม ๓ — ภิกขุนีวิภังค์ (สัตตรสกัณฑ์ — เรื่องถุลลนันทา)" />
+  <PtbWordIndexLink href="/part-4-tipitaka-digest/vinaya-pitaka/vol-03#ezzMNkpVi5" label="ภาค ๔ เล่ม ๓ — วินัยปิฎก (วิ.) — ภิกขุนีวิภังค์ — ๒. สัตตรสกัณฑ์" />
   </PtbWordIndexRefs>
 
 
@@ -269,7 +269,7 @@ searchKeywords:
 * **เถรีคาถา (ขุททกนิกาย เล่ม ๒๖)🚩:** พระเถรีผู้มีภาษิตเตือนใจ โดยอาศัยการเห็นช้างที่ถูกฝึกแล้วนำมาเป็นอุบายฝึกจิตตนเองจนตั้งมั่น
 
   <PtbWordIndexRefs>
-  <PtbWordIndexLink href="/part-4-tipitaka-digest/sutta-pitaka/khuddaka-nikaya/vol-26#p2g9YovR0P" label="ภาค ๔ เล่ม ๒๖ — (๑๐) ภาษิตของพระนางทันติกาเถรี" />
+  <PtbWordIndexLink href="/part-4-tipitaka-digest/sutta-pitaka/khuddaka-nikaya/vol-26#p2g9YovR0P" label="ภาค ๔ เล่ม ๒๖ — ขุททกนิกาย (ขุ.) — วิมานวัตถุ เปตวัตถุ เถรคาถา เถรีคาถา — ๔. เถรีคาถา ภาษิตของพระเถรี — (๑๐) ภาษิตของพระนางทันติกาเถรี" />
   </PtbWordIndexRefs>
 
 
@@ -289,7 +289,7 @@ searchKeywords:
 * **เอตทัคคปาลิ (อังคุตตรนิกาย เอกนิบาต เล่ม ๒๐)🚩:** ได้รับการยกย่องในหมวดเอตทัคคะฝ่ายภิกษุณี
 
   <PtbWordIndexRefs>
-  <PtbWordIndexLink href="/part-4-tipitaka-digest/sutta-pitaka/anguttara-nikaya/vol-20#rgof1oV3wi" label="ภาค ๔ เล่ม ๒๐ — เอตทัคคะฝ่ายภิกษุณี" />
+  <PtbWordIndexLink href="/part-4-tipitaka-digest/sutta-pitaka/anguttara-nikaya/vol-20#rgof1oV3wi" label="ภาค ๔ เล่ม ๒๐ — อังคุตตรนิกาย เอก - ทุก - ติกนิบาต — เอกนิบาต ชุมนุมธรรมะที่มี ๑ ข้อ — ๓. เอตทัคคปาลิ — เอตทัคคะฝ่ายภิกษุณี" />
   </PtbWordIndexRefs>
 
 
@@ -307,7 +307,7 @@ searchKeywords:
 * **เถรีคาถา (ขุททกนิกาย เล่ม ๒๖)🚩:** พระเถรีผู้มีภาษิตเตือนใจจากการล้มลงเพราะความชรา แล้วเห็นโทษของกายจนจิตหลุดพ้น
 
   <PtbWordIndexRefs>
-  <PtbWordIndexLink href="/part-4-tipitaka-digest/sutta-pitaka/khuddaka-nikaya/vol-26#KpEpkzxsMz" label="ภาค ๔ เล่ม ๒๖ — (๗) ภาษิตของพระนางธัมมาเถรี" />
+  <PtbWordIndexLink href="/part-4-tipitaka-digest/sutta-pitaka/khuddaka-nikaya/vol-26#KpEpkzxsMz" label="ภาค ๔ เล่ม ๒๖ — ขุททกนิกาย (ขุ.) — วิมานวัตถุ เปตวัตถุ เถรคาถา เถรีคาถา — ๔. เถรีคาถา ภาษิตของพระเถรี — (๗) ภาษิตของพระนางธัมมาเถรี" />
   </PtbWordIndexRefs>
 
 
@@ -327,7 +327,7 @@ searchKeywords:
 * **เอตทัคคปาลิ (อังคุตตรนิกาย เอกนิบาต เล่ม ๒๐)🚩:** ได้รับการยกย่องในหมวดเอตทัคคะฝ่ายภิกษุณี
 
   <PtbWordIndexRefs>
-  <PtbWordIndexLink href="/part-4-tipitaka-digest/sutta-pitaka/anguttara-nikaya/vol-20#rgof1oV3wi" label="ภาค ๔ เล่ม ๒๐ — เอตทัคคะฝ่ายภิกษุณี" />
+  <PtbWordIndexLink href="/part-4-tipitaka-digest/sutta-pitaka/anguttara-nikaya/vol-20#rgof1oV3wi" label="ภาค ๔ เล่ม ๒๐ — อังคุตตรนิกาย เอก - ทุก - ติกนิบาต — เอกนิบาต ชุมนุมธรรมะที่มี ๑ ข้อ — ๓. เอตทัคคปาลิ — เอตทัคคะฝ่ายภิกษุณี" />
   </PtbWordIndexRefs>
 
 
@@ -347,13 +347,13 @@ searchKeywords:
 * **เถรีคาถา (ขุททกนิกาย เล่ม ๒๖)🚩:** พระเถรีผู้มีภาษิตเตือนใจให้ทำลายความมืดด้วยปัญญาอันบริบูรณ์ เหมือนดวงจันทร์วันเพ็ญ
 
   <PtbWordIndexRefs>
-  <PtbWordIndexLink href="/part-4-tipitaka-digest/sutta-pitaka/khuddaka-nikaya/vol-26#1O2pXByajh" label="ภาค ๔ เล่ม ๒๖ — (๑) ภาษิตของพระนางปุณณาเถรี" />
+  <PtbWordIndexLink href="/part-4-tipitaka-digest/sutta-pitaka/khuddaka-nikaya/vol-26#1O2pXByajh" label="ภาค ๔ เล่ม ๒๖ — ขุททกนิกาย (ขุ.) — วิมานวัตถุ เปตวัตถุ เถรคาถา เถรีคาถา — ๔. เถรีคาถา ภาษิตของพระเถรี — (๑) ภาษิตของพระนางปุณณาเถรี" />
   </PtbWordIndexRefs>
 
 * **เอตทัคคปาลิ (อังคุตตรนิกาย เอกนิบาต เล่ม ๒๐)🚩:** ได้รับการยกย่องในหมวดเอตทัคคะฝ่ายภิกษุณี
 
   <PtbWordIndexRefs>
-  <PtbWordIndexLink href="/part-4-tipitaka-digest/sutta-pitaka/anguttara-nikaya/vol-20#rgof1oV3wi" label="ภาค ๔ เล่ม ๒๐ — เอตทัคคะฝ่ายภิกษุณี" />
+  <PtbWordIndexLink href="/part-4-tipitaka-digest/sutta-pitaka/anguttara-nikaya/vol-20#rgof1oV3wi" label="ภาค ๔ เล่ม ๒๐ — อังคุตตรนิกาย เอก - ทุก - ติกนิบาต — เอกนิบาต ชุมนุมธรรมะที่มี ๑ ข้อ — ๓. เอตทัคคปาลิ — เอตทัคคะฝ่ายภิกษุณี" />
   </PtbWordIndexRefs>
 
 
@@ -373,7 +373,7 @@ searchKeywords:
 * **เอตทัคคปาลิ (อังคุตตรนิกาย เอกนิบาต เล่ม ๒๐)🚩:** ได้รับการยกย่องในหมวดเอตทัคคะฝ่ายภิกษุณี
 
   <PtbWordIndexRefs>
-  <PtbWordIndexLink href="/part-4-tipitaka-digest/sutta-pitaka/anguttara-nikaya/vol-20#rgof1oV3wi" label="ภาค ๔ เล่ม ๒๐ — เอตทัคคะฝ่ายภิกษุณี" />
+  <PtbWordIndexLink href="/part-4-tipitaka-digest/sutta-pitaka/anguttara-nikaya/vol-20#rgof1oV3wi" label="ภาค ๔ เล่ม ๒๐ — อังคุตตรนิกาย เอก - ทุก - ติกนิบาต — เอกนิบาต ชุมนุมธรรมะที่มี ๑ ข้อ — ๓. เอตทัคคปาลิ — เอตทัคคะฝ่ายภิกษุณี" />
   </PtbWordIndexRefs>
 
 
@@ -393,7 +393,7 @@ searchKeywords:
 * **เถรีคาถา (ขุททกนิกาย เล่ม ๒๖)🚩:** พระเถรีผู้มีภาษิตเตือนใจให้เจริญกุศลธรรม เพื่อบรรลุธรรมอันปลอดโปร่งจากเครื่องผูกมัด
 
   <PtbWordIndexRefs>
-  <PtbWordIndexLink href="/part-4-tipitaka-digest/sutta-pitaka/khuddaka-nikaya/vol-26#mkcay8GAeR" label="ภาค ๔ เล่ม ๒๖ — (๓) ภาษิตของพระนางมิตตาเถรี" />
+  <PtbWordIndexLink href="/part-4-tipitaka-digest/sutta-pitaka/khuddaka-nikaya/vol-26#mkcay8GAeR" label="ภาค ๔ เล่ม ๒๖ — ขุททกนิกาย (ขุ.) — วิมานวัตถุ เปตวัตถุ เถรคาถา เถรีคาถา — ๔. เถรีคาถา ภาษิตของพระเถรี — (๓) ภาษิตของพระนางมิตตาเถรี" />
   </PtbWordIndexRefs>
 
 
@@ -413,7 +413,7 @@ searchKeywords:
 * **เถรีคาถา (ขุททกนิกาย เล่ม ๒๖)🚩:** พระเถรีผู้ที่พระพุทธเจ้าได้ตรัสพระพุทธภาษิตสอนใจไว้ในหมวดเถรีคาถา
 
   <PtbWordIndexRefs>
-  <PtbWordIndexLink href="/part-4-tipitaka-digest/sutta-pitaka/khuddaka-nikaya/vol-26#rupanandaBuddhaNote" label="ภาค ๔ เล่ม ๒๖ — หมายเหตุ (ตรัสสอนพระนางรูปนันทา)" />
+  <PtbWordIndexLink href="/part-4-tipitaka-digest/sutta-pitaka/khuddaka-nikaya/vol-26#rupanandaBuddhaNote" label="ภาค ๔ เล่ม ๒๖ — ขุททกนิกาย (ขุ.) — วิมานวัตถุ เปตวัตถุ เถรคาถา เถรีคาถา — ๔. เถรีคาถา ภาษิตของพระเถรี — (๑๐) ภาษิตของพระนางทันติกาเถรี — หมายเหตุ" />
   </PtbWordIndexRefs>
 
 
@@ -433,7 +433,7 @@ searchKeywords:
 * **เอตทัคคปาลิ (อังคุตตรนิกาย เอกนิบาต เล่ม ๒๐)🚩:** ได้รับการยกย่องในหมวดเอตทัคคะฝ่ายภิกษุณี
 
   <PtbWordIndexRefs>
-  <PtbWordIndexLink href="/part-4-tipitaka-digest/sutta-pitaka/anguttara-nikaya/vol-20#rgof1oV3wi" label="ภาค ๔ เล่ม ๒๐ — เอตทัคคะฝ่ายภิกษุณี" />
+  <PtbWordIndexLink href="/part-4-tipitaka-digest/sutta-pitaka/anguttara-nikaya/vol-20#rgof1oV3wi" label="ภาค ๔ เล่ม ๒๐ — อังคุตตรนิกาย เอก - ทุก - ติกนิบาต — เอกนิบาต ชุมนุมธรรมะที่มี ๑ ข้อ — ๓. เอตทัคคปาลิ — เอตทัคคะฝ่ายภิกษุณี" />
   </PtbWordIndexRefs>
 
 
@@ -451,7 +451,7 @@ searchKeywords:
 * **เถรีคาถา (ขุททกนิกาย เล่ม ๒๖)🚩:** พระเถรีผู้มีภาษิตเตือนใจถึงการละทิ้งเรือนและบุตรเพื่อเบื่อหน่ายอวิชชา และถอนตัณหาจนดับเย็น
 
   <PtbWordIndexRefs>
-  <PtbWordIndexLink href="/part-4-tipitaka-digest/sutta-pitaka/khuddaka-nikaya/vol-26#dEsDTHrRCb" label="ภาค ๔ เล่ม ๒๖ — (๘) ภาษิตของพระนางสังฆาเถรี" />
+  <PtbWordIndexLink href="/part-4-tipitaka-digest/sutta-pitaka/khuddaka-nikaya/vol-26#dEsDTHrRCb" label="ภาค ๔ เล่ม ๒๖ — ขุททกนิกาย (ขุ.) — วิมานวัตถุ เปตวัตถุ เถรคาถา เถรีคาถา — ๔. เถรีคาถา ภาษิตของพระเถรี — (๘) ภาษิตของพระนางสังฆาเถรี" />
   </PtbWordIndexRefs>
 
 
@@ -469,7 +469,7 @@ searchKeywords:
 * **เอตทัคคปาลิ (อังคุตตรนิกาย เอกนิบาต เล่ม ๒๐)🚩:** ได้รับการยกย่องในหมวดเอตทัคคะฝ่ายภิกษุณี
 
   <PtbWordIndexRefs>
-  <PtbWordIndexLink href="/part-4-tipitaka-digest/sutta-pitaka/anguttara-nikaya/vol-20#rgof1oV3wi" label="ภาค ๔ เล่ม ๒๐ — เอตทัคคะฝ่ายภิกษุณี" />
+  <PtbWordIndexLink href="/part-4-tipitaka-digest/sutta-pitaka/anguttara-nikaya/vol-20#rgof1oV3wi" label="ภาค ๔ เล่ม ๒๐ — อังคุตตรนิกาย เอก - ทุก - ติกนิบาต — เอกนิบาต ชุมนุมธรรมะที่มี ๑ ข้อ — ๓. เอตทัคคปาลิ — เอตทัคคะฝ่ายภิกษุณี" />
   </PtbWordIndexRefs>
 
 
@@ -487,7 +487,7 @@ searchKeywords:
 * **หมวดวินัยปิฎก — ภิกขุนีวิภังค์ (เล่ม ๓)🚩:** เป็นต้นเหตุบัญญัติปาราชิกสิกขาบทแรกของภิกษุณี (เอกสารใช้คำว่า **นางสุนทรีนันทา**)
 
   <PtbWordIndexRefs>
-  <PtbWordIndexLink href="/part-4-tipitaka-digest/vinaya-pitaka/vol-03#aayfyDsItc" label="ภาค ๔ เล่ม ๓ — ปาราชิกกัณฑ์ สิกขาบทที่ ๑" />
+  <PtbWordIndexLink href="/part-4-tipitaka-digest/vinaya-pitaka/vol-03#aayfyDsItc" label="ภาค ๔ เล่ม ๓ — วินัยปิฎก (วิ.) — ภิกขุนีวิภังค์ — ๑. ปาราชิกกัณฑ์ — สิกขาบทที่ ๑ ห้ามกำหนัดยินดีการจับต้องของบุรุษ" />
   </PtbWordIndexRefs>
 
 
@@ -505,7 +505,7 @@ searchKeywords:
 * **เถรีคาถา (ขุททกนิกาย เล่ม ๒๖)🚩:** พระเถรีผู้มีภาษิตเตือนใจให้เห็นธาตุเป็นทุกข์ และคลายความพอใจในภพเพื่อความสงบ
 
   <PtbWordIndexRefs>
-  <PtbWordIndexLink href="/part-4-tipitaka-digest/sutta-pitaka/khuddaka-nikaya/vol-26#0w02FcrBAN" label="ภาค ๔ เล่ม ๒๖ — (๕) ภาษิตของพระนางสุมนาเถรี" />
+  <PtbWordIndexLink href="/part-4-tipitaka-digest/sutta-pitaka/khuddaka-nikaya/vol-26#0w02FcrBAN" label="ภาค ๔ เล่ม ๒๖ — ขุททกนิกาย (ขุ.) — วิมานวัตถุ เปตวัตถุ เถรคาถา เถรีคาถา — ๔. เถรีคาถา ภาษิตของพระเถรี — (๕) ภาษิตของพระนางสุมนาเถรี" />
   </PtbWordIndexRefs>
 
 
@@ -523,7 +523,7 @@ searchKeywords:
 * **เอตทัคคปาลิ (อังคุตตรนิกาย เอกนิบาต เล่ม ๒๐)🚩:** ได้รับการยกย่องในหมวดเอตทัคคะฝ่ายภิกษุณี
 
   <PtbWordIndexRefs>
-  <PtbWordIndexLink href="/part-4-tipitaka-digest/sutta-pitaka/anguttara-nikaya/vol-20#rgof1oV3wi" label="ภาค ๔ เล่ม ๒๐ — เอตทัคคะฝ่ายภิกษุณี" />
+  <PtbWordIndexLink href="/part-4-tipitaka-digest/sutta-pitaka/anguttara-nikaya/vol-20#rgof1oV3wi" label="ภาค ๔ เล่ม ๒๐ — อังคุตตรนิกาย เอก - ทุก - ติกนิบาต — เอกนิบาต ชุมนุมธรรมะที่มี ๑ ข้อ — ๓. เอตทัคคปาลิ — เอตทัคคะฝ่ายภิกษุณี" />
   </PtbWordIndexRefs>
 
 
@@ -543,7 +543,7 @@ searchKeywords:
 * **เถรีคาถา (ขุททกนิกาย เล่ม ๒๖)🚩:** พระเถรีผู้มีภาษิตเตือนใจให้พิจารณากายอันไม่สะอาด เพื่อถอนความกำหนัดและความเร่าร้อน
 
   <PtbWordIndexRefs>
-  <PtbWordIndexLink href="/part-4-tipitaka-digest/sutta-pitaka/khuddaka-nikaya/vol-26#bnMpmq5Osf" label="ภาค ๔ เล่ม ๒๖ — (๙) ภาษิตของพระนางอภยมาตาเถรี" />
+  <PtbWordIndexLink href="/part-4-tipitaka-digest/sutta-pitaka/khuddaka-nikaya/vol-26#bnMpmq5Osf" label="ภาค ๔ เล่ม ๒๖ — ขุททกนิกาย (ขุ.) — วิมานวัตถุ เปตวัตถุ เถรคาถา เถรีคาถา — ๔. เถรีคาถา ภาษิตของพระเถรี — (๙) ภาษิตของพระนางอภยมาตาเถรี" />
   </PtbWordIndexRefs>
 
 
@@ -561,7 +561,7 @@ searchKeywords:
 * **เถรีคาถา (ขุททกนิกาย เล่ม ๒๖)🚩:** พระเถรีผู้มีภาษิตเตือนใจถึงการสำรวมกายวาจาใจ และถอนตัณหาพร้อมทั้งราก
 
   <PtbWordIndexRefs>
-  <PtbWordIndexLink href="/part-4-tipitaka-digest/sutta-pitaka/khuddaka-nikaya/vol-26#7cDYsgd1bu" label="ภาค ๔ เล่ม ๒๖ — (๖) ภาษิตของพระอุตตราเถรี" />
+  <PtbWordIndexLink href="/part-4-tipitaka-digest/sutta-pitaka/khuddaka-nikaya/vol-26#7cDYsgd1bu" label="ภาค ๔ เล่ม ๒๖ — ขุททกนิกาย (ขุ.) — วิมานวัตถุ เปตวัตถุ เถรคาถา เถรีคาถา — ๔. เถรีคาถา ภาษิตของพระเถรี — (๖) ภาษิตของพระอุตตราเถรี" />
   </PtbWordIndexRefs>
 
 
@@ -579,7 +579,7 @@ searchKeywords:
 * **เถรีคาถา (ขุททกนิกาย เล่ม ๒๖)🚩:** พระเถรีผู้มีภาษิตเตือนใจให้ข้ามโอฆะและเอาชนะมาร เพื่อไม่ต้องเวียนว่ายตายเกิดอีก
 
   <PtbWordIndexRefs>
-  <PtbWordIndexLink href="/part-4-tipitaka-digest/sutta-pitaka/khuddaka-nikaya/vol-26#M05JcUh4c7" label="ภาค ๔ เล่ม ๒๖ — (๔) ภาษิตของพระนางอุปสมาเถรี" />
+  <PtbWordIndexLink href="/part-4-tipitaka-digest/sutta-pitaka/khuddaka-nikaya/vol-26#M05JcUh4c7" label="ภาค ๔ เล่ม ๒๖ — ขุททกนิกาย (ขุ.) — วิมานวัตถุ เปตวัตถุ เถรคาถา เถรีคาถา — ๔. เถรีคาถา ภาษิตของพระเถรี — (๔) ภาษิตของพระนางอุปสมาเถรี" />
   </PtbWordIndexRefs>
 
 

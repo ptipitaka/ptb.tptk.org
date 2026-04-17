@@ -95,7 +95,7 @@ searchKeywords:
 
   <PtbListItem>
   <PtbWordIndexRefs>
-  <PtbWordIndexLink href="/part-4-tipitaka-digest/sutta-pitaka/digha-nikaya/vol-10#Qeb8ltMiLl" label="ภาค ๔ เล่ม ๑๐ — มหาปทานสูตร" />
+  <PtbWordIndexLink href="/part-4-tipitaka-digest/sutta-pitaka/digha-nikaya/vol-10#Qeb8ltMiLl" label="ภาค ๔ เล่ม ๑๐ — ๑. มหาปทานสูตร" />
   </PtbWordIndexRefs>
   </PtbListItem>
 </PtbList>
@@ -114,7 +114,7 @@ searchKeywords:
 
   <PtbListItem>
   <PtbWordIndexRefs>
-  <PtbWordIndexLink href="/part-4-tipitaka-digest/sutta-pitaka/digha-nikaya/vol-11#0LAQX1qmLV" label="ภาค ๔ เล่ม ๑๑ — จักกวัตติสูตร · พระเมตไตรยพุทธเจ้า" />
+  <PtbWordIndexLink href="/part-4-tipitaka-digest/sutta-pitaka/digha-nikaya/vol-11#0LAQX1qmLV" label="ภาค ๔ เล่ม ๑๑ — ๓. จักกวัตติสูตร — พระเมตไตรยพุทธเจ้า" />
   </PtbWordIndexRefs>
   </PtbListItem>
 </PtbList>
@@ -133,7 +133,7 @@ searchKeywords:
 
   <PtbListItem>
   <PtbWordIndexRefs>
-  <PtbWordIndexLink href="/part-3-tipitaka-selected-passages/khuddaka-nikaya/#HEn4ncPJ1P" label="ภาค ๓ — อุทาน ประวัติสุปพุทธะผู้เป็นโรคเรื้อน" />
+  <PtbWordIndexLink href="/part-3-tipitaka-selected-passages/khuddaka-nikaya/#HEn4ncPJ1P" label="ภาค ๓ — ขุททกนิกาย (ขุ.) — อุทาน (ขุ. อุ.) — ๑๖๕. ประวัติสุปพุทธะผู้เป็นโรคเรื้อน" />
   </PtbWordIndexRefs>
   </PtbListItem>
 </PtbList>
@@ -148,7 +148,7 @@ searchKeywords:
 
   <PtbListItem>
   <PtbWordIndexRefs>
-  <PtbWordIndexLink href="/part-4-tipitaka-digest/sutta-pitaka/majjhima-nikaya/vol-14#CCOo6c7sGm" label="ภาค ๔ เล่ม ๑๔ — อิสิคิลิสูตร" />
+  <PtbWordIndexLink href="/part-4-tipitaka-digest/sutta-pitaka/majjhima-nikaya/vol-14#CCOo6c7sGm" label="ภาค ๔ เล่ม ๑๔ — อนุปทวรรค คือวรรคที่มีอนุปทสูตร เป็นสูตรแรก มี ๑๐ สูตร — ๑๖. อิสิคิลิสูตร" />
   </PtbWordIndexRefs>
   </PtbListItem>
 </PtbList>

@@ -14,7 +14,7 @@ PATH = ROOT / "docs/10-part-5-academic-notes-and-index/word-index/persons/rulers
 
 H11 = "### ๑.๑ ก่อนพุทธกาล จนถึงในสมัยพุทธกาล {.ptb-h-block}\n"
 H12 = "### ๑.๒ หลังพุทธกาล {.ptb-h-block}\n"
-H2 = "## กลุ่ม ๒ ผู้ครองนคร ผู้นำชุมชน {.ptb-h-block}\n"
+H2 = "## ผู้ครองนคร มหาอำมาตย์ และผู้นำชุมชน {.ptb-h-block}\n"
 
 
 def sort_blocks_in_body(body: str) -> str:

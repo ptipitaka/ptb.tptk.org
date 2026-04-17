@@ -178,7 +178,7 @@ searchKeywords:
 
 <PtbParagraph>บุคคล ๒ ประเภทเหล่านี้ ย่อมกล่าวตู่ (หาความ) ตถาคต คือ</PtbParagraph>
 
-<PtbList>
+<PtbList indentLevel="2">
 <PtbListItem>บุคคลผู้คิดประทุษร้าย มีโทสะในภายใน</PtbListItem>
 
 <PtbListItem>ผู้มีศรัทธา กล่าวตู่ ด้วยถือเอาความหมายผิด<PtbFootnote>แสดงให้เห็นว่า ผู้ให้ร้ายพระพุทธเจ้า ไม่จำเป็นต้องเป็นคนที่โกรธ หรือเกลียดชังเท่านั้น ผู้เคารพนับถือมีศรัทธา
@@ -219,7 +219,7 @@ searchKeywords:
 
 <PtbParagraph>“ดูก่อนภิกษุทั้งหลาย เพราะตถาคตเกิดขึ้นหรือไม่เกิดขึ้นก็ตาม ธาตุ ความตั้งอยู่ แห่งธรรม ทำนองแห่งธรรมอันนั้น ก็ตั้งอยู่แล้ว คือข้อที่ว่า</PtbParagraph>
 
-<PtbList>
+<PtbList indentLevel="2">
 <PtbListItem>‘สังขาร (สิ่งที่ปัจจัยปรุงแต่ง) ทั้งปวงไม่เที่ยง</PtbListItem>
 
 <PtbListItem>สังขารทั้งปวงเป็นทุกข์ (ทนอยู่ไม่ได้)</PtbListItem>
@@ -897,7 +897,7 @@ searchKeywords:
 
 <PtbParagraph>“ดูก่อนภิกษุทั้งหลาย ธรรม ๓ อย่างที่ควรเจริญเพื่อละธรรม ๓ อย่างเหล่านี้คือ</PtbParagraph>
 
-<PtbList>
+<PtbList indentLevel="2">
 <PtbListItem>อสุภะ (ความกำหนดหมายถึงสิ่งที่ไม่งาม) ควรเจริญเพื่อละราคะ</PtbListItem>
 
 <PtbListItem>เมตตา (ไมตรีจิตคิดจะให้ผู้อื่นเป็นสุข) ควรเจริญเพื่อละโทสะ</PtbListItem>

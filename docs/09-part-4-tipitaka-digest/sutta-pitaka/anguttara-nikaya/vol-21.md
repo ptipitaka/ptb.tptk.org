@@ -35,7 +35,7 @@ searchKeywords:
 
 <PtbParagraph>ตรัสว่า คนพาลประกอบด้วยธรรมะ ๔ อย่าง ชื่อว่าบริหารตนให้ถูกขุด มีโทษควร ติเตียน ประสบสิ่งมิใช่บุญเป็นอันมาก คือไม่พิจารณาสอบสวน</PtbParagraph>
 
-<PtbList>
+<PtbList indentLevel="2">
 
 <PtbListItem marker="(๑)">ชมผู้ที่ควรติ</PtbListItem>
 
@@ -53,7 +53,7 @@ searchKeywords:
 
 <PtbParagraph>ทรงแสดงบุคคล ๔ ประเภท คือ</PtbParagraph>
 
-<PtbList>
+<PtbList indentLevel="2">
 
 <PtbListItem marker="(๑)">ผู้ไปตามกระแส ได้แก่ผู้เสพกาม ทำบาป</PtbListItem>
 
@@ -67,7 +67,7 @@ searchKeywords:
 
 <PtbParagraph>ทรงแสดงบุคคล ๔ ประเภท คือ</PtbParagraph>
 
-<PtbList>
+<PtbList indentLevel="2">
 
 <PtbListItem marker="(๑)">ผู้สดับน้อย ทั้งไม่เข้าถึงด้วยการสดับ ได้แก่ผู้สดับน้อย ทั้งไม่ปฏิบัติธรรม สมควรแก่ธรรม</PtbListItem>
 
@@ -83,7 +83,7 @@ searchKeywords:
 
 <PtbParagraph>ทรงแสดงความเป็นผู้แกล้วกล้า ๔ อย่างของพระตถาคต ที่ทรงบรรลือสีหนาทหมุนล้อธรรมอันประเสริฐ คือ</PtbParagraph>
 
-<PtbList>
+<PtbList indentLevel="2">
 
 <PtbListItem marker="(๑)">ทรงปฏิญญาว่าตรัสรู้แล้ว ไม่มีใครคัดค้านได้ว่า ไม่ได้ตรัสรู้</PtbListItem>
 
@@ -99,7 +99,7 @@ searchKeywords:
 
 <PtbParagraph>ทรงแสดงเครื่องประกอบสัตว์ (ผูกมัด) สัตว์ไว้ในภพ ๔ ประการ คือ</PtbParagraph>
 
-<PtbList>
+<PtbList indentLevel="2">
 
 <PtbListItem>กาม (ความใคร่และสิ่งที่น่าใคร่)</PtbListItem>
 
@@ -123,7 +123,7 @@ searchKeywords:
 
 <PtbParagraph>เป็นแต่ในภาคอธิบายของปธาน ทรงอธิบายว่า</PtbParagraph>
 
-<PtbList>
+<PtbList indentLevel="2">
 
 <PtbListItem marker="(๑)">ได้แก่การสำรวมอินทรีย์ ๖ คือ ตา หู เป็นต้น</PtbListItem>
 
@@ -137,7 +137,7 @@ searchKeywords:
 
 <PtbParagraph>ทรงแสดงการบัญญัติสิ่งที่เลิศ ๔ ประการ คือ</PtbParagraph>
 
-<PtbList>
+<PtbList indentLevel="2">
 
 <PtbListItem marker="(๑)">บรรดาผู้มีอัตตภาพ อสุรินทราหูเป็นเลิศ</PtbListItem>
 
@@ -159,7 +159,7 @@ searchKeywords:
 
 <PtbParagraph>๓. ทรงแสดงว่า ทรงพิจารณาแล้วไม่เห็นใครยิ่งกว่าพระองค์ โดยกองศีล สมาธิ ปัญญา วิมุติ จึงทรงตกลงเคารพธรรมที่ทรงตรัสรู้ ทันใดนั้น ท้าวสหัมบดีพรหมก็มากราบทูล ว่า พระพุทธเจ้าในอดีต อนาคต และพระองค์เองในปัจจุบันก็เคารพธรรมทั้งสิ้น ตรัสบอก ภิกษุทั้งหลายต่อไปว่า ทรงเคารพธรรมแล้ว เมื่อสงฆ์ถึงความเป็นใหญ่<PtbFootnote>อรรถกถาแก้ว่า ความเป็นใหญ่มี ๔ อย่าง คือ (๑) เป็นใหญ่โดยรู้ราตรีนานคือเก่าแก่ (๒) เป็นใหญ่โดยไพบูล (๓) เป็นใหญ่โดยพรหมจรรย์ (๔) เป็นใหญ่โดยเลิศด้วยลาภ</PtbFootnote> ก็ทรงเคารพในสงฆ์ ด้วย ทรงเล่าเรื่องพราหมณ์ผู้เฒ่าสูงอายุหลายคน ผู้พากันกล่าวหาพระองค์ เมื่อตรัสรู้ใหม่ ๆ ณ ริมฝั่งน้ำเนรัญชราว่า ไม่กราบไหว้ ต้อนรับพราหมณ์ผู้เฒ่า ผู้สูงอายุ พระองค์ทรงพระดำริว่า แม้จะเจริญโดยชาติ มีอายุสูง ถ้าไม่มีคุณธรรมก็นับว่าเป็นผู้ใหญ่ (เถระ) ที่เป็นพาล ต่อมี คุณธรรม แม้จะอยู่ในปฐมวัยก็นับได้ว่าผู้ใหญ่ (เถระ) ผู้เป็นบัณฑิต แล้วทรงแสดงธรรมที่ ทำให้เป็นผู้ใหญ่ ๔ ประเภท คือ</PtbParagraph>
 
-<PtbList>
+<PtbList indentLevel="2">
 
 <PtbListItem marker="(๑)">มีศีล</PtbListItem>
 
@@ -181,7 +181,7 @@ searchKeywords:
 
 <PtbParagraph>ทรงแสดงถึงของน้อยที่หาได้ง่ายและไม่มีโทษ คือ</PtbParagraph>
 
-<PtbList>
+<PtbList indentLevel="2">
 
 <PtbListItem marker="(๑)">ผ้าบังสุกุล (ผ้าเปื้อนฝุ่น คือเศษผ้าที่เขาทิ้งในที่ต่าง ๆ)</PtbListItem>
 
@@ -195,7 +195,7 @@ searchKeywords:
 
 <PtbParagraph>ทรงแสดงวงศ์ของพระอริยะ ที่เป็นของเก่า ไม่เป็นที่รังเกียจใน ๓ กาล คือ</PtbParagraph>
 
-<PtbList>
+<PtbList indentLevel="2">
 
 <PtbListItem marker="(๑)">สันโดษด้วยจีวรตามมีตามได้</PtbListItem>
 
@@ -215,7 +215,7 @@ searchKeywords:
 
 <PtbParagraph>๔. ทรงแสดงจักร ๔ (ธรรมเปรียบเหมือนล้อรถ) คือ</PtbParagraph>
 
-<PtbList>
+<PtbList indentLevel="2">
 
 <PtbListItem marker="(๑)">การอยู่ในสถานที่อันสมควร</PtbListItem>
 
@@ -229,7 +229,7 @@ searchKeywords:
 
 <PtbParagraph>ทรงแสดงสังคหวัตถุ ๔ (เรื่องของการสงเคราะห์) คือ</PtbParagraph>
 
-<PtbList>
+<PtbList indentLevel="2">
 
 <PtbListItem marker="(๑)">การให้</PtbListItem>
 
@@ -245,7 +245,7 @@ searchKeywords:
 
 <PtbParagraph>ทรงแสดงความเลื่อมใส ๔ ประการ คือ</PtbParagraph>
 
-<PtbList>
+<PtbList indentLevel="2">
 
 <PtbListItem marker="(๑)">พระตถาคตเป็นเลิศแห่งสัตว์ทั้งหลาย</PtbListItem>
 
@@ -265,7 +265,7 @@ searchKeywords:
 
 <PtbParagraph>ทรงแสดงว่า ภิกษุผู้ประกอบด้วยธรรม ๔ อย่าง ไม่ควรจะเสื่อม ชื่อว่าอยู่ใกล้พระ นิพพาน คือ</PtbParagraph>
 
-<PtbList>
+<PtbList indentLevel="2">
 
 <PtbListItem marker="(๑)">มีศีล</PtbListItem>
 
@@ -281,7 +281,7 @@ searchKeywords:
 
 <PtbParagraph>ตรัสตอบอุชชยพราหมณ์ ผู้กล่าวว่า พระสมณโคดมไม่ทรงสรรเสริญยัญ โดย ทรงชี้แจงว่า พระองค์มิได้สรรเสริญยัญทุกชนิด แต่ก็มิได้ติยัญทุกชนิด คือไม่สรรเสริญยัญที่มีการฆ่าสัตว์ เพราะพระอรหันต์หรือผู้บรรลุอรหัตตมรรค ย่อมไม่เข้าไปสู่ยัญเช่นนั้น แต่สรรเสริญยัญที่ไม่มีการฆ่าสัตว์ เช่น นิจจทาน (ทานที่ให้เป็นประจำ) อนุกุลยัญ (ยัญที่เป็นไปตามลำดับสกุล คือการให้ทานตามจารีตของสกุลสืบ ๆ มา) เพราะพระอรหันต์ หรือผู้บรรลุอรหัตตมรรคย่อมเข้าไปสู่ยัญเช่นนั้น</PtbParagraph>
 
-<PtbParagraph>ตรัสตอบอุทายิพราหมณ์ ในทำนองเดียวกับอุชชยพราหมณ์ (เป็นแต่นิคมคาถา คือบทกวีสรูปข้อธรรมท้ายสูตรต่างกัน)</PtbParagraph>
+<PtbParagraph>ตรัสตอบอุทายิพราหมณ์ ในทำนองเดียวกับอุชชยพราหมณ์ (เป็นแต่นิคมคาถา คือบทกวีสรูป<PtbFootnote>สะกดตามฉบับอาจารย์สุชีพ ปุญญานุภาพ (แปลว่า สรุป)</PtbFootnote>ข้อธรรมท้ายสูตรต่างกัน)</PtbParagraph>
 
 #### วรรคที่ ๕ ชื่อโรหิตัสสวรรค ว่าด้วยโรหิตัสสเทพบุตร {#T7PCfOWSQs .ptb-h-block}
 
@@ -289,7 +289,7 @@ searchKeywords:
 
 <PtbParagraph>ทรงแสดงการตอบปัญหา ๔ อย่าง คือปัญหาที่ควรตอบโดย</PtbParagraph>
 
-<PtbList>
+<PtbList indentLevel="2">
 
 <PtbListItem marker="(๑)">แง่เดียว</PtbListItem>
 
@@ -313,7 +313,7 @@ searchKeywords:
 
 <PtbParagraph>ทรงแสดงความวิปลาส (ความผิดพลาด ความคลาดเคลื่อน) ๔ อย่าง คือ สัญญาวิปลาส จิตตวิปลาส ทิฏฐิวิปลาส (ความวิปลาสแห่งความกำหนดหมาย แห่งจิต แห่งความเห็น)</PtbParagraph>
 
-<PtbList>
+<PtbList indentLevel="2">
 
 <PtbListItem marker="(๑)">ในสิ่งไม่เที่ยงว่าเที่ยง</PtbListItem>
 
@@ -327,7 +327,7 @@ searchKeywords:
 
 <PtbParagraph>ตรัสแสดงเครื่องเศร้าหมองของสมณพราหมณ์ ๔ อย่าง คือ</PtbParagraph>
 
-<PtbList>
+<PtbList indentLevel="2">
 
 <PtbListItem marker="(๑)">ดื่มสุราเมรัย</PtbListItem>
 
@@ -351,7 +351,7 @@ searchKeywords:
 
 <PtbParagraph>ตรัสแสดงธรรมแก่คฤหบดี คฤหปตานี ผู้เดินทางระหว่างเมืองมธุรา กับเมืองเวรัญชา เรื่องการอยู่ร่วมกัน ๔ อย่าง คือ</PtbParagraph>
 
-<PtbList>
+<PtbList indentLevel="2">
 
 <PtbListItem marker="(๑)">ศพอยู่ร่วมกับศพ ได้แก่สามีและภริยาทุศีล มีธรรมอันเลวด้วยกัน</PtbListItem>
 
@@ -375,7 +375,7 @@ searchKeywords:
 
 <PtbParagraph>๒. ตรัสแก่อนาถปิณฑิกคฤหบดี ถึงธรรมะที่ปรารถนารักใคร่ชอบใจ อันหาได้ยาก (ยากจะสมหวัง) ๔ ประการ คือ</PtbParagraph>
 
-<PtbList>
+<PtbList indentLevel="2">
 
 <PtbListItem marker="(๑)">ขอให้มีทรัพย์</PtbListItem>
 
@@ -389,7 +389,7 @@ searchKeywords:
 
 <PtbParagraph>แล้วทรงแสดงข้อปฏิบัติที่ให้สำเร็จประสงค์ ๔ ประการคือ</PtbParagraph>
 
-<PtbList>
+<PtbList indentLevel="2">
 
 <PtbListItem marker="(๑)">ถึงพร้อมด้วยความเชื่อ</PtbListItem>
 
@@ -403,7 +403,7 @@ searchKeywords:
 
 <PtbParagraph>โดยเฉพาะข้อปัญญา ตรัสอธิบายว่า ได้แก่รู้เท่าทันนีวรณ์<PtbFootnote>นีวรณ์คือกิเลสอันกั้นจิตให้บรรลุความดี โดยปกติแสดงว่ากามฉันท์ความพอใจเป็นข้อแรก บางแห่งก็ใช้คำว่าอภิชฌา (ความเพ่งเล็งหรือโลภ) ในที่นี้ใช้อภิชฌาวิสมโลภ (โลภขนาดรุนแรง) เป็นข้อแรก</PtbFootnote> ๕ ว่าเป็นเครื่องเศร้าหมองแห่งจิตแล้วละได้ ผู้เช่นนั้นย่อมทำกรรมที่ควร ๔ อย่าง คือเมื่อได้ทรัพย์มาด้วยความเพียรอันชอบธรรมแล้ว</PtbParagraph>
 
-<PtbList>
+<PtbList indentLevel="2">
 
 <PtbListItem marker="(๑)">ย่อมทำตัวเอง มารดา บิดา บุตร ภริยา ทาส กรรมกร มิตรสหายให้เป็นสุข</PtbListItem>
 
@@ -419,7 +419,7 @@ searchKeywords:
 
 <PtbParagraph>ตรัสแสดงความสุขที่คฤหัสถ์ผู้บริโภคกามจะพึงได้รับตามกาลอันสมควร (สุข ของผู้ครองเรือน) ๔ ประการ คือ</PtbParagraph>
 
-<PtbList>
+<PtbList indentLevel="2">
 
 <PtbListItem marker="(๑)">สุขเกิดจากการมีทรัพย์</PtbListItem>
 
@@ -437,7 +437,7 @@ searchKeywords:
 
 <PtbParagraph>ทรงแสดงบุคคล ๔ ประเภท คือ</PtbParagraph>
 
-<PtbList>
+<PtbList indentLevel="2">
 
 <PtbListItem marker="(๑)">ถือรูปเป็นประมาณ เลื่อมใสในรูป</PtbListItem>
 
@@ -459,13 +459,13 @@ searchKeywords:
 
 <PtbParagraph>ตรัสแสดงว่า ในสมัยใดพระราชาไม่ตั้งอยู่ในธรรม ในสมัยนั้นข้าราชการ พราหมณ์คฤหบดี ชาวนิคมชนบท ก็พลอยไม่ตั้งอยู่ในธรรมด้วย พระจันทร์ พระอาทิตย์ ดาวฤกษ์ กลางคืน กลางวัน ฤดู เป็นต้น ก็แปรปรวนได้ด้วย แต่ถ้าพระราชาตั้งอยู่ในธรรม ผู้อื่นก็ พลอยตั้งอยู่ในธรรมด้วย ฤดู เดือน ปี เป็นต้น ก็ไม่ปรวนแปร</PtbParagraph>
 
-<PtbParagraph>แล้วตรัสสรูปในท้ายพระสูตรว่า ในหมู่มนุษย์ ผู้ใดได้รับยกย่องว่าประเสริฐ ถ้าไม่ประพฤติธรรม ประชาชนก็พลอยไม่ประพฤติตามด้วย แว่นแคว้นทั้งปวงก็อยู่เป็นทุกข์ ถ้าตรงกันข้าม ก็อยู่เป็นสุข เปรียบเหมือนโคหัวหน้าฝูง เมื่อข้ามน้ำว่ายไปคดเคี้ยว โคทั้งปวง ก็ว่ายน้ำคดไปตาม ถ้าไปตรง โคทั้งปวงก็ว่ายน้ำไปตรง</PtbParagraph>
+<PtbParagraph>แล้วตรัสสรูป<PtbFootnote>สะกดตามฉบับอาจารย์สุชีพ ปุญญานุภาพ (แปลว่า สรุป)</PtbFootnote>ในท้ายพระสูตรว่า ในหมู่มนุษย์ ผู้ใดได้รับยกย่องว่าประเสริฐ ถ้าไม่ประพฤติธรรม ประชาชนก็พลอยไม่ประพฤติตามด้วย แว่นแคว้นทั้งปวงก็อยู่เป็นทุกข์ ถ้าตรงกันข้าม ก็อยู่เป็นสุข เปรียบเหมือนโคหัวหน้าฝูง เมื่อข้ามน้ำว่ายไปคดเคี้ยว โคทั้งปวง ก็ว่ายน้ำคดไปตาม ถ้าไปตรง โคทั้งปวงก็ว่ายน้ำไปตรง</PtbParagraph>
 
 #### วรรคที่ ๓ ชื่ออปัณณกวรรค ว่าด้วยข้อปฏิบัติไม่ผิด {#T6qDgODOoS .ptb-h-block}
 
 <PtbParagraph>๓. ทรงแสดงข้อปฏิบัติไม่ผิดของผู้ริเริ่มเพื่อทำอาสวะให้สิ้น ๔ ประการ คือ</PtbParagraph>
 
-<PtbList>
+<PtbList indentLevel="2">
 
 <PtbListItem marker="(๑)">มีศีล</PtbListItem>
 
@@ -481,7 +481,7 @@ searchKeywords:
 
 <PtbParagraph>ตรัสว่า อสัตบุรุษ (คนชั่ว) ประกอบด้วยธรรม ๔ ประการ คือ</PtbParagraph>
 
-<PtbList>
+<PtbList indentLevel="2">
 
 <PtbListItem marker="(๑)">ไม่ต้องถามก็เปิดเผยความชั่วของคนอื่น ยิ่งถูกถามก็ยิ่งกล่าวความชั่วของคน อื่นอย่างบริบูรณ์ พิสดาร</PtbListItem>
 
@@ -505,7 +505,7 @@ searchKeywords:
 
 <PtbParagraph>ตรัสเรื่องความบริสุทธิ์ของทักขิณา (ของถวาย) ๔ อย่าง คือ</PtbParagraph>
 
-<PtbList>
+<PtbList indentLevel="2">
 
 <PtbListItem marker="(๑)">บริสุทธิ์ฝ่ายผู้ให้ ไม่บริสุทธิ์ฝ่ายผู้รับ</PtbListItem>
 
@@ -531,7 +531,7 @@ searchKeywords:
 
 <PtbParagraph>ตรัสเรื่องบุคคล ๔ ประเภท คือ</PtbParagraph>
 
-<PtbList>
+<PtbList indentLevel="2">
 
 <PtbListItem marker="(๑)">สมณะผู้ไม่หวั่นไหวได้แก่พระเสขะ (พระอริยบุคคลผู้ยังต้องศึกษา) ผู้ปรารถนา ความปลอดโปร่งจากกิเลสอย่างยอดเยี่ยม</PtbListItem>
 
@@ -553,7 +553,7 @@ searchKeywords:
 
 <PtbParagraph>๕. ตรัสแสดงอสูร ๔ ประเภท คือ</PtbParagraph>
 
-<PtbList>
+<PtbList indentLevel="2">
 
 <PtbListItem marker="(๑)">อสูรที่มีอสูร เป็นบริวาร ได้แก่บุคคลผู้ทุศีล มีบาปธรรม มีบริษัทเป็นผู้ทุศีล มีบาปธรรม</PtbListItem>
 
@@ -567,7 +567,7 @@ searchKeywords:
 
 <PtbParagraph>ทรงแสดงบุคคล ๔ ประเภท คือ</PtbParagraph>
 
-<PtbList>
+<PtbList indentLevel="2">
 
 <PtbListItem marker="(๑)">ผู้ได้เจโตสมถะ (ความสงบแห่งจิต) ภายใน แต่ไม่ได้อธิปัญญา ธัมมวิปัสสนา (ความเห็นแจ้งธรรมะ อันเป็นอธิปัญญา)</PtbListItem>
 
@@ -583,7 +583,7 @@ searchKeywords:
 
 <PtbParagraph>ตรัสแสดงบุคคล ๔ ประเภท คือ</PtbParagraph>
 
-<PtbList>
+<PtbList indentLevel="2">
 
 <PtbListItem marker="(๑)">ผู้ไม่ปฏิบัติเพื่อประโยชน์ตนประโยชน์ผู้อื่น เปรียบเหมือนดุ้นฟืนถูกไฟไหม้ สองข้าง ตรงกลางก็เปื้อนอุจจาระ ใช้ประโยชน์ของไม้ในบ้านก็ไม่ได้ ในป่าก็ ไม่ได้</PtbListItem>
 
@@ -603,7 +603,7 @@ searchKeywords:
 
 <PtbParagraph>ตรัสแสดงบุคคล ๔ ประเภท แก่โปตลิยปริพพาชก คือ</PtbParagraph>
 
-<PtbList>
+<PtbList indentLevel="2">
 
 <PtbListItem marker="(๑)">ผู้ติคนที่ควรติ แต่ไม่ชมคนที่ควรชม</PtbListItem>
 
@@ -625,7 +625,7 @@ searchKeywords:
 
 <PtbParagraph>๑. ทรงแสดงเรื่องฝน ๔ อย่าง คือ</PtbParagraph>
 
-<PtbList>
+<PtbList indentLevel="2">
 
 <PtbListItem marker="(๑)">คำราม แต่ไม่ตก ได้แก่บุคคลผู้พูด แต่ไม่ทำ</PtbListItem>
 
@@ -639,7 +639,7 @@ searchKeywords:
 
 <PtbParagraph>ทรงแสดงเรื่องฝนในลักษณะเดิมอีก ๔ อย่าง แต่อธิบายถึงคุณสมบัติของบุคคล ต่างออกไป</PtbParagraph>
 
-<PtbList>
+<PtbList indentLevel="2">
 
 <PtbListItem marker="ประเภทที่ ๑">ได้แก่ผู้เรียนรู้ธรรมะ (ศาสนาของพระศาสดามีองค์ ๙) แต่ไม่รู้ อริยสัจจ์ ๔ ตามเป็นจริง</PtbListItem>
 
@@ -673,7 +673,7 @@ searchKeywords:
 
 <PtbParagraph>ทรงแสดงม้าอาชาไนยที่ดี ๔ ประเภท คือ</PtbParagraph>
 
-<PtbList>
+<PtbList indentLevel="2">
 
 <PtbListItem marker="(๑)">เห็นเงาปฏักก็สำนึกตน</PtbListItem>
 
@@ -687,7 +687,7 @@ searchKeywords:
 
 <PtbParagraph>เทียบด้วยบุรุษอาชาไนย ๔ ประเภท คือ</PtbParagraph>
 
-<PtbList>
+<PtbList indentLevel="2">
 
 <PtbListItem marker="(๑)">เพียงได้ฟังข่าวว่าคนอื่นมีทุกข์หรือตาย ก็เกิดความสังเวช ตั้งความเพียร ทำให้แจ้งสัจจธรรมอันยิ่ง</PtbListItem>
 
@@ -703,7 +703,7 @@ searchKeywords:
 
 <PtbParagraph>ทรงแสดงฐานะ ๔ คือ</PtbParagraph>
 
-<PtbList>
+<PtbList indentLevel="2">
 
 <PtbListItem marker="(๑)">ฐานะที่ไม่น่าพอใจ ทำเข้าก็เป็นไปเพื่อไม่เป็นประโยชน์</PtbListItem>
 
@@ -737,7 +737,7 @@ searchKeywords:
 
 <PtbParagraph>ทรงแสดงว่า ความอัศจรรย์ ๔ อย่าง ย่อมปรากฏ เพราะความปรากฏแห่งพระตถาคตอรหันตสัมมาสัมพุทธเจ้า คือ</PtbParagraph>
 
-<PtbList>
+<PtbList indentLevel="2">
 
 <PtbListItem marker="(๑)">เมื่อก้าวลงสู่พระครรภ์</PtbListItem>
 
@@ -775,7 +775,7 @@ searchKeywords:
 
 <PtbParagraph>บุคคล ๔ ประเภท คือ</PtbParagraph>
 
-<PtbList>
+<PtbList indentLevel="2">
 
 <PtbListItem>ผู้แสดงธรรมพูดน้อย พูดไม่มีประโยชน์</PtbListItem>
 
@@ -819,7 +819,7 @@ searchKeywords:
 
 <PtbParagraph>๑. ทรงแสดงอินทรีย์ (ธรรมอันเป็นใหญ่) ๔ คือความเชื่อ ความเพียร ความตั้งใจมั่น ปัญญา ทรงแสดงกำลัง ๔ อย่าง แบ่งเป็น ๔ นัย คือ</PtbParagraph>
 
-<PtbList>
+<PtbList indentLevel="2">
 
 <PtbListItem marker="(๑)">กำลังคือความเชื่อ ความเพียร ความตั้งใจมั่น ปัญญา</PtbListItem>
 
@@ -837,7 +837,7 @@ searchKeywords:
 
 <PtbParagraph>แล้วทรงแสดงโรคของบรรพชิต ๔ อย่าง คือการที่ภิกษุมีความปรารถนามาก ไม่สันโดษด้วยปัจจัย ๔ ตั้งความปรารถนาเพียรพยายาม เพื่อไม่ถูกดูหมิ่น เพื่อได้ลาภสักการะ ชื่อเสียง</PtbParagraph>
 
-<PtbList>
+<PtbList indentLevel="2">
 
 <PtbListItem marker="(๑)">เข้าสู่สกุล</PtbListItem>
 
@@ -857,7 +857,7 @@ searchKeywords:
 
 <PtbParagraph>ตรัสแสดงธรรม ๔ อย่างว่า เป็นไปเพื่อความเลอะเลือน เพื่ออันตรธาน แห่งพระ สัทธรรม คือ</PtbParagraph>
 
-<PtbList>
+<PtbList indentLevel="2">
 
 <PtbListItem marker="(๑)">ภิกษุทั้งหลายเรียนพระสูตรด้วยบทพยัญชนะที่ยกขึ้นผิด มีเนื้อความอัน แนะนำผิด</PtbListItem>
 
@@ -873,7 +873,7 @@ searchKeywords:
 
 <PtbParagraph>๒. ทรงแสดงปฏิปทา ๔ อย่าง มีชื่อเดียวกัน แต่ต่างนัย คือ</PtbParagraph>
 
-<PtbList>
+<PtbList indentLevel="2">
 
 <PtbListItem marker="(๑)">ปฏิบัติลำบาก ทั้งรู้ได้ช้า</PtbListItem>
 
@@ -887,7 +887,7 @@ searchKeywords:
 
 <PtbParagraph>ทรงแสดงปฏิปทา ๔ อย่าง มีชื่อเดียวกัน แต่ต่างนัย คือ</PtbParagraph>
 
-<PtbList>
+<PtbList indentLevel="2">
 
 <PtbListItem marker="(๑)">ปฏิบัติไม่อดทน</PtbListItem>
 
@@ -903,7 +903,7 @@ searchKeywords:
 
 <PtbParagraph>พระผู้มีพระภาคทรงแสดงบุคคล ๔ ประเภท คือ</PtbParagraph>
 
-<PtbList>
+<PtbList indentLevel="2">
 
 <PtbListItem marker="(๑)">ผู้ต้องใช้ความเพียร ดับกิเลสได้ในปัจจุบัน</PtbListItem>
 
@@ -917,9 +917,9 @@ searchKeywords:
 
 <PtbParagraph>(สองประเภทแรกตรัสอธิบายในทางผู้ปฏิบัติสายวิปัสสนา สองประเภทหลังตรัสอธิบายในทางผู้ปฏิบัติสายสมถะ ส่วนที่ดับกิเลสได้ในปัจจุบัน หรือเมื่อตายไปแล้ว ขึ้นอยู่แก่อินทรีย์ คือธรรมอันเป็นใหญ่ มีกำลังแรงหรืออ่อน)</PtbParagraph>
 
-<PtbParagraph>พระอานนท์แสดงธรรมแก่ภิกษุทั้งหลายว่า ภิกษุภิกษุณีที่พยากรณ์การบรรลุความ เป็นพระอรหันต์ (พูดว่าได้บรรลุ) ในสำนักของเรา ย่อมมีทางเป็นไปได้อย่างใดอย่างหนึ่ง รวม ๔ ทาง คือ</PtbParagraph>
+<PtbParagraph>พระอานนท์แสดงธรรมแก่ภิกษุทั้งหลายว่า ภิกษุภิกษุณีที่พยากรณ์การบรรลุความเป็นพระอรหันต์ (พูดว่าได้บรรลุ) ในสำนักของเรา ย่อมมีทางเป็นไปได้อย่างใดอย่างหนึ่ง รวม ๔ ทาง คือ</PtbParagraph>
 
-<PtbList>
+<PtbList indentLevel="2">
 
 <PtbListItem marker="(๑)">เจริญวิปัสสนา (ปัญญาอันเห็นแจ้ง) มีสมถะเป็นหัวหน้า มรรคเกิดขึ้น เมื่อ เจริญมรรคก็ละสัญโญชน์ (กิเลสที่ร้อยรัดหรือผูกมัด) ได้ กิเลสพวกอนุสัย (แฝงตัวหรือนอนอยู่ในสันดาน) ย่อมหมดไป</PtbListItem>
 
@@ -941,7 +941,7 @@ searchKeywords:
 
 <PtbParagraph>พระสาริบุตรตอบปัญหาของพระอุปวานะ ผู้ถามว่า</PtbParagraph>
 
-<PtbList>
+<PtbList indentLevel="2">
 
 <PtbListItem>ภิกษุทำที่สุดทุกข์ได้ ด้วยวิชชา ใช่หรือไม่</PtbListItem>
 
@@ -961,7 +961,7 @@ searchKeywords:
 
 <PtbParagraph>ทรงแสดงบุคคล ๔ ประเภท คือ</PtbParagraph>
 
-<PtbList>
+<PtbList indentLevel="2">
 
 <PtbListItem marker="(๑)">ภิกษุผู้เข้าเจโตวิมุติ<PtbFootnote>เจโตวิมุติ ความหลุดพ้นแห่งจิต ในที่นี้หมายเอาสมาบัติหรือฌาน ๘ คือฌานมีรูปเป็นอารมณ์ ๔ มีนามเป็นอารมณ์ ๔</PtbFootnote> อันสงบระงับอย่างใดอย่างหนึ่ง ใส่ใจความดับกาย ของตน<PtbFootnote>สักกายนิโรธ ความดับกายของตน อรรถกถาแก้ว่า ได้แก่ดับความเวียนว่ายตายเกิดในภูมิ ๓ ได้แก่นิพพาน</PtbFootnote> จิตของเธอไม่แล่นไป ไม่ตั้งอยู่ในความดับกายของตน เธอจึง หวังความดับกายของตนไม่ได้</PtbListItem>
 
@@ -975,7 +975,7 @@ searchKeywords:
 
 <PtbParagraph>พระสาริบุตรตอบปัญหาของพระอานนท์ ที่ว่าเหตุไรสัตว์บางเหล่าในโลกนี้จึงไม่นิพพานในปัจจุบัน โดยชี้แจงว่า เพราะสัตว์เหล่านั้นไม่รู้ตามความจริงว่า</PtbParagraph>
 
-<PtbList>
+<PtbList indentLevel="2">
 
 <PtbListItem marker="(๑)">ธรรมเหล่านี้เป็นฝ่ายเสื่อม</PtbListItem>
 
@@ -989,7 +989,7 @@ searchKeywords:
 
 <PtbParagraph>เมื่อประทับ ณ โภคนคร พระผู้มีพระภาคตรัสมหาปเทส (ข้ออ้างใหญ่) สำหรับตัดสินพระธรรมวินัย ๔ ประการ คือ ไม่พึงรับรอง ไม่พึงคัดค้าน</PtbParagraph>
 
-<PtbList>
+<PtbList indentLevel="2">
 
 <PtbListItem marker="(๑)">เมื่อภิกษุอ้างว่าได้สดับ ได้รับมาเฉพาะพระพักตร์พระผู้มีพระภาค</PtbListItem>
 
@@ -1007,7 +1007,7 @@ searchKeywords:
 
 <PtbParagraph>๔. ทรงแสดงนักรบประกอบด้วยองค์ ๔ ว่า ควรแก่พระราชา คือ</PtbParagraph>
 
-<PtbList>
+<PtbList indentLevel="2">
 
 <PtbListItem marker="(๑)">ฉลาดในภูมิประเทศ เทียบด้วยภิกษุผู้มีศีล</PtbListItem>
 
@@ -1027,7 +1027,7 @@ searchKeywords:
 
 <PtbParagraph>ตรัสแสดงสัจจะของพราหมณ์ ๔ ประการ<PtbFootnote>เห็นได้ว่า เป็นการแสดงความหมายของพราหมณ์ตามหลักพระพุทธศาสนา มิใช่ตามหลักของพราหมณ์จริง ๆ เพราะพราหมณ์จริง ๆ ประพฤติตรงกันข้าม</PtbFootnote> แก่นักบวชลัทธิอื่น คือ</PtbParagraph>
 
-<PtbList>
+<PtbList indentLevel="2">
 
 <PtbListItem marker="(๑)">สัตว์ทั้งปวงไม่ควรฆ่า</PtbListItem>
 
@@ -1041,7 +1041,7 @@ searchKeywords:
 
 <PtbParagraph>ตรัสตอบปัญหาของภิกษุรูปหนึ่งดังต่อไปนี้</PtbParagraph>
 
-<PtbList>
+<PtbList indentLevel="2">
 
 <PtbListItem marker="(๑)">โลกอันจิตย่อมนำไป ย่อมคร่าไป ไปสู่อำนาจของจิตที่เกิดขึ้นแล้ว</PtbListItem>
 
@@ -1055,7 +1055,7 @@ searchKeywords:
 
 <PtbParagraph>ตรัสตอบคำถามของวัสสการพราหมณ์ ว่า</PtbParagraph>
 
-<PtbList>
+<PtbList indentLevel="2">
 
 <PtbListItem>ไม่เป็นไปได้ที่คนชั่ว<PtbFootnote>คนชั่ว คนดี ในที่นี้ใช้คำบาลีว่า อสัปปุริสะ สัปปุริสะ</PtbFootnote> จะรู้จักคนชั่วว่าเป็นคนชั่ว จะรู้จักคนดีว่าเป็นคนดี</PtbListItem>
 
@@ -1069,7 +1069,7 @@ searchKeywords:
 
 <PtbParagraph>ทรงแสดงธรรมที่ควรทำให้แจ้ง ๔ ประการ คือ</PtbParagraph>
 
-<PtbList>
+<PtbList indentLevel="2">
 
 <PtbListItem marker="(๑)">ธรรมที่ควรทำให้แจ้งด้วยนามกาย ได้แก่วิโมกข์ ๘ (ดูหน้า ๔๕๔ - ๔๕๕ ประกอบด้วย)</PtbListItem>
 
@@ -1083,7 +1083,7 @@ searchKeywords:
 
 <PtbParagraph>ตรัสสรรเสริญภิกษุสงฆ์ ที่ประชุมกันในวันอุโบสถว่า ในหมู่ภิกษุนั้น</PtbParagraph>
 
-<PtbList>
+<PtbList indentLevel="2">
 
 <PtbListItem>มีภิกษุที่บรรลุความเป็นเทพ คือผู้ได้ฌาน ๔</PtbListItem>
 
@@ -1097,11 +1097,11 @@ searchKeywords:
 
 <PtbParagraph>๕. ทรงแสดงอานิสงส์ (ผลดี) ๔ ประการ แห่งธรรมที่ได้สดับ ที่ขึ้นปาก ที่เพ่งด้วยใจ ที่ขบด้วยทิฏฐิ คือ</PtbParagraph>
 
-<PtbList>
+<PtbList indentLevel="2">
 
 <PtbListItem marker="(๑)">ภิกษุเรียนธรรมแล้วหลงลืมสติ ทำกาละ (ตาย) เข้าถึงเทพนิกายพวกใด พวกหนึ่ง บทแห่งธรรมของเธอผู้มีความสุขย่อมแจ่มชัด สติเกิดขึ้นช้า เธอ ย่อมก้าวหน้าไปสู่คุณวิเศษโดยรวดเร็ว (วิเสสคามี)</PtbListItem>
 
-<PtbListItem marker="(๒)">ภิกษุเรียนธรรมแล้วหลงลืมสติ ทำกาละ เข้าถึงเทพนิกายพวกใดพวกหนึ่ง บทแห่งธรรมของเธอผู้มีความสุขไม่แจ่มชัด แต่ว่าเธอมีฤทธิ์ บรรลุความ เป็นผู้เชี่ยวชาญทางจิต (เจโตวสิปตฺโต) ย่อมแสดงธรรมแก่เทวบริษัท สติ เกิดขึ้นช้า เธอย่อมก้าวหน้าไปสู่คุณวิเศษโดยรวดเร็ว</PtbListItem>
+<PtbListItem marker="(๒)">ภิกษุเรียนธรรมแล้วหลงลืมสติ ทำกาละ เข้าถึงเทพนิกายพวกใดพวกหนึ่ง บทแห่งธรรมของเธอผู้มีความสุขไม่แจ่มชัด แต่ว่าเธอมีฤทธิ์ บรรลุความเป็นผู้เชี่ยวชาญทางจิต (เจโตวสิปตฺโต) ย่อมแสดงธรรมแก่เทวบริษัท สติ เกิดขึ้นช้า เธอย่อมก้าวหน้าไปสู่คุณวิเศษโดยรวดเร็ว</PtbListItem>
 
 <PtbListItem marker="(๓)">เหมือนข้อ ๒ แต่บทแห่งธรรมไม่ปรากฏ เธอไม่มีฤทธิ์ ไม่บรรลุความเชี่ยวชาญ ทางจิตแสดงธรรม แต่ได้แสดงธรรมแก่เทวบริษัท สติเกิดขึ้นช้า เธอย่อม ก้าวหน้าไปสู่คุณวิเศษโดยรวดเร็ว</PtbListItem>
 
@@ -1111,7 +1111,7 @@ searchKeywords:
 
 <PtbParagraph>ทรงแสดงฐานะ ๔ ที่พึงทราบได้โดยฐานะ ๔ คือ</PtbParagraph>
 
-<PtbList>
+<PtbList indentLevel="2">
 
 <PtbListItem marker="(๑)">ศีล พึงทราบได้ด้วยการอยู่ร่วมกัน</PtbListItem>
 
@@ -1137,7 +1137,7 @@ searchKeywords:
 
 <PtbParagraph>ตรัสตอบพระนางมัลลิกา ผู้กราบทูลถามปัญหา ๔ ข้อ โดยทรงชี้แจงว่า</PtbParagraph>
 
-<PtbList>
+<PtbList indentLevel="2">
 
 <PtbListItem marker="(๑)">มาตุคามผู้มักโกรธ ไม่ให้ทาน มีใจริษยา จะเป็นผู้มีรูปทรามและยากจน มี ศักดิ์น้อย</PtbListItem>
 
@@ -1157,7 +1157,7 @@ searchKeywords:
 
 <PtbParagraph>ทรงแสดงสิ่งที่เกิดขึ้น ๔ อย่าง คือ</PtbParagraph>
 
-<PtbList>
+<PtbList indentLevel="2">
 
 <PtbListItem marker="(๑)">ความรักเกิดจากความรัก (เห็นคนอื่นพูดด้วยถ้อยคำที่ดีงามต่อคนที่ตนรัก ก็เลยรักคนอื่นนั้นด้วย)</PtbListItem>
 
@@ -1199,7 +1199,7 @@ searchKeywords:
 
 <PtbParagraph>ทรงแสดงการนอน ๔ อย่าง คือ</PtbParagraph>
 
-<PtbList>
+<PtbList indentLevel="2">
 
 <PtbListItem marker="(๑)">การนอนของเปรต (นอนหงาย)</PtbListItem>
 
@@ -1215,7 +1215,7 @@ searchKeywords:
 
 <PtbParagraph>ทรงแสดงธรรม ๔ อย่างที่เป็นไปเพื่อความเจริญด้วยปัญญา คือ</PtbParagraph>
 
-<PtbList>
+<PtbList indentLevel="2">
 
 <PtbListItem marker="(๑)">คบคนดี</PtbListItem>
 
@@ -1231,7 +1231,7 @@ searchKeywords:
 
 <PtbParagraph>ทรงแสดงโวหารคือคำพูดที่ไม่ประเสริฐและประเสริฐ ฝ่ายละ ๔ อย่าง</PtbParagraph>
 
-<PtbList>
+<PtbList indentLevel="2">
 
 <PtbListItem>คือพูดว่า ได้เห็น ได้ฟัง ได้ทราบ ได้รู้</PtbListItem>
 
@@ -1269,7 +1269,7 @@ searchKeywords:
 
 <PtbParagraph>๗. ทรงแสดงว่า ผู้ประกอบด้วยธรรม ๔ อย่าง จะตกนรกหรือขึ้นสวรรค์ เหมือน ถูกนำไปวางไว้คือ</PtbParagraph>
 
-<PtbList>
+<PtbList indentLevel="2">
 
 <PtbListItem marker="(๑)">ประพฤติชั่ว (กายทุจจริต ๓ วจีทุจจริต ๔ มโนทุจจริต ๓ รวมเป็น อกุศลกรรมบถ ๑๐) ด้วยตนเอง</PtbListItem>
 

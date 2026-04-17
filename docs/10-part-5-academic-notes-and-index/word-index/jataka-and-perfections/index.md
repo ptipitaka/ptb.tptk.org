@@ -291,7 +291,7 @@ searchKeywords:
 </div>
 <div class="wi-entry">
 <p class="wi-entry__term"><a href="/part-4-tipitaka-digest/sutta-pitaka/khuddaka-nikaya/vol-33#NH6b0E1hJL">สโมธานกถา</a></p>
-<p class="wi-entry__desc">กล่าวคำสรูป — บารมี ๓๐ ทัศ (บารมี อุปบารมี ปรมัตถบารมี)</p>
+<p class="wi-entry__desc">กล่าวคำสรูป<PtbFootnote>สะกดตามฉบับอาจารย์สุชีพ ปุญญานุภาพ (แปลว่า สรุป)</PtbFootnote> — บารมี ๓๐ ทัศ (บารมี อุปบารมี ปรมัตถบารมี)</p>
 <div class="wi-entry__refs">
 </div>
 </div>
@@ -300,6 +300,12 @@ searchKeywords:
 ## ดัชนีค้นคำ — โพธิสัตว์ในจริยาปิฎก {.ptb-h-block}
 
 <PtbWordIndexEntry term="ภิงสจริยา (ดาบสกินเหง้าบัว)" desc="อปทาน ภาค ๒ — เนกขัมมบารมี (๔) พระโพธิสัตว์ประพฤติเป็นดาบสกินเหง้าบัว (เกิดในสกุลโสตถิยะ แคว้นกาสี แล้วออกบวชเข้าป่า — มิได้ทรงเป็นพระราชาในเรื่องนี้)">
+
+**ภาค ๔ ความย่อแห่งพระไตรปิฎก**  
+**หมวดสุตตันตปิฎก (เล่ม ๙-๓๓)**  
+*ขุททกนิกาย — จริยาปิฎก อปทาน ภาค ๒ (เล่ม ๓๓)*
+
+* **ภิงสจริยา — เนกขัมมบารมี (๔) (เล่ม ๓๓)🚩:** พระโพธิสัตว์ประพฤติเป็นดาบสกินเหง้าบัวตามความย่ออปทาน
 
   <PtbWordIndexRefs>
   <PtbWordIndexLink href="/part-4-tipitaka-digest/sutta-pitaka/khuddaka-nikaya/vol-33#pWYPN9yV4o" label="ภาค ๔ เล่ม ๓๓ — ภิงสจริยา (เนกขัมมบารมี ๔)" />
