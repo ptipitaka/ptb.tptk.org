@@ -4,6 +4,9 @@ Collapse multiline <PtbParagraph>...</PtbParagraph> blocks to a single line per 
 
 Whitespace at line breaks is normalized to a single space (per PTB content guide).
 Default: dry-run. Use --write to modify files.
+
+Optional prep step before AI-led Thai spacing review: see .cursor/rules/ptb-thai-spacing-ai-review.mdc
+(structural join only; does not fix Thai word spacing).
 """
 from __future__ import annotations
 

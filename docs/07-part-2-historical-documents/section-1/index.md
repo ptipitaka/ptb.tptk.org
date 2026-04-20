@@ -19,7 +19,7 @@ searchKeywords:
 
 <div class="ptb-quote-block ptb-quote-block--measure">
 
-<p class="ptb-quote-text ptb-quote-text--emphasis"><strong>เอกสารเกี่ยวกับการชำระ และการจารึก</strong><br />
+<p class="ptb-quote-text ptb-quote-text--emphasis"><strong>เอกสารเกี่ยวกับการชำระและการจารึก</strong><br />
 <strong>พระไตรปิฎก ในรัชกาลที่ ๑</strong></p>
 
 <hr class="ptb-hr-quote" />

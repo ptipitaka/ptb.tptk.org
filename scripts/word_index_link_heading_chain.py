@@ -200,8 +200,9 @@ def resolve_md_path(href: str) -> Path | None:
     return None
 
 
+# Optional tier="primary"|"secondary" (word-index บุคคล); เก็บไว้เมื่อสร้าง label ใหม่
 LINK_RE = re.compile(
-    r'(<PtbWordIndexLink\s+href="([^"]+)")\s+label="([^"]*)"\s*/>'
+    r'<PtbWordIndexLink\s+href="([^"]+)"\s+label="([^"]*)"(?:\s+tier="(primary|secondary)")?\s*/>'
 )
 
 
@@ -226,14 +227,15 @@ def process_file(word_index_md: Path, write: bool) -> int:
         return ch
 
     def repl(m: re.match) -> str:
-        open_tag, href, old_label = m.group(1), m.group(2), m.group(3)
+        href, old_label, tier = m.group(1), m.group(2), m.group(3)
         chain = get_chain(href)
         new_label = label_for_href(href, chain)
         if new_label is None:
             return m.group(0)
         if new_label == old_label:
             return m.group(0)
-        return f'{open_tag} label="{new_label}" />'
+        tier_attr = f' tier="{tier}"' if tier else ""
+        return f'<PtbWordIndexLink href="{href}" label="{new_label}"{tier_attr} />'
 
     new_text, n = LINK_RE.subn(repl, text)
     changed = new_text != text
@@ -242,7 +244,7 @@ def process_file(word_index_md: Path, write: bool) -> int:
 
     unresolved = []
     for m in LINK_RE.finditer(text):
-        href = m.group(2)
+        href = m.group(1)
         if "#" not in href:
             continue
         _, frag = href.split("#", 1)

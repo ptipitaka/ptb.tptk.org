@@ -8,6 +8,8 @@
     "docs:check:list-structure": "python scripts/check-ptb-list-structure.py",
     "docs:ensure:heading-ids": "python scripts/ensure_ptb_heading_ids.py",
     "docs:strip:block-ids": "python scripts/strip_ptb_paragraph_list_ids.py",
+    "docs:collapse:ptb-paragraphs": "python scripts/collapse_ptb_paragraph_lines.py",
+    "docs:thai-spacing:batches": "python scripts/thai_spacing_review_batches.py",
     "docs:build": "vitepress build docs",
     "docs:build:strict": "npm run docs:check:list-structure && npm run docs:build",
     "docs:preview": "vitepress preview docs",

@@ -3,7 +3,7 @@ title: ส่วนที่ ๒ เอกสารที่เกี่ยว�
 lang: th
 description: จากหนังสือกฎหมายรัชกาลที่ ๕ — การสาสนูปถัมภกคือการพิมพ์พระไตรปิฎก
 outline: [2, 3]
-prev: { text: 'ส่วนที่ ๑  เอกสารในรัชกาลที่ ๑', link: '/part-2-historical-documents/section-1/' }
+prev: { text: 'ส่วนที่ ๑ เอกสารในรัชกาลที่ ๑', link: '/part-2-historical-documents/section-1/' }
 next: { text: 'ส่วนที่ ๓ เอกสารในรัชกาลที่ ๗', link: '/part-2-historical-documents/section-3/' }
 
 searchKeywords:
