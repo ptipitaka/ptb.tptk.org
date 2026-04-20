@@ -48,4 +48,4 @@ searchKeywords:
 
 <PtbParagraph>๐๘๑-๙๗๑-๐๘๘๑  @ptipitaka  facebook.com/ptipitaka  tptk.org</PtbParagraph>
 
-<PtbParagraph>สนับสนุน ร่วมพิมพ์เผยแพร่ บริจาค  บัญชีเลขที่ 162-4-37491-2</PtbParagraph>
+<PtbParagraph>สนับสนุน ร่วมพิมพ์เผยแพร่ บริจาค บัญชีเลขที่ 162-4-37491-2</PtbParagraph>
