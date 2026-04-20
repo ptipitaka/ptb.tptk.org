@@ -26,3 +26,7 @@ npm-debug.log*
 
 # Cloudflare Wrangler local build cache
 worker/.wrangler/
+
+# Local scratch / one-off debug output (do not commit)
+/_debug_snip.txt
+scripts/debug_codes.txt
