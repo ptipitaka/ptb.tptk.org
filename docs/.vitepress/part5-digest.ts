@@ -1,9 +1,9 @@
 import type { DefaultTheme } from 'vitepress'
 
-const WI = '10-part-5-academic-notes-and-index/word-index'
-const WI_URL = 'part-5-academic-notes-and-index/word-index'
+const WI = '10-part-5-word-index'
+const WI_URL = 'word-index'
 
-/** หน้าย่อยภายใต้สารบัญค้นคำ — ชื่อบุคคล */
+/** หน้าย่อยภายใต้ภาค ๕ สารบัญค้นคำ — ชื่อบุคคล */
 const wordIndexPersonsSubpages = [
   'buddha',
   'thera',
@@ -29,13 +29,16 @@ const wordIndexCategories = [
   'tipitaka-history',
 ] as const
 
-/** rewrites: โฟลเดอร์ docs ใช้ prefix 10- เรียงหลังภาค ๔ — URL ไม่มีเลขนำ */
-export function part5DigestRewrites(): Record<string, string> {
+/** rewrites: บันทึกทางวิชาการ — โฟลเดอร์ 11-on-academic-notes */
+export function onAcademicNotesRewrites(): Record<string, string> {
+  return {
+    '11-on-academic-notes/index.md': 'on-academic-notes/index.md',
+  }
+}
+
+/** rewrites: ภาค ๕ สารบัญค้นคำ — โฟลเดอร์ 10-part-5-word-index */
+export function wordIndexRewrites(): Record<string, string> {
   const rewrites: Record<string, string> = {
-    '10-part-5-academic-notes-and-index/index.md':
-      'part-5-academic-notes-and-index/index.md',
-    '10-part-5-academic-notes-and-index/on-academic-notes/index.md':
-      'part-5-academic-notes-and-index/on-academic-notes/index.md',
     [`${WI}/index.md`]: `${WI_URL}/index.md`,
   }
   for (const cat of wordIndexCategories) {
@@ -48,101 +51,97 @@ export function part5DigestRewrites(): Record<string, string> {
   return rewrites
 }
 
-export function part5DigestSidebar(): DefaultTheme.SidebarItem {
+export function onAcademicNotesSidebar(): DefaultTheme.SidebarItem {
   return {
-    text: 'ภาค ๕ บันทึกทางวิชาการและสารบัญค้นคำ',
+    text: 'ว่าด้วยบันทึกทางวิชาการ',
+    link: '/on-academic-notes/',
+  }
+}
+
+export function wordIndexSidebar(): DefaultTheme.SidebarItem {
+  return {
+    text: 'ภาค ๕ สารบัญค้นคำ',
     collapsed: true,
     items: [
-      { text: 'เกริ่นนำ', link: '/part-5-academic-notes-and-index/' },
+      { text: 'เกริ่นนำ', link: `/${WI_URL}/` },
       {
-        text: 'ว่าด้วยบันทึกทางวิชาการ',
-        link: '/part-5-academic-notes-and-index/on-academic-notes/',
+        text: '๑. หลักธรรมสำคัญ',
+        link: `/${WI_URL}/key-doctrines/`,
       },
       {
-        text: 'สารบัญค้นคำ',
-        link: `/${WI_URL}/`,
+        text: '๒. ศัพท์ธรรมะ',
+        link: `/${WI_URL}/doctrinal-terms/`,
+      },
+      {
+        text: '๓. ชื่อบุคคล',
+        link: `/${WI_URL}/persons/`,
         collapsed: true,
         items: [
           {
-            text: '๑. หลักธรรมสำคัญ',
-            link: `/${WI_URL}/key-doctrines/`,
+            text: 'พระพุทธเจ้า',
+            link: `/${WI_URL}/persons/buddha/`,
           },
           {
-            text: '๒. ศัพท์ธรรมะ',
-            link: `/${WI_URL}/doctrinal-terms/`,
+            text: 'พระเถระ',
+            link: `/${WI_URL}/persons/thera/`,
           },
           {
-            text: '๓. ชื่อบุคคล',
-            link: `/${WI_URL}/persons/`,
-            collapsed: true,
-            items: [
-              {
-                text: 'พระพุทธเจ้า',
-                link: `/${WI_URL}/persons/buddha/`,
-              },
-              {
-                text: 'พระเถระ',
-                link: `/${WI_URL}/persons/thera/`,
-              },
-              {
-                text: 'พระเถรี',
-                link: `/${WI_URL}/persons/theri/`,
-              },
-              {
-                text: 'พระราชา-มหาอำมาตย์',
-                link: `/${WI_URL}/persons/rulers/`,
-              },
-              {
-                text: 'คฤหบดี เศรษฐี',
-                link: `/${WI_URL}/persons/gahapati/`,
-              },
-              {
-                text: 'อุบาสก',
-                link: `/${WI_URL}/persons/upasaka/`,
-              },
-              {
-                text: 'อุบาสิกา',
-                link: `/${WI_URL}/persons/upasika/`,
-              },
-              {
-                text: 'เทวดา',
-                link: `/${WI_URL}/persons/devas/`,
-              },
-              {
-                text: 'เจ้าลัทธิ',
-                link: `/${WI_URL}/persons/sect-leaders/`,
-              },
-            ],
+            text: 'พระเถรี',
+            link: `/${WI_URL}/persons/theri/`,
           },
           {
-            text: '๔. ชื่อสถานที่',
-            link: `/${WI_URL}/places/`,
+            text: 'พระราชา-มหาอำมาตย์',
+            link: `/${WI_URL}/persons/rulers/`,
           },
           {
-            text: '๕. เหตุการณ์สำคัญ',
-            link: `/${WI_URL}/events/`,
+            text: 'คฤหบดี เศรษฐี',
+            link: `/${WI_URL}/persons/gahapati/`,
           },
           {
-            text: '๖. ชื่อคัมภีร์',
-            link: `/${WI_URL}/scriptures/`,
+            text: 'อุบาสก',
+            link: `/${WI_URL}/persons/upasaka/`,
           },
           {
-            text: '๗. ศัพท์เกี่ยวกับพระวินัย',
-            link: `/${WI_URL}/vinaya-terms/`,
+            text: 'อุบาสิกา',
+            link: `/${WI_URL}/persons/upasika/`,
           },
           {
-            text: '๘. จักรวาลวิทยาและสังสารวัฏ',
-            link: `/${WI_URL}/cosmology/`,
+            text: 'เทวดา',
+            link: `/${WI_URL}/persons/devas/`,
           },
           {
-            text: '๙. ชาดก อดีตชาติ และบารมี',
-            link: `/${WI_URL}/jataka-and-perfections/`,
-          },
-          {
-            text: '๑๐. บุคคลในประวัติศาสตร์',
-            link: `/${WI_URL}/tipitaka-history/`,
+            text: 'เจ้าลัทธิ',
+            link: `/${WI_URL}/persons/sect-leaders/`,
           },
         ],
+      },
+      {
+        text: '๔. ชื่อสถานที่',
+        link: `/${WI_URL}/places/`,
+      },
+      {
+        text: '๕. เหตุการณ์สำคัญ',
+        link: `/${WI_URL}/events/`,
+      },
+      {
+        text: '๖. ชื่อคัมภีร์',
+        link: `/${WI_URL}/scriptures/`,
+      },
+      {
+        text: '๗. ศัพท์เกี่ยวกับพระวินัย',
+        link: `/${WI_URL}/vinaya-terms/`,
+      },
+      {
+        text: '๘. จักรวาลวิทยาและสังสารวัฏ',
+        link: `/${WI_URL}/cosmology/`,
+      },
+      {
+        text: '๙. ชาดก อดีตชาติ และบารมี',
+        link: `/${WI_URL}/jataka-and-perfections/`,
+      },
+      {
+        text: '๑๐. บุคคลในประวัติศาสตร์',
+        link: `/${WI_URL}/tipitaka-history/`,
       },
     ],
   }

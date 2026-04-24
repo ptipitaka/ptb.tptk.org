@@ -112,7 +112,7 @@ searchKeywords:
 
 ### ๙๑. ธรรมที่มีจิตเป็นสมุฏฐาน และไม่มีจิตเป็นสมุฏฐาน {#ySpvr4GL3t .ptb-h-block}
 
-<PtbParagraph>ธรรมที่มีจิตเป็นสมุฏฐานเป็นไฉน เวทนาขันธ์ สัญญาขันธ์ สังขารขันธ์ กายวิญญัติ (ความไหวกาย) วจีวิญญัติ (ความไหวหรือการเปล่งวาจา) รูปอย่างอื่นซึ่งเกิดจากจิต ซึ่งมีจิตเป็นเหตุ มีจิตเป็นสมุฏฐาน อายตนะ<PtbFootnote>อายตนะ แปลว่า ที่ต่อ มี ๒ ประเภท คือที่ต่อภายใน ได้แก่ตา หู จมูก ลิ้น กาย ใจ กับที่ต่อภายนอก ได้แก่รูป เสียง กลิ่น รส โผฏจัพพะ ธรรมที่คู่กับที่ต่อภายในเป็นคู่ ๆ</PtbFootnote> คือรูป อายตนะคือเสียง อายตนะคือกลิ่น อายตนะคือรส อายตนะคือโผฏฐัพพะ<PtbFootnote>โผฎจัพพะ สิ่งที่มาถูกต้องกาย</PtbFootnote> ธาตุอากาศ ธาตุน้ำ ความเบาแห่งรูป ความอ่อนสลวยแห่งรูป ความควรแก่การงานแห่งรูป ความเติบโตแห่งรูป ความสืบต่อแห่งรูป อาหารที่เป็นคำ ๆ<PtbFootnote>กวฬิงการาหาร อาหารที่ทำให้เป็นคำ ๆ หมายถึงอาหารที่กินได้ ยังมีอาหารประเภทอื่นอีก เช่น ผัสสาหาร อาหารคือสัมผัส มโนสัญเจตนาหาร อาหารคือความจงใจ หรือตั้งใจ วิญญาณาหาร อาหารคือวิญญาณ</PtbFootnote> (อาหารธรรมดาของกาย) ธรรมเหล่านี้ มีจิตเป็นสมุฏฐาน</PtbParagraph>
+<PtbParagraph>ธรรมที่มีจิตเป็นสมุฏฐานเป็นไฉน เวทนาขันธ์ สัญญาขันธ์ สังขารขันธ์ กายวิญญัติ (ความไหวกาย) วจีวิญญัติ (ความไหวหรือการเปล่งวาจา) รูปอย่างอื่นซึ่งเกิดจากจิต ซึ่งมีจิตเป็นเหตุ มีจิตเป็นสมุฏฐาน อายตนะ<PtbFootnote>อายตนะ แปลว่า ที่ต่อ มี ๒ ประเภท คือที่ต่อภายใน ได้แก่ตา หู จมูก ลิ้น กาย ใจ กับที่ต่อภายนอก ได้แก่รูป เสียง กลิ่น รส โผฏฐัพพะ ธรรมที่คู่กับที่ต่อภายในเป็นคู่ ๆ</PtbFootnote> คือรูป อายตนะคือเสียง อายตนะคือกลิ่น อายตนะคือรส อายตนะคือโผฏฐัพพะ<PtbFootnote>โผฎฐัพพะ สิ่งที่มาถูกต้องกาย</PtbFootnote> ธาตุอากาศ ธาตุน้ำ ความเบาแห่งรูป ความอ่อนสลวยแห่งรูป ความควรแก่การงานแห่งรูป ความเติบโตแห่งรูป ความสืบต่อแห่งรูป อาหารที่เป็นคำ ๆ<PtbFootnote>กวฬิงการาหาร อาหารที่ทำให้เป็นคำ ๆ หมายถึงอาหารที่กินได้ ยังมีอาหารประเภทอื่นอีก เช่น ผัสสาหาร อาหารคือสัมผัส มโนสัญเจตนาหาร อาหารคือความจงใจ หรือตั้งใจ วิญญาณาหาร อาหารคือวิญญาณ</PtbFootnote> (อาหารธรรมดาของกาย) ธรรมเหล่านี้ มีจิตเป็นสมุฏฐาน</PtbParagraph>
 
 <PtbParagraph>ธรรมที่ไม่มีจิตเป็นสมุฏฐาน (โน จิตตสมุฏฐาน) เป็นไฉน จิต รูปที่เหลือ (จากที่กล่าวไว้ข้างต้น คือรูปที่มิได้เกิดจากจิต) นิพพาน ธรรมเหล่านี้ ไม่มีจิตเป็นสมุฏฐาน</PtbParagraph>
 
@@ -140,7 +140,7 @@ searchKeywords:
 
 
 
-### ๙๔. ธรรมที่เป็นไปในภายใน และภายนอก<PtbFootnote>ในภาษาศาสนา ชี้ไปถึงอาตนะภายใน อาตนะภายนอก ซึ่งคู่กัน คือ ตา หู จมูก ลิ้น กาย ใจ เป็นอายตนะภายใน รูป เสียง กลิ่น รส โผฏจัพพะ ธรรมะ เป็นอายตนะภายนอก คำว่า โผฏจัพพะ หมายถึงสิ่งที่ถูกต้องได้ ธรรมะ หมายถึงเรื่องที่รู้ได้ด้วยใจ</PtbFootnote> {#Ii2Jmqfwi8 .ptb-h-block}
+### ๙๔. ธรรมที่เป็นไปในภายใน และภายนอก<PtbFootnote>ในภาษาศาสนา ชี้ไปถึงอาตนะภายใน อาตนะภายนอก ซึ่งคู่กัน คือ ตา หู จมูก ลิ้น กาย ใจ เป็นอายตนะภายใน รูป เสียง กลิ่น รส โผฏฐัพพะ ธรรมะ เป็นอายตนะภายนอก คำว่า โผฏฐัพพะ หมายถึงสิ่งที่ถูกต้องได้ ธรรมะ หมายถึงเรื่องที่รู้ได้ด้วยใจ</PtbFootnote> {#Ii2Jmqfwi8 .ptb-h-block}
 
 <PtbParagraph>ธรรมที่เป็นไปในภายในเป็นไฉน จักขายตนะ (ที่ต่อคือตา) โสตายตนะ (ที่ต่อคือหู) ฆานายตนะ (ที่ต่อคือจมูก) ชิวหายตนะ (ที่ต่อคือลิ้น) กายายตนะ (ที่ต่อคือกาย) มนายตนะ (ที่ต่อคือใจ) ธรรมเหล่านี้ เป็นไปในภายใน</PtbParagraph>
 
@@ -160,7 +160,7 @@ searchKeywords:
 
 <PtbParagraph>ขันธ์มี ๕ อายตนะมี ๑๒ ธาตุมี ๑๘ สัจจะมี ๔ อินทรีย์มี ๒๒ เหตุมี ๙ อาหารมี ๔ ผัสสะมี ๗ เวทนามี ๗ สัญญามี ๗ เจตนามี ๗ จิตมี ๗</PtbParagraph>
 
-<PtbTipitakaRef>อภิ.วิ. ๓๔/๑๐๗๓/๔๕๑</PtbTipitakaRef>
+<PtbTipitakaRef>อภิ. วิ. ๓๔/๑๐๗๓/๔๕๑</PtbTipitakaRef>
 
 
 
@@ -190,7 +190,7 @@ searchKeywords:
 
 <PtbParagraph>นี้คือธรรมที่มีความทะยานอยากเป็นมูล ๙ อย่าง</PtbParagraph>
 
-<PtbTipitakaRef>อภิ.วิ. ๓๕/๑๐๒๓/๔๓๘</PtbTipitakaRef>
+<PtbTipitakaRef>อภิ. วิ. ๓๕/๑๐๒๓/๔๓๘</PtbTipitakaRef>
 
 
 
@@ -222,7 +222,7 @@ searchKeywords:
 
 <PtbParagraph>นี้คือเรื่องของกิเลส ๑๐ อย่าง</PtbParagraph>
 
-<PtbTipitakaRef>อภิ.วิ. ๓๕/๑๐๒๖/๔๓๙</PtbTipitakaRef>
+<PtbTipitakaRef>อภิ. วิ. ๓๕/๑๐๒๖/๔๓๙</PtbTipitakaRef>
 
 
 
@@ -244,7 +244,7 @@ searchKeywords:
 
 <PtbParagraph>นี้เรียกว่า ขันธ์ ๕</PtbParagraph>
 
-<PtbTipitakaRef>อภิ.วิ. ๓๕/๑๐๗๕/๔๕๑</PtbTipitakaRef>
+<PtbTipitakaRef>อภิ. วิ. ๓๕/๑๐๗๕/๔๕๑</PtbTipitakaRef>
 
 
 
@@ -280,7 +280,7 @@ searchKeywords:
 
 <PtbParagraph>นี้เรียกว่า อายตนะ ๑๒</PtbParagraph>
 
-<PtbTipitakaRef>อภิ.วิ. ๓๕/๑๐๗๕/๔๕๑</PtbTipitakaRef>
+<PtbTipitakaRef>อภิ. วิ. ๓๕/๑๐๗๕/๔๕๑</PtbTipitakaRef>
 
 
 
@@ -328,7 +328,7 @@ searchKeywords:
 
 <PtbParagraph>นี้เรียกว่า ธาตุ ๑๘</PtbParagraph>
 
-<PtbTipitakaRef>อภิ.วิ. ๓๕/๑๐๗๗/๔๕๑</PtbTipitakaRef>
+<PtbTipitakaRef>อภิ. วิ. ๓๕/๑๐๗๗/๔๕๑</PtbTipitakaRef>
 
 
 
@@ -348,7 +348,7 @@ searchKeywords:
 
 <PtbParagraph>นี้เรียกว่า สัจจะ ๔</PtbParagraph>
 
-<PtbTipitakaRef>อภิ.วิ. ๓๕/๑๐๗๘/๔๕๑</PtbTipitakaRef>
+<PtbTipitakaRef>อภิ. วิ. ๓๕/๑๐๗๘/๔๕๑</PtbTipitakaRef>
 
 
 
@@ -404,7 +404,7 @@ searchKeywords:
 
 <PtbParagraph>นี้เรียกว่า อินทรีย์ ๒๒</PtbParagraph>
 
-<PtbTipitakaRef>อภิ.วิ. ๓๕/๑๐๗๙/๔๕๑</PtbTipitakaRef>
+<PtbTipitakaRef>อภิ. วิ. ๓๕/๑๐๗๙/๔๕๑</PtbTipitakaRef>
 
 
 
@@ -444,7 +444,7 @@ searchKeywords:
 
 <PtbParagraph>นี้เรียกว่า เหตุ ๙</PtbParagraph>
 
-<PtbTipitakaRef>อภิ.วิ. ๓๕/๑๐๘๐/๔๕๑</PtbTipitakaRef>
+<PtbTipitakaRef>อภิ. วิ. ๓๕/๑๐๘๐/๔๕๑</PtbTipitakaRef>
 
 
 
@@ -464,7 +464,7 @@ searchKeywords:
 
 <PtbParagraph>นี้เรียกว่า อาหาร ๔</PtbParagraph>
 
-<PtbTipitakaRef>อภิ.วิ. ๓๕/๑๐๘๑/๔๕๒</PtbTipitakaRef>
+<PtbTipitakaRef>อภิ. วิ. ๓๕/๑๐๘๑/๔๕๒</PtbTipitakaRef>
 
 
 
@@ -490,7 +490,7 @@ searchKeywords:
 
 <PtbParagraph>นี้เรียกว่า ผัสสะ ๗</PtbParagraph>
 
-<PtbTipitakaRef>อภิ.วิ. ๓๕/๑๐๘๒/๔๕๒</PtbTipitakaRef>
+<PtbTipitakaRef>อภิ. วิ. ๓๕/๑๐๘๒/๔๕๒</PtbTipitakaRef>
 
 
 
@@ -514,7 +514,7 @@ searchKeywords:
 
 <PtbParagraph>นี้เรียกว่า เวทนา ๗</PtbParagraph>
 
-<PtbTipitakaRef>อภิ.วิ. ๓๕/๑๐๘๓/๔๕๒</PtbTipitakaRef>
+<PtbTipitakaRef>อภิ. วิ. ๓๕/๑๐๘๓/๔๕๒</PtbTipitakaRef>
 
 
 
@@ -540,7 +540,7 @@ searchKeywords:
 
 <PtbParagraph>นี้เรียกว่า สัญญา ๗</PtbParagraph>
 
-<PtbTipitakaRef>อภิ.วิ. ๓๕/๑๐๘๔/๔๕๒</PtbTipitakaRef>
+<PtbTipitakaRef>อภิ. วิ. ๓๕/๑๐๘๔/๔๕๒</PtbTipitakaRef>
 
 
 
@@ -566,7 +566,7 @@ searchKeywords:
 
 <PtbParagraph>นี้เรียกว่า เจตนา ๗</PtbParagraph>
 
-<PtbTipitakaRef>อภิ.วิ. ๓๕/๑๐๘๕/๔๕๓</PtbTipitakaRef>
+<PtbTipitakaRef>อภิ. วิ. ๓๕/๑๐๘๕/๔๕๓</PtbTipitakaRef>
 
 
 
@@ -594,5 +594,5 @@ searchKeywords:
 
 <PtbParagraph>(หมายเหตุ: การแบ่งจำนวนหรือหัวข้อธรรมะที่นำมาแปลนี้ เป็นวิธีจัดจำนวนโดยนัยหนึ่งของอภิธัมมปิฎก ในที่อื่นอาจจะแบ่งหรือจัดจำนวนแตกต่างออกไปตามความประสงค์ในการแสดงธรรม ให้เหมาะสมแก่โอกาสที่ต้องการ)</PtbParagraph>
 
-<PtbTipitakaRef>อภิ.วิ. ๓๕/๑๐๘๖/๔๕๓</PtbTipitakaRef>
+<PtbTipitakaRef>อภิ. วิ. ๓๕/๑๐๘๖/๔๕๓</PtbTipitakaRef>
 

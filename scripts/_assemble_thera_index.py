@@ -6,7 +6,7 @@ import re
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
-path = ROOT / "docs/10-part-5-academic-notes-and-index/word-index/persons/thera/index.md"
+path = ROOT / "docs/10-part-5-word-index/persons/thera/index.md"
 text = path.read_text(encoding="utf-8")
 
 

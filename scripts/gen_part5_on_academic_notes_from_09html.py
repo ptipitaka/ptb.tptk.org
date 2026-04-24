@@ -1,9 +1,9 @@
 # -*- coding: utf-8 -*-
 """
-สกัดเนื้อหา ภาค ๕ — ว่าด้วยบันทึกทางวิชาการ จาก Initial_source/html5/09.html
+สกัดเนื้อหา ว่าด้วยบันทึกทางวิชาการ จาก Initial_source/html5/09.html
 
-โฟลเดอร์ปลายทาง: docs/10-part-5-academic-notes-and-index/on-academic-notes/index.md
-(สารบัญค้นคำ word-index ยังไม่ดำเนินการ — แยกสคริปต์ภายหลัง)
+ไฟล์ปลายทาง: docs/11-on-academic-notes/index.md
+(สารบัญค้นคำอยู่ที่ docs/10-part-5-word-index/ — แยกสคริปต์ภายหลัง)
 
 อ้างอิงแนวทางเดียวกับ gen_part4_abhidhamma_pitaka_from_08html.py:
   - อ่านช่วงบรรทัดของ 09.html (PART5_ACADEMIC_NOTES_LINE_RANGE)
@@ -12,7 +12,7 @@
     CharOverride-3 = เน้นความ (**…**); CharOverride-4 = หมายเลขยก (sup)
   - normalize_quotes → polish_thai_text → convert_body_part5
   - coalesce_thai_numbered_lists, typographic_quotes_transform
-  - หลังรีเจน: python scripts/ensure_ptb_heading_ids.py docs/10-part-5-academic-notes-and-index -r --write
+  - หลังรีเจน: python scripts/ensure_ptb_heading_ids.py docs/11-on-academic-notes docs/10-part-5-word-index -r --write
 
 ช่วง HTML: บรรทัด ๓๕–๑๓๒ ครอบคลุมเนื้อหาหลักใน _idContainer007 และเชิงอรรถ/ตารางท้าย (Paragraph-Style-3)
 
@@ -31,13 +31,7 @@ from typographic_quotes_docs import transform as typographic_quotes_transform
 
 ROOT = Path(__file__).resolve().parents[1]
 HTML_PATH = ROOT / "Initial_source" / "html5" / "09.html"
-OUT_MD = (
-    ROOT
-    / "docs"
-    / "10-part-5-academic-notes-and-index"
-    / "on-academic-notes"
-    / "index.md"
-)
+OUT_MD = ROOT / "docs" / "11-on-academic-notes" / "index.md"
 
 # บรรทัด ๑ ของไฟล์ = ๑ (รวมหัวข้อซ้ำ «ว่าด้วยบันทึกทางวิชาการ» แล้วตัดด้วยสคริปต์)
 PART5_ACADEMIC_NOTES_LINE_RANGE: tuple[int, int] = (35, 132)
@@ -55,15 +49,15 @@ SKIP_PARAGRAPH_TEXTS = frozenset(
     }
 )
 
-H1_FULL = "ภาค ๕ ว่าด้วยบันทึกทางวิชาการ"
+H1_FULL = "ว่าด้วยบันทึกทางวิชาการ"
 TITLE_NAV = "ว่าด้วยบันทึกทางวิชาการ"
 # เติม {#…} ถาวรด้วย ensure_ptb_heading_ids.py
 H1_ANCHOR_PLACEHOLDER = "p5AcNotes01"
 
-PREV_TEXT = "ภาค ๕ เกริ่นนำ"
-PREV_LINK = "/part-5-academic-notes-and-index/"
-NEXT_TEXT = "สารบัญค้นคำ"
-NEXT_LINK = "/part-5-academic-notes-and-index/word-index/"
+PREV_TEXT = "เล่ม ๔๕ ปัฏฐาน ภาค ๖"
+PREV_LINK = "/part-4-tipitaka-digest/abhidhamma-pitaka/vol-45"
+NEXT_TEXT = "ภาค ๕ สารบัญค้นคำ"
+NEXT_LINK = "/word-index/"
 
 
 def normalize_quotes(t: str) -> str:

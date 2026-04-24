@@ -1,7 +1,12 @@
 import { defineConfig } from 'vitepress'
 import attrs from 'markdown-it-attrs'
 import { part4DigestRewrites, part4DigestSidebar } from './part4-digest'
-import { part5DigestRewrites, part5DigestSidebar } from './part5-digest'
+import {
+  onAcademicNotesRewrites,
+  onAcademicNotesSidebar,
+  wordIndexRewrites,
+  wordIndexSidebar,
+} from './part5-digest'
 
 /**
  * Thai + Pali tokenizer — INDEX side (lightweight, no n-grams).
@@ -130,10 +135,11 @@ export default defineConfig({
     '08-part-3-tipitaka-selected-passages/abhidhamma-pitaka/index.md':
       'part-3-tipitaka-selected-passages/abhidhamma-pitaka/index.md',
     ...part4DigestRewrites(),
-    ...part5DigestRewrites(),
-    '11-biography-sujib-punyanubhab/index.md': 'biography-sujib-punyanubhab/index.md',
-    '12-working-committee/index.md': 'working-committee/index.md',
-    '13-peoples-tipitaka-foundation/index.md': 'peoples-tipitaka-foundation/index.md',
+    ...onAcademicNotesRewrites(),
+    ...wordIndexRewrites(),
+    '12-biography-sujib-punyanubhab/index.md': 'biography-sujib-punyanubhab/index.md',
+    '13-working-committee/index.md': 'working-committee/index.md',
+    '14-peoples-tipitaka-foundation/index.md': 'peoples-tipitaka-foundation/index.md',
   },
   themeConfig: {
     outline: 'deep',
@@ -250,7 +256,8 @@ export default defineConfig({
         ],
       },
       part4DigestSidebar(),
-      part5DigestSidebar(),
+      wordIndexSidebar(),
+      onAcademicNotesSidebar(),
       {
         text: 'ประวัติสังเขป อาจารย์สุชีพ',
         link: '/biography-sujib-punyanubhab/',

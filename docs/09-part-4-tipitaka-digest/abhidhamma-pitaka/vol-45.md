@@ -4,7 +4,7 @@ lang: th
 description: ความย่อแห่งพระไตรปิฎก — เล่ม ๔๕ ปัฏฐาน ภาค ๖
 outline: [2, 6]
 prev: { text: 'เล่ม ๔๔ ปัฏฐาน ภาค ๕', link: '/part-4-tipitaka-digest/abhidhamma-pitaka/vol-44' }
-next: { text: 'ภาค ๕ บันทึกทางวิชาการและสารบัญค้นคำ', link: '/part-5-academic-notes-and-index/' }
+next: { text: 'ว่าด้วยบันทึกทางวิชาการ', link: '/on-academic-notes/' }
 searchKeywords:
   - ภาค ๔
   - ความย่อแห่งพระไตรปิฎก

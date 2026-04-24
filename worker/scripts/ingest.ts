@@ -75,9 +75,45 @@ function buildRewrites(): Record<string, string> {
       'part-3-tipitaka-selected-passages/khuddaka-nikaya/index.md',
     '08-part-3-tipitaka-selected-passages/abhidhamma-pitaka/index.md':
       'part-3-tipitaka-selected-passages/abhidhamma-pitaka/index.md',
-    '11-biography-sujib-punyanubhab/index.md': 'biography-sujib-punyanubhab/index.md',
-    '12-working-committee/index.md': 'working-committee/index.md',
-    '13-peoples-tipitaka-foundation/index.md': 'peoples-tipitaka-foundation/index.md',
+    '12-biography-sujib-punyanubhab/index.md': 'biography-sujib-punyanubhab/index.md',
+    '13-working-committee/index.md': 'working-committee/index.md',
+    '14-peoples-tipitaka-foundation/index.md': 'peoples-tipitaka-foundation/index.md',
+  }
+
+  const part6WordIndex = '10-part-5-word-index'
+  const part6WordIndexUrl = 'word-index'
+  const part6WordIndexCategories = [
+    'key-doctrines',
+    'doctrinal-terms',
+    'persons',
+    'events',
+    'scriptures',
+    'vinaya-terms',
+    'places',
+    'cosmology',
+    'jataka-and-perfections',
+    'tipitaka-history',
+  ] as const
+  const part6WordIndexPersons = [
+    'buddha',
+    'thera',
+    'theri',
+    'rulers',
+    'gahapati',
+    'upasaka',
+    'upasika',
+    'devas',
+    'sect-leaders',
+  ] as const
+
+  map['11-on-academic-notes/index.md'] = 'on-academic-notes/index.md'
+  map[`${part6WordIndex}/index.md`] = `${part6WordIndexUrl}/index.md`
+  for (const cat of part6WordIndexCategories) {
+    map[`${part6WordIndex}/${cat}/index.md`] = `${part6WordIndexUrl}/${cat}/index.md`
+  }
+  for (const slug of part6WordIndexPersons) {
+    map[`${part6WordIndex}/persons/${slug}/index.md`] =
+      `${part6WordIndexUrl}/persons/${slug}/index.md`
   }
 
   const suttaNikayaMap: Record<string, [number, number]> = {

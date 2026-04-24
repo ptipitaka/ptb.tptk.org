@@ -1,7 +1,7 @@
 import re
 from pathlib import Path
 
-t = Path("docs/10-part-5-academic-notes-and-index/word-index/persons/thera/index.md").read_text(
+t = Path("docs/10-part-5-word-index/persons/thera/index.md").read_text(
     encoding="utf-8"
 )
 allm = list(

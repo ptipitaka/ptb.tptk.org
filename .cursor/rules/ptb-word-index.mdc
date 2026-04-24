@@ -1,12 +1,12 @@
 ---
-description: PTB สารบัญค้นคำ (word-index ภาค ๕) — term/desc โครงอ้างอิง ธง
-globs: docs/10-part-5-academic-notes-and-index/word-index/**/*.md
+description: PTB ภาค ๕ สารบัญค้นคำ (docs/10-part-5-word-index) — term/desc โครงอ้างอิง ธง
+globs: docs/10-part-5-word-index/**/*.md
 alwaysApply: false
 ---
 
-# Word index — สารบัญค้นคำ (ภาค ๕)
+# Word index — ภาค ๕ สารบัญค้นคำ
 
-ใช้กับ **ทุกหน้า** ใต้ `docs/10-part-5-academic-notes-and-index/word-index/` — รวมดัชนี **บุคคล สถานที่ คำธรรม เหตุการณ์ ฯลฯ** (`places/`, `persons/`, `key-doctrines/`, `index.md` แต่ละหมวด ฯลฯ) ไม่จำกัดเฉพาะบุคคล
+ใช้กับ **ทุกหน้า** ใต้ `docs/10-part-5-word-index/` — รวมดัชนี **บุคคล สถานที่ คำธรรม เหตุการณ์ ฯลฯ** (`places/`, `persons/`, `key-doctrines/`, `index.md` แต่ละหมวด ฯลฯ) ไม่จำกัดเฉพาะบุคคล
 
 ## `term` กับ `desc` (ทั่วไป)
 

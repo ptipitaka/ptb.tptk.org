@@ -10,7 +10,7 @@ sys.path.insert(0, str(Path(__file__).resolve().parent))
 from ptb_word_index_sort_key import set_thai_locale, sort_key_tuple
 
 ROOT = Path(__file__).resolve().parents[1]
-PATH = ROOT / "docs/10-part-5-academic-notes-and-index/word-index/persons/rulers/index.md"
+PATH = ROOT / "docs/10-part-5-word-index/persons/rulers/index.md"
 
 H11 = "### ๑.๑ ก่อนพุทธกาล จนถึงในสมัยพุทธกาล {.ptb-h-block}\n"
 H12 = "### ๑.๒ หลังพุทธกาล {.ptb-h-block}\n"

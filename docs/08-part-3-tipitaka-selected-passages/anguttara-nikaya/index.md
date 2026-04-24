@@ -207,7 +207,7 @@ searchKeywords:
 
 <PtbParagraph>“ดูก่อนภิกษุทั้งหลาย การแสวงหามี ๒ อย่าง คือการแสวงหาอามิส กับ การแสวงหาธรรม ในการแสวงหาทั้งสองอย่างนี้ การแสวงหาธรรมเป็นเลิศ”</PtbParagraph>
 
-<PtbTipitakaRef>องฺ.ทุก. ๒๐/๓๙๘/๑๐๓</PtbTipitakaRef>
+<PtbTipitakaRef>องฺ. ทุก. ๒๐/๓๙๘/๑๐๓</PtbTipitakaRef>
 
 
 <hr class="ptb-hr-full" />
@@ -229,7 +229,7 @@ searchKeywords:
 
 <PtbParagraph>ตถาคตตรัสรู้เข้าใจทำนองธรรมนั้น ครั้นตรัสรู้แล้ว เข้าใจชัดแล้ว ก็บอก แสดง บัญญัติ ตั้งไว้ เปิดเผย แจกแจง ทำให้ง่ายถึงข้อที่ว่า สังขารทั้งปวงไม่เที่ยง สังขารทั้งปวง เป็นทุกข์ ธรรมทั้งปวงไม่ใช่ตัวตน”</PtbParagraph>
 
-<PtbTipitakaRef>องฺ.ติก. ๒๐/๕๗๖/๓๒๑</PtbTipitakaRef>
+<PtbTipitakaRef>องฺ. ติก. ๒๐/๕๗๖/๓๒๑</PtbTipitakaRef>
 
 
 
@@ -237,7 +237,7 @@ searchKeywords:
 
 <PtbParagraph>“ดูก่อนภิกษุทั้งหลาย สัตว์เหล่าใดประพฤติสุจริตทางกาย วาจา ใจ ในเวลาเช้า เช้าวันนั้น ย่อมเป็นเช้าที่ดีของสัตว์เหล่านั้น สัตว์เหล่าใดประพฤติสุจริตทางกาย วาจา ใจ ในเวลากลางวัน กลางวันนั้นย่อมเป็นกลางวันที่ดีของสัตว์เหล่านั้น สัตว์เหล่าใดประพฤติสุจริตทางกาย วาจา ใจ ในเวลาเย็น เย็นวันนั้นย่อมเป็นเย็นที่ดีของสัตว์เหล่านั้น”</PtbParagraph>
 
-<PtbTipitakaRef>องฺ.ติก. ๒๐/๕๙๕/๓๓๑</PtbTipitakaRef>
+<PtbTipitakaRef>องฺ. ติก. ๒๐/๕๙๕/๓๓๑</PtbTipitakaRef>
 
 
 <hr class="ptb-hr-full" />
@@ -406,7 +406,7 @@ searchKeywords:
 
 <PtbListItem marker="(๓)">ผู้บวชเมื่อแก่ ที่รับโอวาทโดยเคารพ<PtbFootnote>ปทกฺขิณคฺคาหี รับโดยเบื้องขวา หมายความว่า รับโดยความเคารพ</PtbFootnote> หาได้ยาก</PtbListItem>
 
-<PtbListItem marker="(๔)">ผู้บวชเมื่อแก่ เป็นพระธรรมกถึก หากได้ยาก</PtbListItem>
+<PtbListItem marker="(๔)">ผู้บวชเมื่อแก่ เป็นพระธรรมกถึก หาได้ยาก</PtbListItem>
 
 <PtbListItem marker="(๕)">ผู้บวชเมื่อแก่ เป็นผู้ทรงพระวินัย หาได้ยาก”</PtbListItem>
 </PtbList>
@@ -461,7 +461,7 @@ searchKeywords:
 
 ### ๕๐. ผู้ตกนรก {#ITqMeEc5u4 .ptb-h-block}
 
-<PtbParagraph>“ดูก่อนภิกษุทั้งหลาย บุคคลผู้ประกอบด้วยธรรม ๕ อย่าง ย่อมตกนรกเหมือน ถูกนำตัวไปวางไว้ ธรรม ๕ อย่าง คือ</PtbParagraph>
+<PtbParagraph>“ดูก่อนภิกษุทั้งหลาย บุคคลผู้ประกอบด้วยธรรม ๕ อย่าง ย่อมตกนรกเหมือนถูกนำตัวไปวางไว้ ธรรม ๕ อย่าง คือ</PtbParagraph>
 
 <PtbList markerWidth="5ch">
 <PtbListItem marker="(๑)">เป็นผู้มักฆ่าสัตว์</PtbListItem>
@@ -567,7 +567,7 @@ searchKeywords:
 
 <PtbParagraph>“ข้าพระองค์ทั้งหลายเคยได้เห็นเคยได้ฟังและจักได้ฟัง พระเจ้าข้า”</PtbParagraph>
 
-<PtbTipitakaRef>องฺ.ปญฺจก. ๒๒/๑๗๘/๑๙๘</PtbTipitakaRef>
+<PtbTipitakaRef>องฺ. ปญฺจก. ๒๒/๑๗๘/๑๙๘</PtbTipitakaRef>
 
 
 
@@ -820,7 +820,7 @@ searchKeywords:
 
 <PtbListItem marker="(๔)">หลง ถึงแก่ความตาย</PtbListItem>
 
-<PtbListItem marker="(๕)">สิ้นชีวิตแล้ว ย่อมเข้าถึงอบาย ทุคคติ วินิบาต นรก</PtbListItem>
+<PtbListItem marker="(๕)">สิ้นชีวิตแล้ว ย่อมเข้าถึงอบาย ทุคคติ วินิบาต นรก”</PtbListItem>
 </PtbList>
 
 <PtbParagraph>ดูก่อนภิกษุทั้งหลาย โทษของความไม่อดทน ๕ ประการเหล่านี้แล”</PtbParagraph>
@@ -887,7 +887,7 @@ searchKeywords:
 
 <PtbParagraph>“ดูก่อนภิกษุทั้งหลาย เราไม่เห็นการถูกจองจำอย่างอื่นสักอย่างเดียว ที่ทารุณ ที่นำทุกข์มาให้ ที่ทำอันตรายแก่การบรรลุธรรมะอันปลอดโปร่งจากกิเลส อันเป็นธรรม ยอดเยี่ยม เหมือนการถูกจองจำในนรก หรือในกำเนิดสัตว์ดิรัจฉานนี้เลย”</PtbParagraph>
 
-<PtbTipitakaRef>องฺ.ฉกฺก. ๒๒/๓๑๖/๓๓๓</PtbTipitakaRef>
+<PtbTipitakaRef>องฺ. ฉกฺก. ๒๒/๓๑๖/๓๓๓</PtbTipitakaRef>
 
 
 
@@ -1047,7 +1047,7 @@ searchKeywords:
 <PtbListItem marker="เพื่อละ">ปมาทะ (ความประมาท)</PtbListItem>
 </PtbList>
 
-<PtbTipitakaRef>องฺ.ฉกฺก. ๒๒/๓๗๙ - ๓๘๗/๔๒๑ - ๔๒๓</PtbTipitakaRef>
+<PtbTipitakaRef>องฺ. ฉกฺก. ๒๒/๓๗๙ - ๓๘๗/๔๒๑ - ๔๒๓</PtbTipitakaRef>
 
 
 <hr class="ptb-hr-full" />

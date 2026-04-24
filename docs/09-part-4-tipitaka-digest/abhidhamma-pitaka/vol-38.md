@@ -47,7 +47,7 @@ searchKeywords:
 
 <PtbListItem>ธัมมยมก ธรรมเป็นคู่คือธรรม และ</PtbListItem>
 
-<PtbListItem>อินทรียยมก ธรรมเป็นคู่คืออินทรีย์ (สภาพที่เป็นใหญ่ในหน้าที่ของตน)</PtbListItem>
+<PtbListItem>อินทริยยมก ธรรมเป็นคู่คืออินทรีย์ (สภาพที่เป็นใหญ่ในหน้าที่ของตน)</PtbListItem>
 
 </PtbList>
 
@@ -79,7 +79,7 @@ searchKeywords:
 
 <PtbListItem>อาหาร</PtbListItem>
 
-<PtbListItem>อามรมณ์</PtbListItem>
+<PtbListItem>อารมณ์</PtbListItem>
 
 <PtbListItem>ปัจจัย (เครื่องสนับสนุน)</PtbListItem>
 
@@ -491,7 +491,7 @@ searchKeywords:
 
 <PtbListItem markerSpacer>อนุสัยคือกามราคะของผู้ใดย่อมแฝงตัวตาม</PtbListItem>
 
-<PtbListItem markerSpacer indentLevel="1.5">อนุสัยปฏิฆะของผู้นั้นย่อมแฝงตัวตาม ใช่หรือไม่ ใช่</PtbListItem>
+<PtbListItem markerSpacer indentLevel="1.5">อนุสัยคือปฏิฆะของผู้นั้นย่อมแฝงตัวตาม ใช่หรือไม่ ใช่</PtbListItem>
 
 <PtbListItem markerSpacer>อนึ่ง อนุสัยคือปฏิฆะของผู้ใดย่อมแฝงตัวตาม</PtbListItem>
 
