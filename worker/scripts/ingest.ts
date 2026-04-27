@@ -96,14 +96,14 @@ function buildRewrites(): Record<string, string> {
   ] as const
   const part6WordIndexPersons = [
     'buddha',
-    'thera',
-    'theri',
+    'bhikkhu',
+    'bhikkhuni',
     'rulers',
     'gahapati',
     'upasaka',
     'upasika',
     'devas',
-    'sect-leaders',
+    'other-sects',
   ] as const
 
   map['11-on-academic-notes/index.md'] = 'on-academic-notes/index.md'

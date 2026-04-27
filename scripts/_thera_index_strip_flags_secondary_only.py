@@ -5,7 +5,7 @@ from __future__ import annotations
 import re
 from pathlib import Path
 
-PATH = Path("docs/10-part-5-word-index/persons/thera/index.md")
+PATH = Path("docs/10-part-5-word-index/persons/bhikkhu/index.md")
 
 LINK_RE = re.compile(r"<PtbWordIndexLink\b[^>]*/>")
 

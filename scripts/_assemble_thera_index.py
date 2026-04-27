@@ -1,4 +1,4 @@
-# One-off: rebuild thera/index.md — run from repo root:
+# One-off: rebuild bhikkhu/index.md — run from repo root:
 #   python scripts/_assemble_thera_index.py
 from __future__ import annotations
 
@@ -6,7 +6,7 @@ import re
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
-path = ROOT / "docs/10-part-5-word-index/persons/thera/index.md"
+path = ROOT / "docs/10-part-5-word-index/persons/bhikkhu/index.md"
 text = path.read_text(encoding="utf-8")
 
 

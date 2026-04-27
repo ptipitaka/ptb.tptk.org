@@ -9,25 +9,16 @@ const props = defineProps<{
   /** ข้อความบนลิงก์ + tooltip */
   label?: string
   /**
-   * ระดับความเกี่ยวข้องกับรายการบุคคล (ดู `.cursor/rules/ptb-word-index.mdc`)
-   * — primary: เรื่องราวของผู้นั้นโดยตรง
-   * — secondary: ผู้นั้นมีบทบาทสำคัญในเรื่อง (รวมผู้ถามที่นำไปสู่เหตุการณ์หรือผลสำคัญ เช่น บัญญัติสิกขาบท)
+   * ระดับอ้างอิง (สี/น้ำหนักลิงก์) ตาม `.cursor/rules/ptb-word-index.mdc`
+   * ไม่ใส่ในพร็อพ `title` — tooltip แสดงเท่าที่ `label` เท่านั้น
    */
   tier?: 'primary' | 'secondary'
 }>()
 
 const defaultLabel = 'เปิดความย่อในพระไตรปิฎกฉบับสำหรับประชาชน'
 
-const linkTitle = computed(() => {
-  const base = props.label ?? defaultLabel
-  if (props.tier === 'primary') {
-    return `${base} — อ้างอิงระดับ ๑: เนื้อหาเกี่ยวกับผู้นี้โดยตรง`
-  }
-  if (props.tier === 'secondary') {
-    return `${base} — อ้างอิงระดับ ๒: บทบาทสำคัญในเรื่อง`
-  }
-  return base
-})
+/** Tooltip: ตรงกับ breadcrumb ใน label เท่านั้น (ไม่ต่อท้ายข้อความอ้างอิงระดับ) */
+const linkTitle = computed(() => props.label ?? defaultLabel)
 
 const linkClass = computed(() => {
   return [

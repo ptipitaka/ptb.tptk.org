@@ -4,7 +4,7 @@ lang: th
 description: ดัชนีชื่อบุคคล — พระพุทธเจ้า — ภาค ๕ สารบัญค้นคำ พระไตรปิฎกฉบับสำหรับประชาชน
 outline: [2, 6]
 prev: { text: 'ชื่อบุคคล', link: '/word-index/persons/' }
-next: { text: 'พระเถระ', link: '/word-index/persons/thera/' }
+next: { text: 'พระภิกษุ', link: '/word-index/persons/bhikkhu/' }
 searchKeywords:
   - ชื่อบุคคล
   - พระพุทธเจ้า

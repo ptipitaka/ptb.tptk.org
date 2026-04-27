@@ -33,7 +33,7 @@ searchKeywords:
 <a class="wi-card" href="/word-index/persons/">
 <span class="wi-card__number">๓</span>
 <p class="wi-card__title">ชื่อบุคคล</p>
-<p class="wi-card__desc">พระพุทธเจ้า · พระเถระ · พระเถรี · พระราชา-มหาอำมาตย์ · คฤหบดี เศรษฐี · อุบาสก · อุบาสิกา · เทวดา · เจ้าลัทธิ</p>
+<p class="wi-card__desc">พระพุทธเจ้า · พระเถระ · พระเถรี · พระราชา · มหาอำมาตย์ · เศรษฐี คฤหบดี · อุบาสก · อุบาสิกา · เทวดา · บุคคลในลัทธิอื่น</p>
 </a>
 
 <a class="wi-card" href="/word-index/places/">

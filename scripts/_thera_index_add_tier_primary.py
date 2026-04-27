@@ -1,11 +1,11 @@
 #!/usr/bin/env python3
-"""Add tier=\"primary\" to PtbWordIndexLink in thera/index.md when tier is absent."""
+"""Add tier=\"primary\" to PtbWordIndexLink in bhikkhu/index.md when tier is absent."""
 from __future__ import annotations
 
 import re
 from pathlib import Path
 
-PATH = Path("docs/10-part-5-word-index/persons/thera/index.md")
+PATH = Path("docs/10-part-5-word-index/persons/bhikkhu/index.md")
 
 LINK_RE = re.compile(
     r'(<PtbWordIndexLink\s+href="[^"]+"\s+label="[^"]*")(\s+tier="(?:primary|secondary)")?(\s*/>)'

@@ -9,7 +9,7 @@ import re
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
-PATH = ROOT / "docs/10-part-5-word-index/persons/thera/index.md"
+PATH = ROOT / "docs/10-part-5-word-index/persons/bhikkhu/index.md"
 
 # h2 may have ensure_ptb_heading_ids: `{#… .ptb-h-block}` or plain `{.ptb-h-block}`
 SECTION_LINE_START = "## พระเถระอื่น ๆ (เรียงตามอักษร)"

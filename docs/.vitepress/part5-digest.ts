@@ -6,14 +6,15 @@ const WI_URL = 'word-index'
 /** หน้าย่อยภายใต้ภาค ๕ สารบัญค้นคำ — ชื่อบุคคล */
 const wordIndexPersonsSubpages = [
   'buddha',
-  'thera',
-  'theri',
+  'bhikkhu',
+  'bhikkhuni',
   'rulers',
+  'maha-amatya',
   'gahapati',
   'upasaka',
   'upasika',
   'devas',
-  'sect-leaders',
+  'other-sects',
 ] as const
 
 const wordIndexCategories = [
@@ -82,19 +83,23 @@ export function wordIndexSidebar(): DefaultTheme.SidebarItem {
             link: `/${WI_URL}/persons/buddha/`,
           },
           {
-            text: 'พระเถระ',
-            link: `/${WI_URL}/persons/thera/`,
+            text: 'พระภิกษุ',
+            link: `/${WI_URL}/persons/bhikkhu/`,
           },
           {
-            text: 'พระเถรี',
-            link: `/${WI_URL}/persons/theri/`,
+            text: 'พระภิกษุณี',
+            link: `/${WI_URL}/persons/bhikkhuni/`,
           },
           {
-            text: 'พระราชา-มหาอำมาตย์',
+            text: 'พระราชา',
             link: `/${WI_URL}/persons/rulers/`,
           },
           {
-            text: 'คฤหบดี เศรษฐี',
+            text: 'มหาอำมาตย์',
+            link: `/${WI_URL}/persons/maha-amatya/`,
+          },
+          {
+            text: 'เศรษฐี คฤหบดี',
             link: `/${WI_URL}/persons/gahapati/`,
           },
           {
@@ -110,8 +115,8 @@ export function wordIndexSidebar(): DefaultTheme.SidebarItem {
             link: `/${WI_URL}/persons/devas/`,
           },
           {
-            text: 'เจ้าลัทธิ',
-            link: `/${WI_URL}/persons/sect-leaders/`,
+            text: 'บุคคลในลัทธิอื่น',
+            link: `/${WI_URL}/persons/other-sects/`,
           },
         ],
       },
