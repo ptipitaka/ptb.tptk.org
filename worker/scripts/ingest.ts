@@ -86,13 +86,9 @@ function buildRewrites(): Record<string, string> {
     'key-doctrines',
     'doctrinal-terms',
     'persons',
-    'events',
     'scriptures',
     'vinaya-terms',
     'places',
-    'cosmology',
-    'jataka-and-perfections',
-    'tipitaka-history',
   ] as const
   const part6WordIndexPersons = [
     'buddha',

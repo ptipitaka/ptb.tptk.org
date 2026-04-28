@@ -4,7 +4,7 @@ lang: th
 description: ดัชนีศัพท์เกี่ยวกับพระวินัย — ภาค ๕ สารบัญค้นคำ พระไตรปิฎกฉบับสำหรับประชาชน
 outline: [2, 6]
 prev: { text: 'ชื่อคัมภีร์', link: '/word-index/scriptures/' }
-next: { text: 'จักรวาลวิทยาและสังสารวัฏ', link: '/word-index/cosmology/' }
+next: { text: 'ประวัติสังเขป อาจารย์สุชีพ', link: '/biography-sujib-punyanubhab/' }
 searchKeywords:
   - พระวินัย
   - วินัยปิฎก

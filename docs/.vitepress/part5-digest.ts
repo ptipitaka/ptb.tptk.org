@@ -21,13 +21,9 @@ const wordIndexCategories = [
   'key-doctrines',
   'doctrinal-terms',
   'persons',
-  'events',
   'scriptures',
   'vinaya-terms',
   'places',
-  'cosmology',
-  'jataka-and-perfections',
-  'tipitaka-history',
 ] as const
 
 /** rewrites: บันทึกทางวิชาการ — โฟลเดอร์ 11-on-academic-notes */
@@ -125,28 +121,12 @@ export function wordIndexSidebar(): DefaultTheme.SidebarItem {
         link: `/${WI_URL}/places/`,
       },
       {
-        text: '๕. เหตุการณ์สำคัญ',
-        link: `/${WI_URL}/events/`,
-      },
-      {
-        text: '๖. ชื่อคัมภีร์',
+        text: '๕. ชื่อคัมภีร์',
         link: `/${WI_URL}/scriptures/`,
       },
       {
-        text: '๗. ศัพท์เกี่ยวกับพระวินัย',
+        text: '๖. ศัพท์เกี่ยวกับพระวินัย',
         link: `/${WI_URL}/vinaya-terms/`,
-      },
-      {
-        text: '๘. จักรวาลวิทยาและสังสารวัฏ',
-        link: `/${WI_URL}/cosmology/`,
-      },
-      {
-        text: '๙. ชาดก อดีตชาติ และบารมี',
-        link: `/${WI_URL}/jataka-and-perfections/`,
-      },
-      {
-        text: '๑๐. บุคคลในประวัติศาสตร์',
-        link: `/${WI_URL}/tipitaka-history/`,
       },
     ],
   }

@@ -66,6 +66,21 @@ function searchIndex(queryEmbedding: number[], topK: number): IndexEntry[] {
   return scored.slice(0, topK).map((s) => s.entry)
 }
 
+/** Worker returns JSON `{ error: string }` on failure; surface it in the UI. */
+async function readWorkerError(res: Response): Promise<string> {
+  try {
+    const text = await res.text()
+    if (text) {
+      const parsed = JSON.parse(text) as { error?: string }
+      if (typeof parsed?.error === 'string' && parsed.error.trim()) return parsed.error.trim()
+      if (text.length < 500) return text.trim()
+    }
+  } catch {
+    // ignore
+  }
+  return `HTTP ${res.status}`
+}
+
 async function expandQuery(text: string): Promise<string[]> {
   try {
     const res = await fetch(`${CHAT_API}/api/expand`, {
@@ -89,7 +104,7 @@ async function getEmbedding(text: string): Promise<number[]> {
     headers: { 'Content-Type': 'application/json' },
     body: JSON.stringify(queries.length > 1 ? { texts: queries } : { text: queries[0] }),
   })
-  if (!res.ok) throw new Error(`Embed API error: ${res.status}`)
+  if (!res.ok) throw new Error(await readWorkerError(res))
   const data = await res.json()
   return data.embedding
 }
@@ -163,7 +178,10 @@ async function send() {
       body: JSON.stringify({ question: q, context }),
     })
 
-    if (!res.ok || !res.body) {
+    if (!res.ok) {
+      throw new Error(await readWorkerError(res))
+    }
+    if (!res.body) {
       throw new Error(`HTTP ${res.status}`)
     }
 

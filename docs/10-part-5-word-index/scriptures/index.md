@@ -3,7 +3,7 @@ title: ชื่อคัมภีร์
 lang: th
 description: ดัชนีชื่อคัมภีร์ในพระไตรปิฎก
 outline: [2, 6]
-prev: { text: 'เหตุการณ์สำคัญ', link: '/word-index/events/' }
+prev: { text: 'ชื่อสถานที่', link: '/word-index/places/' }
 next: { text: 'ศัพท์เกี่ยวกับพระวินัย', link: '/word-index/vinaya-terms/' }
 searchKeywords:
   - ชื่อคัมภีร์

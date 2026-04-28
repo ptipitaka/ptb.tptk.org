@@ -21,7 +21,7 @@ searchKeywords:
 
 #### หมวด ก {#p5dt-G .ptb-h-block}
 
-<PtbWordIndexEntry term="กถาวัตถุ (กถาวัตถุ ๑๐)" desc="ถ้อยคำที่ควรพูด เรื่องที่ควรนำมาสนทนาในหมู่ภิกษุ ๑๐ อย่าง เช่น เรื่องความมักน้อย สันโดษ ความสงัด">
+<PtbWordIndexEntry term="กถาวัตถุ" desc="ถ้อยคำที่ควรพูด เรื่องที่ควรนำมาสนทนาในหมู่ภิกษุ ๑๐ อย่าง เช่น เรื่องความมักน้อย สันโดษ ความสงัด">
 
 <PtbWordIndexRefs>
   <PtbWordIndexLink href="/part-4-tipitaka-digest/sutta-pitaka/anguttara-nikaya/vol-24#QLxYLZYwqj" label="ภาค ๔ เล่ม ๒๔ — อังคุตตรนิกาย — ทสกนิบาต — วรรคที่ ๒ ชื่อยมกวรรค — กถาวัตถุ ๑๐" tier="primary" />
