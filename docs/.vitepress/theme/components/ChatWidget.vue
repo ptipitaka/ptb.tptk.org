@@ -3,7 +3,16 @@ import { ref, nextTick, onMounted, onUnmounted } from 'vue'
 
 const CHAT_API = import.meta.env.VITE_CHAT_API_URL ?? 'https://ptb-chat.polished-frost-545c.workers.dev'
 const INDEX_URL = import.meta.env.BASE_URL + 'chat-index.json'
-const TOP_K = 8
+/** จำนวน chunk สูงสุดส่งเข้าโมเดล — ลดค่าเพื่อลด input token และความเสี่ยง rate limit (TPM) */
+const TOP_K = 4
+/** จำกัดความยาวข้อความต่อ chunk ในบริบทแชท (ดัชนีเดิมอาจยาวเต็มมาตรา) */
+const MAX_CONTEXT_CHARS_PER_CHUNK = 1_500
+
+function clipContextText(text: string): string {
+  const t = text.trim()
+  if (t.length <= MAX_CONTEXT_CHARS_PER_CHUNK) return t
+  return t.slice(0, MAX_CONTEXT_CHARS_PER_CHUNK).trimEnd() + '…'
+}
 
 interface IndexEntry {
   id: string
@@ -72,13 +81,22 @@ async function readWorkerError(res: Response): Promise<string> {
     const text = await res.text()
     if (text) {
       const parsed = JSON.parse(text) as { error?: string }
-      if (typeof parsed?.error === 'string' && parsed.error.trim()) return parsed.error.trim()
+      if (typeof parsed?.error === 'string' && parsed.error.trim()) {
+        return formatErrorMessage(parsed.error.trim())
+      }
       if (text.length < 500) return text.trim()
     }
   } catch {
     // ignore
   }
   return `HTTP ${res.status}`
+}
+
+function formatErrorMessage(message: string): string {
+  if (message.includes('RESOURCE_EXHAUSTED') || message.includes('"code": 429')) {
+    return 'ขณะนี้โควต้า AI เต็มหรือถูกจำกัดชั่วคราว กรุณาลองใหม่ภายหลัง'
+  }
+  return message
 }
 
 async function expandQuery(text: string): Promise<string[]> {
@@ -169,7 +187,7 @@ async function send() {
       title: r.title,
       url: r.url,
       breadcrumb: r.breadcrumb,
-      text: r.text,
+      text: clipContextText(r.text),
     }))
 
     const res = await fetch(`${CHAT_API}/api/chat`, {

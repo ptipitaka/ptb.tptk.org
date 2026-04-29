@@ -1,7 +1,7 @@
 import type { Env, ChatRequest, GeminiGenerateResponse } from '../types'
 import { SYSTEM_PROMPT } from '../prompts'
 import { CHAT_TEMPERATURE, CHAT_MAX_TOKENS } from '../constants'
-import { geminiHeaders, geminiUrl, geminiTimeout } from '../utils/gemini'
+import { geminiErrorPayload, geminiHeaders, geminiTimeout, geminiUrl } from '../utils/gemini'
 import { jsonResponse } from '../utils/response'
 
 export async function handleChat(
@@ -61,7 +61,8 @@ ${contextParts.join('\n\n')}
   if (!geminiRes.ok || !geminiRes.body) {
     const errText = await geminiRes.text()
     console.error('Chat: Gemini error', geminiRes.status, errText)
-    return jsonResponse({ error: `Gemini error: ${errText}` }, 502, cors)
+    const payload = geminiErrorPayload(geminiRes.status, errText)
+    return jsonResponse({ error: payload.error }, payload.status, cors)
   }
 
   const sources = chunks.map((c) => ({

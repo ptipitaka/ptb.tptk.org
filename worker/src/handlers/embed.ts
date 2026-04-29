@@ -1,6 +1,6 @@
 import type { Env, EmbedRequest, GeminiEmbedResponse, GeminiBatchEmbedResponse } from '../types'
 import { DEFAULT_EMBEDDING_DIMS } from '../constants'
-import { geminiHeaders, geminiUrl, geminiTimeout } from '../utils/gemini'
+import { geminiErrorPayload, geminiHeaders, geminiTimeout, geminiUrl } from '../utils/gemini'
 import { jsonResponse } from '../utils/response'
 
 export async function handleEmbed(
@@ -62,7 +62,8 @@ async function embedSingle(
   if (!res.ok) {
     const errText = await res.text()
     console.error('Embed: Gemini error', res.status, errText)
-    return jsonResponse({ error: `Gemini embed error: ${errText}` }, 502, cors)
+    const payload = geminiErrorPayload(res.status, errText)
+    return jsonResponse({ error: payload.error }, payload.status, cors)
   }
 
   const data: GeminiEmbedResponse = await res.json()
@@ -98,7 +99,8 @@ async function embedBatch(
   if (!res.ok) {
     const errText = await res.text()
     console.error('Embed batch: Gemini error', res.status, errText)
-    return jsonResponse({ error: `Gemini embed error: ${errText}` }, 502, cors)
+    const payload = geminiErrorPayload(res.status, errText)
+    return jsonResponse({ error: payload.error }, payload.status, cors)
   }
 
   const data: GeminiBatchEmbedResponse = await res.json()

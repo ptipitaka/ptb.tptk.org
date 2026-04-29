@@ -1,6 +1,7 @@
 export const GEMINI_BASE = 'https://generativelanguage.googleapis.com/v1beta'
 
-export const MAX_EXPAND_QUERIES = 4
+/** ลดจำนวน query หลังขยายคำถาม เพื่อลดการเรียก embed batch และโหลด API */
+export const MAX_EXPAND_QUERIES = 2
 export const DEFAULT_EMBEDDING_DIMS = 768
 export const EXPAND_TEMPERATURE = 0.4
 export const EXPAND_MAX_TOKENS = 256
