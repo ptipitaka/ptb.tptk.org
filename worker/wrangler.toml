@@ -3,7 +3,8 @@ main = "src/index.ts"
 compatibility_date = "2024-12-01"
 
 [vars]
-GEMINI_MODEL = "gemini-2.0-flash"
+# เล็กและถูกกว่า flash ปกติ — เหมาะงานถาม–ตอบความถี่สูง (ดู https://ai.google.dev/gemini-api/docs/models/gemini-3.1-flash-lite-preview )
+GEMINI_MODEL = "gemini-3.1-flash-lite-preview"
 EMBEDDING_MODEL = "gemini-embedding-001"
 EMBEDDING_DIMENSIONS = "768"
 SITE_ORIGIN = "https://ptb.tptk.org"

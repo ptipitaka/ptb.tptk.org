@@ -1,7 +1,7 @@
 import type { Env, ExpandRequest, GeminiGenerateResponse } from '../types'
 import { EXPAND_PROMPT } from '../prompts'
 import { EXPAND_TEMPERATURE, EXPAND_MAX_TOKENS, MAX_EXPAND_QUERIES } from '../constants'
-import { geminiHeaders, geminiUrl, geminiTimeout } from '../utils/gemini'
+import { fetchWith429Retries, geminiHeaders, geminiUrl, geminiTimeout } from '../utils/gemini'
 import { jsonResponse } from '../utils/response'
 
 export async function handleExpand(
@@ -21,28 +21,33 @@ export async function handleExpand(
     return jsonResponse({ error: 'Missing text' }, 400, cors)
   }
 
-  let res: globalThis.Response
+  const expandBody = JSON.stringify({
+    contents: [{ role: 'user', parts: [{ text: `${EXPAND_PROMPT}\n\nคำถาม: "${text}"` }] }],
+    generationConfig: { temperature: EXPAND_TEMPERATURE, maxOutputTokens: EXPAND_MAX_TOKENS },
+  })
+  const expandUrl = geminiUrl(env.GEMINI_MODEL, 'generateContent')
+
+  let outcome: Awaited<ReturnType<typeof fetchWith429Retries>>
   try {
-    res = await fetch(geminiUrl(env.GEMINI_MODEL, 'generateContent'), {
-      method: 'POST',
-      headers: geminiHeaders(env.GEMINI_API_KEY),
-      body: JSON.stringify({
-        contents: [{ role: 'user', parts: [{ text: `${EXPAND_PROMPT}\n\nคำถาม: "${text}"` }] }],
-        generationConfig: { temperature: EXPAND_TEMPERATURE, maxOutputTokens: EXPAND_MAX_TOKENS },
+    outcome = await fetchWith429Retries(() =>
+      fetch(expandUrl, {
+        method: 'POST',
+        headers: geminiHeaders(env.GEMINI_API_KEY),
+        body: expandBody,
+        signal: geminiTimeout(),
       }),
-      signal: geminiTimeout(),
-    })
+    )
   } catch (err) {
     console.error('Expand: Gemini fetch failed', err)
     return jsonResponse({ queries: [text] }, 200, cors)
   }
 
-  if (!res.ok) {
-    console.error('Expand: Gemini returned', res.status)
+  if (!outcome.ok) {
+    console.error('Expand: Gemini returned', outcome.status, outcome.text)
     return jsonResponse({ queries: [text] }, 200, cors)
   }
 
-  const data: GeminiGenerateResponse = await res.json()
+  const data: GeminiGenerateResponse = await outcome.res.json()
   const raw = data?.candidates?.[0]?.content?.parts?.[0]?.text ?? ''
 
   try {

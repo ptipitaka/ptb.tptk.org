@@ -6,5 +6,6 @@ export const DEFAULT_EMBEDDING_DIMS = 768
 export const EXPAND_TEMPERATURE = 0.4
 export const EXPAND_MAX_TOKENS = 256
 export const CHAT_TEMPERATURE = 0.3
-export const CHAT_MAX_TOKENS = 2048
+/** คำสั่งระบบกำหนดให้ตอบไม่เกิน ~500 คำ — ลด output token ช่วยลดแรงกด TPM */
+export const CHAT_MAX_TOKENS = 1024
 export const GEMINI_TIMEOUT_MS = 15_000

@@ -1,6 +1,12 @@
 import type { Env, EmbedRequest, GeminiEmbedResponse, GeminiBatchEmbedResponse } from '../types'
 import { DEFAULT_EMBEDDING_DIMS } from '../constants'
-import { geminiErrorPayload, geminiHeaders, geminiTimeout, geminiUrl } from '../utils/gemini'
+import {
+  fetchWith429Retries,
+  geminiErrorPayload,
+  geminiHeaders,
+  geminiTimeout,
+  geminiUrl,
+} from '../utils/gemini'
 import { jsonResponse } from '../utils/response'
 
 export async function handleEmbed(
@@ -42,31 +48,35 @@ async function embedSingle(
   apiKey: string,
   cors: Record<string, string>,
 ): Promise<Response> {
-  let res: globalThis.Response
+  const body = JSON.stringify({
+    model: `models/${model}`,
+    content: { parts: [{ text }] },
+    outputDimensionality: dims,
+  })
+  const url = geminiUrl(model, 'embedContent')
+
+  let outcome: Awaited<ReturnType<typeof fetchWith429Retries>>
   try {
-    res = await fetch(geminiUrl(model, 'embedContent'), {
-      method: 'POST',
-      headers: geminiHeaders(apiKey),
-      body: JSON.stringify({
-        model: `models/${model}`,
-        content: { parts: [{ text }] },
-        outputDimensionality: dims,
+    outcome = await fetchWith429Retries(() =>
+      fetch(url, {
+        method: 'POST',
+        headers: geminiHeaders(apiKey),
+        body,
+        signal: geminiTimeout(),
       }),
-      signal: geminiTimeout(),
-    })
+    )
   } catch (err) {
     console.error('Embed: Gemini fetch failed', err)
     return jsonResponse({ error: 'Gemini embed timeout or network error' }, 502, cors)
   }
 
-  if (!res.ok) {
-    const errText = await res.text()
-    console.error('Embed: Gemini error', res.status, errText)
-    const payload = geminiErrorPayload(res.status, errText)
+  if (!outcome.ok) {
+    console.error('Embed: Gemini error', outcome.status, outcome.text)
+    const payload = geminiErrorPayload(outcome.status, outcome.text)
     return jsonResponse({ error: payload.error }, payload.status, cors)
   }
 
-  const data: GeminiEmbedResponse = await res.json()
+  const data: GeminiEmbedResponse = await outcome.res.json()
   return jsonResponse({ embedding: data.embedding.values }, 200, cors)
 }
 
@@ -83,27 +93,31 @@ async function embedBatch(
     outputDimensionality: dims,
   }))
 
-  let res: globalThis.Response
+  const batchBody = JSON.stringify({ requests })
+  const batchUrl = geminiUrl(model, 'batchEmbedContents')
+
+  let outcome: Awaited<ReturnType<typeof fetchWith429Retries>>
   try {
-    res = await fetch(geminiUrl(model, 'batchEmbedContents'), {
-      method: 'POST',
-      headers: geminiHeaders(apiKey),
-      body: JSON.stringify({ requests }),
-      signal: geminiTimeout(),
-    })
+    outcome = await fetchWith429Retries(() =>
+      fetch(batchUrl, {
+        method: 'POST',
+        headers: geminiHeaders(apiKey),
+        body: batchBody,
+        signal: geminiTimeout(),
+      }),
+    )
   } catch (err) {
     console.error('Embed batch: Gemini fetch failed', err)
     return jsonResponse({ error: 'Gemini embed timeout or network error' }, 502, cors)
   }
 
-  if (!res.ok) {
-    const errText = await res.text()
-    console.error('Embed batch: Gemini error', res.status, errText)
-    const payload = geminiErrorPayload(res.status, errText)
+  if (!outcome.ok) {
+    console.error('Embed batch: Gemini error', outcome.status, outcome.text)
+    const payload = geminiErrorPayload(outcome.status, outcome.text)
     return jsonResponse({ error: payload.error }, payload.status, cors)
   }
 
-  const data: GeminiBatchEmbedResponse = await res.json()
+  const data: GeminiBatchEmbedResponse = await outcome.res.json()
   const embeddings = data.embeddings.map((e) => e.values)
 
   const avgLen = embeddings[0].length

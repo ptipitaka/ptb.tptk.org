@@ -4,9 +4,9 @@ import { ref, nextTick, onMounted, onUnmounted } from 'vue'
 const CHAT_API = import.meta.env.VITE_CHAT_API_URL ?? 'https://ptb-chat.polished-frost-545c.workers.dev'
 const INDEX_URL = import.meta.env.BASE_URL + 'chat-index.json'
 /** จำนวน chunk สูงสุดส่งเข้าโมเดล — ลดค่าเพื่อลด input token และความเสี่ยง rate limit (TPM) */
-const TOP_K = 3
+const TOP_K = 2
 /** จำกัดความยาวข้อความต่อ chunk ในบริบทแชท (ดัชนีเดิมอาจยาวเต็มมาตรา) */
-const MAX_CONTEXT_CHARS_PER_CHUNK = 1_200
+const MAX_CONTEXT_CHARS_PER_CHUNK = 800
 /**
  * ปิดการขยายคำถามผ่าน /api/expand — ประหยัดการเรียก Gemini 1 ครั้งต่อคำถามก่อนแชท
  * (การค้นย้ายด้วยคำถามเดิมยังใช้ embedding ของคำถามตรง ๆ)
