@@ -19,19 +19,24 @@ export default {
     const origin = request.headers.get('Origin') ?? ''
     const cors = corsHeaders(origin, env.SITE_ORIGIN)
 
-    if (request.method === 'OPTIONS') {
-      return new Response(null, { status: 204, headers: cors })
-    }
+    try {
+      if (request.method === 'OPTIONS') {
+        return new Response(null, { status: 204, headers: cors })
+      }
 
-    if (request.method !== 'POST') {
-      return jsonResponse({ error: 'Method not allowed' }, 405, cors)
-    }
+      if (request.method !== 'POST') {
+        return jsonResponse({ error: 'Method not allowed' }, 405, cors)
+      }
 
-    const handler = routes[url.pathname]
-    if (!handler) {
-      return jsonResponse({ error: 'Not found' }, 404, cors)
-    }
+      const handler = routes[url.pathname]
+      if (!handler) {
+        return jsonResponse({ error: 'Not found' }, 404, cors)
+      }
 
-    return handler(request, env, cors)
+      return await handler(request, env, cors)
+    } catch (err) {
+      console.error('Worker fetch', err)
+      return jsonResponse({ error: 'Internal server error' }, 500, cors)
+    }
   },
 }
