@@ -39,29 +39,49 @@ ${contextParts.join('\n\n')}
 
 คำถาม: ${question}`
 
-  let geminiRes: globalThis.Response
-  try {
-    geminiRes = await fetch(
-      geminiUrl(env.GEMINI_MODEL, 'streamGenerateContent') + '?alt=sse',
-      {
+  const chatBody = JSON.stringify({
+    contents: [{ role: 'user', parts: [{ text: prompt }] }],
+    generationConfig: { temperature: CHAT_TEMPERATURE, maxOutputTokens: CHAT_MAX_TOKENS },
+  })
+  const chatUrl = geminiUrl(env.GEMINI_MODEL, 'streamGenerateContent') + '?alt=sse'
+
+  let geminiRes!: globalThis.Response
+  const maxAttempts = 3
+  let lastErrText = ''
+  let lastStatus = 0
+
+  for (let attempt = 0; attempt < maxAttempts; attempt++) {
+    try {
+      geminiRes = await fetch(chatUrl, {
         method: 'POST',
         headers: geminiHeaders(env.GEMINI_API_KEY),
-        body: JSON.stringify({
-          contents: [{ role: 'user', parts: [{ text: prompt }] }],
-          generationConfig: { temperature: CHAT_TEMPERATURE, maxOutputTokens: CHAT_MAX_TOKENS },
-        }),
+        body: chatBody,
         signal: geminiTimeout(),
-      },
-    )
-  } catch (err) {
-    console.error('Chat: Gemini fetch failed', err)
-    return jsonResponse({ error: 'Gemini timeout or network error' }, 502, cors)
+      })
+    } catch (err) {
+      console.error('Chat: Gemini fetch failed', err)
+      return jsonResponse({ error: 'Gemini timeout or network error' }, 502, cors)
+    }
+
+    if (geminiRes.ok && geminiRes.body) break
+
+    lastErrText = await geminiRes.text()
+    lastStatus = geminiRes.status
+    console.error('Chat: Gemini error', lastStatus, 'attempt', attempt + 1, lastErrText)
+
+    const retry429 = lastStatus === 429 || lastErrText.includes('RESOURCE_EXHAUSTED')
+    if (retry429 && attempt < maxAttempts - 1) {
+      await new Promise((r) => setTimeout(r, 1200 * (attempt + 1)))
+      continue
+    }
+
+    const payload = geminiErrorPayload(lastStatus, lastErrText)
+    return jsonResponse({ error: payload.error }, payload.status, cors)
   }
 
-  if (!geminiRes.ok || !geminiRes.body) {
-    const errText = await geminiRes.text()
-    console.error('Chat: Gemini error', geminiRes.status, errText)
-    const payload = geminiErrorPayload(geminiRes.status, errText)
+  const streamBody = geminiRes.body
+  if (!streamBody) {
+    const payload = geminiErrorPayload(lastStatus, lastErrText)
     return jsonResponse({ error: payload.error }, payload.status, cors)
   }
 
@@ -80,7 +100,7 @@ ${contextParts.join('\n\n')}
 
   await sseWrite({ type: 'sources', sources })
 
-  const reader = geminiRes.body.getReader()
+  const reader = streamBody.getReader()
   const decoder = new TextDecoder()
 
   ;(async () => {
