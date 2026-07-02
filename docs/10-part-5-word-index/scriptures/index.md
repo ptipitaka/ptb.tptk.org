@@ -222,7 +222,7 @@ searchKeywords:
 </PtbWordIndexRefs>
 </PtbWordIndexEntry>
 
-<PtbWordIndexEntry term="ปุคคลบัญญัติ (อภิ. ปุ.)" desc="จัดอยู่ในพระอภิธรรมปิฎก — จำแนกและนิยามประเภทของบุคคลตามธรรมะที่ประกอบหรือผลที่ถึงแล้ว (อยู่ในเล่มเดียวกับธาตุกถาในชุดความย่อเล่มนี้)">
+<PtbWordIndexEntry term="ปุคคลปัญญัตติ (อภิ. ปุ.)" desc="จัดอยู่ในพระอภิธรรมปิฎก — จำแนกและนิยามประเภทของบุคคลตามธรรมะที่ประกอบหรือผลที่ถึงแล้ว (อยู่ในเล่มเดียวกับธาตุกถาในชุดความย่อเล่มนี้)">
 
 <PtbWordIndexRefs>
   <PtbWordIndexLink href="/part-4-tipitaka-digest/abhidhamma-pitaka/vol-36#I7gBmTVHX1" label="ภาค ๔ เล่ม ๓๖ — อภิธรรมปิฎก — ธาตุกถา และ ปุคคลปัญญัตติ" tier="primary" />

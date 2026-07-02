@@ -49,7 +49,7 @@ searchKeywords:
 
 #### หมวด ช {#p5up-CH .ptb-h-block}
 
-<PtbWordIndexEntry term="ชาณุสโสณิพราหมณ์" desc="พราหมณมหาศาลผู้มีชื่อเสียง เข้าเฝ้าและสนทนาธรรมกับพระพุทธเจ้าหลายครั้ง เช่น เรื่องการก้าวลงจากบาป (ปัจโจโรหณี) และได้ประกาศตนเป็นอุบาสกถึงพระรัตนตรัยตลอดชีวิต">
+<PtbWordIndexEntry term="ชาณุสโสณิพราหมณ์"desc="พราหมณ์มหาศาลผู้มีชื่อเสียง เข้าเฝ้าและสนทนาธรรมกับพระพุทธเจ้าหลายครั้ง เช่น เรื่องการก้าวลงจากบาป (ปัจโจโรหณี) และได้ประกาศตนเป็นอุบาสกถึงพระรัตนตรัยตลอดชีวิต">
 
 <PtbWordIndexRefs>
   <PtbWordIndexLink href="/part-4-tipitaka-digest/sutta-pitaka/majjhima-nikaya/vol-12#xixuVaQUXY" label="ภาค ๔ เล่ม ๑๒ — มัชฌิมนิกาย — ๔. ภยเภรวสูตร" tier="primary" />
@@ -132,7 +132,7 @@ searchKeywords:
 </PtbWordIndexRefs>
 </PtbWordIndexEntry>
 
-<PtbWordIndexEntry term="โปกขรสาติพราหมณ์" desc="พราหมณมหาศาลผู้ได้รับมอบหมายให้ครองเมืองอุกกัฏฐา ผู้กราบขอโทษแทนอัมพัฏฐมาณพ ภายหลังได้ฟังอริยสัจ ๔ จนได้ดวงตาเห็นธรรม จึงประกาศตนพร้อมครอบครัวและบริวารเป็นอุบาสก">
+<PtbWordIndexEntry term="โปกขรสาติพราหมณ์" desc="พราหมณ์มหาศาลผู้ได้รับมอบหมายให้ครองเมืองอุกกัฏฐา ผู้กราบขอโทษแทนอัมพัฏฐมาณพ ภายหลังได้ฟังอริยสัจ ๔ จนได้ดวงตาเห็นธรรม จึงประกาศตนพร้อมครอบครัวและบริวารเป็นอุบาสก">
 
 <PtbWordIndexRefs>
   <PtbWordIndexLink href="/part-4-tipitaka-digest/sutta-pitaka/digha-nikaya/vol-09#Um4i9EUyEg" label="ภาค ๔ เล่ม ๙ — ทีฆนิกาย — ๓. อัมพัฏฐสูตร" tier="primary" />
@@ -304,7 +304,7 @@ searchKeywords:
 </PtbWordIndexRefs>
 </PtbWordIndexEntry>
 
-<PtbWordIndexEntry term="โสณทัณฑพราหมณ์" desc="พราหมณมหาศาลผู้ครองกรุงจัมปา ผู้โต้ตอบเรื่องคุณลักษณะของพราหมณ์ ภายหลังกราบทูลสรรเสริญพระธรรมเทศนาและแสดงตนเป็นอุบาสกถึงพระรัตนตรัยเป็นสรณะตลอดชีวิต">
+<PtbWordIndexEntry term="โสณทัณฑพราหมณ์" desc="พราหมณ์มหาศาลผู้ครองกรุงจัมปา ผู้โต้ตอบเรื่องคุณลักษณะของพราหมณ์ ภายหลังกราบทูลสรรเสริญพระธรรมเทศนาและแสดงตนเป็นอุบาสกถึงพระรัตนตรัยเป็นสรณะตลอดชีวิต">
 
 <PtbWordIndexRefs>
   <PtbWordIndexLink href="/part-4-tipitaka-digest/sutta-pitaka/digha-nikaya/vol-09#4wIneVxGHj" label="ภาค ๔ เล่ม ๙ — ทีฆนิกาย — ๔. โสณทัณฑสูตร" tier="primary" />
@@ -335,7 +335,7 @@ searchKeywords:
 </PtbWordIndexRefs>
 </PtbWordIndexEntry>
 
-<PtbWordIndexEntry term="อุคคตะ คฤหบดี (ชาวหัตถิคาม)" desc="อุบาสกผู้มีความอัศจรรย์ ๘ ประการ ทำนองเดียวกับอุคคคฤหบดีชาวเวสาลี ได้รับยกย่องให้เป็นเอตทัคคะฝ่ายอุบาสก ในทางอุปัฏฐาก (รับใช้) พระสงฆ์">
+<PtbWordIndexEntry term="อุคคตะ คฤหบดี (ชาวหัตถิคาม)" desc="อุบาสกผู้มีความอัศจรรย์ ๘ ประการ ทำนองเดียวกับอุคคคฤหบดีชาวเวสาลี ได้รับยกย่องให้เป็นเอตทัคคะฝ่ายอุบาสก ในทางอุปฐาก (รับใช้) พระสงฆ์">
 
 <PtbWordIndexRefs>
   <PtbWordIndexLink href="/part-4-tipitaka-digest/sutta-pitaka/anguttara-nikaya/vol-20#ZhZSpEXwan" label="ภาค ๔ เล่ม ๒๐ — อังคุตตรนิกาย ทุกนิบาต — เอตทัคคะฝ่ายอุบาสก" tier="primary" />

@@ -124,7 +124,7 @@ searchKeywords:
 </PtbWordIndexEntry>
 
 
-<PtbWordIndexEntry term="นิวรณ์ ๕" desc="กิเลสเครื่องกั้นจิตมิให้บรรลุฌาณและความดี ได้แก่ กามฉันท์ พยาบาณ ถีนมิทธะ อุทธัจจกุกกุจจะ วิจิกิจฉา — พึงรู้เพื่อชำระก่อนเจริญฌานหรือวิมุติ">
+<PtbWordIndexEntry term="นิวรณ์ ๕" desc="กิเลสเครื่องกั้นจิตมิให้บรรลุฌานและความดี ได้แก่ กามฉันท์ พยาบาณ ถีนมิทธะ อุทธัจจกุกกุจจะ วิจิกิจฉา — พึงรู้เพื่อชำระก่อนเจริญฌานหรือวิมุติ">
 
 <PtbWordIndexRefs>
   <PtbWordIndexLink href="/part-4-tipitaka-digest/sutta-pitaka/anguttara-nikaya/vol-22#8AA90Agabr" label="ภาค ๔ เล่ม ๒๒ — อังคุตตรนิกาย — ฉักกนิบาต — วรรคที่ ๑ นีวรณวรรค" tier="primary" />

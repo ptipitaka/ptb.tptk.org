@@ -188,7 +188,7 @@ searchKeywords:
 
 #### หมวด จ {#p5pl-J .ptb-h-block}
 
-<PtbWordIndexEntry term="จาตุมมหาราช (จาตุมหาราชิกา)" desc="เทพชั้นที่ ๑ แห่งสวรรค์ ๖ ชั้นในกามาวจร">
+<PtbWordIndexEntry term="จาตุมหาราช (จาตุมหาราชิกา)" desc="เทพชั้นที่ ๑ แห่งสวรรค์ ๖ ชั้นในกามาวจร">
 
 <PtbWordIndexRefs>
   <PtbWordIndexLink href="/part-4-tipitaka-digest/sutta-pitaka/majjhima-nikaya/vol-12#c2dhc5J5v8" label="ภาค ๔ เล่ม ๑๒ — มัชฌิมนิกาย — ๔๑. สาเลยยกสูตร" tier="primary" />

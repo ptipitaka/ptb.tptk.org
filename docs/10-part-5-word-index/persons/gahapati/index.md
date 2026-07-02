@@ -27,7 +27,7 @@ searchKeywords:
 
 #### หมวด จ {#p5gah-J .ptb-h-block}
 
-<PtbWordIndexEntry term="จังกีพราหมณ์" desc="พราหมณมหาศาล (พราหมณ์ผู้มั่งคั่งมีทรัพย์มาก) ที่มีชื่อเสียง เป็นผู้ครอบครองหมู่บ้านพราหมณ์ชื่อโอปาสาทะ ซึ่งได้รับพระราชทานจากพระเจ้าปเสนทิโกศล และเคยอาศัยอยู่ในหมู่บ้านชื่ออิจฉานังคละ">
+<PtbWordIndexEntry term="จังกีพราหมณ์" desc="พราหมณ์มหาศาล (พราหมณ์ผู้มั่งคั่งมีทรัพย์มาก) ที่มีชื่อเสียง เป็นผู้ครอบครองหมู่บ้านพราหมณ์ชื่อโอปาสาทะ ซึ่งได้รับพระราชทานจากพระเจ้าปเสนทิโกศล และเคยอาศัยอยู่ในหมู่บ้านชื่ออิจฉานังคละ">
 
 <PtbWordIndexRefs>
   <PtbWordIndexLink href="/part-4-tipitaka-digest/sutta-pitaka/majjhima-nikaya/vol-13#QvOIHFa5gW" label="ภาค ๔ เล่ม ๑๓ — พราหมณวรรค คือวรรคที่ว่าด้วยพราหมณ์ มี ๑๐ สูตร — ๔๕. จังกีสูตร" tier="primary" />
@@ -44,7 +44,7 @@ searchKeywords:
 
 #### หมวด ช {#p5gah-CH .ptb-h-block}
 
-<PtbWordIndexEntry term="ชาณุสโสณิพราหมณ์" desc="พราหมณมหาศาลผู้มีชื่อเสียง พักอาศัยอยู่ในตำบลบ้านมนสากตะ และกรุงสาวัตถี เป็นผู้มั่งคั่งที่เคยนั่งรถเทียมด้วยม้าขาวไปเฝ้าพระพุทธเจ้า และได้เข้าเฝ้าเพื่อสนทนาธรรมหลายครั้ง เช่น เรื่องปัจโจโรหณี (การก้าวลงจากบาป) และเรื่องนิพพานที่เห็นได้ด้วยตนเอง">
+<PtbWordIndexEntry term="ชาณุสโสณิพราหมณ์" desc="พราหมณ์มหาศาลผู้มีชื่อเสียง พักอาศัยอยู่ในตำบลบ้านมนสากตะ และกรุงสาวัตถี เป็นผู้มั่งคั่งที่เคยนั่งรถเทียมด้วยม้าขาวไปเฝ้าพระพุทธเจ้า และได้เข้าเฝ้าเพื่อสนทนาธรรมหลายครั้ง เช่น เรื่องปัจโจโรหณี (การก้าวลงจากบาป) และเรื่องนิพพานที่เห็นได้ด้วยตนเอง">
 
 <PtbWordIndexRefs>
   <PtbWordIndexLink href="/part-4-tipitaka-digest/sutta-pitaka/majjhima-nikaya/vol-12#xixuVaQUXY" label="ภาค ๔ เล่ม ๑๒ — มัชฌิมนิกาย มูลปัณณาสก์ — โอปัมมวรรค — ๔. ภยเภรวสูตร" tier="primary" />
@@ -66,14 +66,14 @@ searchKeywords:
 
 #### หมวด ต {#p5gah-DTA .ptb-h-block}
 
-<PtbWordIndexEntry term="ตารุกขพราหมณ์" desc="พราหมณมหาศาลผู้มีชื่อเสียง พักอาศัยอยู่ในตำบลบ้านพราหมณ์ชื่อมนสากตะ">
+<PtbWordIndexEntry term="ตารุกขพราหมณ์" desc="พราหมณ์มหาศาลผู้มีชื่อเสียง พักอาศัยอยู่ในตำบลบ้านพราหมณ์ชื่อมนสากตะ">
 
 <PtbWordIndexRefs>
-  <PtbWordIndexLink href="/part-4-tipitaka-digest/sutta-pitaka/digha-nikaya/vol-09#gRfIW10FmM" label="ภาค ๔ เล่ม ๙ — ทีฆนิกาย สีลขันดวรรค — ๑๓. เตวิชชสูตร — พราหมณมหาศาลที่มนสากตะ (รวมตารุกขพราหมณ์)" tier="primary" />
+  <PtbWordIndexLink href="/part-4-tipitaka-digest/sutta-pitaka/digha-nikaya/vol-09#gRfIW10FmM" label="ภาค ๔ เล่ม ๙ — ทีฆนิกาย สีลขันดวรรค — ๑๓. เตวิชชสูตร — พราหมณ์มหาศาลที่มนสากตะ (รวมตารุกขพราหมณ์)" tier="primary" />
 </PtbWordIndexRefs>
 </PtbWordIndexEntry>
 
-<PtbWordIndexEntry term="โตเทยยพราหมณ์" desc="พราหมณมหาศาลผู้มีชื่อเสียง พักอาศัยอยู่ในตำบลบ้านมนสากตะ ท่านมีป่ามะม่วงเป็นของตนอันเป็นที่ซึ่งพระผู้มีพระภาคเคยเสด็จแวะประทับ และเป็นบิดาของสุภมาณพ">
+<PtbWordIndexEntry term="โตเทยยพราหมณ์" desc="พราหมณ์มหาศาลผู้มีชื่อเสียง พักอาศัยอยู่ในตำบลบ้านมนสากตะ ท่านมีป่ามะม่วงเป็นของตนอันเป็นที่ซึ่งพระผู้มีพระภาคเคยเสด็จแวะประทับ และเป็นบิดาของสุภมาณพ">
 
 <PtbWordIndexRefs>
   <PtbWordIndexLink href="/part-4-tipitaka-digest/sutta-pitaka/majjhima-nikaya/vol-13#HeqjKWqnGU" label="ภาค ๔ เล่ม ๑๓ — มัชฌิมนิกาย — ๔๙. สุภสูตร (สุภมาณพบุตรโตเทยยพราหมณ์)" tier="primary" />
@@ -116,7 +116,7 @@ searchKeywords:
 </PtbWordIndexRefs>
 </PtbWordIndexEntry>
 
-<PtbWordIndexEntry term="โปกขรสาติพราหมณ์" desc="พราหมณมหาศาลผู้มีชื่อเสียง พักอาศัยอยู่ในตำบลบ้านมนสากตะ เป็นผู้มั่งคั่งที่ได้รับพระราชทานจากพระเจ้าปเสนทิโกศลให้ครอบครองหมู่บ้านอิจฉานังคละ (เมืองอุกกัฏฐา) ภายหลังได้เข้าเฝ้าและฟังธรรมจนได้ดวงตาเห็นธรรม จึงประกาศตนพร้อมครอบครัวและบริวารเป็นอุบาสก">
+<PtbWordIndexEntry term="โปกขรสาติพราหมณ์" desc="พราหมณ์มหาศาลผู้มีชื่อเสียง พักอาศัยอยู่ในตำบลบ้านมนสากตะ เป็นผู้มั่งคั่งที่ได้รับพระราชทานจากพระเจ้าปเสนทิโกศลให้ครอบครองหมู่บ้านอิจฉานังคละ (เมืองอุกกัฏฐา) ภายหลังได้เข้าเฝ้าและฟังธรรมจนได้ดวงตาเห็นธรรม จึงประกาศตนพร้อมครอบครัวและบริวารเป็นอุบาสก">
 
 <PtbWordIndexRefs>
   <PtbWordIndexLink href="/part-4-tipitaka-digest/sutta-pitaka/digha-nikaya/vol-09#Um4i9EUyEg" label="ภาค ๔ เล่ม ๙ — ๓. อัมพัฏฐสูตร" tier="primary" />
@@ -159,10 +159,10 @@ searchKeywords:
 
 #### หมวด ว {#p5gah-W .ptb-h-block}
 
-<PtbWordIndexEntry term="วังกีสพราหมณ์" desc="พราหมณมหาศาลผู้มีชื่อเสียง พักอาศัยอยู่ในตำบลบ้านพราหมณ์ชื่อมนสากตะ">
+<PtbWordIndexEntry term="วังกีสพราหมณ์" desc="พราหมณ์มหาศาลผู้มีชื่อเสียง พักอาศัยอยู่ในตำบลบ้านพราหมณ์ชื่อมนสากตะ">
 
 <PtbWordIndexRefs>
-  <PtbWordIndexLink href="/part-4-tipitaka-digest/sutta-pitaka/digha-nikaya/vol-09#gRfIW10FmM" label="ภาค ๔ เล่ม ๙ — ทีฆนิกาย สีลขันดวรรค — ๑๓. เตวิชชสูตร — พราหมณมหาศาลที่มนสากตะ (รวมวังกีสพราหมณ์)" tier="primary" />
+  <PtbWordIndexLink href="/part-4-tipitaka-digest/sutta-pitaka/digha-nikaya/vol-09#gRfIW10FmM" label="ภาค ๔ เล่ม ๙ — ทีฆนิกาย สีลขันดวรรค — ๑๓. เตวิชชสูตร — พราหมณ์มหาศาลที่มนสากตะ (รวมวังกีสพราหมณ์)" tier="primary" />
 </PtbWordIndexRefs>
 </PtbWordIndexEntry>
 
@@ -244,9 +244,9 @@ searchKeywords:
 </PtbWordIndexRefs>
 </PtbWordIndexEntry>
 
-<PtbWordIndexEntry term="อุคคตะคฤหบดี" desc="คฤหบดีผู้มีกำลังทรัพย์รับใช้พระพุทธศาสนา ได้รับยกย่องให้เป็นเอตทัคคะฝ่ายอุบาสกในทางอุปัฏฐาก (รับใช้) พระสงฆ์">
+<PtbWordIndexEntry term="อุคคตะคฤหบดี" desc="คฤหบดีผู้มีกำลังทรัพย์รับใช้พระพุทธศาสนา ได้รับยกย่องให้เป็นเอตทัคคะฝ่ายอุบาสกในทางอุปฐาก (รับใช้) พระสงฆ์">
 
 <PtbWordIndexRefs>
-  <PtbWordIndexLink href="/part-4-tipitaka-digest/sutta-pitaka/anguttara-nikaya/vol-20#ZhZSpEXwan" label="ภาค ๔ เล่ม ๒๐ — อังคุตตรนิกาย — เอตทัคคะฝ่ายอุบาสก — อุคคตะ คฤหบดี (อุปัฏฐากพระสงฆ์)" tier="primary" />
+  <PtbWordIndexLink href="/part-4-tipitaka-digest/sutta-pitaka/anguttara-nikaya/vol-20#ZhZSpEXwan" label="ภาค ๔ เล่ม ๒๐ — อังคุตตรนิกาย — เอตทัคคะฝ่ายอุบาสก — อุคคตะ คฤหบดี (อุปฐากพระสงฆ์)" tier="primary" />
 </PtbWordIndexRefs>
 </PtbWordIndexEntry>

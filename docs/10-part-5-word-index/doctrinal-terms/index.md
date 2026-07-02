@@ -591,7 +591,7 @@ searchKeywords:
 </PtbWordIndexRefs>
 </PtbWordIndexEntry>
 
-<PtbWordIndexEntry term="วิโมกข์ ๘" desc="เจโตวิมุตติ อันยิ่ง แปดขั้น — ตามลำดับฌาณ/มุขะ">
+<PtbWordIndexEntry term="วิโมกข์ ๘" desc="เจโตวิมุตติ อันยิ่ง แปดขั้น — ตามลำดับฌาน/มุขะ">
 
 <PtbWordIndexRefs>
   <PtbWordIndexLink href="/part-4-tipitaka-digest/sutta-pitaka/anguttara-nikaya/vol-23#EMUVKXiANj" label="ภาค ๔ เล่ม ๒๓ — อังคุตตรนิกาย — อัฏฐกนิบาต" tier="primary" />

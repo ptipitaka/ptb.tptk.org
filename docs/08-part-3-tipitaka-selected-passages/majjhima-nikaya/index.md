@@ -194,7 +194,7 @@ searchKeywords:
 
 <PtbParagraph>เมื่อพระผู้มีพระภาคตรัสอย่างนี้ ปิงคลโกจฉพราหมณ์กราบทูลสรรเสริญพระธรรมเทศนา แสดงตนเป็นอุบาสกถึงพระรัตนตรัยตลอดชีวิต</PtbParagraph>
 
-#### สรุปความ {#m6x3zrUccJ .ptb-h-block}
+#### สรูปความ {#m6x3zrUccJ .ptb-h-block}
 
 <PtbList auto>
 <PtbListItem>ลาภสักการะชื่อเสียง เปรียบเหมือนกิ่งไม้ใบไม้</PtbListItem>

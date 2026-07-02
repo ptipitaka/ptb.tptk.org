@@ -150,7 +150,7 @@ searchKeywords:
   <PtbWordIndexLink href="/part-4-tipitaka-digest/sutta-pitaka/anguttara-nikaya/vol-22#xJMb3jPVAd" label="ภาค ๔ เล่ม ๒๒ — อังคุตตรนิกาย ปัญจก - ฉักกนิบาต — ฉักกนิบาต ชุมนุมธรรมะที่มี ๖ ข้อ — ทุติยปัณณาสก์ หมวด ๕๐ ที่ ๒ — วรรคที่ ๑ ชื่อมหาวรรค ว่าด้วยเรื่องใหญ่" tier="primary" />
 </PtbWordIndexRefs>
 <PtbWordIndexRefs>
-  <PtbWordIndexLink href="/part-4-tipitaka-digest/sutta-pitaka/anguttara-nikaya/vol-23#HeayZhLwOk" label="ภาค ๔ เล่ม ๒๓ — อังคุตตรนิกาย สัตตก - อัฏฐก - นวกนิบาต — นวกนิบาต ชุมนุมธรรมะที่มี ๙ ข้อ — ปัณณาสก์ หมวด ๕๐ — วรรคที่ ๒ ชื่อสีหนาทวรรค ว่าด้วยการบันลืออย่างราชสีห์" tier="primary" />
+  <PtbWordIndexLink href="/part-4-tipitaka-digest/sutta-pitaka/anguttara-nikaya/vol-23#HeayZhLwOk" label="ภาค ๔ เล่ม ๒๓ — อังคุตตรนิกาย สัตตก - อัฏฐก - นวกนิบาต — นวกนิบาต ชุมนุมธรรมะที่มี ๙ ข้อ — ปัณณาสก์ หมวด ๕๐ — วรรคที่ ๒ ชื่อสีหนาทวรรค ว่าด้วยการบรรลืออย่างราชสีห์" tier="primary" />
 </PtbWordIndexRefs>
 <PtbWordIndexRefs>
   <PtbWordIndexLink href="/part-4-tipitaka-digest/sutta-pitaka/khuddaka-nikaya/vol-26#2yQflEtWVG" label="ภาค ๔ เล่ม ๒๖ — ขุททกนิกาย (ขุ.) — วิมานวัตถุ เปตวัตถุ เถรคาถา เถรีคาถา — ๓. เถรคาถา ภาษิตของพระเถระ — (๒) ภาษิตของพระมหาโกฏฐิตเถระ" tier="primary" />
@@ -359,7 +359,7 @@ searchKeywords:
 </PtbWordIndexRefs>
 </PtbWordIndexEntry>
 
-<PtbWordIndexEntry term="พระภิกษุ ปิณโฑละ ภารทวาชะ" desc="ภิกษุผู้ได้รับยกย่องให้เป็นเอตทัคคะในทางบันลือสีหนาท">
+<PtbWordIndexEntry term="พระภิกษุ ปิณโฑละ ภารทวาชะ" desc="ภิกษุผู้ได้รับยกย่องให้เป็นเอตทัคคะในทางบรรลือสีหนาท">
 
 <PtbWordIndexRefs>
   <PtbWordIndexLink href="/part-4-tipitaka-digest/vinaya-pitaka/vol-07#Fp7yjANJ0T" label="ภาค ๔ เล่ม ๗ — วินัยปิฎก (วิ.) — จุลลวัคค์ ภาค ๒ — ๑. ขุททกวัตถุขันธกะ — ข้อห้ามและอนุญาตเกี่ยวกับบาตร" tier="primary" />
@@ -856,7 +856,7 @@ searchKeywords:
   <PtbWordIndexLink href="/part-4-tipitaka-digest/sutta-pitaka/anguttara-nikaya/vol-23#75tZBoQnvl" label="ภาค ๔ เล่ม ๒๓ — อังคุตตรนิกาย สัตตก - อัฏฐก - นวกนิบาต — นวกนิบาต ชุมนุมธรรมะที่มี ๙ ข้อ — ปัณณาสก์ หมวด ๕๐ — วรรคที่ ๔ ชื่อมหาวรรค ว่าด้วยเรื่องใหญ่" tier="primary" />
 </PtbWordIndexRefs>
 <PtbWordIndexRefs>
-  <PtbWordIndexLink href="/part-4-tipitaka-digest/sutta-pitaka/anguttara-nikaya/vol-23#HeayZhLwOk" label="ภาค ๔ เล่ม ๒๓ — อังคุตตรนิกาย สัตตก - อัฏฐก - นวกนิบาต — นวกนิบาต ชุมนุมธรรมะที่มี ๙ ข้อ — ปัณณาสก์ หมวด ๕๐ — วรรคที่ ๒ ชื่อสีหนาทวรรค ว่าด้วยการบันลืออย่างราชสีห์" tier="primary" />
+  <PtbWordIndexLink href="/part-4-tipitaka-digest/sutta-pitaka/anguttara-nikaya/vol-23#HeayZhLwOk" label="ภาค ๔ เล่ม ๒๓ — อังคุตตรนิกาย สัตตก - อัฏฐก - นวกนิบาต — นวกนิบาต ชุมนุมธรรมะที่มี ๙ ข้อ — ปัณณาสก์ หมวด ๕๐ — วรรคที่ ๒ ชื่อสีหนาทวรรค ว่าด้วยการบรรลืออย่างราชสีห์" tier="primary" />
 </PtbWordIndexRefs>
 <PtbWordIndexRefs>
   <PtbWordIndexLink href="/part-4-tipitaka-digest/sutta-pitaka/khuddaka-nikaya/vol-25#I6wuG0Ekc4" label="ภาค ๔ เล่ม ๒๕ — ขุททกนิกาย (ขุ.) — ขุททกปาฐะ ธัมมปทคาถา อุทาน อิติวุตตกะ สุตตนิบาต — ๓. อุทาน" tier="primary" />
@@ -1028,7 +1028,7 @@ searchKeywords:
 </PtbWordIndexRefs>
 </PtbWordIndexEntry>
 
-<PtbWordIndexEntry term="พระภิกษุ อานนท์" desc="พระพุทธอุปัฏฐากผู้ได้รับยกย่องให้เป็นเอตทัคคะในทางพหุสุต มีสติ มีคติ มีธิติ และการอุปัฏฐาก เป็นผู้ตอบข้อซักถามทางธรรมในการปฐมสังคายนา">
+<PtbWordIndexEntry term="พระภิกษุ อานนท์" desc="พระพุทธอุปฐากผู้ได้รับยกย่องให้เป็นเอตทัคคะในทางพหุสุต มีสติ มีคติ มีธิติ และการอุปฐาก เป็นผู้ตอบข้อซักถามทางธรรมในการปฐมสังคายนา">
 
 <PtbWordIndexRefs>
   <PtbWordIndexLink href="/part-1-knowledge-of-the-tipitaka/buddhist-councils/#ZrHFVPNcSq" label="ภาค ๑ — ลำดับอาจารย์ผู้ทรงจำพระไตรปิฎก — สายสุตตันตปิฎก" tier="primary" />
